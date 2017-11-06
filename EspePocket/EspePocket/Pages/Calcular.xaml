@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EspePocket.Pages.Calcular"
+             xmlns:local="clr-namespace:EspePocket.Models"
+             Title="Calcula Tus Notas">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Start">
+            <StackLayout VerticalOptions="Start" HorizontalOptions="Center">
+                <Grid VerticalOptions="Start">
+                    <Entry x:Name="Nota1" Grid.Row="0" Grid.Column="0" Keyboard="Numeric" VerticalOptions="Start" Placeholder="Ingrese su nota">
+                        <Entry.Behaviors>
+                            <local:MaxLengthValidator  MaxLength="5"/>
+                        </Entry.Behaviors>
+                    </Entry>
+                    <Label Grid.Row="0" Grid.Column="1" VerticalOptions="Start" Text="Primer Parcial" />
+                    <Entry x:Name="Nota2" Grid.Row="1" Grid.Column="0" Keyboard="Numeric" VerticalOptions="Start" Placeholder="Ingrese su nota">
+                        <Entry.Behaviors>
+                            <local:MaxLengthValidator  MaxLength="5"/>
+                        </Entry.Behaviors>
+                    </Entry>
+                    <Label Grid.Row="1" Grid.Column="1" VerticalOptions="Start" Text="Segundo Parcial" />
+                    <Entry x:Name="Nota3" Grid.Row="2" Grid.Column="0" Keyboard="Numeric" VerticalOptions="Start" Placeholder="Ingrese su nota">
+                        <Entry.Behaviors>
+                            <local:MaxLengthValidator  MaxLength="5"/>
+                        </Entry.Behaviors>
+                    </Entry>
+                    <Label Grid.Row="2" Grid.Column="1" VerticalOptions="Start" Text="Tercer Parcial" />
+
+                </Grid>
+
+                <Button StyleClass="Danger"   Text="Calcular" Clicked="Calculo" />
+                <Grid HorizontalOptions="Center">
+                    <Image x:Name="kom"  Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" Source="kom.png"/>
+                    <Image x:Name="koma" IsVisible="False" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" Source="komang.png"/>
+                    <Image x:Name="komh" IsVisible="False" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" Source="komhap.png"/>
+                    <Image x:Name="koms" IsVisible="False" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" Source="komsad.png"/>
+                    <Label x:Name="Promedio" Grid.Row="0" Grid.Column="1" HorizontalOptions="Start"  Text="Obtén tu promedio ingresando tus notas"/>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EspePocket.Pages.Librose"
+             Title = "Libros - E-Books">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <StackLayout x:Name="Act" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <ActivityIndicator  HorizontalOptions="CenterAndExpand"  VerticalOptions="CenterAndExpand" x:Name="Indicator"  Color="Blue"   IsRunning="true" />
+                <Label  HorizontalOptions="CenterAndExpand"  VerticalOptions="CenterAndExpand"  x:Name="LIndicator" Text="Cargando... Espere Por favor"/>
+            </StackLayout>
+            <WebView x:Name="webviews" IsVisible="False" Source="http://bd.espe.edu.ec/proBookCentral.php"  Navigating="OnNavigating" Navigated="OnNavigated" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,1464 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XFGloss</name>
+    </assembly>
+    <members>
+        <member name="T:XFGloss.SwitchGloss">
+            <summary>
+            Provides attached bindable properties for use with the <see cref="T:Xamarin.Forms.Switch"/> control and 
+            SwitchGloss instance-based accessors.
+            </summary>
+        </member>
+        <member name="F:XFGloss.SwitchGloss.TintColorProperty">
+            <summary>
+            Allows a <see cref="T:Xamarin.Forms.Color"/> value to be assigned as the track tint color when the Switch 
+            control is set to the "off" position.
+            </summary>
+        </member>
+        <member name="M:XFGloss.SwitchGloss.GetTintColor(Xamarin.Forms.BindableObject)">
+            <summary>
+            Gets the <see cref="T:Xamarin.Forms.Color"/> track tint color value for the Switch control's "off" position 
+            that is currently assigned to the passed <see cref="T:Xamarin.Forms.BindableObject"/>.
+            </summary>
+            <returns>The currently assigned tint color or Color.Default if nothing is assigned.</returns>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the TintColor attached 
+            property value should be retrieved from.</param>
+        </member>
+        <member name="M:XFGloss.SwitchGloss.SetTintColor(Xamarin.Forms.BindableObject,Xamarin.Forms.Color)">
+            <summary>
+            Sets the passed <see cref="T:Xamarin.Forms.Color"/> value as the currently assigned track tint color for the
+            Switch control's "off" position for the passed <see cref="T:Xamarin.Forms.BindableObject"/>.
+            </summary>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the TintColor attached 
+            property value should be assigned to.</param>
+            <param name="value">The <see cref="T:Xamarin.Forms.Color"/> value that should be assigned to the passed
+            <see cref="T:Xamarin.Forms.BindableObject"/>.</param>
+        </member>
+        <member name="F:XFGloss.SwitchGloss.OnTintColorProperty">
+            <summary>
+            Allows a <see cref="T:Xamarin.Forms.Color"/> value to be assigned as the track tint color when the Switch 
+            control is set to the "on" position.
+            </summary>
+        </member>
+        <member name="M:XFGloss.SwitchGloss.GetOnTintColor(Xamarin.Forms.BindableObject)">
+            <summary>
+            Gets the <see cref="T:Xamarin.Forms.Color"/> track tint color value for the Switch control's "on" position 
+            that is currently assigned to the passed <see cref="T:Xamarin.Forms.BindableObject"/>.
+            </summary>
+            <returns>The currently assigned tint color or Color.Default if nothing is assigned.</returns>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the OnTintColor attached 
+            property value should be retrieved from.</param>
+        </member>
+        <member name="M:XFGloss.SwitchGloss.SetOnTintColor(Xamarin.Forms.BindableObject,Xamarin.Forms.Color)">
+            <summary>
+            Sets the passed <see cref="T:Xamarin.Forms.Color"/> value as the currently assigned track tint color for the
+            Switch control's "on" position for the passed <see cref="T:Xamarin.Forms.BindableObject"/>.
+            </summary>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the OnTintColor attached 
+            property value should be assigned to.</param>
+            <param name="value">The <see cref="T:Xamarin.Forms.Color"/> value that should be assigned to the passed
+            <see cref="T:Xamarin.Forms.BindableObject"/>.</param>
+        </member>
+        <member name="F:XFGloss.SwitchGloss.ThumbTintColorProperty">
+            <summary>
+            Allows a <see cref="T:Xamarin.Forms.Color"/> value to be assigned as the thumb tint color when the
+            Switch control is set to the "off" position.
+            </summary>
+        </member>
+        <member name="M:XFGloss.SwitchGloss.GetThumbTintColor(Xamarin.Forms.BindableObject)">
+            <summary>
+            Gets the <see cref="T:Xamarin.Forms.Color"/> thumb tint color value for the Switch control's "off" position 
+            that is currently assigned to the passed <see cref="T:Xamarin.Forms.BindableObject"/>.
+            </summary>
+            <returns>The currently assigned tint color or Color.Default if nothing is assigned.</returns>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the ThumbTintColor attached 
+            property value should be retrieved from.</param>
+        </member>
+        <member name="M:XFGloss.SwitchGloss.SetThumbTintColor(Xamarin.Forms.BindableObject,Xamarin.Forms.Color)">
+            <summary>
+            Sets the passed <see cref="T:Xamarin.Forms.Color"/> value as the currently assigned thumb tint color for the
+            Switch control's "off" position for the passed <see cref="T:Xamarin.Forms.BindableObject"/>.
+            </summary>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the ThumbTintColor attached 
+            property value should be assigned to.</param>
+            <param name="value">The <see cref="T:Xamarin.Forms.Color"/> value that should be assigned to the passed
+            <see cref="T:Xamarin.Forms.BindableObject"/>.</param>
+        </member>
+        <member name="F:XFGloss.SwitchGloss.ThumbOnTintColorProperty">
+            <summary>
+            Allows a <see cref="T:Xamarin.Forms.Color"/> value to be assigned as the thumb tint color when the
+            Switch control is set to the "on" position.
+            </summary>
+        </member>
+        <member name="M:XFGloss.SwitchGloss.GetThumbOnTintColor(Xamarin.Forms.BindableObject)">
+            <summary>
+            Gets the <see cref="T:Xamarin.Forms.Color"/> thumb tint color value for the Switch control's "on" position 
+            that is currently assigned to the passed <see cref="T:Xamarin.Forms.BindableObject"/>.
+            </summary>
+            <returns>The currently assigned tint color or Color.Default if nothing is assigned.</returns>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the ThumbOnTintColor attached 
+            property value should be retrieved from.</param>
+        </member>
+        <member name="M:XFGloss.SwitchGloss.SetThumbOnTintColor(Xamarin.Forms.BindableObject,Xamarin.Forms.Color)">
+            <summary>
+            Sets the passed <see cref="T:Xamarin.Forms.Color"/> value as the currently assigned thumb tint color for the
+            Switch control's "on" position for the passed <see cref="T:Xamarin.Forms.BindableObject"/>.
+            </summary>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the ThumbOnTintColor attached 
+            property value should be assigned to.</param>
+            <param name="value">The <see cref="T:Xamarin.Forms.Color"/> value that should be assigned to the passed
+            <see cref="T:Xamarin.Forms.BindableObject"/>.</param>
+        </member>
+        <member name="M:XFGloss.SwitchGloss.#ctor(Xamarin.Forms.BindableObject)">
+            <summary>
+            Initializes a new instance of the <see cref="T:XFGloss.SwitchGloss"/> class. Used as a convenient way to assign
+            multiple XFGloss property values to the target <see cref="T:Xamarin.Forms.BindableObject"/> instance.
+            </summary>
+            <param name="bindable">Bindable.</param>
+        </member>
+        <member name="P:XFGloss.SwitchGloss.Bindable">
+            <summary>
+            Gets or sets the <see cref="T:Xamarin.Forms.BindableObject"/> that the <see cref="T:XFGloss.SwitchGloss"/>
+            instance methods will retrieve values from or assign values to.
+            </summary>
+            <value>The bindable.</value>
+        </member>
+        <member name="P:XFGloss.SwitchGloss.TintColor">
+            <summary>
+            Gets or sets the <see cref="T:Xamarin.Forms.Color"/> value of the track tint color when the Switch control 
+            is in the "off" position for the assigned <see cref="T:XFGloss.SwitchGloss.Bindable"/> instance.
+            </summary>
+            <value>The color of the track tinting.</value>
+        </member>
+        <member name="P:XFGloss.SwitchGloss.OnTintColor">
+            <summary>
+            Gets or sets the <see cref="T:Xamarin.Forms.Color"/> value of the track tint color when the Switch control 
+            is in the "on" position for the assigned <see cref="T:XFGloss.SwitchGloss.Bindable"/> instance.
+            </summary>
+            <value>The color of the track tinting.</value>
+        </member>
+        <member name="P:XFGloss.SwitchGloss.ThumbTintColor">
+            <summary>
+            Gets or sets the <see cref="T:Xamarin.Forms.Color"/> value of the thumb tint color when the Switch control 
+            is in the "off" position for the assigned <see cref="T:XFGloss.SwitchGloss.Bindable"/> instance.
+            </summary>
+            <value>The color of the track tinting.</value>
+        </member>
+        <member name="P:XFGloss.SwitchGloss.ThumbOnTintColor">
+            <summary>
+            Gets or sets the <see cref="T:Xamarin.Forms.Color"/> value of the thumb tint color when the Switch control 
+            is in the "on" position for the assigned <see cref="T:XFGloss.SwitchGloss.Bindable"/> instance.
+            </summary>
+            <value>The color of the track tinting.</value>
+        </member>
+        <member name="T:XFGloss.CellGlossAccessoryType">
+            <summary>
+            An enumeration that specifies the accessory view type for a <see cref="T:Xamarin.Forms.Cell"/> on the iOS
+            platform. The enumeration values are based on the available accessory view types on the iOS platform's
+            <see cref="T:UIKit.UITableViewCell"/> class, however the DetailDisclosureButton and DetailButton are disabled 
+            until we can access the detail button tapped method in the table view source for both the 
+            <see cref="T:Xamarin.Forms.ListView"/> (currently not possible) and <see cref="T:Xamarin.Forms.TableView"/>
+            (currently possible) classes. This enumeration is not used on the Android platform.
+            </summary>
+        </member>
+        <member name="F:XFGloss.CellGlossAccessoryType.None">
+            <summary>
+            Specifies no accessory type should be displayed
+            </summary>
+        </member>
+        <member name="F:XFGloss.CellGlossAccessoryType.DisclosureIndicator">
+            <summary>
+            Specifies the disclosure indicator type should be displayed
+            </summary>
+        </member>
+        <member name="F:XFGloss.CellGlossAccessoryType.Checkmark">
+            <summary>
+            Specifies the checkmark indicator type should be displayed
+            </summary>
+        </member>
+        <member name="F:XFGloss.CellGlossAccessoryType.EditIndicator">
+            <summary>
+            Specifies the edit indicator type should be displayed
+            </summary>
+        </member>
+        <member name="T:XFGloss.CellGloss">
+            <summary>
+            Provides attached bindable properties for use with <see cref="T:Xamarin.Forms.Cell"/> derived classes and CellGloss 
+            instance-based accessors.
+            </summary>
+        </member>
+        <member name="F:XFGloss.CellGloss.AccessoryTypeProperty">
+            <summary>
+            Allows a <see cref="T:XFGloss.CellGlossAccessoryType"/> to be set on cells when running on the iOS platform.
+            </summary>
+        </member>
+        <member name="M:XFGloss.CellGloss.GetAccessoryType(Xamarin.Forms.BindableObject)">
+            <summary>
+            Gets the <see cref="T:XFGloss.CellGlossAccessoryType"/> value that is currently assigned to the passed
+            <see cref="T:Xamarin.Forms.BindableObject"/>.
+            </summary>
+            <returns>The assigned <see cref="T:XFGloss.CellGlossAccessoryType"/>.</returns>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the AccessoryType attached 
+            property value should be retrieved from.</param>
+        </member>
+        <member name="M:XFGloss.CellGloss.SetAccessoryType(Xamarin.Forms.BindableObject,XFGloss.CellGlossAccessoryType)">
+            <summary>
+            Sets the passed <see cref="T:XFGloss.CellGlossAccessoryType"/> value as the currently assigned accessory type for
+            the passed <see cref="T:Xamarin.Forms.BindableObject"/>.
+            </summary>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the AccessoryType attached 
+            property value should be assigned to.</param>
+            <param name="value">The <see cref="T:XFGloss.CellGlossAccessoryType"/> that should be assigned to the passed
+            <see cref="T:Xamarin.Forms.BindableObject"/>.</param>
+        </member>
+        <member name="F:XFGloss.CellGloss.BackgroundColorProperty">
+            <summary>
+            Allows a <see cref="T:Xamarin.Forms.Color"/> value to be assigned as the background color for cells.
+            </summary>
+        </member>
+        <member name="M:XFGloss.CellGloss.GetBackgroundColor(Xamarin.Forms.BindableObject)">
+            <summary>
+            Gets the <see cref="T:Xamarin.Forms.Color"/> value that is currently assigned to the passed
+            <see cref="T:Xamarin.Forms.BindableObject"/>.
+            </summary>
+            <returns>The currently assigned background color or Color.Default if nothing is assigned.</returns>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the BackgroundColor attached 
+            property value should be retrieved from.</param>
+        </member>
+        <member name="M:XFGloss.CellGloss.SetBackgroundColor(Xamarin.Forms.BindableObject,Xamarin.Forms.Color)">
+            <summary>
+            Sets the passed <see cref="T:Xamarin.Forms.Color"/> value as the currently assigned background color for
+            the passed <see cref="T:Xamarin.Forms.BindableObject"/>.
+            </summary>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the BackgroundColor attached 
+            property value should be assigned to.</param>
+            <param name="value">The <see cref="T:Xamarin.Forms.Color"/> value that should be assigned to the passed
+            <see cref="T:Xamarin.Forms.BindableObject"/>.</param>
+        </member>
+        <member name="F:XFGloss.CellGloss.BackgroundGradientProperty">
+            <summary>
+            Allows a <see cref="T:XFGloss.Gradient"/> instance to be assigned as a multiple step gradient fill to cells.
+            </summary>
+        </member>
+        <member name="M:XFGloss.CellGloss.GetBackgroundGradient(Xamarin.Forms.BindableObject)">
+            <summary>
+            Gets the <see cref="T:XFGloss.Gradient"/> instance that is currently assigned to the passed
+            <see cref="T:Xamarin.Forms.BindableObject"/>.
+            </summary>
+            <returns>The currently assigned background gradient or null if nothing is assigned.</returns>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the BackgroundGradient attached 
+            property value should be retrieved from.</param>
+        </member>
+        <member name="M:XFGloss.CellGloss.SetBackgroundGradient(Xamarin.Forms.BindableObject,XFGloss.Gradient)">
+            <summary>
+            Sets the passed <see cref="T:XFGloss.Gradient"/> value as the currently assigned background gradient for
+            the passed <see cref="T:Xamarin.Forms.BindableObject"/>.
+            </summary>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the BackgroundGradient attached 
+            property value should be assigned to.</param>
+            <param name="value">The <see cref="T:XFGloss.Gradient"/> value that should be assigned to the passed
+            <see cref="T:Xamarin.Forms.BindableObject"/>.</param>
+        </member>
+        <member name="F:XFGloss.CellGloss.TintColorProperty">
+            <summary>
+            Allows a <see cref="T:Xamarin.Forms.Color"/> value to be specified as the tint color for the accessory view
+            (iOS only) and the <see cref="T:Xamarin.Forms.SwitchCell"/> cell type.
+            </summary>
+        </member>
+        <member name="M:XFGloss.CellGloss.GetTintColor(Xamarin.Forms.BindableObject)">
+            <summary>
+            Gets the <see cref="T:Xamarin.Forms.Color"/> value that is currently assigned to the passed
+            <see cref="T:Xamarin.Forms.BindableObject"/>.
+            </summary>
+            <returns>The currently assigned tint color or Color.Default if nothing is assigned.</returns>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the TintColor attached 
+            property value should be retrieved from.</param>
+        </member>
+        <member name="M:XFGloss.CellGloss.SetTintColor(Xamarin.Forms.BindableObject,Xamarin.Forms.Color)">
+            <summary>
+            Sets the passed <see cref="T:Xamarin.Forms.Color"/> value as the tint color for the accessory view (iOS 
+            only) and the <see cref="T:Xamarin.Forms.SwitchCell"/> cell type.
+            </summary>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the tint color attached 
+            property value should be assigned to.</param>
+            <param name="value">The <see cref="T:Xamarin.Forms.Color"/> value that should be assigned to the passed
+            <see cref="T:Xamarin.Forms.BindableObject"/>.</param>
+        </member>
+        <member name="M:XFGloss.CellGloss.#ctor(Xamarin.Forms.BindableObject)">
+            <summary>
+            Initializes a new instance of the <see cref="T:XFGloss.CellGloss"/> class. Used as a convenient way to assign
+            multiple XFGloss property values to the target <see cref="T:Xamarin.Forms.BindableObject"/> instance.
+            </summary>
+            <param name="bindable">Bindable.</param>
+        </member>
+        <member name="P:XFGloss.CellGloss.Bindable">
+            <summary>
+            Gets or sets the <see cref="T:Xamarin.Forms.BindableObject"/> that the <see cref="T:XFGloss.CellGloss"/>
+            instance methods will retrieve values from or assign values to.
+            </summary>
+            <value>The bindable.</value>
+        </member>
+        <member name="P:XFGloss.CellGloss.AccessoryType">
+            <summary>
+            Gets or sets the <see cref="T:XFGloss.CellGlossAccessoryType"/> value for the assigned 
+            <see cref="T:XFGloss.CellGloss.Bindable"/> instance.
+            </summary>
+            <value>The type of the accessory.</value>
+        </member>
+        <member name="P:XFGloss.CellGloss.BackgroundColor">
+            <summary>
+            Gets or sets the <see cref="T:Xamarin.Forms.Color"/> value of the background color for the assigned
+            <see cref="T:XFGloss.CellGloss.Bindable"/> instance.
+            </summary>
+            <value>The color of the background.</value>
+        </member>
+        <member name="P:XFGloss.CellGloss.BackgroundGradient">
+            <summary>
+            Gets or sets the <see cref="T:XFGloss.Gradient"/> instance of the background gradient for the assigned
+            <see cref="T:XFGloss.CellGloss.Bindable"/> instance.
+            </summary>
+            <value>The background gradient.</value>
+        </member>
+        <member name="P:XFGloss.CellGloss.TintColor">
+            <summary>
+            Gets or sets the <see cref="T:Xamarin.Forms.Color"/> value for the tinting of the accessory view (iOS only)
+            or the <see cref="T:Xamarin.Forms.SwitchCell"/> cell type for the assigned 
+            <see cref="T:XFGloss.CellGloss.Bindable"/> instance.
+            </summary>
+            <value>The color of the tint.</value>
+        </member>
+        <member name="T:XFGloss.SwitchCellGloss">
+            <summary>
+            Provides attached bindable properties for use with the <see cref="T:Xamarin.Forms.SwitchCell"/> cell type and 
+            SwitchCellGloss instance-based accessors.
+            </summary>
+        </member>
+        <member name="F:XFGloss.SwitchCellGloss.OnTintColorProperty">
+            <summary>
+            Allows a <see cref="T:Xamarin.Forms.Color"/> value to be assigned as the track tint color when the cell's 
+            Switch control is set to the "on" position.
+            </summary>
+        </member>
+        <member name="M:XFGloss.SwitchCellGloss.GetOnTintColor(Xamarin.Forms.BindableObject)">
+            <summary>
+            Gets the <see cref="T:Xamarin.Forms.Color"/> track tint color value for the Switch control's "on" position 
+            that is currently assigned to the passed <see cref="T:Xamarin.Forms.BindableObject"/>.
+            </summary>
+            <returns>The currently assigned tint color or Color.Default if nothing is assigned.</returns>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the OnTintColor attached 
+            property value should be retrieved from.</param>
+        </member>
+        <member name="M:XFGloss.SwitchCellGloss.SetOnTintColor(Xamarin.Forms.BindableObject,Xamarin.Forms.Color)">
+            <summary>
+            Sets the passed <see cref="T:Xamarin.Forms.Color"/> value as the currently assigned track tint color for the
+            Switch control's "on" position for the passed <see cref="T:Xamarin.Forms.BindableObject"/>.
+            </summary>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the OnTintColor attached 
+            property value should be assigned to.</param>
+            <param name="value">The <see cref="T:Xamarin.Forms.Color"/> value that should be assigned to the passed
+            <see cref="T:Xamarin.Forms.BindableObject"/>.</param>
+        </member>
+        <member name="F:XFGloss.SwitchCellGloss.ThumbTintColorProperty">
+            <summary>
+            Allows a <see cref="T:Xamarin.Forms.Color"/> value to be assigned as the thumb tint color when the cell's 
+            Switch control is set to the "off" position.
+            </summary>
+        </member>
+        <member name="M:XFGloss.SwitchCellGloss.GetThumbTintColor(Xamarin.Forms.BindableObject)">
+            <summary>
+            Gets the <see cref="T:Xamarin.Forms.Color"/> thumb tint color value for the Switch control's "off" position 
+            that is currently assigned to the passed <see cref="T:Xamarin.Forms.BindableObject"/>.
+            </summary>
+            <returns>The currently assigned tint color or Color.Default if nothing is assigned.</returns>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the ThumbTintColor attached 
+            property value should be retrieved from.</param>
+        </member>
+        <member name="M:XFGloss.SwitchCellGloss.SetThumbTintColor(Xamarin.Forms.BindableObject,Xamarin.Forms.Color)">
+            <summary>
+            Sets the passed <see cref="T:Xamarin.Forms.Color"/> value as the currently assigned thumb tint color for the
+            Switch control's "off" position for the passed <see cref="T:Xamarin.Forms.BindableObject"/>.
+            </summary>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the ThumbTintColor attached 
+            property value should be assigned to.</param>
+            <param name="value">The <see cref="T:Xamarin.Forms.Color"/> value that should be assigned to the passed
+            <see cref="T:Xamarin.Forms.BindableObject"/>.</param>
+        </member>
+        <member name="F:XFGloss.SwitchCellGloss.ThumbOnTintColorProperty">
+            <summary>
+            Allows a <see cref="T:Xamarin.Forms.Color"/> value to be assigned as the thumb tint color when the cell's 
+            Switch control is set to the "on" position.
+            </summary>
+        </member>
+        <member name="M:XFGloss.SwitchCellGloss.GetThumbOnTintColor(Xamarin.Forms.BindableObject)">
+            <summary>
+            Gets the <see cref="T:Xamarin.Forms.Color"/> thumb tint color value for the Switch control's "on" position 
+            that is currently assigned to the passed <see cref="T:Xamarin.Forms.BindableObject"/>.
+            </summary>
+            <returns>The currently assigned tint color or Color.Default if nothing is assigned.</returns>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the ThumbOnTintColor attached 
+            property value should be retrieved from.</param>
+        </member>
+        <member name="M:XFGloss.SwitchCellGloss.SetThumbOnTintColor(Xamarin.Forms.BindableObject,Xamarin.Forms.Color)">
+            <summary>
+            Sets the passed <see cref="T:Xamarin.Forms.Color"/> value as the currently assigned thumb tint color for the
+            Switch control's "on" position for the passed <see cref="T:Xamarin.Forms.BindableObject"/>.
+            </summary>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the ThumbOnTintColor attached 
+            property value should be assigned to.</param>
+            <param name="value">The <see cref="T:Xamarin.Forms.Color"/> value that should be assigned to the passed
+            <see cref="T:Xamarin.Forms.BindableObject"/>.</param>
+        </member>
+        <member name="M:XFGloss.SwitchCellGloss.#ctor(Xamarin.Forms.BindableObject)">
+            <summary>
+            Initializes a new instance of the <see cref="T:XFGloss.SwitchCellGloss"/> class. Used as a convenient way to assign
+            multiple XFGloss property values to the target <see cref="T:Xamarin.Forms.BindableObject"/> instance.
+            </summary>
+            <param name="bindable">Bindable.</param>
+        </member>
+        <member name="P:XFGloss.SwitchCellGloss.OnTintColor">
+            <summary>
+            Gets or sets the <see cref="T:Xamarin.Forms.Color"/> value of the track tint color when the Switch control 
+            is in the "on" position for the assigned <see cref="T:XFGloss.SwitchCellGloss.Bindable"/> instance.
+            </summary>
+            <value>The color of the track tinting.</value>
+        </member>
+        <member name="P:XFGloss.SwitchCellGloss.ThumbTintColor">
+            <summary>
+            Gets or sets the <see cref="T:Xamarin.Forms.Color"/> value of the thumb tint color when the Switch control 
+            is in the "off" position for the assigned <see cref="T:XFGloss.SwitchCellGloss.Bindable"/> instance.
+            </summary>
+            <value>The color of the track tinting.</value>
+        </member>
+        <member name="P:XFGloss.SwitchCellGloss.ThumbOnTintColor">
+            <summary>
+            Gets or sets the <see cref="T:Xamarin.Forms.Color"/> value of the thumb tint color when the Switch control 
+            is in the "on" position for the assigned <see cref="T:XFGloss.SwitchCellGloss.Bindable"/> instance.
+            </summary>
+            <value>The color of the track tinting.</value>
+        </member>
+        <member name="T:XFGloss.ObservableObject">
+            <summary>
+            A base class used to provide a common implementation of the 
+            <see cref="T:System.ComponentModel.INotifyPropertyChanged"/> interface. Originally created as part of the 
+            Xamarin Forms Labs project - https://github.com/XLabs/Xamarin-Forms-Labs.
+            </summary>
+        </member>
+        <member name="E:XFGloss.ObservableObject.PropertyChanged">
+            <summary>
+            An event that occurs after one of the class's properties has changed.
+            </summary>
+        </member>
+        <member name="M:XFGloss.ObservableObject.NotifyPropertyChanged(System.String)">
+            <summary>
+            Method that can be called directly to dispatch the PropertyChanged event to all registered handlers. This
+            method is useful if you have composite properties that are made up of one or more other properties of the
+            class, i.e., "FullName" being comprised of both the "FirstName" and "LastName" properties. In such case,
+            you would call this method, passing "FullName" as the property name, whenever the "FirstName" or "LastName"
+            property values change.
+            </summary>
+            <param name="propertyName">Property name.</param>
+        </member>
+        <member name="M:XFGloss.ObservableObject.SetProperty``1(``0@,``0,System.Linq.Expressions.Expression{System.Func{``0}})">
+            <summary>
+            Sets the property and dispatches the PropertyChanged event if the provided value is not equal to the 
+            currently assigned value.
+            </summary>
+            <returns><c>true</c>, if the property was changed, <c>false</c> otherwise.</returns>
+            <param name="storage">The actual field/property that the new value should be assigned to if the value is
+            changing.</param>
+            <param name="value">The new value to be compared with the current value and assigned if different.</param>
+            <param name="propertyExpression">Property expression.</param>
+            <typeparam name="T">The type of passed field and value.</typeparam>
+        </member>
+        <member name="M:XFGloss.ObservableObject.SetProperty``1(``0@,``0,System.String)">
+            <summary>
+            Sets the property and dispatches the PropertyChanged event if the provided value is not equal to the 
+            currently assigned value.
+            </summary>
+            <returns><c>true</c>, if the property was changed, <c>false</c> otherwise.</returns>
+            <param name="storage">The actual field/property that the new value should be assigned to if the value is
+            changing.</param>
+            <param name="value">The new value to be compared with the current value and assigned if different.</param>
+            <param name="propertyName">The name of the property that was changed.</param>
+            <typeparam name="T">The type of passed field and value.</typeparam>
+        </member>
+        <member name="M:XFGloss.ObservableObject.GetPropertyName``1(System.Linq.Expressions.Expression{System.Func{``0}})">
+            <summary>
+            Private method used to retrieve the property name for the provided property expression
+            </summary>
+            <returns>The property name.</returns>
+            <param name="propertyExpression">Property expression.</param>
+            <typeparam name="T">The type of value that is expected.</typeparam>
+        </member>
+        <member name="M:XFGloss.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Method that is called when the PropertyChanged event has fired or the 
+            <see cref="T:XFGloss.ObservableObject.NotifyPropertyChanged"/> method has been called.
+            </summary>
+            <param name="e">The property changed event arguments</param>
+        </member>
+        <member name="T:XFGloss.SliderGloss">
+            <summary>
+            Provides attached bindable properties for use with the <see cref="T:Xamarin.Forms.Slider"/> control and SliderGloss 
+            instance-based accessors.
+            </summary>
+        </member>
+        <member name="F:XFGloss.SliderGloss.MaxTrackTintColorProperty">
+            <summary>
+            Allows a <see cref="T:Xamarin.Forms.Color"/> value to be assigned as the tint color for the track to the
+            right of the thumb's current position.
+            </summary>
+        </member>
+        <member name="M:XFGloss.SliderGloss.GetMaxTrackTintColor(Xamarin.Forms.BindableObject)">
+            <summary>
+            Gets the <see cref="T:Xamarin.Forms.Color"/> maximum track tint color value that is currently assigned to 
+            the passed <see cref="T:Xamarin.Forms.BindableObject"/>.
+            </summary>
+            <returns>The currently assigned tint color or Color.Default if nothing is assigned.</returns>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the MaxTrackTintColor attached 
+            property value should be retrieved from.</param>
+        </member>
+        <member name="M:XFGloss.SliderGloss.SetMaxTrackTintColor(Xamarin.Forms.BindableObject,Xamarin.Forms.Color)">
+            <summary>
+            Sets the passed <see cref="T:Xamarin.Forms.Color"/> value as the currently assigned maximum track tint color
+            for the passed <see cref="T:Xamarin.Forms.BindableObject"/>.
+            </summary>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the MaxTrackTintColor attached 
+            property value should be assigned to.</param>
+            <param name="value">The <see cref="T:Xamarin.Forms.Color"/> value that should be assigned to the passed
+            <see cref="T:Xamarin.Forms.BindableObject"/>.</param>
+        </member>
+        <member name="F:XFGloss.SliderGloss.MinTrackTintColorProperty">
+            <summary>
+            Allows a <see cref="T:Xamarin.Forms.Color"/> value to be assigned as the tint color for the track to the
+            left of the thumb's current position.
+            </summary>
+        </member>
+        <member name="M:XFGloss.SliderGloss.GetMinTrackTintColor(Xamarin.Forms.BindableObject)">
+            <summary>
+            Gets the <see cref="T:Xamarin.Forms.Color"/> minimum track tint color value that is currently assigned to 
+            the passed <see cref="T:Xamarin.Forms.BindableObject"/>.
+            </summary>
+            <returns>The currently assigned tint color or Color.Default if nothing is assigned.</returns>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the MinTrackTintColor attached 
+            property value should be retrieved from.</param>
+        </member>
+        <member name="M:XFGloss.SliderGloss.SetMinTrackTintColor(Xamarin.Forms.BindableObject,Xamarin.Forms.Color)">
+            <summary>
+            Sets the passed <see cref="T:Xamarin.Forms.Color"/> value as the currently assigned minimum track tint color
+            for the passed <see cref="T:Xamarin.Forms.BindableObject"/>.
+            </summary>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the MinTrackTintColor attached 
+            property value should be assigned to.</param>
+            <param name="value">The <see cref="T:Xamarin.Forms.Color"/> value that should be assigned to the passed
+            <see cref="T:Xamarin.Forms.BindableObject"/>.</param>
+        </member>
+        <member name="F:XFGloss.SliderGloss.ThumbTintColorProperty">
+            <summary>
+            Allows a <see cref="T:Xamarin.Forms.Color"/> value to be assigned  as the tint color for the Slider 
+            control's thumb.
+            </summary>
+        </member>
+        <member name="M:XFGloss.SliderGloss.GetThumbTintColor(Xamarin.Forms.BindableObject)">
+            <summary>
+            Gets the <see cref="T:Xamarin.Forms.Color"/> thumb tint color value that is currently assigned to 
+            the passed <see cref="T:Xamarin.Forms.BindableObject"/>.
+            </summary>
+            <returns>The currently assigned tint color or Color.Default if nothing is assigned.</returns>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the ThumbTintColor attached 
+            property value should be retrieved from.</param>
+        </member>
+        <member name="M:XFGloss.SliderGloss.SetThumbTintColor(Xamarin.Forms.BindableObject,Xamarin.Forms.Color)">
+            <summary>
+            Sets the passed <see cref="T:Xamarin.Forms.Color"/> value as the currently assigned thumb tint color
+            for the passed <see cref="T:Xamarin.Forms.BindableObject"/>.
+            </summary>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the ThumbTintColor attached 
+            property value should be assigned to.</param>
+            <param name="value">The <see cref="T:Xamarin.Forms.Color"/> value that should be assigned to the passed
+            <see cref="T:Xamarin.Forms.BindableObject"/>.</param>
+        </member>
+        <member name="M:XFGloss.SliderGloss.#ctor(Xamarin.Forms.BindableObject)">
+            <summary>
+            Initializes a new instance of the <see cref="T:XFGloss.SliderGloss"/> class. Used as a convenient way to assign
+            multiple XFGloss property values to the target <see cref="T:Xamarin.Forms.BindableObject"/> instance.
+            </summary>
+            <param name="bindable">Bindable.</param>
+        </member>
+        <member name="P:XFGloss.SliderGloss.Bindable">
+            <summary>
+            Gets or sets the <see cref="T:Xamarin.Forms.BindableObject"/> that the <see cref="T:XFGloss.SliderGloss"/>
+            instance methods will retrieve values from or assign values to.
+            </summary>
+            <value>The bindable.</value>
+        </member>
+        <member name="P:XFGloss.SliderGloss.MaxTrackTintColor">
+            <summary>
+            Gets or sets the <see cref="T:Xamarin.Forms.Color"/> value of the maximum track tint color for the assigned
+            <see cref="T:XFGloss.SliderGloss.Bindable"/> instance.
+            </summary>
+            <value>The color of the maximum track tinting.</value>
+        </member>
+        <member name="P:XFGloss.SliderGloss.MinTrackTintColor">
+            <summary>
+            Gets or sets the <see cref="T:Xamarin.Forms.Color"/> value of the minimum track tint color for the assigned
+            <see cref="T:XFGloss.SliderGloss.Bindable"/> instance.
+            </summary>
+            <value>The color of the minimum track tinting.</value>
+        </member>
+        <member name="P:XFGloss.SliderGloss.ThumbTintColor">
+            <summary>
+            Gets or sets the <see cref="T:Xamarin.Forms.Color"/> value of the thumb tint color for the assigned
+            <see cref="T:XFGloss.SliderGloss.Bindable"/> instance.
+            </summary>
+            <value>The color of the maximum track tinting.</value>
+        </member>
+        <member name="T:XFGloss.ContentPageGloss">
+            <summary>
+            Provides attached bindable properties for use with <see cref="T:Xamarin.Forms.ContentPage"/> derived classes and
+            CellGloss instance-based accessors.
+            </summary>
+        </member>
+        <member name="F:XFGloss.ContentPageGloss.BackgroundGradientProperty">
+            <summary>
+            Allows a <see cref="T:XFGloss.Gradient"/> instance to be assigned as a multiple step gradient fill to
+            <see cref="T:Xamarin.Forms.ContentPage"/> derived classes.
+            </summary>
+        </member>
+        <member name="M:XFGloss.ContentPageGloss.GetBackgroundGradient(Xamarin.Forms.BindableObject)">
+            <summary>
+            Gets the <see cref="T:XFGloss.Gradient"/> instance that is currently assigned to the passed
+            <see cref="T:Xamarin.Forms.BindableObject"/>.
+            </summary>
+            <returns>The currently assigned background gradient or null if nothing is assigned.</returns>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the BackgroundGradient attached 
+            property value should be retrieved from.</param>
+        </member>
+        <member name="M:XFGloss.ContentPageGloss.SetBackgroundGradient(Xamarin.Forms.BindableObject,XFGloss.Gradient)">
+            <summary>
+            Sets the passed <see cref="T:XFGloss.Gradient"/> value as the currently assigned background gradient for
+            the passed <see cref="T:Xamarin.Forms.BindableObject"/>.
+            </summary>
+            <param name="bindable">The <see cref="T:Xamarin.Forms.BindableObject"/> that the BackgroundGradient attached 
+            property value should be assigned to.</param>
+            <param name="value">The <see cref="T:XFGloss.Gradient"/> value that should be assigned to the passed
+            <see cref="T:Xamarin.Forms.BindableObject"/>.</param>
+        </member>
+        <member name="M:XFGloss.ContentPageGloss.#ctor(Xamarin.Forms.BindableObject)">
+            <summary>
+            Initializes a new instance of the <see cref="T:XFGloss.ContentPageGloss"/> class. Used as a convenient way 
+            to assign multiple XFGloss property values to the target <see cref="T:Xamarin.Forms.BindableObject"/> instance.
+            </summary>
+            <param name="bindable">Bindable.</param>
+        </member>
+        <member name="P:XFGloss.ContentPageGloss.Bindable">
+            <summary>
+            Gets or sets the <see cref="T:Xamarin.Forms.BindableObject"/> that the 
+            <see cref="T:XFGloss.ContentPageGloss"/> instance methods will retrieve values from or assign values to.
+            </summary>
+            <value>The bindable.</value>
+        </member>
+        <member name="P:XFGloss.ContentPageGloss.BackgroundGradient">
+            <summary>
+            Gets or sets the <see cref="T:XFGloss.Gradient"/> instance of the background gradient for the assigned
+            <see cref="T:XFGloss.ContentPageGloss.Bindable"/> instance.
+            </summary>
+            <value>The background gradient.</value>
+        </member>
+        <member name="T:XFGloss.WeakEvent">
+            <summary>Provides methods to register and deregister weak events. </summary>
+        </member>
+        <member name="M:XFGloss.WeakEvent.RegisterEvent``2(``0,System.Action{System.EventHandler{``1}},System.Action{System.EventHandler{``1}},System.Action{``0,System.Object,``1})">
+            <summary>Registers a weak event handler which is automatically deregistered after the subscriber 
+            has been garbage collected (checked on each event call). </summary>
+        </member>
+        <member name="M:XFGloss.WeakEvent.RegisterEvent``3(``0,System.Action{``1},System.Action{``1},System.Func{System.EventHandler{``2},``1},System.Action{``0,System.Object,``2})">
+            <summary>Registers a weak event handler which is automatically deregistered after the subscriber 
+            has been garbage collected (checked on each event call). </summary>
+            <param name="subscriber"></param>
+            <param name="deregister"></param>
+            <param name="register"></param>
+            <param name="converter">The converter: h => (o, e) => h(o, e)</param>
+            <param name="handler"></param>
+        </member>
+        <member name="M:XFGloss.WeakEvent.RegisterEvent``2(``0,System.String,System.EventHandler{``1})">
+            <summary>Adds a weak event handler to the given source object. </summary>
+            <typeparam name="TEventSource">The type of the source object.</typeparam>
+            <typeparam name="TEventArgs">The type of the event args.</typeparam>
+            <param name="source">The source object to register the event on. </param>
+            <param name="eventName">The event name to create the registration for.</param>
+            <param name="handler">The delegate that handles the event.</param>
+        </member>
+        <member name="M:XFGloss.WeakEvent.RegisterStaticEvent``1(System.Type,System.String,System.EventHandler{``0})">
+            <summary>Adds a static weak event handler to a static event. </summary>
+            <typeparam name="TEventArgs">The type of the event args.</typeparam>
+            <param name="sourceType">The type of the class that contains the static event. </param>
+            <param name="eventName">The event name to create the registration for.</param>
+            <param name="handler">The delegate that handles the event.</param>
+        </member>
+        <member name="M:XFGloss.WeakEvent.RegisterStaticEvent``2(System.String,System.EventHandler{``1})">
+            <summary>Adds a static weak event handler to a static event. </summary>
+            <typeparam name="TEventArgs">The type of the event args.</typeparam>
+            <typeparam name="TEventSource">The type of the class that contains the static event. </typeparam>
+            <param name="eventName">The event name to create the registration for.</param>
+            <param name="handler">The delegate that handles the event.</param>
+        </member>
+        <member name="M:XFGloss.WeakEvent.DeregisterEvent``2(``0,System.String,System.EventHandler{``1})">
+            <summary>Removes a weak event registration from the given source object.</summary>
+            <typeparam name="TEventSource">The type of the source object.</typeparam>
+            <param name="source">The source object to register the event from. </param>
+            <param name="eventName">The event name to remove the registration from.</param>
+            <param name="handler">The handler to remove.</param>
+            <returns>True if the event registration could be found and was removed. </returns>
+        </member>
+        <member name="M:XFGloss.WeakEvent.DeregisterStaticEvent``1(System.Type,System.String,System.EventHandler{``0})">
+            <summary>Removes a static weak event registration from a static event.</summary>
+            <param name="sourceType">The type of the class that contains the static event. </param>
+            <param name="eventName">The event name to remove the registration from.</param>
+            <param name="handler">The handler to remove. </param>
+            <returns>True if the event registration could be found and was removed. </returns>
+        </member>
+        <member name="T:XFGloss.EventUtilities">
+            <summary>Provides methods for event management. </summary>
+        </member>
+        <member name="M:XFGloss.EventUtilities.RegisterEvent(System.Object,System.String,System.Action{System.Object,System.Object})">
+            <summary>Registers an event on the given target object. </summary>
+            <param name="target">The target object. </param>
+            <param name="eventName">The event name. </param>
+            <param name="callback">The callback. </param>
+            <returns>The registration token to deregister the event. </returns>
+        </member>
+        <member name="M:XFGloss.EventUtilities.RegisterStaticEvent(System.Type,System.String,System.Action{System.Object,System.Object})">
+            <summary>Registers a static event on the given target object. </summary>
+            <param name="type">The target type. </param>
+            <param name="eventName">The event name. </param>
+            <param name="callback">The callback. </param>
+            <returns>The registration token to deregister the event. </returns>
+        </member>
+        <member name="M:XFGloss.EventUtilities.DeregisterEvent(System.Object,System.String,System.Object)">
+            <summary>Deregisters an event from the target object. </summary>
+            <param name="target">The target object. </param>
+            <param name="eventName">The event name. </param>
+            <param name="token">The registration token. </param>
+        </member>
+        <member name="M:XFGloss.EventUtilities.DeregisterStaticEvent(System.Type,System.String,System.Object)">
+            <summary>Deregisters a static event from the target type. </summary>
+            <param name="type">The target type. </param>
+            <param name="eventName">The event name. </param>
+            <param name="token">The registration token. </param>
+        </member>
+        <member name="T:XFGloss.ISwitchGloss">
+            <summary>
+            An interface that defines instance property getters/setters that must be implemented by any implementors of the
+            interface. The interface is implemented by both the <see cref="T:XFGloss.SwitchGloss"/> and
+            <see cref="T:XFGloss.SwitchCellGloss"/> classes.
+            </summary>
+        </member>
+        <member name="P:XFGloss.ISwitchGloss.TintColor">
+            <summary>
+            Gets or sets the <see cref="T:Xamarin.Forms.Color"/> value of the track tint color when the Switch control 
+            is in the "off" position for the assigned <see cref="T:Xamarin.Forms.BindableObject"/> instance.
+            </summary>
+            <value>The color of the track tinting.</value>
+        </member>
+        <member name="P:XFGloss.ISwitchGloss.OnTintColor">
+            <summary>
+            Gets or sets the <see cref="T:Xamarin.Forms.Color"/> value of the track tint color when the Switch control 
+            is in the "on" position for the assigned <see cref="T:Xamarin.Forms.BindableObject"/> instance.
+            </summary>
+            <value>The color of the track tinting.</value>
+        </member>
+        <member name="P:XFGloss.ISwitchGloss.ThumbTintColor">
+            <summary>
+            Gets or sets the <see cref="T:Xamarin.Forms.Color"/> value of the thumb tint color when the Switch control 
+            is in the "off" position for the assigned <see cref="T:Xamarin.Forms.BindableObject"/> instance.
+            </summary>
+            <value>The color of the track tinting.</value>
+        </member>
+        <member name="P:XFGloss.ISwitchGloss.ThumbOnTintColor">
+            <summary>
+            Gets or sets the <see cref="T:Xamarin.Forms.Color"/> value of the thumb tint color when the Switch control 
+            is in the "on" position for the assigned <see cref="T:Xamarin.Forms.BindableObject"/> instance.
+            </summary>
+            <value>The color of the track tinting.</value>
+        </member>
+        <member name="T:XFGloss.Gradient">
+            <summary>
+            The XFGloss.Gradient class manages the property values needed to render gradient fills. It also implements the 
+            generic portion of the updating and rendering logic used to respond to property changes and instruct the 
+            platform-specific renderers when changes need to be applied.
+            </summary>
+        </member>
+        <member name="F:XFGloss.Gradient.UndefinedRotation">
+            <summary>
+            Sentinel value so we can detect if angle should be changed to default angle if one isn't explicitly assigned.
+            </summary>
+        </member>
+        <member name="F:XFGloss.Gradient.DefaultRotation">
+            <summary>
+            Rotation value used if one isn't explicitly assigned. Gradients will be from top to bottom when this is used.
+            </summary>
+        </member>
+        <member name="F:XFGloss.Gradient.RotationLeftToRight">
+            <summary>
+            Specifies the gradient colors should be filled from left to right
+            </summary>
+        </member>
+        <member name="F:XFGloss.Gradient.RotationRightToLeft">
+            <summary>
+            Specifies the gradient colors should be filled from right to left
+            </summary>
+        </member>
+        <member name="F:XFGloss.Gradient.RotationTopToBottom">
+            <summary>
+            Specifies the gradient colors should be filled from top to bottom
+            </summary>
+        </member>
+        <member name="F:XFGloss.Gradient.RotationBottomToTop">
+            <summary>
+            Specifies the gradient colors should be filled from bottom to top
+            </summary>
+        </member>
+        <member name="M:XFGloss.Gradient.#ctor">
+            <summary>
+            Default constructor. Initializes the steps collection to a new empty collection and the rotation angle to
+            the default angle, which will fill from top to bottom. Note that the gradient won't be rendered when using
+            this constructor without adding at least two GradientStep instances to the Steps collection.
+            </summary>
+        </member>
+        <member name="M:XFGloss.Gradient.#ctor(XFGloss.Gradient)">
+            <summary>
+            Copy constructor. Will copy the properties of another <see cref="T:XFGloss.Gradient"/> instance to the 
+            newly-constructed one.  The Steps <see cref="T:XFGloss.GradientStepCollection"/> is deeply copied, i.e., 
+            new <see cref="T:XFGloss.GradientStep"/> instances are constructed using the 
+            <see cref="T:XFGloss.GradientStep"/> copy constructor, then assigned to a new GradientStepCollection 
+            instance.
+            </summary>
+            <param name="other">Specifies the other Gradient instance whose properties will be copied to the new instance.</param>
+        </member>
+        <member name="M:XFGloss.Gradient.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:XFGloss.Gradient"/> class and assigns the specified rotation 
+            value to the new instance's Rotation property.
+            </summary>
+            <param name="rotation">Rotation angle. An integer value between 0 and 359.</param>
+        </member>
+        <member name="M:XFGloss.Gradient.#ctor(Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Initializes a new instance of the <see cref="T:XFGloss.Gradient"/> class and creates a two step gradient 
+            using the specified start and end Color values. The gradient's rotation angle is set to the DefaultRotation 
+            const value, which results in a top to bottom vertical fill.
+            </summary>
+            <param name="startColor">Start color. Specifies the first color used in the two step gradient.</param>
+            <param name="endColor">End color. Specifies the last color used in the two step gradient.</param>
+        </member>
+        <member name="M:XFGloss.Gradient.#ctor(System.Int32,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Initializes a new instance of the <see cref="T:XFGloss.Gradient"/> class and creates a two step gradient 
+            using the specified start and end Color values and Rotation angle.
+            </summary>
+            <param name="rotation">Rotation. Specifies an integer number between 0 and 359.</param>
+            <param name="startColor">Start color. Specifies the first color used in the two step gradient.</param>
+            <param name="endColor">End color. Specifies the last color used in the two step gradient.</param>
+        </member>
+        <member name="M:XFGloss.Gradient.#ctor(System.Int32,XFGloss.GradientStepCollection)">
+            <summary>
+            Initializes a new instance of the <see cref="T:XFGloss.Gradient"/> class and creates a multiple step gradient
+            using the provided rotation angle and <see cref="T:XFGloss.GradientStepCollection"/> steps parameters.
+            </summary>
+            <param name="rotation">Rotation. Specifies an integer number between 0 and 359.</param>
+            <param name="steps">Steps. Specifies a <see cref="T:XFGloss.GradientStepCollection"/> collection of 
+            <see cref="T:XFGloss.GradientStep"/>instances used to specify the color and position of each step in a
+            multiple step gradient fill.</param>
+        </member>
+        <member name="M:XFGloss.Gradient.#ctor(XFGloss.GradientStepCollection)">
+            <summary>
+            Initializes a new instance of the <see cref="T:XFGloss.Gradient"/> class and creates a multiple step gradient
+            using the default rotation angle and the provided <see cref="T:XFGloss.GradientStepCollection"/> steps 
+            parameters.
+            </summary>
+            <param name="steps">Steps.Specifies a <see cref="T:XFGloss.GradientStepCollection"/> collection of 
+            <see cref="T:XFGloss.GradientStep"/>instances used to specify the color and position of each step in a
+            multiple step gradient fill.</param>
+        </member>
+        <member name="M:XFGloss.Gradient.Dispose">
+            <summary>
+            Releases all resources used by the <see cref="T:XFGloss.Gradient"/> object.
+            </summary>
+            <remarks>Call <see cref="M:XFGloss.Gradient.Dispose"/> when you are finished using the <see cref="T:XFGloss.Gradient"/>. The
+            <see cref="M:XFGloss.Gradient.Dispose"/> method leaves the <see cref="T:XFGloss.Gradient"/> in an unusable state. After calling
+            <see cref="M:XFGloss.Gradient.Dispose"/>, you must release all references to the <see cref="T:XFGloss.Gradient"/> so the garbage
+            collector can reclaim the memory that the <see cref="T:XFGloss.Gradient"/> was occupying.</remarks>
+        </member>
+        <member name="M:XFGloss.Gradient.Equals(XFGloss.Gradient)">
+            <summary>
+            Determines whether the specified <see cref="T:XFGloss.Gradient"/> is equal to the current <see cref="T:XFGloss.Gradient"/>.
+            </summary>
+            <param name="other">The <see cref="T:XFGloss.Gradient"/> to compare with the current <see cref="T:XFGloss.Gradient"/>.</param>
+            <returns><c>true</c> if the specified <see cref="T:XFGloss.Gradient"/> is equal to the current
+            <see cref="T:XFGloss.Gradient"/>; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:XFGloss.Gradient.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object"/> is equal to the current <see cref="T:XFGloss.Gradient"/>.
+            </summary>
+            <param name="obj">The <see cref="T:System.Object"/> to compare with the current <see cref="T:XFGloss.Gradient"/>.</param>
+            <returns><c>true</c> if the specified <see cref="T:System.Object"/> is equal to the current <see cref="T:XFGloss.Gradient"/>;
+            otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:XFGloss.Gradient.GetHashCode">
+            <summary>
+            Serves as a hash function for a <see cref="T:XFGloss.Gradient"/> object.
+            </summary>
+            <returns>A hash code for this instance that is suitable for use in hashing algorithms and data structures such as a hash table.</returns>
+        </member>
+        <member name="P:XFGloss.Gradient.Rotation">
+            <summary>
+            The rotation angle to orient the gradient fill in a desired direction. Must be an integer value between 0
+            and 359. Values outside that range will cause an ArgumentOutOfRangeException exception to be thrown.
+            </summary>
+        </member>
+        <member name="P:XFGloss.Gradient.IsRotationLeftToRight">
+            <summary>
+            Gets or sets a value indicating whether this <see cref="T:XFGloss.Gradient"/> rotation angle is from left 
+            to right. If this property is set to false, the rotation angle is changed to the 
+            <see cref="T:XFGloss.Gradient.DefaultRotation"/> value, resulting in a top to bottom vertical gradient fill.
+            </summary>
+            <value><c>true</c> if the rotation angle is from left to right; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:XFGloss.Gradient.IsRotationRightToLeft">
+            <summary>
+            Gets or sets a value indicating whether this <see cref="T:XFGloss.Gradient"/> rotation angle is from right 
+            to left. If this property is set to false, the rotation angle is changed to the 
+            <see cref="T:XFGloss.Gradient.DefaultRotation"/> value, resulting in a top to bottom vertical gradient fill.
+            </summary>
+            <value><c>true</c> if the rotation angle is from right to left; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:XFGloss.Gradient.IsRotationTopToBottom">
+            <summary>
+            Gets or sets a value indicating whether this <see cref="T:XFGloss.Gradient"/> rotation angle is from top to 
+            bottom. NOTE: Attempting to set this value to false will not appear to be applied since the 
+            <see cref="T:XFGloss.Gradient.DefaultRotation"/> value also specifies a top to bottom rotation angle.
+            </summary>
+            <value><c>true</c> if the rotation angle is from top to bottom; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:XFGloss.Gradient.IsRotationBottomToTop">
+            <summary>
+            Gets or sets a value indicating whether this <see cref="T:XFGloss.Gradient"/> rotation angle is from bottom 
+            to top. If this property is set to false, the rotation angle is changed to the 
+            <see cref="T:XFGloss.Gradient.DefaultRotation"/> value, resulting in a top to bottom vertical gradient fill.
+            </summary>
+            <value><c>true</c> if is rotation bottom to top; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="M:XFGloss.Gradient.SetRotation(System.Boolean,System.Int32)">
+            <summary>
+            Internal helper used by the IsRotation___To___ properties.
+            </summary>
+            <param name="shouldSet">If set to <c>true</c> should set.</param>
+            <param name="rotation">Rotation.</param>
+        </member>
+        <member name="P:XFGloss.Gradient.StartColor">
+            <summary>
+            Gets or sets the start/first color of the gradient fill.
+            </summary>
+            <value>The start color.</value>
+        </member>
+        <member name="P:XFGloss.Gradient.EndColor">
+            <summary>
+            Gets or sets the end/last color of the gradient fill.
+            </summary>
+            <value>The end color.</value>
+        </member>
+        <member name="P:XFGloss.Gradient.AverageColor">
+            <summary>
+            Returns the average color value that the gradient fill will be comprised of.
+            </summary>
+            <value>The average color.</value>
+        </member>
+        <member name="P:XFGloss.Gradient.Steps">
+            <summary>
+            Specifies the steps in the gradient fill. Each step is defined by a <see cref="T:XFGloss.GradientStep"/> 
+            instance.
+            </summary>
+        </member>
+        <member name="M:XFGloss.Gradient.AddStep(Xamarin.Forms.Color,System.Double)">
+            <summary>
+            Adds a <see cref="T:XFGloss.GradientStep"/> instance to the end of the Steps 
+            <see cref="T:XFGloss.GradientStepCollection"/> collection.
+            </summary>
+            <param name="stepColor">Step color. Specifies a Xamarin.Forms.Color value.</param>
+            <param name="stepPercentage">Step percentage. Specifies a double value between 0 and 1, with 0 indicating 
+            the start of the fill and 1 indicating the end of the fill. The specified value must also be equal to or
+            greater than the percentage specified in the previous step.</param>
+        </member>
+        <member name="P:XFGloss.Gradient.ChildStep">
+            <summary>
+            Faux property used along with the [ChildProperty] attribute on the <see cref="T:XFGloss.Gradient"/> class to 
+            allow <see cref="T:XFGloss.GradientStep" /> instances to be directly assigned in Xaml instead of having to 
+            wrap them in a &lt;<see cref="T:XFGloss.GradientStepCollection"/>&gt; node.
+            </summary>
+            <value>The child step. A <see cref="T:XFGloss.GradientStep"/> instance.</value>
+        </member>
+        <member name="M:XFGloss.Gradient.IsPropertyOf(System.String)">
+            <summary>
+            Indicates if the provided propertyName string is the name of a property of the 
+            <see cref="T:XFGloss.Gradient"/> class.
+            </summary>
+            <returns><c>true</c>, if property name is a property of the class, <c>false</c> otherwise.</returns>
+            <param name="propertyName">Property name.</param>
+        </member>
+        <member name="M:XFGloss.Gradient.UpdateProperties(System.String,XFGloss.IGradientRenderer,System.String)">
+            <summary>
+            Helper called by parent/containing elements to create/update gradients.
+            </summary>
+            <returns><c>true</c>, if a gradient was created or updated, <c>false</c> otherwise.</returns>
+            <param name="glossPropertyName">Name of the XFGloss bindable property being updated</param>
+            <param name="renderer">Reference to class instance that implements the XFGloss 
+            <see cref="T:XFGloss.IGradientRenderer"/> interface.</param>
+            <param name="elementPropertyChangedName">Element property changed name.</param>
+        </member>
+        <member name="T:XFGloss.GradientStep">
+            <summary>
+            Class used to store each step's properties for a <see cref="T:XFGloss.Gradient"/> fill.
+            </summary>
+        </member>
+        <member name="P:XFGloss.GradientStep.StepColor">
+            <summary>
+            Color value for this <see cref="T:XFGloss.Gradient"/> step.
+            </summary>
+        </member>
+        <member name="P:XFGloss.GradientStep.StepPercentage">
+            <summary>
+            Gets or sets the step percentage, which is a double value between 0 and 1. 0 represents the start of the
+            fill while 1 represents the end of it.
+            </summary>
+            <value>The step percentage, a double between 0 and 1. 0 represents the start of the fill while 1
+            represents the end of it.</value>
+        </member>
+        <member name="M:XFGloss.GradientStep.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:XFGloss.GradientStep"/> class.
+            </summary>
+        </member>
+        <member name="M:XFGloss.GradientStep.#ctor(XFGloss.GradientStep)">
+            <summary>
+            Initializes a new instance of the <see cref="T:XFGloss.GradientStep"/> class by copying the assigned values
+            from another <see cref="T:XFGloss.GradientStep"/> class instance.
+            </summary>
+            <param name="other">Other.</param>
+        </member>
+        <member name="M:XFGloss.GradientStep.#ctor(Xamarin.Forms.Color,System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:XFGloss.GradientStep"/> class using the passed color and 
+            percentage values.
+            </summary>
+            <param name="stepColor">Step color. A <see cref="T:Xamarin.Forms.Color"/> instance</param>
+            <param name="stepPercentage">Step percentage. A double value between 0 and 1. 0 represents the start of the
+            fill and 1 represents the end of the fill.</param>
+        </member>
+        <member name="M:XFGloss.GradientStep.Equals(XFGloss.GradientStep)">
+            <summary>
+            Determines whether the specified <see cref="T:XFGloss.GradientStep"/> is equal to the current 
+            <see cref="T:XFGloss.GradientStep"/>.
+            </summary>
+            <param name="other">The <see cref="T:XFGloss.GradientStep"/> to compare with the current 
+            <see cref="T:XFGloss.GradientStep"/>.</param>
+            <returns><c>true</c> if the specified <see cref="T:XFGloss.GradientStep"/> is equal to the current
+            <see cref="T:XFGloss.GradientStep"/>; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:XFGloss.GradientStep.GetHashCode">
+            <summary>
+            Serves as a hash function for a <see cref="T:XFGloss.GradientStep"/> object.
+            </summary>
+            <returns>A hash code for this instance that is suitable for use in hashing algorithms and data structures such as a hash table.</returns>
+        </member>
+        <member name="M:XFGloss.GradientStep.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object"/> is equal to the current 
+            <see cref="T:XFGloss.GradientStep"/>.
+            </summary>
+            <param name="obj">The <see cref="T:System.Object"/> to compare with the current 
+            <see cref="T:XFGloss.GradientStep"/>.</param>
+            <returns><c>true</c> if the specified <see cref="T:System.Object"/> is equal to the current 
+            <see cref="T:XFGloss.GradientStep"/>;
+            otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="T:XFGloss.GradientStepCollection">
+            <summary>
+            ObservableCollection-based collection used to store a gradient's steps.
+            </summary>
+        </member>
+        <member name="M:XFGloss.GradientStepCollection.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:XFGloss.GradientStepCollection"/> class.
+            </summary>
+        </member>
+        <member name="M:XFGloss.GradientStepCollection.#ctor(System.Collections.Generic.IEnumerable{XFGloss.GradientStep})">
+            <summary>
+            Initializes a new instance of the <see cref="T:XFGloss.GradientStepCollection"/> class by making copies of
+            the <see cref="T:XFGloss.GradientStep"/> instances in another <see cref="T:XFGloss.GradientStepCollection"/> 
+            instance.
+            </summary>
+            <param name="other">Other.</param>
+        </member>
+        <member name="M:XFGloss.GradientStepCollection.AddRange(System.Collections.Generic.IEnumerable{XFGloss.GradientStep})">
+            <summary>
+            Adds a range of <see cref="T:XFGloss.GradientStep"/> instances to the 
+            <see cref="T:XFGloss.GradientStepCollection"/> without making copies of them.
+            </summary>
+            <param name="collection">Collection.</param>
+        </member>
+        <member name="M:XFGloss.GradientStepCollection.Equals(XFGloss.GradientStepCollection)">
+            <summary>
+            Determines whether the specified <see cref="T:XFGloss.GradientStepCollection"/> is equal to the current <see cref="T:XFGloss.GradientStepCollection"/>.
+            </summary>
+            <param name="other">The <see cref="T:XFGloss.GradientStepCollection"/> to compare with the current <see cref="T:XFGloss.GradientStepCollection"/>.</param>
+            <returns><c>true</c> if the specified <see cref="T:XFGloss.GradientStepCollection"/> is equal to the current
+            <see cref="T:XFGloss.GradientStepCollection"/>; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="P:XFGloss.GradientStepCollection.IsValid">
+            <summary>
+            Gets a value indicating whether this <see cref="T:XFGloss.GradientStepCollection"/> is valid. A
+            <see cref="T:XFGloss.GradientStepCollection"/> is considered to be valid if it contains at least two steps,
+            none of the steps' color values are set to Color.Default, and each step's percentage value is equal to or
+            greater than the previous step's percentage value.
+            </summary>
+            <value><c>true</c> if is valid; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="T:XFGloss.RotationToPositionsConverter">
+            <summary>
+            Helper class used to convert from an angle in degrees to start and end point X/Y values between 0.0 and 1.0.
+            Currently needed for the iOS platform renderer, may be needed for other XF-supported platforms in the future.
+            </summary>
+        </member>
+        <member name="P:XFGloss.RotationToPositionsConverter.StartPoint">
+            <summary>
+            Gets the start point. Both the X and Y positions will be values between 0.0 and 1.0.
+            </summary>
+            <value>The start point.</value>
+        </member>
+        <member name="P:XFGloss.RotationToPositionsConverter.EndPoint">
+            <summary>
+            Gets the end point. Both the X and Y positions will be values between 0.0 and 1.0.
+            </summary>
+            <value>The end point.</value>
+        </member>
+        <member name="M:XFGloss.RotationToPositionsConverter.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:XFGloss.RotationToPositionsConverter"/> class. An integer
+            number between 0 and 359 is expected to be passed as the rotation parameter. An
+            ArgumentOutOfRangeException is thrown if the rotation parameter is outside of the expected range.
+            </summary>
+            <param name="rotation">Rotation.</param>
+        </member>
+        <member name="T:XFGloss.XFGlossElement">
+            <summary>
+            Base marker class used to simplify the constraint in the IXFGlossRenderer's CreateNativeElement method 
+            declaration.
+            </summary>
+        </member>
+        <member name="T:XFGloss.XFGlossElement`1">
+            <summary>
+            Base class to be used when creating a new XFGlossElement-based class, currently used by the Gradient class
+            </summary>
+        </member>
+        <member name="M:XFGloss.XFGlossElement`1.IsPropertyOf(System.String)">
+            <summary>
+            Indicates if the provided propertyName string is the name of a property of the 
+            <see cref="T:XFGloss.XFGlossElement"/> class.
+            </summary>
+            <returns><c>true</c>, if property name is a property of the class, <c>false</c> otherwise.</returns>
+            <param name="propertyName">Property name.</param>
+        </member>
+        <member name="M:XFGloss.XFGlossElement`1.UpdateProperties(System.String,`0,System.String)">
+            <summary>
+            Helper called by parent/containing elements to create/update gradients.
+            </summary>
+            <returns><c>true</c>, if the <see cref="T:XFGloss.XFGlossElement"/> was created or updated, 
+            <c>false</c> otherwise.</returns>
+            <param name="glossPropertyName">Name of the XFGloss bindable property being updated</param>
+            <param name="renderer">Reference to class instance that implements the XFGloss 
+            <see cref="T:XFGloss.IXFGlossRenderer"/> interface.</param>
+            <param name="elementPropertyChangedName">Element property changed name.</param>
+        </member>
+        <member name="M:XFGloss.XFGlossElement`1.AttachRenderer(System.String,`0)">
+            <summary>
+            Attaches the renderer. Dependent <see cref="T:XFGloss.XFGlossRenderer"/> registration/deregistration 
+            allows <see cref="T:XFGloss.XFGlossElement"/> instances to self-monitor their own properties and 
+            automatically call on the renderers to update the platform-specific renderings when one of the 
+            <see cref="T:XFGloss.XFGlossElement"/> instances' properties change. This approach minimizes boilerplate 
+            code in the XFGloss renderers.
+            </summary>
+            <returns><c>true</c>, if renderer was attached, <c>false</c> otherwise.</returns>
+            <param name="glossPropertyName">XFGloss bindable property name.</param>
+            <param name="renderer">Renderer. XFGlossRenderer implementation instance.</param>
+        </member>
+        <member name="M:XFGloss.XFGlossElement`1.DetachRenderer(`0)">
+            <summary>
+            Detaches the renderer. Dependent <see cref="T:XFGloss.XFGlossRenderer"/> registration/deregistration 
+            allows <see cref="T:XFGloss.XFGlossElement"/> instances to self-monitor their own properties and 
+            automatically call on the renderers to update the platform-specific renderings when one of the 
+            <see cref="T:XFGloss.XFGlossElement"/> instances' properties change. This approach minimizes boilerplate 
+            code in the XFGloss renderers.
+            </summary>
+            <returns><c>true</c>, if renderer was detached, <c>false</c> otherwise.</returns>
+            <param name="renderer">Renderer.</param>
+        </member>
+        <member name="M:XFGloss.XFGlossElement`1.OnGlossElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Event handler used to monitor PropertyChangedEvent notifications for the XFGlossElement instance
+            </summary>
+            <param name="sender">Sender.</param>
+            <param name="args">Arguments.</param>
+        </member>
+        <member name="T:XFGloss.XFGlossElement`1.XFGlossDependentRenderer">
+            <summary>
+            Helper class used to track dependent XFGlossRenderers without creating a strong reference so they
+            can be used to execute the needed platform-specific functionality called for when a 
+            <see cref="T:XFGloss.XFGlossElement"/> instance property changes.
+            </summary>
+        </member>
+        <member name="P:XFGloss.XFGlossElement`1.XFGlossDependentRenderer.GlossPropertyName">
+            <summary>
+            Gets the name of the XFGloss bindable property.
+            </summary>
+            <value>The name of the gloss property.</value>
+        </member>
+        <member name="P:XFGloss.XFGlossElement`1.XFGlossDependentRenderer.RendererRef">
+            <summary>
+            Gets a weak reference to the dependent <see cref="T:XFGloss.XFGlossRenderer"/> instance.
+            </summary>
+            <value>The renderer reference.</value>
+        </member>
+        <member name="M:XFGloss.XFGlossElement`1.XFGlossDependentRenderer.#ctor(System.String,`0)">
+            <summary>
+            Initializes a new instance of the <see cref="T:XFGloss.XFGlossElement`1.XFGlossDependentRenderer"/> class.
+            </summary>
+            <param name="glossPropertyName">XFGloss bindable property name.</param>
+            <param name="rendererRef">XFGlossRenderer reference.</param>
+        </member>
+        <member name="M:XFGloss.XFGlossElement`1.XFGlossDependentRenderer.Equals(XFGloss.XFGlossElement{`0}.XFGlossDependentRenderer)">
+            <summary>
+            Determines whether the specified <see cref="T:XFGloss.XFGlossElement`1.XFGlossDependentRenderer"/>
+            is equal to the current <see cref="T:XFGloss.XFGlossElement`1.XFGlossDependentRenderer"/>.
+            </summary>
+            <param name="other">The <see cref="T:XFGloss.XFGlossElement`1.TXFGlossRenderer.XFGlossDependentRenderer"/> 
+            to compare with the current <see cref="T:XFGloss.XFGlossElement`1.XFGlossDependentRenderer"/>.</param>
+            <returns><c>true</c> if the specified <see cref="T:XFGloss.XFGlossElement`1.XFGlossDependentRenderer"/> 
+            is equal to the current <see cref="T:XFGloss.XFGlossElement`1.XFGlossDependentRenderer"/>; otherwise, 
+            <c>false</c>.</returns>
+        </member>
+        <member name="T:XFGloss.IGradientRenderer">
+            <summary>
+            <see cref="T:XFGloss.IXFGlossRenderer"/>-based interface that defines methods for updating the
+            <see cref="T:XFGloss.Gradient"/> class's rotation and steps properties on a platform-specific basis.
+            </summary>
+        </member>
+        <member name="M:XFGloss.IGradientRenderer.UpdateRotation(System.String,System.Int32)">
+            <summary>
+            Updates the rotation value, an integer number between 0 and 359. The property name specifies the attached
+            bindable property that is being updated, such as the BackgroundGradient property.
+            </summary>
+            <param name="propertyName">The name of the attached bindable property that is being updated.</param>
+            <param name="rotation">The rotation value, an integer number between 0 and 359.</param>
+        </member>
+        <member name="M:XFGloss.IGradientRenderer.UpdateSteps(System.String,XFGloss.GradientStepCollection)">
+            <summary>
+            Updates the gradient steps. The property name specifies the attached bindable property that is being
+            updated, such as the BackgroundGradient property.
+            </summary>
+            <param name="propertyName">The name of the attached bindable property that is being updated.</param>
+            <param name="steps">A <see cref="T:XFGloss.GradientStepCollection"/> of <see cref="T:XFGloss.GradientStep"/>
+            instances that specify the <see cref="T:Xamarin.Forms.Color"/> value and fill percentage (a double value
+            between 0, which indicates the beginning of the fill, and 1, which indicates the end of the fill).</param>
+        </member>
+        <member name="T:XFGloss.IXFGlossRenderer">
+            <summary>
+            Methods to be implemented in the platform-specific XFGlossRenderers. These methods are called by any 
+            XFGlossElement instance that a XFGlossRenderer registers with.
+            </summary>
+        </member>
+        <member name="M:XFGloss.IXFGlossRenderer.CanUpdate(System.String)">
+            <summary>
+            Indicates if an existing element's properties can be updated or a new instance must be created
+            </summary>
+            <returns><c>true</c>, if updating is possible, <c>false</c> otherwise.</returns>
+            <param name="propertyName">The attached BindableObject property name that a platform-specific implementation
+            is being created or updated for.</param>
+        </member>
+        <member name="M:XFGloss.IXFGlossRenderer.CreateNativeElement``1(System.String,``0)">
+            <summary>
+            Requests a platform-specific implementation of the specified attached BindableObject property name be created.
+            </summary>
+            <param name="propertyName">The attached BindableObject property name that a platform-specific implementation
+            is being created for.</param>
+            <param name="element">The <see cref="T:XFGloss.XFGlossElement"/>-based class instance that the 
+            platform-specific implementation is needed for.</param>
+            <typeparam name="TElement">The class type of the <see cref="T:XFGloss.XFGlossElement"/>-based class.
+            </typeparam>
+        </member>
+        <member name="M:XFGloss.IXFGlossRenderer.RemoveNativeElement(System.String)">
+            <summary>
+            Requests the platform-specific implementation for the specified attached BindableObject property name be
+            removed.
+            </summary>
+            <param name="propertyName">The attached BindableObject property name that a platform-specific implementation
+            is being removed for.</param>
+        </member>
+        <member name="T:XFGloss.XFGlossCellRenderer">
+            <summary>
+            Empty base class used by XFGlossCellRendererLocator and inherited from below in the cross-platform implementation
+            </summary>
+        </member>
+        <member name="T:XFGloss.XFGlossCellRenderer`1">
+            <summary>
+            The base cross-platform XFGloss cell renderer class used by the platform-specific implementations. Used to 
+            manage tracking of property changes in the associated <see cref="T:Xamarin.Forms.Cell"/>-derived classes and
+            their platform-specific implementations.
+            </summary>
+        </member>
+        <member name="M:XFGloss.XFGlossCellRenderer`1.UpdateProperties(Xamarin.Forms.Cell,`0,System.Func{XFGloss.XFGlossCellRenderer{`0}})">
+            <summary>
+            Static method called from the platform-specific XFGlossCellRenderer classes to apply current or updated
+            property values to the platform-specific feature implementations
+            </summary>
+            <param name="cell">The associated <see cref="T:Xamarin.Forms.Cell"/> instance</param>
+            <param name="nativeCell">The platform-specific native cell component instance</param>
+            <param name="createRendererFunc">A factory function used to create a new platform-specific 
+            XFGlossCellRenderer-derived class instance if one doesn't currently exist.</param>
+        </member>
+        <member name="M:XFGloss.XFGlossCellRenderer`1.UpdateProperties(System.String)">
+            <summary>
+            Convenience method to retrieve XF and native cell instance references when only the property being changed 
+            is available.
+            </summary>
+            <param name="propertyName">Property name.</param>
+        </member>
+        <member name="M:XFGloss.XFGlossCellRenderer`1.UpdateProperties(Xamarin.Forms.Cell,`0,System.String)">
+            <summary>
+            This method should be implemented by inheriting platform-specific classes and properties should be applied
+            to the native elements.
+            </summary>
+            <param name="cell">The associated <see cref="T:Xamarin.Forms.Cell"/>-derived class instance</param>
+            <param name="nativeCell">The platform-specific native cell control class instance</param>
+            <param name="propertyName">The name of the property whose value has changed</param>
+        </member>
+        <member name="M:XFGloss.XFGlossCellRenderer`1.Dispose">
+            <summary>
+            Releases all resources used by the <see cref="T:XFGloss.XFGlossCellRenderer"/> object.
+            </summary>
+            <remarks>Call <see cref="M:XFGloss.XFGlossCellRenderer`1.Dispose"/> when you are finished using the <see cref="T:XFGloss.XFGlossCellRenderer"/>. The
+            <see cref="M:XFGloss.XFGlossCellRenderer`1.Dispose"/> method leaves the <see cref="T:XFGloss.XFGlossCellRenderer"/> in an unusable state. After
+            calling <see cref="M:XFGloss.XFGlossCellRenderer`1.Dispose"/>, you must release all references to the
+            <see cref="T:XFGloss.XFGlossCellRenderer"/> so the garbage collector can reclaim the memory that the
+            <see cref="T:XFGloss.XFGlossCellRenderer"/> was occupying.</remarks>
+        </member>
+        <member name="M:XFGloss.XFGlossCellRenderer`1.GetCell">
+            <summary>
+            Gets a strong reference to the <see cref="T:Xamarin.Forms.Cell"/>-based class instance if it is still
+            available.
+            </summary>
+            <returns>A <see cref="T:Xamarin.Forms.Cell/> instance if the associated cell hasn't been garbage 
+            collected."/></returns>
+        </member>
+        <member name="M:XFGloss.XFGlossCellRenderer`1.GetNativeCell">
+            <summary>
+            Gets a strong reference to the platform-specific cell control-based class instance if it is still
+            available.
+            </summary>
+            <returns>A platform-specific cell control's instance if the associated instance hasn't been garbage 
+            collected."/></returns>
+        </member>
+        <member name="M:XFGloss.XFGlossCellRenderer`1.GetCells(Xamarin.Forms.Cell@,`0@)">
+            <summary>
+            Gets strong references to both the <see cref="T:Xamarin.Forms.Cell"/>-derived class instance and the
+            platform-specific cell control instance if they haven't been garbage collected.
+            </summary>
+            <returns><c>true</c>, if both cell controls are still available, <c>false</c> otherwise.</returns>
+            <param name="cell">A <see cref="T:Xamarin.Forms.Cell"/> field/property to assign the Cell to if it is
+            still available</param>
+            <param name="nativeCell">A platform-specific field/property to assign the native cell to if it is still
+            available.</param>
+        </member>
+        <member name="M:XFGloss.XFGlossCellRenderer`1.BindablePropertyChangingHandler(System.Object,Xamarin.Forms.PropertyChangingEventArgs)">
+            <summary>
+            Private event handler needed to redirect call to a virtual method that can be overridden by deriving classes.
+            </summary>
+            <param name="sender">Sender.</param>
+            <param name="args">Arguments.</param>
+        </member>
+        <member name="M:XFGloss.XFGlossCellRenderer`1.ElementPropertyChanging(System.Object,Xamarin.Forms.PropertyChangingEventArgs)">
+            <summary>
+            A virtual method that is called whenever the PropertyChanging event has been fired for the associated
+            <see cref="T:Xamarin.Forms.Cell"/> instance.
+            </summary>
+            <param name="sender">Sender.</param>
+            <param name="args">Arguments.</param>
+        </member>
+        <member name="M:XFGloss.XFGlossCellRenderer`1.BindablePropertyChangedHandler(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Private event handler needed to redirect call to a virtual method that can be overridden by deriving classes.
+            </summary>
+            <param name="sender">Sender.</param>
+            <param name="args">Arguments.</param>
+        </member>
+        <member name="M:XFGloss.XFGlossCellRenderer`1.ElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            A virtual method that is called whenever the PropertyChanged event has been fired for the associated
+            <see cref="T:Xamarin.Forms.Cell"/> instance.
+            </summary>
+            <param name="sender">Sender.</param>
+            <param name="args">Arguments.</param>
+        </member>
+        <member name="T:XFGloss.XFGlossCellRendererLocator">
+            <summary>
+            Locator base class containing a single static list of <see cref="T:XFGloss.XFGlossCellRenderer"/> instances
+            </summary>
+        </member>
+        <member name="T:XFGloss.XFGlossCellRendererLocator`1">
+            <summary>
+            XFGlossCellRenderer locator class used to track and locate <see cref="T:XFGloss.XFGlossCellRenderer"/> 
+            instances when needed.
+            </summary>
+        </member>
+        <member name="M:XFGloss.XFGlossCellRendererLocator`1.GetRenderer(Xamarin.Forms.Cell,`0)">
+            <summary>
+            Locates a previously created <see cref="T:XFGloss.XFGlossCellRenderer"/> instance for the provided
+            <see cref="T:Xamarin.Forms.Cell"/> and platform-specific native cell component instance if one exists.
+            </summary>
+            <returns>The <see cref="T:XFGloss.XFGlossCellRenderer"/> instance if found or null if not found.</returns>
+            <param name="cell">The <see cref="T:Xamarin.Forms.Cell"/> instance</param>
+            <param name="nativeCell">The platform-specific native cell component instance</param>
+        </member>
+        <member name="M:XFGloss.XFGlossCellRendererLocator`1.AddRenderer(XFGloss.XFGlossCellRenderer{`0})">
+            <summary>
+            Adds a <see cref="T:XFGloss.XFGlossCellRenderer"/> instance to the locator for tracking
+            </summary>
+            <param name="renderer">The <see cref="T:XFGloss.XFGlossCellRenderer"/> to be tracked.</param>
+        </member>
+        <member name="M:XFGloss.XFGlossCellRendererLocator`1.RemoveRenderer(XFGloss.XFGlossCellRenderer{`0})">
+            <summary>
+            Removes the <see cref="T:XFGloss.XFGlossCellRenderer"/> instance from the locator list if found.
+            </summary>
+            <returns><c>true</c>, if renderer was removed, <c>false</c> otherwise.</returns>
+            <param name="renderer">The <see cref="T:XFGloss.XFGlossCellRenderer"/> that should no longer be tracked.
+            </param>
+        </member>
+        <member name="T:XFGloss.PreserveAttribute">
+            <summary>
+            Preserve attribute used to instruct Xamarin linkers to not exclude classes/methods
+            </summary>
+        </member>
+        <member name="F:XFGloss.PreserveAttribute.AllMembers">
+            <summary>
+            Specifies that all members should be preserved when attribute is applied to a class
+            </summary>
+        </member>
+        <member name="F:XFGloss.PreserveAttribute.Conditional">
+            <summary>
+            Specifies that class/method that attribute is applied to should only be preserved if a containing class is preserved.
+            </summary>
+        </member>
+    </members>
+</doc>

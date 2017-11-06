@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:EspePocket.Pages;assembly=EspePocket"
+             x:Class="EspePocket.Pages.Matriculacion"
+             xmlns:xfg="clr-namespace:XFGloss;assembly=XFGloss"
+             Title="Matrículas">
+    <xfg:ContentPageGloss.BackgroundGradient>
+        <xfg:Gradient Rotation="180">
+            <xfg:GradientStep StepColor="#1d70b7" StepPercentage="0.4" />
+            <xfg:GradientStep StepColor="#7d2081" StepPercentage="0.8" />
+            <xfg:GradientStep StepColor="#2c225f" StepPercentage="1" />
+        </xfg:Gradient>
+    </xfg:ContentPageGloss.BackgroundGradient>
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <Grid ColumnSpacing="10" RowSpacing="20">
+        
+        <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+       
+        <controls:MainPageButton Grid.Row="0" Grid.Column="0" Icon="cupos.png" Label="Ver Cupos">
+                    <controls:MainPageButton.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Cupos" />
+                    </controls:MainPageButton.GestureRecognizers>
+                </controls:MainPageButton>
+
+                <controls:MainPageButton Grid.Row="0" Grid.Column="1" Icon="caler.png"
+                                        Label="Calendario Actividades">
+                    <controls:MainPageButton.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Calendario" />
+                    </controls:MainPageButton.GestureRecognizers>
+                </controls:MainPageButton>
+
+                <controls:MainPageButton Grid.Row="0" Grid.Column="2" Icon="materia.png"
+                                        Label="Búsqueda NRCs">
+                    <controls:MainPageButton.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Materia" />
+                    </controls:MainPageButton.GestureRecognizers>
+                </controls:MainPageButton>
+                <controls:MainPageButton Grid.Row="0" Grid.Column="3" Icon="pers.png"
+                                        Label="Listas Estudiantes">
+                    <controls:MainPageButton.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Listas" />
+                    </controls:MainPageButton.GestureRecognizers>
+                </controls:MainPageButton>
+                <controls:MainPageButton Grid.Row="1" Grid.Column="0" Icon="matri.png"
+                                        Label="Día Matrícula">
+                    <controls:MainPageButton.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Matricula" />
+                    </controls:MainPageButton.GestureRecognizers>
+                </controls:MainPageButton>
+                <controls:MainPageButton Grid.Row="1" Grid.Column="1" Icon="reading.png"
+                                        Label="Consultar MiID">
+                    <controls:MainPageButton.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="BuscaID" />
+                    </controls:MainPageButton.GestureRecognizers>
+                </controls:MainPageButton>
+            <controls:MainPageButton Grid.Row="1" Grid.Column="2" Icon="graduates.png"
+                                        Label="Listas Estudiantes (Inglés)">
+                <controls:MainPageButton.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="ListasI" />
+                </controls:MainPageButton.GestureRecognizers>
+            </controls:MainPageButton>
+        
+    </Grid>
+    </StackLayout>
+</ContentPage>

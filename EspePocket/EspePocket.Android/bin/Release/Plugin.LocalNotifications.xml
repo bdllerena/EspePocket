@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.LocalNotifications</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.LocalNotifications.CrossLocalNotifications">
+            <summary>
+            Access Cross Local Notifictions
+            </summary>
+        </member>
+        <member name="P:Plugin.LocalNotifications.CrossLocalNotifications.Current">
+            <summary>
+            Gets the current platform specific ILocalNotifications implementation.
+            </summary>
+        </member>
+        <member name="T:Plugin.LocalNotifications.LocalNotificationsImplementation">
+            <summary>
+            Local Notifications implementation for Android
+            </summary>
+        </member>
+        <member name="P:Plugin.LocalNotifications.LocalNotificationsImplementation.NotificationIconId">
+            <summary>
+            Get or Set Resource Icon to display
+            </summary>
+        </member>
+        <member name="M:Plugin.LocalNotifications.LocalNotificationsImplementation.Show(System.String,System.String,System.Int32)">
+            <summary>
+            Show a local notification
+            </summary>
+            <param name="title">Title of the notification</param>
+            <param name="body">Body or description of the notification</param>
+            <param name="id">Id of the notification</param>
+        </member>
+        <member name="M:Plugin.LocalNotifications.LocalNotificationsImplementation.Show(System.String,System.String,System.Int32,System.DateTime)">
+            <summary>
+            Show a local notification at a specified time
+            </summary>
+            <param name="title">Title of the notification</param>
+            <param name="body">Body or description of the notification</param>
+            <param name="id">Id of the notification</param>
+            <param name="notifyTime">Time to show notification</param>
+        </member>
+        <member name="M:Plugin.LocalNotifications.LocalNotificationsImplementation.Cancel(System.Int32)">
+            <summary>
+            Cancel a local notification
+            </summary>
+            <param name="id">Id of the notification to cancel</param>
+        </member>
+        <member name="T:Plugin.LocalNotifications.ScheduledAlarmHandler">
+            <summary>
+            Broadcast receiver
+            </summary>
+        </member>
+        <member name="F:Plugin.LocalNotifications.ScheduledAlarmHandler.LocalNotificationKey">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Plugin.LocalNotifications.ScheduledAlarmHandler.OnReceive(Android.Content.Context,Android.Content.Intent)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+            <param name="intent"></param>
+        </member>
+    </members>
+</doc>

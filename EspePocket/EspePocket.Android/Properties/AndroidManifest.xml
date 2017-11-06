@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="ec.espe.espepockets" android:versionName="1.3.0 - Bear" android:versionCode="4">
+	<uses-sdk android:minSdkVersion="14" />
+	<application android:label="EspePocket" android:icon="@drawable/icon" android:theme="@android:style/Theme.Holo.Light"></application>
+</manifest>

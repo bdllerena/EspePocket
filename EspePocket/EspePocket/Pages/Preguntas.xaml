@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EspePocket.Pages.Preguntas"
+             xmlns:xfg="clr-namespace:XFGloss;assembly=XFGloss"
+             Title="Preguntas Frecuentes">
+    <xfg:ContentPageGloss.BackgroundGradient>
+        <xfg:Gradient Rotation="150">
+            <xfg:GradientStep StepColor="#03A9F4" StepPercentage="0" />
+            <xfg:GradientStep StepColor="#303F9F" StepPercentage="1" />
+        </xfg:Gradient>
+    </xfg:ContentPageGloss.BackgroundGradient>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout x:Name="label1" Padding="24,0" VerticalOptions="Start">
+                <Label x:Name="q1" TextColor="White" FontSize="Large" FontAttributes="Italic" AutomationId="label1" Text="{Binding Context}" HorizontalOptions="Center" />
+                <Label x:Name="a1" TextColor="White" FontSize="Medium" FontAttributes="Bold" AutomationId="label2" Text="{Binding Context}" HorizontalOptions="Center" />
+                <Label x:Name="q2" TextColor="White" FontSize="Large" FontAttributes="Italic" AutomationId="label1" Text="{Binding Context}" HorizontalOptions="Center" />
+                <Label x:Name="a2" TextColor="White" FontSize="Medium" FontAttributes="Bold" AutomationId="label2" Text="{Binding Context}" HorizontalOptions="Center" />
+                <Label x:Name="q3" TextColor="White" FontSize="Large" FontAttributes="Italic" AutomationId="label1" Text="{Binding Context}" HorizontalOptions="Center" />
+                <Label x:Name="a3" TextColor="White" FontSize="Medium" FontAttributes="Bold" AutomationId="label2" Text="{Binding Context}" HorizontalOptions="Center" />
+                <Label x:Name="q4" TextColor="White" FontSize="Large" FontAttributes="Italic" AutomationId="label1" Text="{Binding Context}" HorizontalOptions="Center" />
+                <Label x:Name="a4" TextColor="White" FontSize="Medium" FontAttributes="Bold" AutomationId="label2" Text="{Binding Context}" HorizontalOptions="Center" />
+                <Label x:Name="q5" TextColor="White" FontSize="Large" FontAttributes="Italic" AutomationId="label1" Text="{Binding Context}" HorizontalOptions="Center" />
+                <Label x:Name="a5" TextColor="White" FontSize="Medium" FontAttributes="Bold" AutomationId="label2" Text="{Binding Context}" HorizontalOptions="Center" />
+                <Label x:Name="q6" TextColor="White" FontSize="Large" FontAttributes="Italic" AutomationId="label1" Text="{Binding Context}" HorizontalOptions="Center" />
+                <Label x:Name="a6" TextColor="White" FontSize="Medium" FontAttributes="Bold" AutomationId="label2" Text="{Binding Context}" HorizontalOptions="Center" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

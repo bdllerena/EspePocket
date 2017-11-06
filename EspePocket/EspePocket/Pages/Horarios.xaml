@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EspePocket.Pages.Horarios"
+             xmlns:local="clr-namespace:EspePocket.Models"
+             Title="Horarios">
+    <Grid x:Name="Grids" IsClippedToBounds="false">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackLayout >
+            <Entry x:Name="cedula" Keyboard="Numeric" Placeholder="Ingrese su cédula">
+                <Entry.Behaviors>
+                    <local:MaxLengthValidator  MaxLength="10"/>
+                </Entry.Behaviors>
+            </Entry>
+            <Button   Text="Buscar"  Clicked="Button_Buscar"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>

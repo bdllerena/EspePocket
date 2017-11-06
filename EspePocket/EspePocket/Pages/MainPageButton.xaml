@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EspePocket.Pages.MainPageButton">
+    <StackLayout Orientation="Vertical">
+
+        <Image x:Name="SwitchboardIcon" 
+               HorizontalOptions="Center" 
+               Source="{Binding Icon}"/>
+
+        <Label x:Name="SwitchboardLabel" 
+              HorizontalTextAlignment="Center"
+               FontSize="Small"
+               HorizontalOptions="Center"
+               FontAttributes="Bold"
+               Text="{Binding Label}"
+               TextColor="White" />
+
+    </StackLayout>
+</ContentView> 
