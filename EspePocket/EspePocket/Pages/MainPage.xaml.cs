@@ -12,17 +12,16 @@ namespace EspePocket.Pages
             InitializeComponent();
 
         }
-         async void Boton_VerMiEspe(object sender, EventArgs e)
+        async void Boton_VerClubs(object sender, EventArgs args)
         {
             var stack = Navigation.NavigationStack;
-            if (stack[stack.Count - 1].GetType() != typeof(MiEspe))
-                await Navigation.PushAsync(new MiEspe());
+            if (stack[stack.Count - 1].GetType() != typeof(Clubs))
+                await Navigation.PushAsync(new Clubs());
+
         }
         public void Boton_CambiarTema(object sender, EventArgs args)
         {
-
             ((App)Application.Current).SwitchTheme();
-
         }
         async void Boton_VerHerramientas(object sender, EventArgs args)
         {
@@ -34,7 +33,7 @@ namespace EspePocket.Pages
         async void Boton_VerReglamento(object sender, EventArgs args)
         {
             var stack = Navigation.NavigationStack;
-            if (stack[stack.Count - 1].GetType() != typeof(Herramientas))
+            if (stack[stack.Count - 1].GetType() != typeof(Reglamento))
                 await Navigation.PushAsync(new Reglamento());
 
         }
@@ -48,9 +47,8 @@ namespace EspePocket.Pages
         async void Boton_VerMatricula(object sender, EventArgs args)
         {
             var stack = Navigation.NavigationStack;
-            if (stack[stack.Count - 1].GetType() != typeof(Matriculacion))
-                await Navigation.PushAsync(new Matriculacion());
-            //this.Navigation.PushAsync(new Matriculacion());
+            if (stack[stack.Count - 1].GetType() != typeof(Consultar))
+                await Navigation.PushAsync(new Consultar());
 
         }
         async void Boton_VerPreguntas(object sender, EventArgs args)
@@ -59,5 +57,13 @@ namespace EspePocket.Pages
             if (stack[stack.Count - 1].GetType() != typeof(Preguntas))
                 await Navigation.PushAsync(new Preguntas());
         }
+        async void Boton_VerContacto(object sender, EventArgs args)
+        {
+            var stack = Navigation.NavigationStack;
+            if (stack[stack.Count - 1].GetType() != typeof(Contacto))
+                await Navigation.PushAsync(new Contacto());
+        }
+        public void Boton_VerMiEspe(object sender, EventArgs args) => Device.OpenUri(new Uri("https://miespe.espe.edu.ec"));
+        public void Boton_VerApps(object sender, EventArgs args) => Device.OpenUri(new Uri("https://play.google.com/store/apps/developer?id=JBSYS"));
     }
 }

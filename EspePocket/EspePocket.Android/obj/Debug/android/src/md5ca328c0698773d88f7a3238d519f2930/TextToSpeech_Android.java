@@ -17,7 +17,7 @@ public class TextToSpeech_Android
 	}
 
 
-	public TextToSpeech_Android () throws java.lang.Throwable
+	public TextToSpeech_Android ()
 	{
 		super ();
 		if (getClass () == TextToSpeech_Android.class)

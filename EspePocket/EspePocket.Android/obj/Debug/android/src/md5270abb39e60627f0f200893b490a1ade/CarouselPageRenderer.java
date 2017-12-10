@@ -14,15 +14,15 @@ public class CarouselPageRenderer
 			"n_onAttachedToWindow:()V:GetOnAttachedToWindowHandler\n" +
 			"n_onDetachedFromWindow:()V:GetOnDetachedFromWindowHandler\n" +
 			"n_onLayout:(ZIIII)V:GetOnLayout_ZIIIIHandler\n" +
-			"n_onPageScrollStateChanged:(I)V:GetOnPageScrollStateChanged_IHandler:Android.Support.V4.View.ViewPager/IOnPageChangeListenerInvoker, Xamarin.Android.Support.v4\n" +
-			"n_onPageScrolled:(IFI)V:GetOnPageScrolled_IFIHandler:Android.Support.V4.View.ViewPager/IOnPageChangeListenerInvoker, Xamarin.Android.Support.v4\n" +
-			"n_onPageSelected:(I)V:GetOnPageSelected_IHandler:Android.Support.V4.View.ViewPager/IOnPageChangeListenerInvoker, Xamarin.Android.Support.v4\n" +
+			"n_onPageScrollStateChanged:(I)V:GetOnPageScrollStateChanged_IHandler:Android.Support.V4.View.ViewPager/IOnPageChangeListenerInvoker, Xamarin.Android.Support.Core.UI\n" +
+			"n_onPageScrolled:(IFI)V:GetOnPageScrolled_IFIHandler:Android.Support.V4.View.ViewPager/IOnPageChangeListenerInvoker, Xamarin.Android.Support.Core.UI\n" +
+			"n_onPageSelected:(I)V:GetOnPageSelected_IHandler:Android.Support.V4.View.ViewPager/IOnPageChangeListenerInvoker, Xamarin.Android.Support.Core.UI\n" +
 			"";
 		mono.android.Runtime.register ("Xamarin.Forms.Platform.Android.AppCompat.CarouselPageRenderer, Xamarin.Forms.Platform.Android, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null", CarouselPageRenderer.class, __md_methods);
 	}
 
 
-	public CarouselPageRenderer (android.content.Context p0, android.util.AttributeSet p1, int p2) throws java.lang.Throwable
+	public CarouselPageRenderer (android.content.Context p0, android.util.AttributeSet p1, int p2)
 	{
 		super (p0, p1, p2);
 		if (getClass () == CarouselPageRenderer.class)
@@ -30,7 +30,7 @@ public class CarouselPageRenderer
 	}
 
 
-	public CarouselPageRenderer (android.content.Context p0, android.util.AttributeSet p1) throws java.lang.Throwable
+	public CarouselPageRenderer (android.content.Context p0, android.util.AttributeSet p1)
 	{
 		super (p0, p1);
 		if (getClass () == CarouselPageRenderer.class)
@@ -38,7 +38,7 @@ public class CarouselPageRenderer
 	}
 
 
-	public CarouselPageRenderer (android.content.Context p0) throws java.lang.Throwable
+	public CarouselPageRenderer (android.content.Context p0)
 	{
 		super (p0);
 		if (getClass () == CarouselPageRenderer.class)

@@ -38,6 +38,13 @@ public class MonoPackageManager {
 				String cacheDir     = context.getCacheDir ().getAbsolutePath ();
 				String dataDir      = getNativeLibraryPath (context);
 				ClassLoader loader  = context.getClassLoader ();
+				java.io.File external0 = android.os.Environment.getExternalStorageDirectory ();
+				String externalDir = new java.io.File (
+							external0,
+							"Android/data/" + context.getPackageName () + "/files/.__override__").getAbsolutePath ();
+				String externalLegacyDir = new java.io.File (
+							external0,
+							"../legacy/Android/data/" + context.getPackageName () + "/files/.__override__").getAbsolutePath ();
 
 				Runtime.init (
 						language,
@@ -49,9 +56,10 @@ public class MonoPackageManager {
 							dataDir,
 						},
 						loader,
-						new java.io.File (
-							android.os.Environment.getExternalStorageDirectory (),
-							"Android/data/" + context.getPackageName () + "/files/.__override__").getAbsolutePath (),
+						new String[] {
+							externalDir,
+							externalLegacyDir
+						},
 						MonoPackageManager_Resources.Assemblies,
 						context.getPackageName ());
 				
@@ -109,27 +117,45 @@ class MonoPackageManager_Resources {
 		"SQLitePCLRaw.core.dll",
 		"SQLitePCLRaw.lib.e_sqlite3.dll",
 		"SQLitePCLRaw.provider.e_sqlite3.dll",
+		"Xamarin.Android.Arch.Core.Common.dll",
+		"Xamarin.Android.Arch.Lifecycle.Common.dll",
+		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
+		"Xamarin.Android.Support.Annotations.dll",
+		"Xamarin.Android.Support.Compat.dll",
+		"Xamarin.Android.Support.Core.UI.dll",
+		"Xamarin.Android.Support.Core.Utils.dll",
 		"Xamarin.Android.Support.Design.dll",
+		"Xamarin.Android.Support.Fragment.dll",
+		"Xamarin.Android.Support.Media.Compat.dll",
+		"Xamarin.Android.Support.Transition.dll",
 		"Xamarin.Android.Support.v4.dll",
 		"Xamarin.Android.Support.v7.AppCompat.dll",
 		"Xamarin.Android.Support.v7.CardView.dll",
 		"Xamarin.Android.Support.v7.MediaRouter.dll",
+		"Xamarin.Android.Support.v7.Palette.dll",
 		"Xamarin.Android.Support.v7.RecyclerView.dll",
 		"Xamarin.Android.Support.Vector.Drawable.dll",
 		"Xamarin.Forms.Core.dll",
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
+		"Xamarin.GooglePlayServices.Ads.dll",
+		"Xamarin.GooglePlayServices.Ads.Lite.dll",
+		"Xamarin.GooglePlayServices.Base.dll",
+		"Xamarin.GooglePlayServices.Basement.dll",
+		"Xamarin.GooglePlayServices.Clearcut.dll",
+		"Xamarin.GooglePlayServices.Gass.dll",
+		"Xamarin.GooglePlayServices.Tasks.dll",
 		"XFGloss.dll",
 		"XFGloss.Droid.dll",
-		"Xamarin.Forms.Theme.Light.dll",
+		"Xamarin.Forms.Theme.Dark.dll",
 		"Xamarin.Forms.Pages.dll",
 		"Newtonsoft.Json.dll",
 		"Xamarin.Forms.Theme.Base.dll",
-		"Xamarin.Forms.Theme.Dark.dll",
+		"Xamarin.Forms.Theme.Light.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_25";
+	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_26";
 }

@@ -6,43 +6,37 @@
              x:Class="EspePocket.Pages.Contacto"
              Title="Contacto">
     <xfg:ContentPageGloss.BackgroundGradient>
-        <xfg:Gradient Rotation="150">
-            <xfg:GradientStep StepColor="Black" StepPercentage="0" />
-            <xfg:GradientStep StepColor="White" StepPercentage="1" />
-            <!-- <xfg:GradientStep StepColor="#9C27B0" StepPercentage="0" />
-            <xfg:GradientStep StepColor="#E91E63" StepPercentage="1" />-->
+        <xfg:Gradient Rotation="180">
+            <xfg:GradientStep StepColor="#1B5E20  " StepPercentage="0.5" />
+            <xfg:GradientStep StepColor="#388E3C " StepPercentage="1" />
         </xfg:Gradient>
     </xfg:ContentPageGloss.BackgroundGradient>
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout>
-                <Image  Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Start" Source="escudo.png" />
-                <Label TextColor="White" FontSize="Medium" HorizontalTextAlignment="Center" HorizontalOptions="Center"  Text="EspePocket es una aplicación para estudiantes cuya finalidad es recopilar y crear herramientas e información útiles para la vida universitaria."/>
-                <Label TextColor="White" FontSize="Medium" HorizontalTextAlignment="Center" HorizontalOptions="Center"  Text="Recuerda apoyarnos calificando la app, una valoración de 5 estrellas nos incentiva a seguir mejorándola."/>
-                <Label TextColor="White" FontSize="Medium" HorizontalTextAlignment="Center" HorizontalOptions="Center" Text="¿Tuviste algún problema con la aplicación? ¿Tienes una inquietud o sugerencia escríbenos a espepocketsoporte@gmail.com."/>
-                <Grid HorizontalOptions="Center" VerticalOptions="End">
-                    <controls:MainPageButton Grid.Row="0" Grid.Column="0" Icon="gmail.png"
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Image  HorizontalOptions="Center" HeightRequest="200"  WidthRequest="200" VerticalOptions="Start" Source="nuevoLogoTra.png" />
+            <Label TextColor="White" FontSize="Medium" HorizontalTextAlignment="Center" HorizontalOptions="Center"  Text="EspePocket es una aplicación para estudiantes cuya finalidad es recopilar y crear herramientas e información útiles para la vida universitaria."/>
+            <Grid>
+                <controls:MainPageButton Grid.Column="0" Icon="gmail.png"
                                         Label="Contáctanos">
-                        <controls:MainPageButton.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="Email" />
-                        </controls:MainPageButton.GestureRecognizers>
-                    </controls:MainPageButton>
+                    <controls:MainPageButton.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Email" />
+                    </controls:MainPageButton.GestureRecognizers>
+                </controls:MainPageButton>
 
-                    <controls:MainPageButton Grid.Row="0" Grid.Column="1" Icon="facebook.png"
+                <controls:MainPageButton  Grid.Column="1" Icon="facebook.png"
                                         Label="Síguenos">
-                        <controls:MainPageButton.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="Facebook" />
-                        </controls:MainPageButton.GestureRecognizers>
-                    </controls:MainPageButton>
-                    <controls:MainPageButton Grid.Row="0" Grid.Column="2" Icon="rating.png"
+                    <controls:MainPageButton.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Facebook" />
+                    </controls:MainPageButton.GestureRecognizers>
+                </controls:MainPageButton>
+                <controls:MainPageButton  Grid.Column="2" Icon="rating.png"
                                         Label="Calíficanos">
-                        <controls:MainPageButton.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="Rating" />
-                        </controls:MainPageButton.GestureRecognizers>
-                    </controls:MainPageButton>
-                </Grid>
-                <Label  TextColor="Black"  FontSize="Large" FontAttributes="Bold"  HorizontalOptions="Center" Text="EspePocket - 2017 "/>
-            </StackLayout>
-        </ScrollView>
+                    <controls:MainPageButton.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Rating" />
+                    </controls:MainPageButton.GestureRecognizers>
+                </controls:MainPageButton>
+            </Grid>
+            <Label FontSize="Large" FontAttributes="Bold"  TextColor="White" HorizontalOptions="Center" Text="EspePocket - 2017 "/>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

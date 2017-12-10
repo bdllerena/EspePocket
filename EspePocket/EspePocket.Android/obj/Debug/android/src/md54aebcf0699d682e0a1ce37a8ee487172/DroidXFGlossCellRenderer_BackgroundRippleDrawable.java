@@ -17,7 +17,7 @@ public class DroidXFGlossCellRenderer_BackgroundRippleDrawable
 	}
 
 
-	public DroidXFGlossCellRenderer_BackgroundRippleDrawable (android.content.res.ColorStateList p0, android.graphics.drawable.Drawable p1, android.graphics.drawable.Drawable p2) throws java.lang.Throwable
+	public DroidXFGlossCellRenderer_BackgroundRippleDrawable (android.content.res.ColorStateList p0, android.graphics.drawable.Drawable p1, android.graphics.drawable.Drawable p2)
 	{
 		super (p0, p1, p2);
 		if (getClass () == DroidXFGlossCellRenderer_BackgroundRippleDrawable.class)

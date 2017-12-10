@@ -16,7 +16,7 @@ public class XFGlossShaderFactory
 	}
 
 
-	public XFGlossShaderFactory () throws java.lang.Throwable
+	public XFGlossShaderFactory ()
 	{
 		super ();
 		if (getClass () == XFGlossShaderFactory.class)

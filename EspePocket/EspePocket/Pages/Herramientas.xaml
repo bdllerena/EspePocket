@@ -3,72 +3,25 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="EspePocket.Pages.Herramientas"
              xmlns:controls="clr-namespace:EspePocket.Pages;assembly=EspePocket"
+             xmlns:local="clr-namespace:EspePocket.Models"
              xmlns:xfg="clr-namespace:XFGloss;assembly=XFGloss"
-             Title="Herramientas Útiles">
+             Title="Mis Cosas">
     <xfg:ContentPageGloss.BackgroundGradient>
-        <xfg:Gradient Rotation="150">
-            <xfg:GradientStep StepColor="#313c48" StepPercentage="0" />
-            <xfg:GradientStep StepColor="White" StepPercentage="1" />
+        <xfg:Gradient Rotation="180">
+            <xfg:GradientStep StepColor="#132326" StepPercentage="0.85" />
+            <xfg:GradientStep StepColor="#ffd99b" StepPercentage="1" />
         </xfg:Gradient>
     </xfg:ContentPageGloss.BackgroundGradient>
-    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-        <Grid ColumnSpacing="10" RowSpacing="20">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
-
-            <controls:MainPageButton Grid.Row="0" Grid.Column="0" Icon="writ.png" Label="Lista De Tareas">
-                <controls:MainPageButton.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="Tareas" />
-                </controls:MainPageButton.GestureRecognizers>
-            </controls:MainPageButton>
-            <controls:MainPageButton Grid.Row="0" Grid.Column="1" Icon="horarios.png"
-                                        Label="Imprimir Horario">
-                <controls:MainPageButton.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="Horarios" />
-                </controls:MainPageButton.GestureRecognizers>
-            </controls:MainPageButton>
-            <controls:MainPageButton Grid.Row="0" Grid.Column="2" Icon="tap.png"
-                                        Label="Armar Tu Horario (Beta)">
-                <controls:MainPageButton.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="Armar" />
-                </controls:MainPageButton.GestureRecognizers>
-            </controls:MainPageButton>
-            <controls:MainPageButton Grid.Row="0" Grid.Column="3" Icon="calcula.png"
-                                        Label="Calcular Notas">
-                <controls:MainPageButton.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="Calcular" />
-                </controls:MainPageButton.GestureRecognizers>
-            </controls:MainPageButton>
-            <controls:MainPageButton Grid.Row="1" Grid.Column="0" Icon="job.png"
-                                        Label="Referencia Docentes">
-                <controls:MainPageButton.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="Docente" />
-                </controls:MainPageButton.GestureRecognizers>
-            </controls:MainPageButton>
-            <controls:MainPageButton Grid.Row="1" Grid.Column="1" Icon="librose.png"
-                                        Label="BuscarLibros (E-Books)">
-                <controls:MainPageButton.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="LibrosE" />
-                </controls:MainPageButton.GestureRecognizers>
-            </controls:MainPageButton>
-            <controls:MainPageButton Grid.Row="1" Grid.Column="2" Icon="libros.png"
-                                        Label="BuscarLibros (Físicos)">
-                <controls:MainPageButton.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="LibrosF" />
-                </controls:MainPageButton.GestureRecognizers>
-            </controls:MainPageButton>
-            <controls:MainPageButton Grid.Row="1" Grid.Column="3" Icon="ebook.png"
-                                        Label="Imprimir ComprobanteMatrícula">
-                <controls:MainPageButton.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="Comprobante" />
-                </controls:MainPageButton.GestureRecognizers>
-            </controls:MainPageButton>
-        </Grid>
-    </StackLayout>
+    <ContentPage.Content>
+    <ScrollView Orientation="Vertical">
+            <StackLayout>
+                <Button Image="cosas.png" TextColor="White" FontAttributes="Bold" FontSize="Small" BackgroundColor="#A5D6A7" Clicked="Email" Text="¿Deseas ver más cosas? ¿Sugerencias o dudas? Contáctanos"/>
+                <local:PersonaBoton FontSize="14" FontAttributes="Bold" TextColor="White" BackgroundColor="#4CAF50"  Image="weekly.png"       Text="Calendario Académico" Clicked="Boton_VerCalendario"/>
+                <local:PersonaBoton FontSize="14" FontAttributes="Bold" TextColor="White" BackgroundColor="#2E7D32"  Image="abacus.png"       Text="Calculadora Promedios" Clicked="Boton_VerCalculadora"/>
+                <local:PersonaBoton FontSize="14" FontAttributes="Bold" TextColor="White" BackgroundColor="#4CAF50"  Image="books.png"        Text="Libros" Clicked="Boton_VerLibros" />
+                <local:PersonaBoton FontSize="14" FontAttributes="Bold" TextColor="White" BackgroundColor="#2E7D32"  Image="test.png"         Text="Escribir Notas" Clicked="Boton_VerNotas" />
+                <local:PersonaBoton FontSize="14" FontAttributes="Bold" TextColor="White" BackgroundColor="#4CAF50"  Image="basketball.png"   Text="Clubes" Clicked="Boton_VerClubs" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
 </ContentPage>

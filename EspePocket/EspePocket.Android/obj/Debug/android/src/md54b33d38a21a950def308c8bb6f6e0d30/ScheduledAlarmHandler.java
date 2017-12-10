@@ -16,7 +16,7 @@ public class ScheduledAlarmHandler
 	}
 
 
-	public ScheduledAlarmHandler () throws java.lang.Throwable
+	public ScheduledAlarmHandler ()
 	{
 		super ();
 		if (getClass () == ScheduledAlarmHandler.class)

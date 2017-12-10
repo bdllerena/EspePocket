@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="ec.espe.espepockets" android:versionName="1.3.0 - Bear" android:versionCode="4">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="ec.espe.espepockets" android:versionName="1.4.0" android:versionCode="5">
   <!--suppress UsesMinSdkAttributes-->
   <uses-sdk android:minSdkVersion="14" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <application android:label="EspePocket" android:icon="@drawable/icon" android:theme="@android:style/Theme.Holo.Light" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+  <application android:icon="@drawable/icon" android:label="EspePocket" android:name="android.support.multidex.MultiDexApplication" android:allowBackup="true" android:debuggable="true">
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    <activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:label="EspePocket" android:icon="@drawable/icon" />
     <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="EspePocket" android:theme="@style/MainTheme" android:name="md5ca328c0698773d88f7a3238d519f2930.MainActivity" />
     <activity android:noHistory="true" android:screenOrientation="portrait" android:theme="@style/Theme.Splash" android:name="md5ca328c0698773d88f7a3238d519f2930.SplashActivity">
       <intent-filter>
@@ -22,5 +25,11 @@
         <category android:name="mono.android.intent.category.SEPPUKU.ec.espe.espepockets" />
       </intent-filter>
     </receiver>
+    <meta-data android:name="android.arch.lifecycle.VERSION" android:value="27.0.0-SNAPSHOT" />
+    <meta-data android:name="android.support.VERSION" android:value="26.1.0" />
+    <!--Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+    <activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:theme="@android:style/Theme.Translucent" />
+    <activity android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity" android:theme="@style/Theme.IAPTheme" />
+    <activity android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:exported="false" />
   </application>
 </manifest>

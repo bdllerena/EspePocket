@@ -14,7 +14,7 @@ namespace EspePocket
         public App()
         {
             InitializeComponent();
-            Resources = new Xamarin.Forms.Themes.LightThemeResources();
+            Resources = new Xamarin.Forms.Themes.DarkThemeResources();
             MainPage = new NavigationPage(new MainPage());
             //MainPage = new TabAux();
 

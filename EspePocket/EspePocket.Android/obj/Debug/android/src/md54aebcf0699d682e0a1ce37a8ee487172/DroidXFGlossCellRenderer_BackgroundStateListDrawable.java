@@ -15,7 +15,7 @@ public class DroidXFGlossCellRenderer_BackgroundStateListDrawable
 	}
 
 
-	public DroidXFGlossCellRenderer_BackgroundStateListDrawable () throws java.lang.Throwable
+	public DroidXFGlossCellRenderer_BackgroundStateListDrawable ()
 	{
 		super ();
 		if (getClass () == DroidXFGlossCellRenderer_BackgroundStateListDrawable.class)

@@ -11,8 +11,8 @@
 namespace EspePocket.Pages {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\David\\Desktop\\EspePocketV4\\EspePocket\\EspePocket\\EspePocket\\Pages\\TodoIt" +
-        "emPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\David\\Documents\\GitHub\\EspePocket\\EspePocket\\EspePocket\\Pages\\TodoItemPa" +
+        "ge.xaml")]
     public partial class TodoItemPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

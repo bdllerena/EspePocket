@@ -16,5 +16,4 @@ namespace EspePocket.Pages
               Content = browser;  
         }
     }
-
 }

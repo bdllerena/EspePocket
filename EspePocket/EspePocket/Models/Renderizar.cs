@@ -49,5 +49,10 @@ namespace EspePocket.Models
             bindable.TextChanged -= Bindable_TextChanged;
 
         }
+
+    }
+    public class AdControlView : View
+    {
+        public AdControlView() { }
     }
 }

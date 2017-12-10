@@ -5,100 +5,32 @@
              xmlns:local="clr-namespace:EspePocket.Models"
              xmlns:xfg="clr-namespace:XFGloss;assembly=XFGloss"
              Title="Inicio">
-    
+
     <xfg:ContentPageGloss.BackgroundGradient>
-        <xfg:Gradient Rotation="150">
-            <xfg:GradientStep StepColor="#233649" StepPercentage="0" />
-            <xfg:GradientStep StepColor="#15212c" StepPercentage="1" />
+        <xfg:Gradient Rotation="180">
+            <xfg:GradientStep StepColor="#1B5E20  " StepPercentage="0.85" />
+            <xfg:GradientStep StepColor="#388E3C " StepPercentage="1" />
         </xfg:Gradient>
     </xfg:ContentPageGloss.BackgroundGradient>
     <ContentPage.ToolbarItems>
         <ToolbarItem  Icon="moon.png" Clicked="Boton_CambiarTema"/>
     </ContentPage.ToolbarItems>
-    <ScrollView>
-    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Start">
-            <Button Image="club.png" TextColor="White" FontAttributes="Bold" BackgroundColor="#1faece" Text="¿Ya te uniste a un club?"/>
-           <!-- <Button Text="Iniciar Sesión" TextColor="White" BackgroundColor="#3497db"/>-->
-            <Grid RowSpacing="15">
-                <local:PersonaBoton FontSize="14" FontAttributes="Bold" TextColor="White" BackgroundColor="#589fbf" Grid.Row="0"  Grid.Column="0" Image="miespe.png"    Text="MiEspe" Clicked="Boton_VerMiEspe"/>
-                <local:PersonaBoton FontSize="14" FontAttributes="Bold" TextColor="White" BackgroundColor="#fc4349" Grid.Row="0"  Grid.Column="1" Image="carreras.png"  Text="Carreras" Clicked="Boton_VerCarreras"/>
-                <local:PersonaBoton FontSize="14" FontAttributes="Bold" TextColor="White" BackgroundColor="#fc4349" Grid.Row="1"  Grid.Column="0" Image="matricula.png" Text="Matriculación" Clicked="Boton_VerMatricula"/>
-                <local:PersonaBoton FontSize="14" FontAttributes="Bold" TextColor="White" BackgroundColor="#589fbf" Grid.Row="2"  Grid.Column="0" Image="herramientas.png" Text="Herramientas" Clicked="Boton_VerHerramientas"/>
-                <local:PersonaBoton FontSize="14" FontAttributes="Bold" TextColor="White" BackgroundColor="#589fbf" Grid.Row="1"  Grid.Column="1" Image="reglas.png"    Text="Reglamento" Clicked="Boton_VerReglamento"/>
-                <local:PersonaBoton FontSize="14" FontAttributes="Bold" TextColor="White" BackgroundColor="#fc4349" Grid.Row="2"  Grid.Column="1" Image="preguntas.png" Text="Preguntas" Clicked="Boton_VerPreguntas"/>
-            </Grid>
-        </StackLayout>
-    </ScrollView>
-    <!--
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Text="+" Clicked="OnDoneButtonClicked">
-            <ToolbarItem.Icon>
-                <OnPlatform x:TypeArguments="FileImageSource" Android="moon.png" />
-            </ToolbarItem.Icon>
-        </ToolbarItem>
-    </ContentPage.ToolbarItems>
-    
-    <Grid RowSpacing="0">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-            <RowDefinition Height="38" />
-        </Grid.RowDefinitions>
-        <Image Grid.Row="0" Source="fondo2.jpg" Aspect="AspectFill"/>
-        <BoxView Grid.Row="1" Color="#3A444D" />
-        <StackLayout Grid.Row="1" Spacing="0" Padding="0" HorizontalOptions="Center" VerticalOptions="End">
-            <Label  TextColor="White"  FontSize="Small" HorizontalTextAlignment="Center"  HorizontalOptions="Center" Text="Contacto: espepocketsoporte@gmail.com"/>
-            <Label  TextColor="White"  FontSize="Small" HorizontalTextAlignment="Center"  HorizontalOptions="Center" Text="EspePocket - 2017 "/>
-        </StackLayout>
-        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-        <Grid Grid.Row="0" ColumnSpacing="10" RowSpacing="20">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
-            <controls:MainPageButton Grid.Row="0" Grid.Column="0" Icon="miespe.png"
-                                        Label="MiEspe">
-                <controls:MainPageButton.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="MiEspe" />
-                </controls:MainPageButton.GestureRecognizers>
-            </controls:MainPageButton>
-
-            <controls:MainPageButton Grid.Row="0" Grid.Column="1" Icon="car.png"
-                                        Label="Carreras">
-                <controls:MainPageButton.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="Carreras" />
-                </controls:MainPageButton.GestureRecognizers>
-            </controls:MainPageButton>
-            <controls:MainPageButton Grid.Row="0" Grid.Column="2" Icon="estudiar.png"
-                                        Label="Matriculación">
-                <controls:MainPageButton.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="Matriculacion" />
-                </controls:MainPageButton.GestureRecognizers>
-            </controls:MainPageButton>
-            <controls:MainPageButton Grid.Row="1" Grid.Column="0" Icon="rules.png"
-                                        Label="Reglamento">
-                <controls:MainPageButton.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="Reglamento" />
-                </controls:MainPageButton.GestureRecognizers>
-            </controls:MainPageButton>
-            <controls:MainPageButton Grid.Row="1" Grid.Column="1" Icon="utiles.png"
-                                        Label="CosasUtiles">
-                <controls:MainPageButton.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="Utilidades" />
-                </controls:MainPageButton.GestureRecognizers>
-            </controls:MainPageButton>
-            <controls:MainPageButton Grid.Row="1" Grid.Column="2" Icon="brain.png"
-                                        Label="Preguntas Frecuentes">
-                <controls:MainPageButton.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="Preguntas" />
-                </controls:MainPageButton.GestureRecognizers>
-            </controls:MainPageButton>
-        </Grid>
-        </StackLayout>
-    </Grid>
-    -->
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Button Image="club.png" TextColor="White" FontAttributes="Bold" BackgroundColor="#A5D6A7" Text="¿Ya te uniste a un club?" Clicked="Boton_VerClubs"/>
+                <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="FillAndExpand">
+                    <local:PersonaBoton FontSize="14" FontAttributes="Bold" TextColor="White" BackgroundColor="#2E7D32" Grid.Row="0"  Grid.Column="0" Image="herramientas.png" Text="Mis Cosas" Clicked="Boton_VerHerramientas" />
+                    <local:PersonaBoton FontSize="14" FontAttributes="Bold" TextColor="White" BackgroundColor="#4CAF50" Grid.Row="0"  Grid.Column="1" Image="miespe.png"       Text="MiEspe" Clicked="Boton_VerMiEspe"/>
+                    <local:PersonaBoton FontSize="14" FontAttributes="Bold" TextColor="White" BackgroundColor="#2E7D32" Grid.Row="1"  Grid.Column="0" Image="preguntas.png"    Text="Preguntas" Clicked="Boton_VerPreguntas" />
+                    <local:PersonaBoton FontSize="14" FontAttributes="Bold" TextColor="White" BackgroundColor="#4CAF50" Grid.Row="1"  Grid.Column="1" Image="matricula.png"    Text="Consultas" Clicked="Boton_VerMatricula"  />
+                    <local:PersonaBoton FontSize="14" FontAttributes="Bold" TextColor="White" BackgroundColor="#2E7D32" Grid.Row="2"  Grid.Column="0" Image="chat.png"         Text="Contacto" Clicked="Boton_VerContacto"  />
+                    <local:PersonaBoton FontSize="14" FontAttributes="Bold" TextColor="White" BackgroundColor="#4CAF50" Grid.Row="2"  Grid.Column="1" Image="carreras.png"     Text="Carreras" Clicked="Boton_VerCarreras"  />
+                    <local:PersonaBoton FontSize="14" FontAttributes="Bold" TextColor="White" BackgroundColor="#2E7D32" Grid.Row="3"  Grid.Column="0" Image="smartphone.png"   Text="Más Apps" Clicked="Boton_VerApps"/>
+                    <local:PersonaBoton FontSize="14" FontAttributes="Bold" TextColor="White" BackgroundColor="#4CAF50" Grid.Row="3"  Grid.Column="1" Image="reglas.png"      Text="Reglamento" Clicked="Boton_VerReglamento"/>
+                </Grid>
+                <local:AdControlView WidthRequest="150" HeightRequest="150" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
 </ContentPage>

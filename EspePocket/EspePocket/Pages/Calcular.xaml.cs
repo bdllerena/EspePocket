@@ -12,6 +12,14 @@ namespace EspePocket.Pages
         {
             InitializeComponent();
         }
+        public void Reset()
+        {
+            Nota1.Text = "";
+            Nota2.Text = "";
+            Nota3.Text = "";
+
+
+        }
         public void Calculo()
         {
             double nota1 = 0, nota2 = 0, nota3 = 0;
@@ -46,6 +54,7 @@ namespace EspePocket.Pages
                         koma.IsVisible = false;
                         komh.IsVisible = false;
                         koms.IsVisible = false;
+                        kom.IsVisible = true;
                         Promedio.Text = "Tu promedio es:" + Math.Round(promedio, 2) + "\nNivel: Seguro es una optativa";
 
                     }
@@ -54,6 +63,7 @@ namespace EspePocket.Pages
                         koma.IsVisible = true;
                         komh.IsVisible = false;
                         koms.IsVisible = false;
+                        kom.IsVisible = false;
                         Promedio.Text = "Tu promedio es:" + Math.Round(promedio, 2) + "\nNivel: Y como te digo ? niñ@ Z ?";
 
                     }
@@ -62,6 +72,7 @@ namespace EspePocket.Pages
                         koma.IsVisible = false;
                         komh.IsVisible = false;
                         koms.IsVisible = true;
+                        kom.IsVisible = false;
                         Promedio.Text = "Tu promedio es:" + Math.Round(promedio, 2) + "\nNivel: Esas desveladas lo valieron";
 
                     }
@@ -70,6 +81,7 @@ namespace EspePocket.Pages
                         koma.IsVisible = false;
                         komh.IsVisible = true;
                         koms.IsVisible = false;
+                        kom.IsVisible = false;
                         Promedio.Text = "Tu promedio es:" + Math.Round(promedio, 2) + "\nNivel: Otro semestre menos";
 
                     }
@@ -78,6 +90,7 @@ namespace EspePocket.Pages
                         koma.IsVisible = false;
                         komh.IsVisible = true;
                         koms.IsVisible = false;
+                        kom.IsVisible = false;
                         Promedio.Text = "Tu promedio es: " + Math.Round(promedio, 2) + "\nNivel: Felicidades ya puedes salir en memes espe";
 
                     }
@@ -86,6 +99,7 @@ namespace EspePocket.Pages
                         koma.IsVisible = false;
                         komh.IsVisible = false;
                         koms.IsVisible = true;
+                        kom.IsVisible = false;
                         if (promedioaux > 20)
                         {
                             Promedio.Text = "Tu promedio es: " + Math.Round(promedio, 2) + "\nNecesitas más de 20 para aprobar." + "\nNivel: Eeeh.. no creo que el inge acolite en este caso";
@@ -103,6 +117,7 @@ namespace EspePocket.Pages
                         koma.IsVisible = false;
                         komh.IsVisible = true;
                         koms.IsVisible = false;
+                        kom.IsVisible = false;
                         if (promedioaux > 20)
                         {
                             Promedio.Text = "Tu promedio es: " + Math.Round(promedio, 2) + "\nNecesitas más de 20 para aprobar." + "\nNivel: Prepará esas rodilleras y vaselina";
@@ -120,13 +135,14 @@ namespace EspePocket.Pages
                         koma.IsVisible = false;
                         komh.IsVisible = false;
                         koms.IsVisible = true;
+                        kom.IsVisible = false;
                         if (promedioaux > 20)
                         {
-                            Promedio.Text = "Tu promedio es: " + Math.Round(promedio, 2) + "\nNecesitas más de 20 para aprobar." + "\nNivel: Eres como Venezuela en las clasificatoria";
+                            Promedio.Text = "Tu promedio es: " + Math.Round(promedio, 2) + "\nNecesitas más de 20 para aprobar." + "\nNivel: R.I.P X 2";
                         }
                         else
                         {
-                            Promedio.Text = "Tu promedio es: " + Math.Round(promedio, 2) + "\nNecesitas un promedio de: " + Math.Round(promedioaux, 2) + " en el último parcial para aprobar." + "\nNivel: Eres como Ecuador en las clasificatorias";
+                            Promedio.Text = "Tu promedio es: " + Math.Round(promedio, 2) + "\nNecesitas un promedio de: " + Math.Round(promedioaux, 2) + " en el último parcial para aprobar." + "\nNivel: R.I.P";
                         }
 
                     }
@@ -135,6 +151,7 @@ namespace EspePocket.Pages
                         koma.IsVisible = false;
                         komh.IsVisible = true;
                         koms.IsVisible = false;
+                        kom.IsVisible = false;
                         if (promedioaux > 20)
                         {
                             Promedio.Text = "Tu promedio es: " + Math.Round(promedio, 2) + "\nNecesitas más de 20 para aprobar." + "\nNivel: Y si vendemos bonice? x 2";
@@ -150,6 +167,7 @@ namespace EspePocket.Pages
                         koma.IsVisible = true;
                         komh.IsVisible = false;
                         koms.IsVisible = false;
+                        kom.IsVisible = false;
                         if (promedioaux > 20)
                         {
                             Promedio.Text = "Tu promedio es: " + Math.Round(promedio, 2) + "\nNecesitas más de 20 para aprobar." + "\nNivel: Al menos fuiste alguna vez a la u?";
@@ -165,6 +183,7 @@ namespace EspePocket.Pages
                         koma.IsVisible = false;
                         komh.IsVisible = false;
                         koms.IsVisible = true;
+                        kom.IsVisible = false;
                         if (promedioaux > 20)
                         {
                             Promedio.Text = "Tu promedio es: " + Math.Round(promedio, 2) + "\nNecesitas más de 20 para aprobar." + "\nNivel: Siempre habrá una tercera oportunidad";

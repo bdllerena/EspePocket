@@ -15,7 +15,7 @@ public class XFGlossPaintDrawable
 	}
 
 
-	public XFGlossPaintDrawable () throws java.lang.Throwable
+	public XFGlossPaintDrawable ()
 	{
 		super ();
 		if (getClass () == XFGlossPaintDrawable.class)
@@ -23,7 +23,7 @@ public class XFGlossPaintDrawable
 	}
 
 
-	public XFGlossPaintDrawable (int p0) throws java.lang.Throwable
+	public XFGlossPaintDrawable (int p0)
 	{
 		super (p0);
 		if (getClass () == XFGlossPaintDrawable.class)

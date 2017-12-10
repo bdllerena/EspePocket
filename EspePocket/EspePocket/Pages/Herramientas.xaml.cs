@@ -11,37 +11,36 @@ namespace EspePocket.Pages
         {
             InitializeComponent();
         }
-        public async void Tareas(object sender, EventArgs args)
+        private void Email(object sender, EventArgs e) => Device.OpenUri(new Uri("mailto:espepocketsoporte@gmail.com?subject=Bugs,Sugerencias,Inquietudes&body=Escribe tu mensaje..." + "%0D%0A"));
+        async void Boton_VerLibros(object sender, EventArgs args)
         {
-            await Navigation.PushAsync(new TodoListPage());
+            var stack = Navigation.NavigationStack;
+            if (stack[stack.Count - 1].GetType() != typeof(Libros))
+                await Navigation.PushAsync(new Libros());
         }
-        public async void Horarios(object sender, EventArgs args)
+        async void Boton_VerNotas(object sender, EventArgs args)
         {
-            await Navigation.PushAsync(new Horarios());
+            var stack = Navigation.NavigationStack;
+            if (stack[stack.Count - 1].GetType() != typeof(TodoListPage))
+                await Navigation.PushAsync(new TodoListPage());
         }
-        public async void Armar(object sender, EventArgs args)
+        async void Boton_VerCalculadora(object sender, EventArgs args)
         {
-            await Navigation.PushAsync(new Armar());
+            var stack = Navigation.NavigationStack;
+            if (stack[stack.Count - 1].GetType() != typeof(Calcular))
+                await Navigation.PushAsync(new Calcular());
         }
-        public async void Calcular(object sender, EventArgs args)
+        async void Boton_VerCalendario(object sender, EventArgs args)
         {
-            await Navigation.PushAsync(new Calcular());
+            var stack = Navigation.NavigationStack;
+            if (stack[stack.Count - 1].GetType() != typeof(Calendario))
+                await Navigation.PushAsync(new Calendario());
         }
-        public async void Docente(object sender, EventArgs args)
+        async void Boton_VerClubs(object sender, EventArgs args)
         {
-            await Navigation.PushAsync(new Docente());
-        }
-        public async void LibrosE(object sender, EventArgs args)
-        {
-            await Navigation.PushAsync(new Librose());
-        }
-        public async void LibrosF(object sender, EventArgs args)
-        {
-            await Navigation.PushAsync(new Libros());
-        }
-        public async void Comprobante(object sender, EventArgs args)
-        {
-            await Navigation.PushAsync(new Comprobante());
+            var stack = Navigation.NavigationStack;
+            if (stack[stack.Count - 1].GetType() != typeof(Clubs))
+                await Navigation.PushAsync(new Clubs());
         }
     }
 }

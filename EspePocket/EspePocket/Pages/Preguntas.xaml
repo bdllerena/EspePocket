@@ -11,21 +11,10 @@
         </xfg:Gradient>
     </xfg:ContentPageGloss.BackgroundGradient>
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout x:Name="label1" Padding="24,0" VerticalOptions="Start">
-                <Label x:Name="q1" TextColor="White" FontSize="Large" FontAttributes="Italic" AutomationId="label1" Text="{Binding Context}" HorizontalOptions="Center" />
-                <Label x:Name="a1" TextColor="White" FontSize="Medium" FontAttributes="Bold" AutomationId="label2" Text="{Binding Context}" HorizontalOptions="Center" />
-                <Label x:Name="q2" TextColor="White" FontSize="Large" FontAttributes="Italic" AutomationId="label1" Text="{Binding Context}" HorizontalOptions="Center" />
-                <Label x:Name="a2" TextColor="White" FontSize="Medium" FontAttributes="Bold" AutomationId="label2" Text="{Binding Context}" HorizontalOptions="Center" />
-                <Label x:Name="q3" TextColor="White" FontSize="Large" FontAttributes="Italic" AutomationId="label1" Text="{Binding Context}" HorizontalOptions="Center" />
-                <Label x:Name="a3" TextColor="White" FontSize="Medium" FontAttributes="Bold" AutomationId="label2" Text="{Binding Context}" HorizontalOptions="Center" />
-                <Label x:Name="q4" TextColor="White" FontSize="Large" FontAttributes="Italic" AutomationId="label1" Text="{Binding Context}" HorizontalOptions="Center" />
-                <Label x:Name="a4" TextColor="White" FontSize="Medium" FontAttributes="Bold" AutomationId="label2" Text="{Binding Context}" HorizontalOptions="Center" />
-                <Label x:Name="q5" TextColor="White" FontSize="Large" FontAttributes="Italic" AutomationId="label1" Text="{Binding Context}" HorizontalOptions="Center" />
-                <Label x:Name="a5" TextColor="White" FontSize="Medium" FontAttributes="Bold" AutomationId="label2" Text="{Binding Context}" HorizontalOptions="Center" />
-                <Label x:Name="q6" TextColor="White" FontSize="Large" FontAttributes="Italic" AutomationId="label1" Text="{Binding Context}" HorizontalOptions="Center" />
-                <Label x:Name="a6" TextColor="White" FontSize="Medium" FontAttributes="Bold" AutomationId="label2" Text="{Binding Context}" HorizontalOptions="Center" />
-            </StackLayout>
-        </ScrollView>
+
+        <StackLayout x:Name="label1" Padding="24,0" VerticalOptions="Start">
+            <Picker Title="Seleccione su pregunta..."  x:Name="poison"/>
+            <Label x:Name="a1" TextColor="White" FontSize="Medium" FontAttributes="Bold" AutomationId="label1" Text="{Binding Context}" HorizontalOptions="Center" />
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -104,7 +104,6 @@ namespace EspePocket.Pages
             Content = browser;
 
         }
-        //Actualizar
         public void Iasa(object sender, EventArgs args)
         {
             var browser = new PersonaWebView
