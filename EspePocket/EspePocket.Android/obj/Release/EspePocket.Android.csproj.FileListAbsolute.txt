@@ -138,3 +138,11 @@ C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket.Android\obj
 C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket.Android\obj\Release\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket.Android\obj\Release\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket.Android\obj\Release\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket.Android\obj\Release\EspePocket.Android.csprojResolveAssemblyReference.cache
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket.Android\obj\Release\XbdMerge\Xamarin.GooglePlayServices.Basement.dll.stamp
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket.Android\obj\Release\XbdMerge\Xamarin.GooglePlayServices.Ads.Lite.dll.stamp
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket.Android\obj\Release\XbdMerge\Xamarin.GooglePlayServices.Gass.dll.stamp
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket.Android\obj\Release\XbdMerge\Xamarin.GooglePlayServices.Tasks.dll.stamp
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket.Android\obj\Release\XbdMerge\Xamarin.GooglePlayServices.Base.dll.stamp
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket.Android\obj\Release\XbdMerge\Xamarin.GooglePlayServices.Clearcut.dll.stamp
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket.Android\obj\Release\XbdMerge\Xamarin.GooglePlayServices.Ads.dll.stamp
