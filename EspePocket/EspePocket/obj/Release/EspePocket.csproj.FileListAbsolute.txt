@@ -1,0 +1,157 @@
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\EspePocket.dll.config
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\EspePocket.dll
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\EspePocket.pdb
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\ModernHttpClient.dll
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\Newtonsoft.Json.dll
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\Plugin.LocalNotifications.Abstractions.dll
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\Plugin.LocalNotifications.dll
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\SQLite-net.dll
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\SQLitePCLRaw.batteries_green.dll
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\SQLitePCLRaw.batteries_v2.dll
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\SQLitePCLRaw.core.dll
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Core.dll
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Pages.dll
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Platform.dll
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Theme.Base.dll
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Theme.Dark.dll
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Theme.Light.dll
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Xaml.dll
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\XFGloss.dll
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\Newtonsoft.Json.xml
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\Plugin.LocalNotifications.xml
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\Plugin.LocalNotifications.Abstractions.xml
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\SQLite-net.pdb
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\SQLite-net.xml
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Core.pdb
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Core.xml
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Platform.pdb
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Xaml.pdb
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Xaml.xml
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\bin\Release\XFGloss.xml
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.csproj.CoreCompileInputs.cache
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.App.xaml.g.cs
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.MainPage.xaml.g.cs
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.TabAux.xaml.g.cs
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.MainPageButton.xaml.g.cs
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Armar.xaml.g.cs
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.BuscaID.xaml.g.cs
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Calcular.xaml.g.cs
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Calendario.xaml.g.cs
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Carreras.xaml.g.cs
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Compas.xaml.g.cs
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.CompasI.xaml.g.cs
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Contacto.xaml.g.cs
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Cupos.xaml.g.cs
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Docente.xaml.g.cs
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Horarios.xaml.g.cs
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Matricula.xaml.g.cs
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Matriculacion.xaml.g.cs
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.miEspe.xaml.g.cs
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Preguntas.xaml.g.cs
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Comprobante.xaml.g.cs
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Libros.xaml.g.cs
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Librose.xaml.g.cs
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Materias.xaml.g.cs
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.dll
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.pdb
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.TodoItemPage.xaml.g.cs
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.TodoListPage.xaml.g.cs
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Herramientas.xaml.g.cs
+C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.csprojResolveAssemblyReference.cache
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\EspePocket.dll.config
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\EspePocket.dll
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\EspePocket.pdb
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\ModernHttpClient.dll
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\Mono.Android.dll
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\Newtonsoft.Json.dll
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\Plugin.LocalNotifications.Abstractions.dll
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\Plugin.LocalNotifications.dll
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\SQLite-net.dll
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\SQLitePCLRaw.batteries_green.dll
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\SQLitePCLRaw.core.dll
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Core.dll
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Pages.dll
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Platform.dll
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Theme.Base.dll
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Theme.Dark.dll
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Theme.Light.dll
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Xaml.dll
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\XFGloss.dll
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\Mono.Android.pdb
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\Mono.Android.xml
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\Newtonsoft.Json.xml
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\Plugin.LocalNotifications.xml
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\Plugin.LocalNotifications.Abstractions.xml
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\SQLite-net.pdb
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\SQLite-net.xml
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Core.pdb
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Core.xml
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Xaml.pdb
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Xaml.xml
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\bin\Release\XFGloss.xml
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.csprojResolveAssemblyReference.cache
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.App.xaml.g.cs
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.MainPage.xaml.g.cs
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.TodoItemPage.xaml.g.cs
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.TodoListPage.xaml.g.cs
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.MainPageButton.xaml.g.cs
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Calcular.xaml.g.cs
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Calendario.xaml.g.cs
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Carreras.xaml.g.cs
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Contacto.xaml.g.cs
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Preguntas.xaml.g.cs
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Herramientas.xaml.g.cs
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Libros.xaml.g.cs
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Consultar.xaml.g.cs
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Clubs.xaml.g.cs
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.dll
+C:\Users\Alejandro\Documents\Segundo Parcial\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.pdb
+D:\EspePocket\EspePocket\EspePocket\bin\Release\EspePocket.dll.config
+D:\EspePocket\EspePocket\EspePocket\bin\Release\EspePocket.dll
+D:\EspePocket\EspePocket\EspePocket\bin\Release\EspePocket.pdb
+D:\EspePocket\EspePocket\EspePocket\bin\Release\ModernHttpClient.dll
+D:\EspePocket\EspePocket\EspePocket\bin\Release\Newtonsoft.Json.dll
+D:\EspePocket\EspePocket\EspePocket\bin\Release\Plugin.LocalNotifications.Abstractions.dll
+D:\EspePocket\EspePocket\EspePocket\bin\Release\Plugin.LocalNotifications.dll
+D:\EspePocket\EspePocket\EspePocket\bin\Release\SQLite-net.dll
+D:\EspePocket\EspePocket\EspePocket\bin\Release\SQLitePCLRaw.batteries_green.dll
+D:\EspePocket\EspePocket\EspePocket\bin\Release\SQLitePCLRaw.batteries_v2.dll
+D:\EspePocket\EspePocket\EspePocket\bin\Release\SQLitePCLRaw.core.dll
+D:\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Core.dll
+D:\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Pages.dll
+D:\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Platform.dll
+D:\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Theme.Base.dll
+D:\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Theme.Dark.dll
+D:\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Theme.Light.dll
+D:\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Xaml.dll
+D:\EspePocket\EspePocket\EspePocket\bin\Release\XFGloss.dll
+D:\EspePocket\EspePocket\EspePocket\bin\Release\Newtonsoft.Json.xml
+D:\EspePocket\EspePocket\EspePocket\bin\Release\Plugin.LocalNotifications.xml
+D:\EspePocket\EspePocket\EspePocket\bin\Release\Plugin.LocalNotifications.Abstractions.xml
+D:\EspePocket\EspePocket\EspePocket\bin\Release\SQLite-net.pdb
+D:\EspePocket\EspePocket\EspePocket\bin\Release\SQLite-net.xml
+D:\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Core.pdb
+D:\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Core.xml
+D:\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Xaml.pdb
+D:\EspePocket\EspePocket\EspePocket\bin\Release\Xamarin.Forms.Xaml.xml
+D:\EspePocket\EspePocket\EspePocket\bin\Release\XFGloss.xml
+D:\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.csprojResolveAssemblyReference.cache
+D:\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.csproj.CoreCompileInputs.cache
+D:\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.App.xaml.g.cs
+D:\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.MainPage.xaml.g.cs
+D:\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.TodoItemPage.xaml.g.cs
+D:\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.TodoListPage.xaml.g.cs
+D:\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.MainPageButton.xaml.g.cs
+D:\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Calcular.xaml.g.cs
+D:\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Calendario.xaml.g.cs
+D:\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Carreras.xaml.g.cs
+D:\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Contacto.xaml.g.cs
+D:\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Preguntas.xaml.g.cs
+D:\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Herramientas.xaml.g.cs
+D:\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Libros.xaml.g.cs
+D:\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Consultar.xaml.g.cs
+D:\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.Pages.Clubs.xaml.g.cs
+D:\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.dll
+D:\EspePocket\EspePocket\EspePocket\obj\Release\EspePocket.pdb

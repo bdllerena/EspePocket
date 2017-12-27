@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EspePocket.Pages.Preguntas"
+             xmlns:xfg="clr-namespace:XFGloss;assembly=XFGloss"
+             Title="Preguntas Frecuentes">
+    <xfg:ContentPageGloss.BackgroundGradient>
+        <xfg:Gradient Rotation="150">
+            <xfg:GradientStep StepColor="#03A9F4" StepPercentage="0" />
+            <xfg:GradientStep StepColor="#303F9F" StepPercentage="1" />
+        </xfg:Gradient>
+    </xfg:ContentPageGloss.BackgroundGradient>
+    <ContentPage.Content>
+
+        <StackLayout x:Name="label1" Padding="24,0" VerticalOptions="Start">
+            <Picker Title="Seleccione su pregunta..."  x:Name="poison"/>
+            <Label x:Name="a1" TextColor="White" FontSize="Medium" FontAttributes="Bold" AutomationId="label1" Text="{Binding Context}" HorizontalOptions="Center" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

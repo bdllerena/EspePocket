@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.LocalNotifications</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.LocalNotifications.CrossLocalNotifications">
+            <summary>
+            Access Cross Local Notifictions
+            </summary>
+        </member>
+        <member name="P:Plugin.LocalNotifications.CrossLocalNotifications.Current">
+            <summary>
+            Gets the current platform specific ILocalNotifications implementation.
+            </summary>
+        </member>
+        <member name="T:Plugin.LocalNotifications.LocalNotificationsImplementation">
+            <summary>
+            Local Notifications implementation for UWP, WinRT and Windows Phone Silverlight
+            </summary>
+        </member>
+        <member name="M:Plugin.LocalNotifications.LocalNotificationsImplementation.Show(System.String,System.String,System.Int32)">
+            <summary>
+            Show a local notification
+            </summary>
+            <param name="title">Title of the notification</param>
+            <param name="body">Body or description of the notification</param>
+            <param name="id">Id of the notification</param>
+        </member>
+        <member name="M:Plugin.LocalNotifications.LocalNotificationsImplementation.Show(System.String,System.String,System.Int32,System.DateTime)">
+            <summary>
+            Show a local notification at a specified time
+            </summary>
+            <param name="title">Title of the notification</param>
+            <param name="body">Body or description of the notification</param>
+            <param name="id">Id of the notification</param>
+            <param name="notifyTime">Time to show notification</param>
+        </member>
+        <member name="M:Plugin.LocalNotifications.LocalNotificationsImplementation.Cancel(System.Int32)">
+            <summary>
+            Cancel a local notification
+            </summary>
+            <param name="id">Id of the notification to cancel</param>
+        </member>
+    </members>
+</doc>
