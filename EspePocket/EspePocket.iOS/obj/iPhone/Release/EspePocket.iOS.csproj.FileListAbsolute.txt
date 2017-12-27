@@ -1,7 +1,0 @@
-C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket.iOS\obj\iPhone\Release\ibtool\_BundleResourceWithLogicalName.items
-C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket.iOS\obj\iPhone\Release\actool\_PartialAppManifest.items
-C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket.iOS\obj\iPhone\Release\actool\_BundleResourceWithLogicalName.items
-C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket.iOS\obj\iPhone\Release\optimized\
-C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket.iOS\obj\iPhone\Release\EspePocket.iOS.csprojResolveAssemblyReference.cache
-C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket.iOS\obj\iPhone\Release\EspePocket.iOS.csproj.CoreCompileInputs.cache
-C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket.iOS\obj\iPhone\Release\EspePocket.iOS.exe

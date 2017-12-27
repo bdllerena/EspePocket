@@ -1,2 +1,0 @@
-C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket.UWP\EspePocket.UWP.csproj;x86
-C:\Users\David\Desktop\EspePocketV4\EspePocket\EspePocket\EspePocket\EspePocket.csproj;neutral
