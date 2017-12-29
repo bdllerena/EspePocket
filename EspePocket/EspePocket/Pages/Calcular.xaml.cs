@@ -17,7 +17,7 @@ namespace EspePocket.Pages
             Nota1.Text = "";
             Nota2.Text = "";
             Nota3.Text = "";
-
+			Promedio.Text = "";
 
         }
         public void Calculo()
