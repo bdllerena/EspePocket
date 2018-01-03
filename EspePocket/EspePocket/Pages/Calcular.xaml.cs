@@ -17,16 +17,17 @@ namespace EspePocket.Pages
             Nota1.Text = "";
             Nota2.Text = "";
             Nota3.Text = "";
-
+            Promedio.Text = "";
 
         }
-        public void Calculo()
+        public double Calculo(double nota1, double nota2, double nota3)
         {
-            double nota1 = 0, nota2 = 0, nota3 = 0;
+            //double nota1 = 0, nota2 = 0, nota3 = 0;
             double promedio = 0, promedioaux = 0;
             if (string.IsNullOrWhiteSpace(Nota1.Text) || string.IsNullOrWhiteSpace(Nota2.Text) || string.IsNullOrWhiteSpace(Nota3.Text))
             {
                 DisplayAlert("Alerta", "Sus notas no pueden estar vacías", "OK");
+                //return -1;
             }
             else
             {
@@ -36,10 +37,12 @@ namespace EspePocket.Pages
                 if (nota1 > 20 || nota2 > 20 || nota3 > 20)
                 {
                     DisplayAlert("Alerta", "Sus notas no pueden ser mayor a 20", "OK");
+                    //return -1;
                 }
                 else if (nota1 < 0 || nota2 < 0 || nota3 < 0)
                 {
                     DisplayAlert("Alerta", "Sus notas no pueden ser menor a 0", "OK");
+                    //return -1;
                 }
                 else
                 {
@@ -51,11 +54,13 @@ namespace EspePocket.Pages
                     promedioaux = ((promedioaux * 20) / 6.668);
                     if (promedio == 20)
                     {
+                        return promedio;
                         koma.IsVisible = false;
                         komh.IsVisible = false;
                         koms.IsVisible = false;
                         kom.IsVisible = true;
                         Promedio.Text = "Tu promedio es:" + Math.Round(promedio, 2) + "\nNivel: Seguro es una optativa";
+                        
 
                     }
                     else if (promedio >= 18 && promedio < 19)
@@ -198,7 +203,7 @@ namespace EspePocket.Pages
                 }
 
             }
-
+            return promedio;
         }
 
     }
