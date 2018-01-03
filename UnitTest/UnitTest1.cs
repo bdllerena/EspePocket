@@ -2,6 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using EspePocket.Models;
 using EspePocket.Pages;
+using System.Collections.Generic;
 
 namespace UnitTest
 {
@@ -517,6 +518,80 @@ namespace UnitTest
 
             Assert.AreEqual(varActual, varEsperado);
         }
+
+        public Dictionary<string, int> inicializarDictionaryPreguntas()
+        {
+            return new Dictionary<string, int>
+            {
+                { "¿Cuál es el promedio mínimo para aprobar una materia?", 1 },
+                { "¿Cuándo se considera pérdida de la gratuidad de manera definitiva?", 2 }, { "¿Hasta cuándo puedo dar de baja una materia?", 3 },
+                { "¿Puedo tener acceso a tercera matrícula?", 4 }, { "¿Cuántas materias a distancia puedo tomar si sigo una carrera de pre grado presencial?", 5 },
+                { "¿Se puede perder el semestre por faltas?", 6 }
+            };
+        }
+
+        [TestMethod]
+        public void TestPregunta1()
+        {
+            Dictionary<string, int> varActual = inicializarDictionaryPreguntas();
+            int valorActual = varActual["¿Cuál es el promedio mínimo para aprobar una materia?"];
+            int valorEsperado = 1;
+
+            Assert.AreEqual(valorActual, valorEsperado);
+        }
+
+        
+        [TestMethod]
+        public void TestPregunta2()
+        {
+            Dictionary<string, int> varActual = inicializarDictionaryPreguntas();
+            int valorActual = varActual["¿Cuándo se considera pérdida de la gratuidad de manera definitiva?"];
+
+            int valorEsperado = 2;
+
+            Assert.AreEqual(valorActual, valorEsperado);
+        }
+        [TestMethod]
+        public void TestPregunta3()
+        {
+            Dictionary<string, int> varActual = inicializarDictionaryPreguntas();
+            int valorActual = varActual["¿Hasta cuándo puedo dar de baja una materia?"];
+
+            int valorEsperado = 3;
+
+            Assert.AreEqual(valorActual, valorEsperado);
+        }
+        [TestMethod]
+        public void TestPregunta4()
+        { 
+            Dictionary<string, int> varActual = inicializarDictionaryPreguntas();
+            int valorActual = varActual["¿Puedo tener acceso a tercera matrícula?"];
+
+            int valorEsperado = 4;
+
+            Assert.AreEqual(valorActual, valorEsperado);
+        }
+        [TestMethod]
+        public void TestPregunta5()
+        {
+            Dictionary<string, int> varActual = inicializarDictionaryPreguntas();
+            int valorActual = varActual["¿Cuántas materias a distancia puedo tomar si sigo una carrera de pre grado presencial?"];
+
+            int valorEsperado = 5;
+
+            Assert.AreEqual(valorActual, valorEsperado);
+        }
+        [TestMethod]
+        public void TestPregunta6()
+        {
+            Dictionary<string, int> varActual = inicializarDictionaryPreguntas();
+            int valorActual = varActual["¿Se puede perder el semestre por faltas?"];
+
+            int valorEsperado = 6;
+
+            Assert.AreEqual(valorActual, valorEsperado);
+        }
+        
 
     }
 }
