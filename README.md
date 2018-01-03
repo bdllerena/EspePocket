@@ -18,6 +18,9 @@ Espe Pocket es una aplicación para los estudiantes de la Universidad De Las Fue
 * Preguntas Frecuentes: Responde preguntas comunes.
 ## Issues
 [![GitHub issues](https://img.shields.io/github/issues/badges/shields.svg)](https://github.com/bdllerena/EspePocket/issues)
+## Artifacts
+[Artifacts](https://drive.google.com/open?id=1Y7bNk3N1dvn6lcTkr15oxZlARTh-WQ2P) - Artifacts hosted on google drive
+
 ## Autores
 * **Selena Llumiquinga** 
 * **David Llerena**
