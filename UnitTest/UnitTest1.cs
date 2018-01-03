@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using EspePocket.Models;
+using EspePocket.Pages;
 
 namespace UnitTest
 {
@@ -427,6 +428,91 @@ namespace UnitTest
             {
                 Uri = "https://goo.gl/qbyh8x"
             };
+            var varActual = valorActual.Uri;
+
+            Assert.AreEqual(varActual, varEsperado);
+        }
+
+        [TestMethod]
+        public void TestUriReglamento1()
+        {
+            PersonaWebView valorEsperado = new PersonaWebView
+            {
+                Uri = "https://goo.gl/wjpD7L"
+            };
+            var varEsperado = valorEsperado.Uri;
+
+            Reglamento testReglamento = new Reglamento();
+            PersonaWebView valorActual = testReglamento.browser;
+
+            var varActual = valorActual.Uri;
+
+            Assert.AreEqual(varActual, varEsperado);
+        }
+
+        [TestMethod]
+        public void TestUriReglamento2()
+        {
+            PersonaWebView valorEsperado = new PersonaWebView
+            {
+                Uri = ""
+            };
+            var varEsperado = valorEsperado.Uri;
+
+            Reglamento testReglamento = new Reglamento();
+            PersonaWebView valorActual = testReglamento.browser;
+
+            var varActual = valorActual.Uri;
+
+            Assert.AreEqual(varActual, varEsperado);
+        }
+
+        [TestMethod]
+        public void TestUriReglamento3()
+        {
+            PersonaWebView valorEsperado = new PersonaWebView
+            {
+                Uri = "www.reglamento.com"
+            };
+            var varEsperado = valorEsperado.Uri;
+
+            Reglamento testReglamento = new Reglamento();
+            PersonaWebView valorActual = testReglamento.browser;
+
+            var varActual = valorActual.Uri;
+
+            Assert.AreEqual(varActual, varEsperado);
+        }
+
+        [TestMethod]
+        public void TestUriReglamento4()
+        {
+            PersonaWebView valorEsperado = new PersonaWebView
+            {
+                Uri = "1234566789"
+            };
+            var varEsperado = valorEsperado.Uri;
+
+            Reglamento testReglamento = new Reglamento();
+            PersonaWebView valorActual = testReglamento.browser;
+
+            var varActual = valorActual.Uri;
+
+            Assert.AreEqual(varActual, varEsperado);
+        }
+
+        [TestMethod]
+        public void TestUriReglamento5()
+        {
+            PersonaWebView valorEsperado = new PersonaWebView
+            {
+                
+            };
+            var varEsperado = valorEsperado.Uri;
+
+            Reglamento testReglamento = new Reglamento();
+            PersonaWebView valorActual = testReglamento.browser;
+
             var varActual = valorActual.Uri;
 
             Assert.AreEqual(varActual, varEsperado);
