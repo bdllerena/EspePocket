@@ -9,6 +9,7 @@ namespace EspePocket.Pages
     public partial class Consultar : ContentPage
     {
         int value = 0;
+
         public Consultar()
         {
             InitializeComponent();
