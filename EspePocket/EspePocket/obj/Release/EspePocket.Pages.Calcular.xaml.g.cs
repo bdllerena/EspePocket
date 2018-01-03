@@ -11,8 +11,7 @@
 namespace EspePocket.Pages {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Alejandro\\Documents\\Segundo Parcial\\EspePocket\\EspePocket\\EspePocket\\Pag" +
-        "es\\Calcular.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\David\\Desktop\\EspePocket\\EspePocket\\EspePocket\\Pages\\Calcular.xaml")]
     public partial class Calcular : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

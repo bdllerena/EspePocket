@@ -21,13 +21,5 @@
                 <WebView x:Name="webviews" IsVisible="False" Source="{Binding Context}"   Navigated="OnNavigated" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
             </StackLayout>
         </Grid>
-        <!--
-        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-            <StackLayout x:Name="Act" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-                <ActivityIndicator  HorizontalOptions="CenterAndExpand"  VerticalOptions="CenterAndExpand" x:Name="Indicator"  Color="Blue"   IsRunning="true" />
-                <Label  HorizontalOptions="CenterAndExpand"  VerticalOptions="CenterAndExpand"  x:Name="LIndicator" Text="Cargando... Espere Por favor"/>
-            </StackLayout>
-            <WebView x:Name="webviews" IsVisible="False" Source="http://catalogo.espe.edu.ec/reservacion/"  Navigating="OnNavigating" Navigated="OnNavigated" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
-        </StackLayout>-->
     </ContentPage.Content>
 </ContentPage>

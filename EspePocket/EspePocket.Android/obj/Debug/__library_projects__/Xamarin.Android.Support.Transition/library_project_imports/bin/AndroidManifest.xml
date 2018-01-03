@@ -19,7 +19,7 @@
     <uses-sdk android:minSdkVersion="14" />
 
     <application>
-        <meta-data android:name="android.support.VERSION" android:value="26.1.0" />
+        <meta-data android:name="android.support.VERSION" android:value="25.4.0" />
     </application>
 
 </manifest>

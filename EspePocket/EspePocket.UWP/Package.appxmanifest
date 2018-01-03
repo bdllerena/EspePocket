@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="0ddfbbb8-ce04-443f-b4fd-b089e609e327"
+    Name="b2cfd26e-9c9d-45bb-8e4c-58bc471cca1d"
     Publisher="CN=David"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="0ddfbbb8-ce04-443f-b4fd-b089e609e327" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="b2cfd26e-9c9d-45bb-8e4c-58bc471cca1d" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>EspePocket.UWP</DisplayName>

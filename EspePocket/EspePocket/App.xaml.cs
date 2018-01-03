@@ -2,7 +2,6 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using EspePocket.Data;
-using Xamarin.Forms.Themes;
 using EspePocket.Models;
 
 namespace EspePocket
@@ -14,24 +13,9 @@ namespace EspePocket
         public App()
         {
             InitializeComponent();
-            Resources = new Xamarin.Forms.Themes.DarkThemeResources();
             MainPage = new NavigationPage(new MainPage());
             //MainPage = new TabAux();
 
-        }
-
-        public void SwitchTheme()
-        {
-            if (Resources?.GetType() == typeof(LightThemeResources))
-            {
-                Resources = new Xamarin.Forms.Themes.DarkThemeResources();
-                return;
-            }
-            else
-            {
-                Resources = new Xamarin.Forms.Themes.LightThemeResources();
-                return;
-            }
         }
         public static TodoItemDatabase Database
         {

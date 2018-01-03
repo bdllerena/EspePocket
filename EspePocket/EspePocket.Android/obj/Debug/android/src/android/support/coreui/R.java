@@ -21,10 +21,10 @@ public final class R {
         public static final int abc_slide_out_top=0x7f040009;
         public static final int design_bottom_sheet_slide_in=0x7f04000a;
         public static final int design_bottom_sheet_slide_out=0x7f04000b;
-        public static final int design_snackbar_in=0x7f04000c;
-        public static final int design_snackbar_out=0x7f04000d;
-        public static final int tooltip_enter=0x7f04000e;
-        public static final int tooltip_exit=0x7f04000f;
+        public static final int design_fab_in=0x7f04000c;
+        public static final int design_fab_out=0x7f04000d;
+        public static final int design_snackbar_in=0x7f04000e;
+        public static final int design_snackbar_out=0x7f04000f;
     }
     public static final class animator {
         public static final int design_appbar_state_list_animator=0x7f050000;
@@ -33,15 +33,15 @@ public final class R {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarDivider=0x7f010074;
+        public static final int actionBarDivider=0x7f01005f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarItemBackground=0x7f010075;
+        public static final int actionBarItemBackground=0x7f010060;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarPopupTheme=0x7f01006e;
+        public static final int actionBarPopupTheme=0x7f010059;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -59,117 +59,117 @@ containing a value of this type.
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
          */
-        public static final int actionBarSize=0x7f010073;
+        public static final int actionBarSize=0x7f01005e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarSplitStyle=0x7f010070;
+        public static final int actionBarSplitStyle=0x7f01005b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarStyle=0x7f01006f;
+        public static final int actionBarStyle=0x7f01005a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabBarStyle=0x7f01006a;
+        public static final int actionBarTabBarStyle=0x7f010055;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabStyle=0x7f010069;
+        public static final int actionBarTabStyle=0x7f010054;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabTextStyle=0x7f01006b;
+        public static final int actionBarTabTextStyle=0x7f010056;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTheme=0x7f010071;
+        public static final int actionBarTheme=0x7f01005c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarWidgetTheme=0x7f010072;
+        public static final int actionBarWidgetTheme=0x7f01005d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionButtonStyle=0x7f01008f;
+        public static final int actionButtonStyle=0x7f01007a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionDropDownStyle=0x7f01008b;
+        public static final int actionDropDownStyle=0x7f010076;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionLayout=0x7f0100e6;
+        public static final int actionLayout=0x7f0100cc;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionMenuTextAppearance=0x7f010076;
+        public static final int actionMenuTextAppearance=0x7f010061;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int actionMenuTextColor=0x7f010077;
+        public static final int actionMenuTextColor=0x7f010062;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeBackground=0x7f01007a;
+        public static final int actionModeBackground=0x7f010065;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCloseButtonStyle=0x7f010079;
+        public static final int actionModeCloseButtonStyle=0x7f010064;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCloseDrawable=0x7f01007c;
+        public static final int actionModeCloseDrawable=0x7f010067;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCopyDrawable=0x7f01007e;
+        public static final int actionModeCopyDrawable=0x7f010069;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCutDrawable=0x7f01007d;
+        public static final int actionModeCutDrawable=0x7f010068;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeFindDrawable=0x7f010082;
+        public static final int actionModeFindDrawable=0x7f01006d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModePasteDrawable=0x7f01007f;
+        public static final int actionModePasteDrawable=0x7f01006a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModePopupWindowStyle=0x7f010084;
+        public static final int actionModePopupWindowStyle=0x7f01006f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeSelectAllDrawable=0x7f010080;
+        public static final int actionModeSelectAllDrawable=0x7f01006b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeShareDrawable=0x7f010081;
+        public static final int actionModeShareDrawable=0x7f01006c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeSplitBackground=0x7f01007b;
+        public static final int actionModeSplitBackground=0x7f010066;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeStyle=0x7f010078;
+        public static final int actionModeStyle=0x7f010063;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeWebSearchDrawable=0x7f010083;
+        public static final int actionModeWebSearchDrawable=0x7f01006e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionOverflowButtonStyle=0x7f01006c;
+        public static final int actionOverflowButtonStyle=0x7f010057;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionOverflowMenuStyle=0x7f01006d;
+        public static final int actionOverflowMenuStyle=0x7f010058;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -177,7 +177,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int actionProviderClass=0x7f0100e8;
+        public static final int actionProviderClass=0x7f0100ce;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -185,39 +185,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int actionViewClass=0x7f0100e7;
+        public static final int actionViewClass=0x7f0100cd;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int activityChooserViewStyle=0x7f010097;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int adSize=0x7f010006;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int adSizes=0x7f010007;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int adUnitId=0x7f010008;
+        public static final int activityChooserViewStyle=0x7f010082;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int alertDialogButtonGroupStyle=0x7f0100bc;
+        public static final int alertDialogButtonGroupStyle=0x7f0100a7;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -225,15 +201,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int alertDialogCenterButtons=0x7f0100bd;
+        public static final int alertDialogCenterButtons=0x7f0100a8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int alertDialogStyle=0x7f0100bb;
+        public static final int alertDialogStyle=0x7f0100a6;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int alertDialogTheme=0x7f0100be;
+        public static final int alertDialogTheme=0x7f0100a9;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -241,7 +217,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int allowStacking=0x7f0100d4;
+        public static final int allowStacking=0x7f0100bc;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -249,22 +225,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int alpha=0x7f0100d5;
-        /** <p>Must be one or more (separated by '|') of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>META</code></td><td>0x10000</td><td></td></tr>
-<tr><td><code>CTRL</code></td><td>0x1000</td><td></td></tr>
-<tr><td><code>ALT</code></td><td>0x02</td><td></td></tr>
-<tr><td><code>SHIFT</code></td><td>0x1</td><td></td></tr>
-<tr><td><code>SYM</code></td><td>0x4</td><td></td></tr>
-<tr><td><code>FUNCTION</code></td><td>0x8</td><td></td></tr>
-</table>
-         */
-        public static final int alphabeticModifiers=0x7f0100e3;
+        public static final int alpha=0x7f0100bd;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -274,7 +235,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int arrowHeadLength=0x7f0100dc;
+        public static final int arrowHeadLength=0x7f0100c4;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -284,72 +245,27 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int arrowShaftLength=0x7f0100dd;
+        public static final int arrowShaftLength=0x7f0100c5;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int autoCompleteTextViewStyle=0x7f0100c3;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int autoSizeMaxTextSize=0x7f01005d;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int autoSizeMinTextSize=0x7f01005c;
+        public static final int autoCompleteTextViewStyle=0x7f0100ae;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int autoSizePresetSizes=0x7f01005b;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int autoSizeStepGranularity=0x7f01005a;
-        /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>none</code></td><td>0</td><td></td></tr>
-<tr><td><code>uniform</code></td><td>1</td><td></td></tr>
-</table>
-         */
-        public static final int autoSizeTextType=0x7f010059;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int background=0x7f010037;
+        public static final int background=0x7f010028;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int backgroundSplit=0x7f010039;
+        public static final int backgroundSplit=0x7f01002a;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int backgroundStacked=0x7f010038;
+        public static final int backgroundStacked=0x7f010029;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -358,7 +274,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int backgroundTint=0x7f01011f;
+        public static final int backgroundTint=0x7f010101;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -372,7 +288,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
          */
-        public static final int backgroundTintMode=0x7f010120;
+        public static final int backgroundTintMode=0x7f010102;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -382,7 +298,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int barLength=0x7f0100de;
+        public static final int barLength=0x7f0100c6;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -390,7 +306,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int behavior_autoHide=0x7f01014a;
+        public static final int behavior_autoHide=0x7f01012c;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -398,7 +314,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int behavior_hideable=0x7f010127;
+        public static final int behavior_hideable=0x7f010109;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -408,7 +324,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int behavior_overlapTop=0x7f010153;
+        public static final int behavior_overlapTop=0x7f010135;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -426,7 +342,7 @@ containing a value of this type.
 <tr><td><code>auto</code></td><td>-1</td><td></td></tr>
 </table>
          */
-        public static final int behavior_peekHeight=0x7f010126;
+        public static final int behavior_peekHeight=0x7f010108;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -434,7 +350,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int behavior_skipCollapsed=0x7f010128;
+        public static final int behavior_skipCollapsed=0x7f01010a;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -444,39 +360,39 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int borderWidth=0x7f010148;
+        public static final int borderWidth=0x7f01012a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int borderlessButtonStyle=0x7f010094;
+        public static final int borderlessButtonStyle=0x7f01007f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int bottomSheetDialogTheme=0x7f010142;
+        public static final int bottomSheetDialogTheme=0x7f010124;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int bottomSheetStyle=0x7f010143;
+        public static final int bottomSheetStyle=0x7f010125;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonBarButtonStyle=0x7f010091;
+        public static final int buttonBarButtonStyle=0x7f01007c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonBarNegativeButtonStyle=0x7f0100c1;
+        public static final int buttonBarNegativeButtonStyle=0x7f0100ac;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonBarNeutralButtonStyle=0x7f0100c2;
+        public static final int buttonBarNeutralButtonStyle=0x7f0100ad;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonBarPositiveButtonStyle=0x7f0100c0;
+        public static final int buttonBarPositiveButtonStyle=0x7f0100ab;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonBarStyle=0x7f010090;
+        public static final int buttonBarStyle=0x7f01007b;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -487,33 +403,19 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
 </table>
          */
-        public static final int buttonGravity=0x7f010114;
+        public static final int buttonGravity=0x7f0100f6;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonPanelSideLayout=0x7f01004c;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>standard</code></td><td>0</td><td></td></tr>
-<tr><td><code>wide</code></td><td>1</td><td></td></tr>
-<tr><td><code>icon_only</code></td><td>2</td><td></td></tr>
-</table>
-         */
-        public static final int buttonSize=0x7f010003;
+        public static final int buttonPanelSideLayout=0x7f01003d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonStyle=0x7f0100c4;
+        public static final int buttonStyle=0x7f0100af;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonStyleSmall=0x7f0100c5;
+        public static final int buttonStyleSmall=0x7f0100b0;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -522,7 +424,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int buttonTint=0x7f0100d6;
+        public static final int buttonTint=0x7f0100be;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -536,7 +438,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
          */
-        public static final int buttonTintMode=0x7f0100d7;
+        public static final int buttonTintMode=0x7f0100bf;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -545,7 +447,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int cardBackgroundColor=0x7f010020;
+        public static final int cardBackgroundColor=0x7f010011;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -555,7 +457,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int cardCornerRadius=0x7f010021;
+        public static final int cardCornerRadius=0x7f010012;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -565,7 +467,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int cardElevation=0x7f010022;
+        public static final int cardElevation=0x7f010013;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -575,7 +477,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int cardMaxElevation=0x7f010023;
+        public static final int cardMaxElevation=0x7f010014;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -583,7 +485,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int cardPreventCornerOverlap=0x7f010025;
+        public static final int cardPreventCornerOverlap=0x7f010016;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -591,31 +493,23 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int cardUseCompatPadding=0x7f010024;
+        public static final int cardUseCompatPadding=0x7f010015;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int checkboxStyle=0x7f0100c6;
+        public static final int checkboxStyle=0x7f0100b1;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int checkedTextViewStyle=0x7f0100c7;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int circleCrop=0x7f010002;
+        public static final int checkedTextViewStyle=0x7f0100b2;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int closeIcon=0x7f0100f7;
+        public static final int closeIcon=0x7f0100d9;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int closeItemLayout=0x7f010049;
+        public static final int closeItemLayout=0x7f01003a;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -623,11 +517,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int collapseContentDescription=0x7f010116;
+        public static final int collapseContentDescription=0x7f0100f8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int collapseIcon=0x7f010115;
+        public static final int collapseIcon=0x7f0100f7;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -646,11 +540,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
          */
-        public static final int collapsedTitleGravity=0x7f010135;
+        public static final int collapsedTitleGravity=0x7f010117;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int collapsedTitleTextAppearance=0x7f01012f;
+        public static final int collapsedTitleTextAppearance=0x7f010111;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -659,7 +553,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int color=0x7f0100d8;
+        public static final int color=0x7f0100c0;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -668,7 +562,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorAccent=0x7f0100b3;
+        public static final int colorAccent=0x7f01009e;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -677,7 +571,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorBackgroundFloating=0x7f0100ba;
+        public static final int colorBackgroundFloating=0x7f0100a5;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -686,7 +580,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorButtonNormal=0x7f0100b7;
+        public static final int colorButtonNormal=0x7f0100a2;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -695,7 +589,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorControlActivated=0x7f0100b5;
+        public static final int colorControlActivated=0x7f0100a0;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -704,7 +598,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorControlHighlight=0x7f0100b6;
+        public static final int colorControlHighlight=0x7f0100a1;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -713,13 +607,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorControlNormal=0x7f0100b4;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-         */
-        public static final int colorError=0x7f0100d3;
+        public static final int colorControlNormal=0x7f01009f;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -728,7 +616,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorPrimary=0x7f0100b1;
+        public static final int colorPrimary=0x7f01009c;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -737,21 +625,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorPrimaryDark=0x7f0100b2;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>dark</code></td><td>0</td><td></td></tr>
-<tr><td><code>light</code></td><td>1</td><td></td></tr>
-<tr><td><code>auto</code></td><td>2</td><td></td></tr>
-</table>
-         */
-        public static final int colorScheme=0x7f010004;
+        public static final int colorPrimaryDark=0x7f01009d;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -760,19 +634,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorSwitchThumbNormal=0x7f0100b8;
+        public static final int colorSwitchThumbNormal=0x7f0100a3;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int commitIcon=0x7f0100fc;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int contentDescription=0x7f0100e9;
+        public static final int commitIcon=0x7f0100de;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -782,7 +648,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentInsetEnd=0x7f010042;
+        public static final int contentInsetEnd=0x7f010033;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -792,7 +658,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentInsetEndWithActions=0x7f010046;
+        public static final int contentInsetEndWithActions=0x7f010037;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -802,7 +668,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentInsetLeft=0x7f010043;
+        public static final int contentInsetLeft=0x7f010034;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -812,7 +678,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentInsetRight=0x7f010044;
+        public static final int contentInsetRight=0x7f010035;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -822,7 +688,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentInsetStart=0x7f010041;
+        public static final int contentInsetStart=0x7f010032;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -832,7 +698,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentInsetStartWithNavigation=0x7f010045;
+        public static final int contentInsetStartWithNavigation=0x7f010036;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -842,7 +708,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentPadding=0x7f010026;
+        public static final int contentPadding=0x7f010017;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -852,7 +718,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentPaddingBottom=0x7f01002a;
+        public static final int contentPaddingBottom=0x7f01001b;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -862,7 +728,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentPaddingLeft=0x7f010027;
+        public static final int contentPaddingLeft=0x7f010018;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -872,7 +738,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentPaddingRight=0x7f010028;
+        public static final int contentPaddingRight=0x7f010019;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -882,7 +748,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentPaddingTop=0x7f010029;
+        public static final int contentPaddingTop=0x7f01001a;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -891,11 +757,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentScrim=0x7f010130;
+        public static final int contentScrim=0x7f010112;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int controlBackground=0x7f0100b9;
+        public static final int controlBackground=0x7f0100a4;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -903,7 +769,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int counterEnabled=0x7f010169;
+        public static final int counterEnabled=0x7f01014b;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -911,19 +777,19 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int counterMaxLength=0x7f01016a;
+        public static final int counterMaxLength=0x7f01014c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int counterOverflowTextAppearance=0x7f01016c;
+        public static final int counterOverflowTextAppearance=0x7f01014e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int counterTextAppearance=0x7f01016b;
+        public static final int counterTextAppearance=0x7f01014d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int customNavigationLayout=0x7f01003a;
+        public static final int customNavigationLayout=0x7f01002b;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -931,7 +797,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int defaultQueryHint=0x7f0100f6;
+        public static final int defaultQueryHint=0x7f0100d8;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -941,11 +807,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dialogPreferredPadding=0x7f010089;
+        public static final int dialogPreferredPadding=0x7f010074;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dialogTheme=0x7f010088;
+        public static final int dialogTheme=0x7f010073;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -961,15 +827,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
          */
-        public static final int displayOptions=0x7f010030;
+        public static final int displayOptions=0x7f010021;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int divider=0x7f010036;
+        public static final int divider=0x7f010027;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dividerHorizontal=0x7f010096;
+        public static final int dividerHorizontal=0x7f010081;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -979,11 +845,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dividerPadding=0x7f0100e2;
+        public static final int dividerPadding=0x7f0100ca;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dividerVertical=0x7f010095;
+        public static final int dividerVertical=0x7f010080;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -993,15 +859,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int drawableSize=0x7f0100da;
+        public static final int drawableSize=0x7f0100c2;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int drawerArrowStyle=0x7f01002b;
+        public static final int drawerArrowStyle=0x7f01001c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dropDownListViewStyle=0x7f0100a8;
+        public static final int dropDownListViewStyle=0x7f010093;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1011,21 +877,21 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dropdownListPreferredItemHeight=0x7f01008c;
+        public static final int dropdownListPreferredItemHeight=0x7f010077;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int editTextBackground=0x7f01009d;
+        public static final int editTextBackground=0x7f010088;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int editTextColor=0x7f01009c;
+        public static final int editTextColor=0x7f010087;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int editTextStyle=0x7f0100c8;
+        public static final int editTextStyle=0x7f0100b3;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1035,7 +901,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int elevation=0x7f010047;
+        public static final int elevation=0x7f010038;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1043,15 +909,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int errorEnabled=0x7f010167;
+        public static final int errorEnabled=0x7f010149;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int errorTextAppearance=0x7f010168;
+        public static final int errorTextAppearance=0x7f01014a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int expandActivityOverflowButtonDrawable=0x7f01004b;
+        public static final int expandActivityOverflowButtonDrawable=0x7f01003c;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1059,7 +925,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int expanded=0x7f010121;
+        public static final int expanded=0x7f010103;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1078,7 +944,7 @@ containing a value of this type.
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
          */
-        public static final int expandedTitleGravity=0x7f010136;
+        public static final int expandedTitleGravity=0x7f010118;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1088,7 +954,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int expandedTitleMargin=0x7f010129;
+        public static final int expandedTitleMargin=0x7f01010b;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1098,7 +964,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int expandedTitleMarginBottom=0x7f01012d;
+        public static final int expandedTitleMarginBottom=0x7f01010f;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1108,7 +974,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int expandedTitleMarginEnd=0x7f01012c;
+        public static final int expandedTitleMarginEnd=0x7f01010e;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1118,7 +984,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int expandedTitleMarginStart=0x7f01012a;
+        public static final int expandedTitleMarginStart=0x7f01010c;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1128,15 +994,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int expandedTitleMarginTop=0x7f01012b;
+        public static final int expandedTitleMarginTop=0x7f01010d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int expandedTitleTextAppearance=0x7f01012e;
+        public static final int expandedTitleTextAppearance=0x7f010110;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int externalRouteEnabledDrawable=0x7f01001e;
+        public static final int externalRouteEnabledDrawable=0x7f010010;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1148,7 +1014,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int fabSize=0x7f010146;
+        public static final int fabSize=0x7f010128;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1156,117 +1022,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int fastScrollEnabled=0x7f01000d;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int fastScrollHorizontalThumbDrawable=0x7f010010;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int fastScrollHorizontalTrackDrawable=0x7f010011;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int fastScrollVerticalThumbDrawable=0x7f01000e;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int fastScrollVerticalTrackDrawable=0x7f01000f;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int font=0x7f01017a;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int fontFamily=0x7f01005e;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int fontProviderAuthority=0x7f010173;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int fontProviderCerts=0x7f010176;
-        /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>blocking</code></td><td>0</td><td></td></tr>
-<tr><td><code>async</code></td><td>1</td><td></td></tr>
-</table>
-         */
-        public static final int fontProviderFetchStrategy=0x7f010177;
-        /** <p>May be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-<p>May be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>forever</code></td><td>-1</td><td></td></tr>
-</table>
-         */
-        public static final int fontProviderFetchTimeout=0x7f010178;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int fontProviderPackage=0x7f010174;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int fontProviderQuery=0x7f010175;
-        /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>normal</code></td><td>0</td><td></td></tr>
-<tr><td><code>italic</code></td><td>1</td><td></td></tr>
-</table>
-         */
-        public static final int fontStyle=0x7f010179;
-        /** <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int fontWeight=0x7f01017b;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int foregroundInsidePadding=0x7f01014b;
+        public static final int foregroundInsidePadding=0x7f01012d;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1276,15 +1032,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int gapBetweenBars=0x7f0100db;
+        public static final int gapBetweenBars=0x7f0100c3;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int goIcon=0x7f0100f8;
+        public static final int goIcon=0x7f0100da;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int headerLayout=0x7f010151;
+        public static final int headerLayout=0x7f010133;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1294,7 +1050,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int height=0x7f01002c;
+        public static final int height=0x7f01001d;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1302,7 +1058,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int hideOnContentScroll=0x7f010040;
+        public static final int hideOnContentScroll=0x7f010031;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1310,7 +1066,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int hintAnimationEnabled=0x7f01016d;
+        public static final int hintAnimationEnabled=0x7f01014f;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1318,47 +1074,23 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int hintEnabled=0x7f010166;
+        public static final int hintEnabled=0x7f010148;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int hintTextAppearance=0x7f010165;
+        public static final int hintTextAppearance=0x7f010147;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int homeAsUpIndicator=0x7f01008e;
+        public static final int homeAsUpIndicator=0x7f010079;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int homeLayout=0x7f01003b;
+        public static final int homeLayout=0x7f01002c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int icon=0x7f010034;
-        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int iconTint=0x7f0100eb;
-        /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>src_over</code></td><td>3</td><td></td></tr>
-<tr><td><code>src_in</code></td><td>5</td><td></td></tr>
-<tr><td><code>src_atop</code></td><td>9</td><td></td></tr>
-<tr><td><code>multiply</code></td><td>14</td><td></td></tr>
-<tr><td><code>screen</code></td><td>15</td><td></td></tr>
-<tr><td><code>add</code></td><td>16</td><td></td></tr>
-</table>
-         */
-        public static final int iconTintMode=0x7f0100ec;
+        public static final int icon=0x7f010025;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1366,35 +1098,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int iconifiedByDefault=0x7f0100f4;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int imageAspectRatio=0x7f010001;
-        /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>none</code></td><td>0</td><td></td></tr>
-<tr><td><code>adjust_width</code></td><td>1</td><td></td></tr>
-<tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
-</table>
-         */
-        public static final int imageAspectRatioAdjust=0x7f010000;
+        public static final int iconifiedByDefault=0x7f0100d6;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int imageButtonStyle=0x7f01009e;
+        public static final int imageButtonStyle=0x7f010089;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int indeterminateProgressStyle=0x7f01003d;
+        public static final int indeterminateProgressStyle=0x7f01002e;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1402,13 +1114,13 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int initialActivityCount=0x7f01004a;
+        public static final int initialActivityCount=0x7f01003b;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int insetForeground=0x7f010152;
+        public static final int insetForeground=0x7f010134;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1416,11 +1128,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int isLightTheme=0x7f01002d;
+        public static final int isLightTheme=0x7f01001e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int itemBackground=0x7f01014f;
+        public static final int itemBackground=0x7f010131;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1429,7 +1141,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int itemIconTint=0x7f01014d;
+        public static final int itemIconTint=0x7f01012f;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1439,11 +1151,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int itemPadding=0x7f01003f;
+        public static final int itemPadding=0x7f010030;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int itemTextAppearance=0x7f010150;
+        public static final int itemTextAppearance=0x7f010132;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1452,15 +1164,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int itemTextColor=0x7f01014e;
+        public static final int itemTextColor=0x7f010130;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int keylines=0x7f01013a;
+        public static final int keylines=0x7f01011c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int layout=0x7f0100f3;
+        public static final int layout=0x7f0100d5;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1468,11 +1180,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int layoutManager=0x7f010009;
+        public static final int layoutManager=0x7f010000;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int layout_anchor=0x7f01013d;
+        public static final int layout_anchor=0x7f01011f;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1495,7 +1207,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
          */
-        public static final int layout_anchorGravity=0x7f01013f;
+        public static final int layout_anchorGravity=0x7f010121;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1503,7 +1215,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int layout_behavior=0x7f01013c;
+        public static final int layout_behavior=0x7f01011e;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1515,7 +1227,7 @@ containing a value of this type.
 <tr><td><code>parallax</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static final int layout_collapseMode=0x7f010138;
+        public static final int layout_collapseMode=0x7f01011a;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1523,7 +1235,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int layout_collapseParallaxMultiplier=0x7f010139;
+        public static final int layout_collapseParallaxMultiplier=0x7f01011b;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1540,7 +1252,7 @@ containing a value of this type.
 <tr><td><code>all</code></td><td>0x77</td><td></td></tr>
 </table>
          */
-        public static final int layout_dodgeInsetEdges=0x7f010141;
+        public static final int layout_dodgeInsetEdges=0x7f010123;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1556,7 +1268,7 @@ containing a value of this type.
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
          */
-        public static final int layout_insetEdge=0x7f010140;
+        public static final int layout_insetEdge=0x7f010122;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1564,7 +1276,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int layout_keyline=0x7f01013e;
+        public static final int layout_keyline=0x7f010120;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1578,35 +1290,35 @@ containing a value of this type.
 <tr><td><code>snap</code></td><td>0x10</td><td></td></tr>
 </table>
          */
-        public static final int layout_scrollFlags=0x7f010124;
+        public static final int layout_scrollFlags=0x7f010106;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int layout_scrollInterpolator=0x7f010125;
+        public static final int layout_scrollInterpolator=0x7f010107;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listChoiceBackgroundIndicator=0x7f0100b0;
+        public static final int listChoiceBackgroundIndicator=0x7f01009b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listDividerAlertDialog=0x7f01008a;
+        public static final int listDividerAlertDialog=0x7f010075;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listItemLayout=0x7f010050;
+        public static final int listItemLayout=0x7f010041;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listLayout=0x7f01004d;
+        public static final int listLayout=0x7f01003e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listMenuViewStyle=0x7f0100d0;
+        public static final int listMenuViewStyle=0x7f0100bb;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listPopupWindowStyle=0x7f0100a9;
+        public static final int listPopupWindowStyle=0x7f010094;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1616,7 +1328,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemHeight=0x7f0100a3;
+        public static final int listPreferredItemHeight=0x7f01008e;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1626,7 +1338,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemHeightLarge=0x7f0100a5;
+        public static final int listPreferredItemHeightLarge=0x7f010090;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1636,7 +1348,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemHeightSmall=0x7f0100a4;
+        public static final int listPreferredItemHeightSmall=0x7f01008f;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1646,7 +1358,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemPaddingLeft=0x7f0100a6;
+        public static final int listPreferredItemPaddingLeft=0x7f010091;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1656,11 +1368,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemPaddingRight=0x7f0100a7;
+        public static final int listPreferredItemPaddingRight=0x7f010092;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int logo=0x7f010035;
+        public static final int logo=0x7f010026;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1668,7 +1380,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int logoDescription=0x7f010119;
+        public static final int logoDescription=0x7f0100fb;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1678,7 +1390,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int maxActionInlineWidth=0x7f010154;
+        public static final int maxActionInlineWidth=0x7f010136;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1688,7 +1400,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int maxButtonHeight=0x7f010113;
+        public static final int maxButtonHeight=0x7f0100f5;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1696,72 +1408,63 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int measureWithLargestChild=0x7f0100e0;
+        public static final int measureWithLargestChild=0x7f0100c8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int mediaRouteAudioTrackDrawable=0x7f010012;
+        public static final int mediaRouteAudioTrackDrawable=0x7f010004;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int mediaRouteButtonStyle=0x7f010013;
-        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int mediaRouteButtonTint=0x7f01001f;
+        public static final int mediaRouteButtonStyle=0x7f010005;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int mediaRouteCloseDrawable=0x7f010014;
+        public static final int mediaRouteCloseDrawable=0x7f010006;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int mediaRouteControlPanelThemeOverlay=0x7f010015;
+        public static final int mediaRouteControlPanelThemeOverlay=0x7f010007;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int mediaRouteDefaultIconDrawable=0x7f010016;
+        public static final int mediaRouteDefaultIconDrawable=0x7f010008;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int mediaRoutePauseDrawable=0x7f010017;
+        public static final int mediaRoutePauseDrawable=0x7f010009;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int mediaRoutePlayDrawable=0x7f010018;
+        public static final int mediaRoutePlayDrawable=0x7f01000a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int mediaRouteSpeakerGroupIconDrawable=0x7f010019;
+        public static final int mediaRouteSpeakerGroupIconDrawable=0x7f01000b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int mediaRouteSpeakerIconDrawable=0x7f01001a;
+        public static final int mediaRouteSpeakerIconDrawable=0x7f01000c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int mediaRouteStopDrawable=0x7f01001b;
+        public static final int mediaRouteStopDrawable=0x7f01000d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int mediaRouteTheme=0x7f01001c;
+        public static final int mediaRouteTheme=0x7f01000e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int mediaRouteTvIconDrawable=0x7f01001d;
+        public static final int mediaRouteTvIconDrawable=0x7f01000f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int menu=0x7f01014c;
+        public static final int menu=0x7f01012e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int multiChoiceItemLayout=0x7f01004e;
+        public static final int multiChoiceItemLayout=0x7f01003f;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1769,11 +1472,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int navigationContentDescription=0x7f010118;
+        public static final int navigationContentDescription=0x7f0100fa;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int navigationIcon=0x7f010117;
+        public static final int navigationIcon=0x7f0100f9;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1785,22 +1488,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static final int navigationMode=0x7f01002f;
-        /** <p>Must be one or more (separated by '|') of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>META</code></td><td>0x10000</td><td></td></tr>
-<tr><td><code>CTRL</code></td><td>0x1000</td><td></td></tr>
-<tr><td><code>ALT</code></td><td>0x02</td><td></td></tr>
-<tr><td><code>SHIFT</code></td><td>0x1</td><td></td></tr>
-<tr><td><code>SYM</code></td><td>0x4</td><td></td></tr>
-<tr><td><code>FUNCTION</code></td><td>0x8</td><td></td></tr>
-</table>
-         */
-        public static final int numericModifiers=0x7f0100e4;
+        public static final int navigationMode=0x7f010020;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1808,7 +1496,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int overlapAnchor=0x7f0100ef;
+        public static final int overlapAnchor=0x7f0100d1;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1818,7 +1506,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingBottomNoButtons=0x7f0100f1;
+        public static final int paddingBottomNoButtons=0x7f0100d3;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1828,7 +1516,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingEnd=0x7f01011d;
+        public static final int paddingEnd=0x7f0100ff;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1838,7 +1526,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingStart=0x7f01011c;
+        public static final int paddingStart=0x7f0100fe;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1848,15 +1536,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingTopNoTitle=0x7f0100f2;
+        public static final int paddingTopNoTitle=0x7f0100d4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int panelBackground=0x7f0100ad;
+        public static final int panelBackground=0x7f010098;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int panelMenuListTheme=0x7f0100af;
+        public static final int panelMenuListTheme=0x7f01009a;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1866,7 +1554,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int panelMenuListWidth=0x7f0100ae;
+        public static final int panelMenuListWidth=0x7f010099;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1874,11 +1562,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int passwordToggleContentDescription=0x7f010170;
+        public static final int passwordToggleContentDescription=0x7f010152;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int passwordToggleDrawable=0x7f01016f;
+        public static final int passwordToggleDrawable=0x7f010151;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1886,7 +1574,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int passwordToggleEnabled=0x7f01016e;
+        public static final int passwordToggleEnabled=0x7f010150;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1895,7 +1583,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int passwordToggleTint=0x7f010171;
+        public static final int passwordToggleTint=0x7f010153;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1909,19 +1597,19 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
          */
-        public static final int passwordToggleTintMode=0x7f010172;
+        public static final int passwordToggleTintMode=0x7f010154;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int popupMenuStyle=0x7f01009a;
+        public static final int popupMenuStyle=0x7f010085;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int popupTheme=0x7f010048;
+        public static final int popupTheme=0x7f010039;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int popupWindowStyle=0x7f01009b;
+        public static final int popupWindowStyle=0x7f010086;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1929,7 +1617,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int preserveIconSpacing=0x7f0100ed;
+        public static final int preserveIconSpacing=0x7f0100cf;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1939,7 +1627,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int pressedTranslationZ=0x7f010147;
+        public static final int pressedTranslationZ=0x7f010129;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1949,15 +1637,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int progressBarPadding=0x7f01003e;
+        public static final int progressBarPadding=0x7f01002f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int progressBarStyle=0x7f01003c;
+        public static final int progressBarStyle=0x7f01002d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int queryBackground=0x7f0100fe;
+        public static final int queryBackground=0x7f0100e0;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1965,23 +1653,23 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int queryHint=0x7f0100f5;
+        public static final int queryHint=0x7f0100d7;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int radioButtonStyle=0x7f0100c9;
+        public static final int radioButtonStyle=0x7f0100b4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int ratingBarStyle=0x7f0100ca;
+        public static final int ratingBarStyle=0x7f0100b5;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int ratingBarStyleIndicator=0x7f0100cb;
+        public static final int ratingBarStyleIndicator=0x7f0100b6;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int ratingBarStyleSmall=0x7f0100cc;
+        public static final int ratingBarStyleSmall=0x7f0100b7;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1989,7 +1677,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int reverseLayout=0x7f01000b;
+        public static final int reverseLayout=0x7f010002;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1998,12 +1686,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int rippleColor=0x7f010145;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-         */
-        public static final int scopeUris=0x7f010005;
+        public static final int rippleColor=0x7f010127;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2011,7 +1694,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int scrimAnimationDuration=0x7f010134;
+        public static final int scrimAnimationDuration=0x7f010116;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2021,31 +1704,31 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int scrimVisibleHeightTrigger=0x7f010133;
+        public static final int scrimVisibleHeightTrigger=0x7f010115;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchHintIcon=0x7f0100fa;
+        public static final int searchHintIcon=0x7f0100dc;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchIcon=0x7f0100f9;
+        public static final int searchIcon=0x7f0100db;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchViewStyle=0x7f0100a2;
+        public static final int searchViewStyle=0x7f01008d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int seekBarStyle=0x7f0100cd;
+        public static final int seekBarStyle=0x7f0100b8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int selectableItemBackground=0x7f010092;
+        public static final int selectableItemBackground=0x7f01007d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int selectableItemBackgroundBorderless=0x7f010093;
+        public static final int selectableItemBackgroundBorderless=0x7f01007e;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -2059,7 +1742,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
          */
-        public static final int showAsAction=0x7f0100e5;
+        public static final int showAsAction=0x7f0100cb;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -2072,7 +1755,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
          */
-        public static final int showDividers=0x7f0100e1;
+        public static final int showDividers=0x7f0100c9;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2080,7 +1763,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int showText=0x7f01010a;
+        public static final int showText=0x7f0100ec;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2088,11 +1771,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int showTitle=0x7f010051;
+        public static final int showTitle=0x7f010042;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int singleChoiceItemLayout=0x7f01004f;
+        public static final int singleChoiceItemLayout=0x7f010040;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2100,7 +1783,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int spanCount=0x7f01000a;
+        public static final int spanCount=0x7f010001;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2108,15 +1791,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int spinBars=0x7f0100d9;
+        public static final int spinBars=0x7f0100c1;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int spinnerDropDownItemStyle=0x7f01008d;
+        public static final int spinnerDropDownItemStyle=0x7f010078;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int spinnerStyle=0x7f0100ce;
+        public static final int spinnerStyle=0x7f0100b9;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2124,11 +1807,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int splitTrack=0x7f010109;
+        public static final int splitTrack=0x7f0100eb;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int srcCompat=0x7f010052;
+        public static final int srcCompat=0x7f010043;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2136,7 +1819,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int stackFromEnd=0x7f01000c;
+        public static final int stackFromEnd=0x7f010003;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2144,7 +1827,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int state_above_anchor=0x7f0100f0;
+        public static final int state_above_anchor=0x7f0100d2;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2152,7 +1835,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int state_collapsed=0x7f010122;
+        public static final int state_collapsed=0x7f010104;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2160,11 +1843,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int state_collapsible=0x7f010123;
+        public static final int state_collapsible=0x7f010105;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int statusBarBackground=0x7f01013b;
+        public static final int statusBarBackground=0x7f01011d;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2173,15 +1856,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int statusBarScrim=0x7f010131;
+        public static final int statusBarScrim=0x7f010113;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int subMenuArrow=0x7f0100ee;
+        public static final int subMenuArrow=0x7f0100d0;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int submitBackground=0x7f0100ff;
+        public static final int submitBackground=0x7f0100e1;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2189,11 +1872,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int subtitle=0x7f010031;
+        public static final int subtitle=0x7f010022;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int subtitleTextAppearance=0x7f01010c;
+        public static final int subtitleTextAppearance=0x7f0100ee;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2202,15 +1885,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int subtitleTextColor=0x7f01011b;
+        public static final int subtitleTextColor=0x7f0100fd;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int subtitleTextStyle=0x7f010033;
+        public static final int subtitleTextStyle=0x7f010024;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int suggestionRowLayout=0x7f0100fd;
+        public static final int suggestionRowLayout=0x7f0100df;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2220,7 +1903,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int switchMinWidth=0x7f010107;
+        public static final int switchMinWidth=0x7f0100e9;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2230,19 +1913,19 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int switchPadding=0x7f010108;
+        public static final int switchPadding=0x7f0100ea;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int switchStyle=0x7f0100cf;
+        public static final int switchStyle=0x7f0100ba;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int switchTextAppearance=0x7f010106;
+        public static final int switchTextAppearance=0x7f0100e8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int tabBackground=0x7f010158;
+        public static final int tabBackground=0x7f01013a;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2252,7 +1935,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabContentStart=0x7f010157;
+        public static final int tabContentStart=0x7f010139;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -2263,7 +1946,7 @@ containing a value of this type.
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int tabGravity=0x7f01015a;
+        public static final int tabGravity=0x7f01013c;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2272,7 +1955,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabIndicatorColor=0x7f010155;
+        public static final int tabIndicatorColor=0x7f010137;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2282,7 +1965,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabIndicatorHeight=0x7f010156;
+        public static final int tabIndicatorHeight=0x7f010138;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2292,7 +1975,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabMaxWidth=0x7f01015c;
+        public static final int tabMaxWidth=0x7f01013e;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2302,7 +1985,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabMinWidth=0x7f01015b;
+        public static final int tabMinWidth=0x7f01013d;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -2313,7 +1996,7 @@ containing a value of this type.
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int tabMode=0x7f010159;
+        public static final int tabMode=0x7f01013b;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2323,7 +2006,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPadding=0x7f010164;
+        public static final int tabPadding=0x7f010146;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2333,7 +2016,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPaddingBottom=0x7f010163;
+        public static final int tabPaddingBottom=0x7f010145;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2343,7 +2026,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPaddingEnd=0x7f010162;
+        public static final int tabPaddingEnd=0x7f010144;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2353,7 +2036,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPaddingStart=0x7f010160;
+        public static final int tabPaddingStart=0x7f010142;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2363,7 +2046,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPaddingTop=0x7f010161;
+        public static final int tabPaddingTop=0x7f010143;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2372,11 +2055,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabSelectedTextColor=0x7f01015f;
+        public static final int tabSelectedTextColor=0x7f010141;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int tabTextAppearance=0x7f01015d;
+        public static final int tabTextAppearance=0x7f01013f;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2385,86 +2068,50 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabTextColor=0x7f01015e;
+        public static final int tabTextColor=0x7f010140;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
          */
-        public static final int textAllCaps=0x7f010058;
+        public static final int textAllCaps=0x7f010049;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceLargePopupMenu=0x7f010085;
+        public static final int textAppearanceLargePopupMenu=0x7f010070;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceListItem=0x7f0100aa;
+        public static final int textAppearanceListItem=0x7f010095;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceListItemSecondary=0x7f0100ab;
+        public static final int textAppearanceListItemSecondary=0x7f010096;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceListItemSmall=0x7f0100ac;
+        public static final int textAppearanceListItemSmall=0x7f010097;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearancePopupMenuHeader=0x7f010087;
+        public static final int textAppearancePopupMenuHeader=0x7f010072;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSearchResultSubtitle=0x7f0100a0;
+        public static final int textAppearanceSearchResultSubtitle=0x7f01008b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSearchResultTitle=0x7f01009f;
+        public static final int textAppearanceSearchResultTitle=0x7f01008a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSmallPopupMenu=0x7f010086;
+        public static final int textAppearanceSmallPopupMenu=0x7f010071;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int textColorAlertDialogListItem=0x7f0100bf;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-         */
-        public static final int textColorError=0x7f010144;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-         */
-        public static final int textColorSearchUrl=0x7f0100a1;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int theme=0x7f01011e;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int thickness=0x7f0100df;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int thumbTextPadding=0x7f010105;
+        public static final int textColorAlertDialogListItem=0x7f0100aa;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2473,7 +2120,46 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int thumbTint=0x7f010100;
+        public static final int textColorError=0x7f010126;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int textColorSearchUrl=0x7f01008c;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int theme=0x7f010100;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int thickness=0x7f0100c7;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int thumbTextPadding=0x7f0100e7;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int thumbTint=0x7f0100e2;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -2488,11 +2174,11 @@ containing a value of this type.
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
          */
-        public static final int thumbTintMode=0x7f010101;
+        public static final int thumbTintMode=0x7f0100e3;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int tickMark=0x7f010055;
+        public static final int tickMark=0x7f010046;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2501,7 +2187,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tickMarkTint=0x7f010056;
+        public static final int tickMarkTint=0x7f010047;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -2516,7 +2202,7 @@ containing a value of this type.
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
          */
-        public static final int tickMarkTintMode=0x7f010057;
+        public static final int tickMarkTintMode=0x7f010048;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2525,7 +2211,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tint=0x7f010053;
+        public static final int tint=0x7f010044;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -2539,7 +2225,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
          */
-        public static final int tintMode=0x7f010054;
+        public static final int tintMode=0x7f010045;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2547,7 +2233,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int title=0x7f01002e;
+        public static final int title=0x7f01001f;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2555,7 +2241,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleEnabled=0x7f010137;
+        public static final int titleEnabled=0x7f010119;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2565,7 +2251,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMargin=0x7f01010d;
+        public static final int titleMargin=0x7f0100ef;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2575,7 +2261,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginBottom=0x7f010111;
+        public static final int titleMarginBottom=0x7f0100f3;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2585,7 +2271,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginEnd=0x7f01010f;
+        public static final int titleMarginEnd=0x7f0100f1;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2595,7 +2281,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginStart=0x7f01010e;
+        public static final int titleMarginStart=0x7f0100f0;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2605,7 +2291,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginTop=0x7f010110;
+        public static final int titleMarginTop=0x7f0100f2;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2615,11 +2301,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMargins=0x7f010112;
+        public static final int titleMargins=0x7f0100f4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int titleTextAppearance=0x7f01010b;
+        public static final int titleTextAppearance=0x7f0100ed;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2628,45 +2314,27 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleTextColor=0x7f01011a;
+        public static final int titleTextColor=0x7f0100fc;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int titleTextStyle=0x7f010032;
+        public static final int titleTextStyle=0x7f010023;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int toolbarId=0x7f010132;
+        public static final int toolbarId=0x7f010114;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int toolbarNavigationButtonStyle=0x7f010099;
+        public static final int toolbarNavigationButtonStyle=0x7f010084;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int toolbarStyle=0x7f010098;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-         */
-        public static final int tooltipForegroundColor=0x7f0100d2;
+        public static final int toolbarStyle=0x7f010083;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int tooltipFrameBackground=0x7f0100d1;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int tooltipText=0x7f0100ea;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int track=0x7f010102;
+        public static final int track=0x7f0100e4;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2675,7 +2343,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int trackTint=0x7f010103;
+        public static final int trackTint=0x7f0100e5;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -2690,7 +2358,7 @@ containing a value of this type.
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
          */
-        public static final int trackTintMode=0x7f010104;
+        public static final int trackTintMode=0x7f0100e6;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2698,11 +2366,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int useCompatPadding=0x7f010149;
+        public static final int useCompatPadding=0x7f01012b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int voiceIcon=0x7f0100fb;
+        public static final int voiceIcon=0x7f0100dd;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2710,7 +2378,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowActionBar=0x7f01005f;
+        public static final int windowActionBar=0x7f01004a;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2718,7 +2386,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowActionBarOverlay=0x7f010061;
+        public static final int windowActionBarOverlay=0x7f01004c;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2726,7 +2394,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowActionModeOverlay=0x7f010062;
+        public static final int windowActionModeOverlay=0x7f01004d;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2739,7 +2407,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowFixedHeightMajor=0x7f010066;
+        public static final int windowFixedHeightMajor=0x7f010051;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2752,7 +2420,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowFixedHeightMinor=0x7f010064;
+        public static final int windowFixedHeightMinor=0x7f01004f;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2765,7 +2433,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowFixedWidthMajor=0x7f010063;
+        public static final int windowFixedWidthMajor=0x7f01004e;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2778,7 +2446,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowFixedWidthMinor=0x7f010065;
+        public static final int windowFixedWidthMinor=0x7f010050;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2791,7 +2459,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowMinWidthMajor=0x7f010067;
+        public static final int windowMinWidthMajor=0x7f010052;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2804,7 +2472,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowMinWidthMinor=0x7f010068;
+        public static final int windowMinWidthMinor=0x7f010053;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2812,7 +2480,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowNoTitle=0x7f010060;
+        public static final int windowNoTitle=0x7f01004b;
     }
     public static final class bool {
         public static final int abc_action_bar_embed_tabs=0x7f0e0000;
@@ -2822,282 +2490,255 @@ containing a value of this type.
         public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f0e0004;
     }
     public static final class color {
-        public static final int abc_background_cache_hint_selector_material_dark=0x7f0a0053;
-        public static final int abc_background_cache_hint_selector_material_light=0x7f0a0054;
-        public static final int abc_btn_colored_borderless_text_material=0x7f0a0055;
-        public static final int abc_btn_colored_text_material=0x7f0a0056;
-        public static final int abc_color_highlight_material=0x7f0a0057;
-        public static final int abc_hint_foreground_material_dark=0x7f0a0058;
-        public static final int abc_hint_foreground_material_light=0x7f0a0059;
-        public static final int abc_input_method_navigation_guard=0x7f0a000c;
-        public static final int abc_primary_text_disable_only_material_dark=0x7f0a005a;
-        public static final int abc_primary_text_disable_only_material_light=0x7f0a005b;
-        public static final int abc_primary_text_material_dark=0x7f0a005c;
-        public static final int abc_primary_text_material_light=0x7f0a005d;
-        public static final int abc_search_url_text=0x7f0a005e;
-        public static final int abc_search_url_text_normal=0x7f0a000d;
-        public static final int abc_search_url_text_pressed=0x7f0a000e;
-        public static final int abc_search_url_text_selected=0x7f0a000f;
-        public static final int abc_secondary_text_material_dark=0x7f0a005f;
-        public static final int abc_secondary_text_material_light=0x7f0a0060;
-        public static final int abc_tint_btn_checkable=0x7f0a0061;
-        public static final int abc_tint_default=0x7f0a0062;
-        public static final int abc_tint_edittext=0x7f0a0063;
-        public static final int abc_tint_seek_thumb=0x7f0a0064;
-        public static final int abc_tint_spinner=0x7f0a0065;
-        public static final int abc_tint_switch_track=0x7f0a0066;
-        public static final int accent_material_dark=0x7f0a0010;
-        public static final int accent_material_light=0x7f0a0011;
-        public static final int background_floating_material_dark=0x7f0a0012;
-        public static final int background_floating_material_light=0x7f0a0013;
-        public static final int background_material_dark=0x7f0a0014;
-        public static final int background_material_light=0x7f0a0015;
-        public static final int bright_foreground_disabled_material_dark=0x7f0a0016;
-        public static final int bright_foreground_disabled_material_light=0x7f0a0017;
-        public static final int bright_foreground_inverse_material_dark=0x7f0a0018;
-        public static final int bright_foreground_inverse_material_light=0x7f0a0019;
-        public static final int bright_foreground_material_dark=0x7f0a001a;
-        public static final int bright_foreground_material_light=0x7f0a001b;
-        public static final int button_material_dark=0x7f0a001c;
-        public static final int button_material_light=0x7f0a001d;
-        public static final int cardview_dark_background=0x7f0a0008;
-        public static final int cardview_light_background=0x7f0a0009;
-        public static final int cardview_shadow_end_color=0x7f0a000a;
-        public static final int cardview_shadow_start_color=0x7f0a000b;
-        public static final int common_google_signin_btn_text_dark=0x7f0a0067;
-        public static final int common_google_signin_btn_text_dark_default=0x7f0a0000;
-        public static final int common_google_signin_btn_text_dark_disabled=0x7f0a0001;
-        public static final int common_google_signin_btn_text_dark_focused=0x7f0a0002;
-        public static final int common_google_signin_btn_text_dark_pressed=0x7f0a0003;
-        public static final int common_google_signin_btn_text_light=0x7f0a0068;
-        public static final int common_google_signin_btn_text_light_default=0x7f0a0004;
-        public static final int common_google_signin_btn_text_light_disabled=0x7f0a0005;
-        public static final int common_google_signin_btn_text_light_focused=0x7f0a0006;
-        public static final int common_google_signin_btn_text_light_pressed=0x7f0a0007;
-        public static final int common_google_signin_btn_tint=0x7f0a0069;
-        public static final int design_bottom_navigation_shadow_color=0x7f0a0048;
-        public static final int design_error=0x7f0a006a;
-        public static final int design_fab_shadow_end_color=0x7f0a0049;
-        public static final int design_fab_shadow_mid_color=0x7f0a004a;
-        public static final int design_fab_shadow_start_color=0x7f0a004b;
-        public static final int design_fab_stroke_end_inner_color=0x7f0a004c;
-        public static final int design_fab_stroke_end_outer_color=0x7f0a004d;
-        public static final int design_fab_stroke_top_inner_color=0x7f0a004e;
-        public static final int design_fab_stroke_top_outer_color=0x7f0a004f;
-        public static final int design_snackbar_background_color=0x7f0a0050;
-        public static final int design_tint_password_toggle=0x7f0a006b;
-        public static final int dim_foreground_disabled_material_dark=0x7f0a001e;
-        public static final int dim_foreground_disabled_material_light=0x7f0a001f;
-        public static final int dim_foreground_material_dark=0x7f0a0020;
-        public static final int dim_foreground_material_light=0x7f0a0021;
-        public static final int error_color_material=0x7f0a0022;
-        public static final int foreground_material_dark=0x7f0a0023;
-        public static final int foreground_material_light=0x7f0a0024;
-        public static final int highlighted_text_material_dark=0x7f0a0025;
-        public static final int highlighted_text_material_light=0x7f0a0026;
-        public static final int material_blue_grey_800=0x7f0a0027;
-        public static final int material_blue_grey_900=0x7f0a0028;
-        public static final int material_blue_grey_950=0x7f0a0029;
-        public static final int material_deep_teal_200=0x7f0a002a;
-        public static final int material_deep_teal_500=0x7f0a002b;
-        public static final int material_grey_100=0x7f0a002c;
-        public static final int material_grey_300=0x7f0a002d;
-        public static final int material_grey_50=0x7f0a002e;
-        public static final int material_grey_600=0x7f0a002f;
-        public static final int material_grey_800=0x7f0a0030;
-        public static final int material_grey_850=0x7f0a0031;
-        public static final int material_grey_900=0x7f0a0032;
-        public static final int notification_action_color_filter=0x7f0a0051;
-        public static final int notification_icon_bg_color=0x7f0a0052;
-        public static final int notification_material_background_media_default_color=0x7f0a0047;
-        public static final int primary_dark_material_dark=0x7f0a0033;
-        public static final int primary_dark_material_light=0x7f0a0034;
-        public static final int primary_material_dark=0x7f0a0035;
-        public static final int primary_material_light=0x7f0a0036;
-        public static final int primary_text_default_material_dark=0x7f0a0037;
-        public static final int primary_text_default_material_light=0x7f0a0038;
-        public static final int primary_text_disabled_material_dark=0x7f0a0039;
-        public static final int primary_text_disabled_material_light=0x7f0a003a;
-        public static final int ripple_material_dark=0x7f0a003b;
-        public static final int ripple_material_light=0x7f0a003c;
-        public static final int secondary_text_default_material_dark=0x7f0a003d;
-        public static final int secondary_text_default_material_light=0x7f0a003e;
-        public static final int secondary_text_disabled_material_dark=0x7f0a003f;
-        public static final int secondary_text_disabled_material_light=0x7f0a0040;
-        public static final int switch_thumb_disabled_material_dark=0x7f0a0041;
-        public static final int switch_thumb_disabled_material_light=0x7f0a0042;
-        public static final int switch_thumb_material_dark=0x7f0a006c;
-        public static final int switch_thumb_material_light=0x7f0a006d;
-        public static final int switch_thumb_normal_material_dark=0x7f0a0043;
-        public static final int switch_thumb_normal_material_light=0x7f0a0044;
-        public static final int tooltip_background_dark=0x7f0a0045;
-        public static final int tooltip_background_light=0x7f0a0046;
+        public static final int abc_background_cache_hint_selector_material_dark=0x7f0d004a;
+        public static final int abc_background_cache_hint_selector_material_light=0x7f0d004b;
+        public static final int abc_btn_colored_borderless_text_material=0x7f0d004c;
+        public static final int abc_btn_colored_text_material=0x7f0d004d;
+        public static final int abc_color_highlight_material=0x7f0d004e;
+        public static final int abc_hint_foreground_material_dark=0x7f0d004f;
+        public static final int abc_hint_foreground_material_light=0x7f0d0050;
+        public static final int abc_input_method_navigation_guard=0x7f0d0005;
+        public static final int abc_primary_text_disable_only_material_dark=0x7f0d0051;
+        public static final int abc_primary_text_disable_only_material_light=0x7f0d0052;
+        public static final int abc_primary_text_material_dark=0x7f0d0053;
+        public static final int abc_primary_text_material_light=0x7f0d0054;
+        public static final int abc_search_url_text=0x7f0d0055;
+        public static final int abc_search_url_text_normal=0x7f0d0006;
+        public static final int abc_search_url_text_pressed=0x7f0d0007;
+        public static final int abc_search_url_text_selected=0x7f0d0008;
+        public static final int abc_secondary_text_material_dark=0x7f0d0056;
+        public static final int abc_secondary_text_material_light=0x7f0d0057;
+        public static final int abc_tint_btn_checkable=0x7f0d0058;
+        public static final int abc_tint_default=0x7f0d0059;
+        public static final int abc_tint_edittext=0x7f0d005a;
+        public static final int abc_tint_seek_thumb=0x7f0d005b;
+        public static final int abc_tint_spinner=0x7f0d005c;
+        public static final int abc_tint_switch_thumb=0x7f0d005d;
+        public static final int abc_tint_switch_track=0x7f0d005e;
+        public static final int accent_material_dark=0x7f0d0009;
+        public static final int accent_material_light=0x7f0d000a;
+        public static final int background_floating_material_dark=0x7f0d000b;
+        public static final int background_floating_material_light=0x7f0d000c;
+        public static final int background_material_dark=0x7f0d000d;
+        public static final int background_material_light=0x7f0d000e;
+        public static final int bright_foreground_disabled_material_dark=0x7f0d000f;
+        public static final int bright_foreground_disabled_material_light=0x7f0d0010;
+        public static final int bright_foreground_inverse_material_dark=0x7f0d0011;
+        public static final int bright_foreground_inverse_material_light=0x7f0d0012;
+        public static final int bright_foreground_material_dark=0x7f0d0013;
+        public static final int bright_foreground_material_light=0x7f0d0014;
+        public static final int button_material_dark=0x7f0d0015;
+        public static final int button_material_light=0x7f0d0016;
+        public static final int cardview_dark_background=0x7f0d0000;
+        public static final int cardview_light_background=0x7f0d0001;
+        public static final int cardview_shadow_end_color=0x7f0d0002;
+        public static final int cardview_shadow_start_color=0x7f0d0003;
+        public static final int design_bottom_navigation_shadow_color=0x7f0d003f;
+        public static final int design_error=0x7f0d005f;
+        public static final int design_fab_shadow_end_color=0x7f0d0040;
+        public static final int design_fab_shadow_mid_color=0x7f0d0041;
+        public static final int design_fab_shadow_start_color=0x7f0d0042;
+        public static final int design_fab_stroke_end_inner_color=0x7f0d0043;
+        public static final int design_fab_stroke_end_outer_color=0x7f0d0044;
+        public static final int design_fab_stroke_top_inner_color=0x7f0d0045;
+        public static final int design_fab_stroke_top_outer_color=0x7f0d0046;
+        public static final int design_snackbar_background_color=0x7f0d0047;
+        public static final int design_textinput_error_color_dark=0x7f0d0048;
+        public static final int design_textinput_error_color_light=0x7f0d0049;
+        public static final int design_tint_password_toggle=0x7f0d0060;
+        public static final int dim_foreground_disabled_material_dark=0x7f0d0017;
+        public static final int dim_foreground_disabled_material_light=0x7f0d0018;
+        public static final int dim_foreground_material_dark=0x7f0d0019;
+        public static final int dim_foreground_material_light=0x7f0d001a;
+        public static final int foreground_material_dark=0x7f0d001b;
+        public static final int foreground_material_light=0x7f0d001c;
+        public static final int highlighted_text_material_dark=0x7f0d001d;
+        public static final int highlighted_text_material_light=0x7f0d001e;
+        public static final int material_blue_grey_800=0x7f0d001f;
+        public static final int material_blue_grey_900=0x7f0d0020;
+        public static final int material_blue_grey_950=0x7f0d0021;
+        public static final int material_deep_teal_200=0x7f0d0022;
+        public static final int material_deep_teal_500=0x7f0d0023;
+        public static final int material_grey_100=0x7f0d0024;
+        public static final int material_grey_300=0x7f0d0025;
+        public static final int material_grey_50=0x7f0d0026;
+        public static final int material_grey_600=0x7f0d0027;
+        public static final int material_grey_800=0x7f0d0028;
+        public static final int material_grey_850=0x7f0d0029;
+        public static final int material_grey_900=0x7f0d002a;
+        public static final int notification_action_color_filter=0x7f0d0004;
+        public static final int notification_icon_bg_color=0x7f0d002b;
+        public static final int notification_material_background_media_default_color=0x7f0d002c;
+        public static final int primary_dark_material_dark=0x7f0d002d;
+        public static final int primary_dark_material_light=0x7f0d002e;
+        public static final int primary_material_dark=0x7f0d002f;
+        public static final int primary_material_light=0x7f0d0030;
+        public static final int primary_text_default_material_dark=0x7f0d0031;
+        public static final int primary_text_default_material_light=0x7f0d0032;
+        public static final int primary_text_disabled_material_dark=0x7f0d0033;
+        public static final int primary_text_disabled_material_light=0x7f0d0034;
+        public static final int ripple_material_dark=0x7f0d0035;
+        public static final int ripple_material_light=0x7f0d0036;
+        public static final int secondary_text_default_material_dark=0x7f0d0037;
+        public static final int secondary_text_default_material_light=0x7f0d0038;
+        public static final int secondary_text_disabled_material_dark=0x7f0d0039;
+        public static final int secondary_text_disabled_material_light=0x7f0d003a;
+        public static final int switch_thumb_disabled_material_dark=0x7f0d003b;
+        public static final int switch_thumb_disabled_material_light=0x7f0d003c;
+        public static final int switch_thumb_material_dark=0x7f0d0061;
+        public static final int switch_thumb_material_light=0x7f0d0062;
+        public static final int switch_thumb_normal_material_dark=0x7f0d003d;
+        public static final int switch_thumb_normal_material_light=0x7f0d003e;
     }
     public static final class dimen {
-        public static final int abc_action_bar_content_inset_material=0x7f0c001b;
-        public static final int abc_action_bar_content_inset_with_nav=0x7f0c001c;
-        public static final int abc_action_bar_default_height_material=0x7f0c0010;
-        public static final int abc_action_bar_default_padding_end_material=0x7f0c001d;
-        public static final int abc_action_bar_default_padding_start_material=0x7f0c001e;
-        public static final int abc_action_bar_elevation_material=0x7f0c0020;
-        public static final int abc_action_bar_icon_vertical_padding_material=0x7f0c0021;
-        public static final int abc_action_bar_overflow_padding_end_material=0x7f0c0022;
-        public static final int abc_action_bar_overflow_padding_start_material=0x7f0c0023;
-        public static final int abc_action_bar_progress_bar_size=0x7f0c0011;
-        public static final int abc_action_bar_stacked_max_height=0x7f0c0024;
-        public static final int abc_action_bar_stacked_tab_max_width=0x7f0c0025;
-        public static final int abc_action_bar_subtitle_bottom_margin_material=0x7f0c0026;
-        public static final int abc_action_bar_subtitle_top_margin_material=0x7f0c0027;
-        public static final int abc_action_button_min_height_material=0x7f0c0028;
-        public static final int abc_action_button_min_width_material=0x7f0c0029;
-        public static final int abc_action_button_min_width_overflow_material=0x7f0c002a;
-        public static final int abc_alert_dialog_button_bar_height=0x7f0c000f;
-        public static final int abc_button_inset_horizontal_material=0x7f0c002b;
-        public static final int abc_button_inset_vertical_material=0x7f0c002c;
-        public static final int abc_button_padding_horizontal_material=0x7f0c002d;
-        public static final int abc_button_padding_vertical_material=0x7f0c002e;
-        public static final int abc_cascading_menus_min_smallest_width=0x7f0c002f;
-        public static final int abc_config_prefDialogWidth=0x7f0c0014;
-        public static final int abc_control_corner_material=0x7f0c0030;
-        public static final int abc_control_inset_material=0x7f0c0031;
-        public static final int abc_control_padding_material=0x7f0c0032;
-        public static final int abc_dialog_fixed_height_major=0x7f0c0015;
-        public static final int abc_dialog_fixed_height_minor=0x7f0c0016;
-        public static final int abc_dialog_fixed_width_major=0x7f0c0017;
-        public static final int abc_dialog_fixed_width_minor=0x7f0c0018;
-        public static final int abc_dialog_list_padding_bottom_no_buttons=0x7f0c0033;
-        public static final int abc_dialog_list_padding_top_no_title=0x7f0c0034;
-        public static final int abc_dialog_min_width_major=0x7f0c0019;
-        public static final int abc_dialog_min_width_minor=0x7f0c001a;
-        public static final int abc_dialog_padding_material=0x7f0c0035;
-        public static final int abc_dialog_padding_top_material=0x7f0c0036;
-        public static final int abc_dialog_title_divider_material=0x7f0c0037;
-        public static final int abc_disabled_alpha_material_dark=0x7f0c0038;
-        public static final int abc_disabled_alpha_material_light=0x7f0c0039;
-        public static final int abc_dropdownitem_icon_width=0x7f0c003a;
-        public static final int abc_dropdownitem_text_padding_left=0x7f0c003b;
-        public static final int abc_dropdownitem_text_padding_right=0x7f0c003c;
-        public static final int abc_edit_text_inset_bottom_material=0x7f0c003d;
-        public static final int abc_edit_text_inset_horizontal_material=0x7f0c003e;
-        public static final int abc_edit_text_inset_top_material=0x7f0c003f;
-        public static final int abc_floating_window_z=0x7f0c0040;
-        public static final int abc_list_item_padding_horizontal_material=0x7f0c0041;
-        public static final int abc_panel_menu_list_width=0x7f0c0042;
-        public static final int abc_progress_bar_height_material=0x7f0c0043;
-        public static final int abc_search_view_preferred_height=0x7f0c0044;
-        public static final int abc_search_view_preferred_width=0x7f0c0045;
-        public static final int abc_seekbar_track_background_height_material=0x7f0c0046;
-        public static final int abc_seekbar_track_progress_height_material=0x7f0c0047;
-        public static final int abc_select_dialog_padding_start_material=0x7f0c0048;
-        public static final int abc_switch_padding=0x7f0c001f;
-        public static final int abc_text_size_body_1_material=0x7f0c0049;
-        public static final int abc_text_size_body_2_material=0x7f0c004a;
-        public static final int abc_text_size_button_material=0x7f0c004b;
-        public static final int abc_text_size_caption_material=0x7f0c004c;
-        public static final int abc_text_size_display_1_material=0x7f0c004d;
-        public static final int abc_text_size_display_2_material=0x7f0c004e;
-        public static final int abc_text_size_display_3_material=0x7f0c004f;
-        public static final int abc_text_size_display_4_material=0x7f0c0050;
-        public static final int abc_text_size_headline_material=0x7f0c0051;
-        public static final int abc_text_size_large_material=0x7f0c0052;
-        public static final int abc_text_size_medium_material=0x7f0c0053;
-        public static final int abc_text_size_menu_header_material=0x7f0c0054;
-        public static final int abc_text_size_menu_material=0x7f0c0055;
-        public static final int abc_text_size_small_material=0x7f0c0056;
-        public static final int abc_text_size_subhead_material=0x7f0c0057;
-        public static final int abc_text_size_subtitle_material_toolbar=0x7f0c0012;
-        public static final int abc_text_size_title_material=0x7f0c0058;
-        public static final int abc_text_size_title_material_toolbar=0x7f0c0013;
-        public static final int cardview_compat_inset_shadow=0x7f0c000c;
-        public static final int cardview_default_elevation=0x7f0c000d;
-        public static final int cardview_default_radius=0x7f0c000e;
-        public static final int compat_button_inset_horizontal_material=0x7f0c0094;
-        public static final int compat_button_inset_vertical_material=0x7f0c0095;
-        public static final int compat_button_padding_horizontal_material=0x7f0c0096;
-        public static final int compat_button_padding_vertical_material=0x7f0c0097;
-        public static final int compat_control_corner_material=0x7f0c0098;
-        public static final int design_appbar_elevation=0x7f0c0072;
-        public static final int design_bottom_navigation_active_item_max_width=0x7f0c0073;
-        public static final int design_bottom_navigation_active_text_size=0x7f0c0074;
-        public static final int design_bottom_navigation_elevation=0x7f0c0075;
-        public static final int design_bottom_navigation_height=0x7f0c0076;
-        public static final int design_bottom_navigation_item_max_width=0x7f0c0077;
-        public static final int design_bottom_navigation_item_min_width=0x7f0c0078;
-        public static final int design_bottom_navigation_margin=0x7f0c0079;
-        public static final int design_bottom_navigation_shadow_height=0x7f0c007a;
-        public static final int design_bottom_navigation_text_size=0x7f0c007b;
-        public static final int design_bottom_sheet_modal_elevation=0x7f0c007c;
-        public static final int design_bottom_sheet_peek_height_min=0x7f0c007d;
-        public static final int design_fab_border_width=0x7f0c007e;
-        public static final int design_fab_elevation=0x7f0c007f;
-        public static final int design_fab_image_size=0x7f0c0080;
-        public static final int design_fab_size_mini=0x7f0c0081;
-        public static final int design_fab_size_normal=0x7f0c0082;
-        public static final int design_fab_translation_z_pressed=0x7f0c0083;
-        public static final int design_navigation_elevation=0x7f0c0084;
-        public static final int design_navigation_icon_padding=0x7f0c0085;
-        public static final int design_navigation_icon_size=0x7f0c0086;
-        public static final int design_navigation_max_width=0x7f0c006a;
-        public static final int design_navigation_padding_bottom=0x7f0c0087;
-        public static final int design_navigation_separator_vertical_padding=0x7f0c0088;
-        public static final int design_snackbar_action_inline_max_width=0x7f0c006b;
-        public static final int design_snackbar_background_corner_radius=0x7f0c006c;
-        public static final int design_snackbar_elevation=0x7f0c0089;
-        public static final int design_snackbar_extra_spacing_horizontal=0x7f0c006d;
-        public static final int design_snackbar_max_width=0x7f0c006e;
-        public static final int design_snackbar_min_width=0x7f0c006f;
-        public static final int design_snackbar_padding_horizontal=0x7f0c008a;
-        public static final int design_snackbar_padding_vertical=0x7f0c008b;
-        public static final int design_snackbar_padding_vertical_2lines=0x7f0c0070;
-        public static final int design_snackbar_text_size=0x7f0c008c;
-        public static final int design_tab_max_width=0x7f0c008d;
-        public static final int design_tab_scrollable_min_width=0x7f0c0071;
-        public static final int design_tab_text_size=0x7f0c008e;
-        public static final int design_tab_text_size_2line=0x7f0c008f;
-        public static final int disabled_alpha_material_dark=0x7f0c0059;
-        public static final int disabled_alpha_material_light=0x7f0c005a;
-        public static final int fastscroll_default_thickness=0x7f0c0000;
-        public static final int fastscroll_margin=0x7f0c0001;
-        public static final int fastscroll_minimum_range=0x7f0c0002;
-        public static final int highlight_alpha_material_colored=0x7f0c005b;
-        public static final int highlight_alpha_material_dark=0x7f0c005c;
-        public static final int highlight_alpha_material_light=0x7f0c005d;
-        public static final int hint_alpha_material_dark=0x7f0c005e;
-        public static final int hint_alpha_material_light=0x7f0c005f;
-        public static final int hint_pressed_alpha_material_dark=0x7f0c0060;
-        public static final int hint_pressed_alpha_material_light=0x7f0c0061;
-        public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f0c0003;
-        public static final int item_touch_helper_swipe_escape_max_velocity=0x7f0c0004;
-        public static final int item_touch_helper_swipe_escape_velocity=0x7f0c0005;
-        public static final int mr_controller_volume_group_list_item_height=0x7f0c0006;
-        public static final int mr_controller_volume_group_list_item_icon_size=0x7f0c0007;
-        public static final int mr_controller_volume_group_list_max_height=0x7f0c0008;
-        public static final int mr_controller_volume_group_list_padding_top=0x7f0c000b;
-        public static final int mr_dialog_fixed_width_major=0x7f0c0009;
-        public static final int mr_dialog_fixed_width_minor=0x7f0c000a;
-        public static final int notification_action_icon_size=0x7f0c0099;
-        public static final int notification_action_text_size=0x7f0c009a;
-        public static final int notification_big_circle_margin=0x7f0c009b;
-        public static final int notification_content_margin_start=0x7f0c0091;
-        public static final int notification_large_icon_height=0x7f0c009c;
-        public static final int notification_large_icon_width=0x7f0c009d;
-        public static final int notification_main_column_padding_top=0x7f0c0092;
-        public static final int notification_media_narrow_margin=0x7f0c0093;
-        public static final int notification_right_icon_size=0x7f0c009e;
-        public static final int notification_right_side_padding_top=0x7f0c0090;
-        public static final int notification_small_icon_background_padding=0x7f0c009f;
-        public static final int notification_small_icon_size_as_large=0x7f0c00a0;
-        public static final int notification_subtext_size=0x7f0c00a1;
-        public static final int notification_top_pad=0x7f0c00a2;
-        public static final int notification_top_pad_large_text=0x7f0c00a3;
-        public static final int tooltip_corner_radius=0x7f0c0062;
-        public static final int tooltip_horizontal_padding=0x7f0c0063;
-        public static final int tooltip_margin=0x7f0c0064;
-        public static final int tooltip_precise_anchor_extra_offset=0x7f0c0065;
-        public static final int tooltip_precise_anchor_threshold=0x7f0c0066;
-        public static final int tooltip_vertical_padding=0x7f0c0067;
-        public static final int tooltip_y_offset_non_touch=0x7f0c0068;
-        public static final int tooltip_y_offset_touch=0x7f0c0069;
+        public static final int abc_action_bar_content_inset_material=0x7f090018;
+        public static final int abc_action_bar_content_inset_with_nav=0x7f090019;
+        public static final int abc_action_bar_default_height_material=0x7f09000d;
+        public static final int abc_action_bar_default_padding_end_material=0x7f09001a;
+        public static final int abc_action_bar_default_padding_start_material=0x7f09001b;
+        public static final int abc_action_bar_elevation_material=0x7f090021;
+        public static final int abc_action_bar_icon_vertical_padding_material=0x7f090022;
+        public static final int abc_action_bar_overflow_padding_end_material=0x7f090023;
+        public static final int abc_action_bar_overflow_padding_start_material=0x7f090024;
+        public static final int abc_action_bar_progress_bar_size=0x7f09000e;
+        public static final int abc_action_bar_stacked_max_height=0x7f090025;
+        public static final int abc_action_bar_stacked_tab_max_width=0x7f090026;
+        public static final int abc_action_bar_subtitle_bottom_margin_material=0x7f090027;
+        public static final int abc_action_bar_subtitle_top_margin_material=0x7f090028;
+        public static final int abc_action_button_min_height_material=0x7f090029;
+        public static final int abc_action_button_min_width_material=0x7f09002a;
+        public static final int abc_action_button_min_width_overflow_material=0x7f09002b;
+        public static final int abc_alert_dialog_button_bar_height=0x7f09000c;
+        public static final int abc_button_inset_horizontal_material=0x7f09002c;
+        public static final int abc_button_inset_vertical_material=0x7f09002d;
+        public static final int abc_button_padding_horizontal_material=0x7f09002e;
+        public static final int abc_button_padding_vertical_material=0x7f09002f;
+        public static final int abc_cascading_menus_min_smallest_width=0x7f090030;
+        public static final int abc_config_prefDialogWidth=0x7f090011;
+        public static final int abc_control_corner_material=0x7f090031;
+        public static final int abc_control_inset_material=0x7f090032;
+        public static final int abc_control_padding_material=0x7f090033;
+        public static final int abc_dialog_fixed_height_major=0x7f090012;
+        public static final int abc_dialog_fixed_height_minor=0x7f090013;
+        public static final int abc_dialog_fixed_width_major=0x7f090014;
+        public static final int abc_dialog_fixed_width_minor=0x7f090015;
+        public static final int abc_dialog_list_padding_bottom_no_buttons=0x7f090034;
+        public static final int abc_dialog_list_padding_top_no_title=0x7f090035;
+        public static final int abc_dialog_min_width_major=0x7f090016;
+        public static final int abc_dialog_min_width_minor=0x7f090017;
+        public static final int abc_dialog_padding_material=0x7f090036;
+        public static final int abc_dialog_padding_top_material=0x7f090037;
+        public static final int abc_dialog_title_divider_material=0x7f090038;
+        public static final int abc_disabled_alpha_material_dark=0x7f090039;
+        public static final int abc_disabled_alpha_material_light=0x7f09003a;
+        public static final int abc_dropdownitem_icon_width=0x7f09003b;
+        public static final int abc_dropdownitem_text_padding_left=0x7f09003c;
+        public static final int abc_dropdownitem_text_padding_right=0x7f09003d;
+        public static final int abc_edit_text_inset_bottom_material=0x7f09003e;
+        public static final int abc_edit_text_inset_horizontal_material=0x7f09003f;
+        public static final int abc_edit_text_inset_top_material=0x7f090040;
+        public static final int abc_floating_window_z=0x7f090041;
+        public static final int abc_list_item_padding_horizontal_material=0x7f090042;
+        public static final int abc_panel_menu_list_width=0x7f090043;
+        public static final int abc_progress_bar_height_material=0x7f090044;
+        public static final int abc_search_view_preferred_height=0x7f090045;
+        public static final int abc_search_view_preferred_width=0x7f090046;
+        public static final int abc_seekbar_track_background_height_material=0x7f090047;
+        public static final int abc_seekbar_track_progress_height_material=0x7f090048;
+        public static final int abc_select_dialog_padding_start_material=0x7f090049;
+        public static final int abc_switch_padding=0x7f09001d;
+        public static final int abc_text_size_body_1_material=0x7f09004a;
+        public static final int abc_text_size_body_2_material=0x7f09004b;
+        public static final int abc_text_size_button_material=0x7f09004c;
+        public static final int abc_text_size_caption_material=0x7f09004d;
+        public static final int abc_text_size_display_1_material=0x7f09004e;
+        public static final int abc_text_size_display_2_material=0x7f09004f;
+        public static final int abc_text_size_display_3_material=0x7f090050;
+        public static final int abc_text_size_display_4_material=0x7f090051;
+        public static final int abc_text_size_headline_material=0x7f090052;
+        public static final int abc_text_size_large_material=0x7f090053;
+        public static final int abc_text_size_medium_material=0x7f090054;
+        public static final int abc_text_size_menu_header_material=0x7f090055;
+        public static final int abc_text_size_menu_material=0x7f090056;
+        public static final int abc_text_size_small_material=0x7f090057;
+        public static final int abc_text_size_subhead_material=0x7f090058;
+        public static final int abc_text_size_subtitle_material_toolbar=0x7f09000f;
+        public static final int abc_text_size_title_material=0x7f090059;
+        public static final int abc_text_size_title_material_toolbar=0x7f090010;
+        public static final int cardview_compat_inset_shadow=0x7f090009;
+        public static final int cardview_default_elevation=0x7f09000a;
+        public static final int cardview_default_radius=0x7f09000b;
+        public static final int design_appbar_elevation=0x7f090076;
+        public static final int design_bottom_navigation_active_item_max_width=0x7f090077;
+        public static final int design_bottom_navigation_active_text_size=0x7f090078;
+        public static final int design_bottom_navigation_elevation=0x7f090079;
+        public static final int design_bottom_navigation_height=0x7f09007a;
+        public static final int design_bottom_navigation_item_max_width=0x7f09007b;
+        public static final int design_bottom_navigation_item_min_width=0x7f09007c;
+        public static final int design_bottom_navigation_margin=0x7f09007d;
+        public static final int design_bottom_navigation_shadow_height=0x7f09007e;
+        public static final int design_bottom_navigation_text_size=0x7f09007f;
+        public static final int design_bottom_sheet_modal_elevation=0x7f090080;
+        public static final int design_bottom_sheet_peek_height_min=0x7f090081;
+        public static final int design_fab_border_width=0x7f090082;
+        public static final int design_fab_elevation=0x7f090083;
+        public static final int design_fab_image_size=0x7f090084;
+        public static final int design_fab_size_mini=0x7f090085;
+        public static final int design_fab_size_normal=0x7f090086;
+        public static final int design_fab_translation_z_pressed=0x7f090087;
+        public static final int design_navigation_elevation=0x7f090088;
+        public static final int design_navigation_icon_padding=0x7f090089;
+        public static final int design_navigation_icon_size=0x7f09008a;
+        public static final int design_navigation_max_width=0x7f09006e;
+        public static final int design_navigation_padding_bottom=0x7f09008b;
+        public static final int design_navigation_separator_vertical_padding=0x7f09008c;
+        public static final int design_snackbar_action_inline_max_width=0x7f09006f;
+        public static final int design_snackbar_background_corner_radius=0x7f090070;
+        public static final int design_snackbar_elevation=0x7f09008d;
+        public static final int design_snackbar_extra_spacing_horizontal=0x7f090071;
+        public static final int design_snackbar_max_width=0x7f090072;
+        public static final int design_snackbar_min_width=0x7f090073;
+        public static final int design_snackbar_padding_horizontal=0x7f09008e;
+        public static final int design_snackbar_padding_vertical=0x7f09008f;
+        public static final int design_snackbar_padding_vertical_2lines=0x7f090074;
+        public static final int design_snackbar_text_size=0x7f090090;
+        public static final int design_tab_max_width=0x7f090091;
+        public static final int design_tab_scrollable_min_width=0x7f090075;
+        public static final int design_tab_text_size=0x7f090092;
+        public static final int design_tab_text_size_2line=0x7f090093;
+        public static final int disabled_alpha_material_dark=0x7f09005a;
+        public static final int disabled_alpha_material_light=0x7f09005b;
+        public static final int highlight_alpha_material_colored=0x7f09005c;
+        public static final int highlight_alpha_material_dark=0x7f09005d;
+        public static final int highlight_alpha_material_light=0x7f09005e;
+        public static final int hint_alpha_material_dark=0x7f09005f;
+        public static final int hint_alpha_material_light=0x7f090060;
+        public static final int hint_pressed_alpha_material_dark=0x7f090061;
+        public static final int hint_pressed_alpha_material_light=0x7f090062;
+        public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f090000;
+        public static final int item_touch_helper_swipe_escape_max_velocity=0x7f090001;
+        public static final int item_touch_helper_swipe_escape_velocity=0x7f090002;
+        public static final int mr_controller_volume_group_list_item_height=0x7f090003;
+        public static final int mr_controller_volume_group_list_item_icon_size=0x7f090004;
+        public static final int mr_controller_volume_group_list_max_height=0x7f090005;
+        public static final int mr_controller_volume_group_list_padding_top=0x7f090008;
+        public static final int mr_dialog_fixed_width_major=0x7f090006;
+        public static final int mr_dialog_fixed_width_minor=0x7f090007;
+        public static final int notification_action_icon_size=0x7f090063;
+        public static final int notification_action_text_size=0x7f090064;
+        public static final int notification_big_circle_margin=0x7f090065;
+        public static final int notification_content_margin_start=0x7f09001e;
+        public static final int notification_large_icon_height=0x7f090066;
+        public static final int notification_large_icon_width=0x7f090067;
+        public static final int notification_main_column_padding_top=0x7f09001f;
+        public static final int notification_media_narrow_margin=0x7f090020;
+        public static final int notification_right_icon_size=0x7f090068;
+        public static final int notification_right_side_padding_top=0x7f09001c;
+        public static final int notification_small_icon_background_padding=0x7f090069;
+        public static final int notification_small_icon_size_as_large=0x7f09006a;
+        public static final int notification_subtext_size=0x7f09006b;
+        public static final int notification_top_pad=0x7f09006c;
+        public static final int notification_top_pad_large_text=0x7f09006d;
     }
     public static final class drawable {
         public static final int abacus=0x7f020000;
@@ -3186,13 +2827,13 @@ containing a value of this type.
         public static final int abc_vector_test=0x7f020053;
         public static final int auto=0x7f020054;
         public static final int avd_hide_password=0x7f020055;
-        public static final int avd_hide_password_1=0x7f020184;
-        public static final int avd_hide_password_2=0x7f020185;
-        public static final int avd_hide_password_3=0x7f020186;
+        public static final int avd_hide_password_1=0x7f02014d;
+        public static final int avd_hide_password_2=0x7f02014e;
+        public static final int avd_hide_password_3=0x7f02014f;
         public static final int avd_show_password=0x7f020056;
-        public static final int avd_show_password_1=0x7f020187;
-        public static final int avd_show_password_2=0x7f020188;
-        public static final int avd_show_password_3=0x7f020189;
+        public static final int avd_show_password_1=0x7f020150;
+        public static final int avd_show_password_2=0x7f020151;
+        public static final int avd_show_password_3=0x7f020152;
         public static final int basketball=0x7f020057;
         public static final int bio=0x7f020058;
         public static final int books=0x7f020059;
@@ -3204,523 +2845,439 @@ containing a value of this type.
         public static final int club=0x7f02005f;
         public static final int clubes=0x7f020060;
         public static final int comercial=0x7f020061;
-        public static final int common_full_open_on_phone=0x7f020062;
-        public static final int common_google_signin_btn_icon_dark=0x7f020063;
-        public static final int common_google_signin_btn_icon_dark_focused=0x7f020064;
-        public static final int common_google_signin_btn_icon_dark_normal=0x7f020065;
-        public static final int common_google_signin_btn_icon_dark_normal_background=0x7f020066;
-        public static final int common_google_signin_btn_icon_disabled=0x7f020067;
-        public static final int common_google_signin_btn_icon_light=0x7f020068;
-        public static final int common_google_signin_btn_icon_light_focused=0x7f020069;
-        public static final int common_google_signin_btn_icon_light_normal=0x7f02006a;
-        public static final int common_google_signin_btn_icon_light_normal_background=0x7f02006b;
-        public static final int common_google_signin_btn_text_dark=0x7f02006c;
-        public static final int common_google_signin_btn_text_dark_focused=0x7f02006d;
-        public static final int common_google_signin_btn_text_dark_normal=0x7f02006e;
-        public static final int common_google_signin_btn_text_dark_normal_background=0x7f02006f;
-        public static final int common_google_signin_btn_text_disabled=0x7f020070;
-        public static final int common_google_signin_btn_text_light=0x7f020071;
-        public static final int common_google_signin_btn_text_light_focused=0x7f020072;
-        public static final int common_google_signin_btn_text_light_normal=0x7f020073;
-        public static final int common_google_signin_btn_text_light_normal_background=0x7f020074;
-        public static final int cosas=0x7f020075;
-        public static final int cse=0x7f020076;
-        public static final int design_bottom_navigation_item_background=0x7f020077;
-        public static final int design_fab_background=0x7f020078;
-        public static final int design_ic_visibility=0x7f020079;
-        public static final int design_ic_visibility_off=0x7f02007a;
-        public static final int design_password_eye=0x7f02007b;
-        public static final int design_snackbar_background=0x7f02007c;
-        public static final int edi=0x7f02007d;
-        public static final int eleca=0x7f02007e;
-        public static final int electrom=0x7f02007f;
-        public static final int escudo=0x7f020080;
-        public static final int facebook=0x7f020081;
-        public static final int finanza=0x7f020082;
-        public static final int finanzas=0x7f020083;
-        public static final int fisica=0x7f020084;
-        public static final int fusion=0x7f020085;
-        public static final int gmail=0x7f020086;
-        public static final int googleg_disabled_color_18=0x7f020087;
-        public static final int googleg_standard_color_18=0x7f020088;
-        public static final int herramientas=0x7f020089;
-        public static final int horarios=0x7f02008a;
-        public static final int iasai=0x7f02008b;
-        public static final int ic_audiotrack_dark=0x7f02008c;
-        public static final int ic_audiotrack_light=0x7f02008d;
-        public static final int ic_dialog_close_dark=0x7f02008e;
-        public static final int ic_dialog_close_light=0x7f02008f;
-        public static final int ic_group_collapse_00=0x7f020090;
-        public static final int ic_group_collapse_01=0x7f020091;
-        public static final int ic_group_collapse_02=0x7f020092;
-        public static final int ic_group_collapse_03=0x7f020093;
-        public static final int ic_group_collapse_04=0x7f020094;
-        public static final int ic_group_collapse_05=0x7f020095;
-        public static final int ic_group_collapse_06=0x7f020096;
-        public static final int ic_group_collapse_07=0x7f020097;
-        public static final int ic_group_collapse_08=0x7f020098;
-        public static final int ic_group_collapse_09=0x7f020099;
-        public static final int ic_group_collapse_10=0x7f02009a;
-        public static final int ic_group_collapse_11=0x7f02009b;
-        public static final int ic_group_collapse_12=0x7f02009c;
-        public static final int ic_group_collapse_13=0x7f02009d;
-        public static final int ic_group_collapse_14=0x7f02009e;
-        public static final int ic_group_collapse_15=0x7f02009f;
-        public static final int ic_group_expand_00=0x7f0200a0;
-        public static final int ic_group_expand_01=0x7f0200a1;
-        public static final int ic_group_expand_02=0x7f0200a2;
-        public static final int ic_group_expand_03=0x7f0200a3;
-        public static final int ic_group_expand_04=0x7f0200a4;
-        public static final int ic_group_expand_05=0x7f0200a5;
-        public static final int ic_group_expand_06=0x7f0200a6;
-        public static final int ic_group_expand_07=0x7f0200a7;
-        public static final int ic_group_expand_08=0x7f0200a8;
-        public static final int ic_group_expand_09=0x7f0200a9;
-        public static final int ic_group_expand_10=0x7f0200aa;
-        public static final int ic_group_expand_11=0x7f0200ab;
-        public static final int ic_group_expand_12=0x7f0200ac;
-        public static final int ic_group_expand_13=0x7f0200ad;
-        public static final int ic_group_expand_14=0x7f0200ae;
-        public static final int ic_group_expand_15=0x7f0200af;
-        public static final int ic_media_pause_dark=0x7f0200b0;
-        public static final int ic_media_pause_light=0x7f0200b1;
-        public static final int ic_media_play_dark=0x7f0200b2;
-        public static final int ic_media_play_light=0x7f0200b3;
-        public static final int ic_media_stop_dark=0x7f0200b4;
-        public static final int ic_media_stop_light=0x7f0200b5;
-        public static final int ic_mr_button_connected_00_dark=0x7f0200b6;
-        public static final int ic_mr_button_connected_00_light=0x7f0200b7;
-        public static final int ic_mr_button_connected_01_dark=0x7f0200b8;
-        public static final int ic_mr_button_connected_01_light=0x7f0200b9;
-        public static final int ic_mr_button_connected_02_dark=0x7f0200ba;
-        public static final int ic_mr_button_connected_02_light=0x7f0200bb;
-        public static final int ic_mr_button_connected_03_dark=0x7f0200bc;
-        public static final int ic_mr_button_connected_03_light=0x7f0200bd;
-        public static final int ic_mr_button_connected_04_dark=0x7f0200be;
-        public static final int ic_mr_button_connected_04_light=0x7f0200bf;
-        public static final int ic_mr_button_connected_05_dark=0x7f0200c0;
-        public static final int ic_mr_button_connected_05_light=0x7f0200c1;
-        public static final int ic_mr_button_connected_06_dark=0x7f0200c2;
-        public static final int ic_mr_button_connected_06_light=0x7f0200c3;
-        public static final int ic_mr_button_connected_07_dark=0x7f0200c4;
-        public static final int ic_mr_button_connected_07_light=0x7f0200c5;
-        public static final int ic_mr_button_connected_08_dark=0x7f0200c6;
-        public static final int ic_mr_button_connected_08_light=0x7f0200c7;
-        public static final int ic_mr_button_connected_09_dark=0x7f0200c8;
-        public static final int ic_mr_button_connected_09_light=0x7f0200c9;
-        public static final int ic_mr_button_connected_10_dark=0x7f0200ca;
-        public static final int ic_mr_button_connected_10_light=0x7f0200cb;
-        public static final int ic_mr_button_connected_11_dark=0x7f0200cc;
-        public static final int ic_mr_button_connected_11_light=0x7f0200cd;
-        public static final int ic_mr_button_connected_12_dark=0x7f0200ce;
-        public static final int ic_mr_button_connected_12_light=0x7f0200cf;
-        public static final int ic_mr_button_connected_13_dark=0x7f0200d0;
-        public static final int ic_mr_button_connected_13_light=0x7f0200d1;
-        public static final int ic_mr_button_connected_14_dark=0x7f0200d2;
-        public static final int ic_mr_button_connected_14_light=0x7f0200d3;
-        public static final int ic_mr_button_connected_15_dark=0x7f0200d4;
-        public static final int ic_mr_button_connected_15_light=0x7f0200d5;
-        public static final int ic_mr_button_connected_16_dark=0x7f0200d6;
-        public static final int ic_mr_button_connected_16_light=0x7f0200d7;
-        public static final int ic_mr_button_connected_17_dark=0x7f0200d8;
-        public static final int ic_mr_button_connected_17_light=0x7f0200d9;
-        public static final int ic_mr_button_connected_18_dark=0x7f0200da;
-        public static final int ic_mr_button_connected_18_light=0x7f0200db;
-        public static final int ic_mr_button_connected_19_dark=0x7f0200dc;
-        public static final int ic_mr_button_connected_19_light=0x7f0200dd;
-        public static final int ic_mr_button_connected_20_dark=0x7f0200de;
-        public static final int ic_mr_button_connected_20_light=0x7f0200df;
-        public static final int ic_mr_button_connected_21_dark=0x7f0200e0;
-        public static final int ic_mr_button_connected_21_light=0x7f0200e1;
-        public static final int ic_mr_button_connected_22_dark=0x7f0200e2;
-        public static final int ic_mr_button_connected_22_light=0x7f0200e3;
-        public static final int ic_mr_button_connected_23_dark=0x7f0200e4;
-        public static final int ic_mr_button_connected_23_light=0x7f0200e5;
-        public static final int ic_mr_button_connected_24_dark=0x7f0200e6;
-        public static final int ic_mr_button_connected_24_light=0x7f0200e7;
-        public static final int ic_mr_button_connected_25_dark=0x7f0200e8;
-        public static final int ic_mr_button_connected_25_light=0x7f0200e9;
-        public static final int ic_mr_button_connected_26_dark=0x7f0200ea;
-        public static final int ic_mr_button_connected_26_light=0x7f0200eb;
-        public static final int ic_mr_button_connected_27_dark=0x7f0200ec;
-        public static final int ic_mr_button_connected_27_light=0x7f0200ed;
-        public static final int ic_mr_button_connected_28_dark=0x7f0200ee;
-        public static final int ic_mr_button_connected_28_light=0x7f0200ef;
-        public static final int ic_mr_button_connected_29_dark=0x7f0200f0;
-        public static final int ic_mr_button_connected_29_light=0x7f0200f1;
-        public static final int ic_mr_button_connected_30_dark=0x7f0200f2;
-        public static final int ic_mr_button_connected_30_light=0x7f0200f3;
-        public static final int ic_mr_button_connecting_00_dark=0x7f0200f4;
-        public static final int ic_mr_button_connecting_00_light=0x7f0200f5;
-        public static final int ic_mr_button_connecting_01_dark=0x7f0200f6;
-        public static final int ic_mr_button_connecting_01_light=0x7f0200f7;
-        public static final int ic_mr_button_connecting_02_dark=0x7f0200f8;
-        public static final int ic_mr_button_connecting_02_light=0x7f0200f9;
-        public static final int ic_mr_button_connecting_03_dark=0x7f0200fa;
-        public static final int ic_mr_button_connecting_03_light=0x7f0200fb;
-        public static final int ic_mr_button_connecting_04_dark=0x7f0200fc;
-        public static final int ic_mr_button_connecting_04_light=0x7f0200fd;
-        public static final int ic_mr_button_connecting_05_dark=0x7f0200fe;
-        public static final int ic_mr_button_connecting_05_light=0x7f0200ff;
-        public static final int ic_mr_button_connecting_06_dark=0x7f020100;
-        public static final int ic_mr_button_connecting_06_light=0x7f020101;
-        public static final int ic_mr_button_connecting_07_dark=0x7f020102;
-        public static final int ic_mr_button_connecting_07_light=0x7f020103;
-        public static final int ic_mr_button_connecting_08_dark=0x7f020104;
-        public static final int ic_mr_button_connecting_08_light=0x7f020105;
-        public static final int ic_mr_button_connecting_09_dark=0x7f020106;
-        public static final int ic_mr_button_connecting_09_light=0x7f020107;
-        public static final int ic_mr_button_connecting_10_dark=0x7f020108;
-        public static final int ic_mr_button_connecting_10_light=0x7f020109;
-        public static final int ic_mr_button_connecting_11_dark=0x7f02010a;
-        public static final int ic_mr_button_connecting_11_light=0x7f02010b;
-        public static final int ic_mr_button_connecting_12_dark=0x7f02010c;
-        public static final int ic_mr_button_connecting_12_light=0x7f02010d;
-        public static final int ic_mr_button_connecting_13_dark=0x7f02010e;
-        public static final int ic_mr_button_connecting_13_light=0x7f02010f;
-        public static final int ic_mr_button_connecting_14_dark=0x7f020110;
-        public static final int ic_mr_button_connecting_14_light=0x7f020111;
-        public static final int ic_mr_button_connecting_15_dark=0x7f020112;
-        public static final int ic_mr_button_connecting_15_light=0x7f020113;
-        public static final int ic_mr_button_connecting_16_dark=0x7f020114;
-        public static final int ic_mr_button_connecting_16_light=0x7f020115;
-        public static final int ic_mr_button_connecting_17_dark=0x7f020116;
-        public static final int ic_mr_button_connecting_17_light=0x7f020117;
-        public static final int ic_mr_button_connecting_18_dark=0x7f020118;
-        public static final int ic_mr_button_connecting_18_light=0x7f020119;
-        public static final int ic_mr_button_connecting_19_dark=0x7f02011a;
-        public static final int ic_mr_button_connecting_19_light=0x7f02011b;
-        public static final int ic_mr_button_connecting_20_dark=0x7f02011c;
-        public static final int ic_mr_button_connecting_20_light=0x7f02011d;
-        public static final int ic_mr_button_connecting_21_dark=0x7f02011e;
-        public static final int ic_mr_button_connecting_21_light=0x7f02011f;
-        public static final int ic_mr_button_connecting_22_dark=0x7f020120;
-        public static final int ic_mr_button_connecting_22_light=0x7f020121;
-        public static final int ic_mr_button_connecting_23_dark=0x7f020122;
-        public static final int ic_mr_button_connecting_23_light=0x7f020123;
-        public static final int ic_mr_button_connecting_24_dark=0x7f020124;
-        public static final int ic_mr_button_connecting_24_light=0x7f020125;
-        public static final int ic_mr_button_connecting_25_dark=0x7f020126;
-        public static final int ic_mr_button_connecting_25_light=0x7f020127;
-        public static final int ic_mr_button_connecting_26_dark=0x7f020128;
-        public static final int ic_mr_button_connecting_26_light=0x7f020129;
-        public static final int ic_mr_button_connecting_27_dark=0x7f02012a;
-        public static final int ic_mr_button_connecting_27_light=0x7f02012b;
-        public static final int ic_mr_button_connecting_28_dark=0x7f02012c;
-        public static final int ic_mr_button_connecting_28_light=0x7f02012d;
-        public static final int ic_mr_button_connecting_29_dark=0x7f02012e;
-        public static final int ic_mr_button_connecting_29_light=0x7f02012f;
-        public static final int ic_mr_button_connecting_30_dark=0x7f020130;
-        public static final int ic_mr_button_connecting_30_light=0x7f020131;
-        public static final int ic_mr_button_disabled_dark=0x7f020132;
-        public static final int ic_mr_button_disabled_light=0x7f020133;
-        public static final int ic_mr_button_disconnected_dark=0x7f020134;
-        public static final int ic_mr_button_disconnected_light=0x7f020135;
-        public static final int ic_mr_button_grey=0x7f020136;
-        public static final int ic_vol_type_speaker_dark=0x7f020137;
-        public static final int ic_vol_type_speaker_group_dark=0x7f020138;
-        public static final int ic_vol_type_speaker_group_light=0x7f020139;
-        public static final int ic_vol_type_speaker_light=0x7f02013a;
-        public static final int ic_vol_type_tv_dark=0x7f02013b;
-        public static final int ic_vol_type_tv_light=0x7f02013c;
-        public static final int icon=0x7f02013d;
-        public static final int kom=0x7f02013e;
-        public static final int komang=0x7f02013f;
-        public static final int komani=0x7f020140;
-        public static final int komhap=0x7f020141;
-        public static final int komsad=0x7f020142;
-        public static final int list=0x7f020143;
-        public static final int listx=0x7f020144;
-        public static final int matricula=0x7f020145;
-        public static final int mecan=0x7f020146;
-        public static final int mecanica=0x7f020147;
-        public static final int mecatro=0x7f020148;
-        public static final int merca=0x7f020149;
-        public static final int miespe=0x7f02014a;
-        public static final int moon=0x7f02014b;
-        public static final int mr_button_connected_dark=0x7f02014c;
-        public static final int mr_button_connected_light=0x7f02014d;
-        public static final int mr_button_connecting_dark=0x7f02014e;
-        public static final int mr_button_connecting_light=0x7f02014f;
-        public static final int mr_button_dark=0x7f020150;
-        public static final int mr_button_light=0x7f020151;
-        public static final int mr_dialog_close_dark=0x7f020152;
-        public static final int mr_dialog_close_light=0x7f020153;
-        public static final int mr_dialog_material_background_dark=0x7f020154;
-        public static final int mr_dialog_material_background_light=0x7f020155;
-        public static final int mr_group_collapse=0x7f020156;
-        public static final int mr_group_expand=0x7f020157;
-        public static final int mr_media_pause_dark=0x7f020158;
-        public static final int mr_media_pause_light=0x7f020159;
-        public static final int mr_media_play_dark=0x7f02015a;
-        public static final int mr_media_play_light=0x7f02015b;
-        public static final int mr_media_stop_dark=0x7f02015c;
-        public static final int mr_media_stop_light=0x7f02015d;
-        public static final int mr_vol_type_audiotrack_dark=0x7f02015e;
-        public static final int mr_vol_type_audiotrack_light=0x7f02015f;
-        public static final int navigation_empty_icon=0x7f020160;
-        public static final int notification_action_background=0x7f020161;
-        public static final int notification_bg=0x7f020162;
-        public static final int notification_bg_low=0x7f020163;
-        public static final int notification_bg_low_normal=0x7f020164;
-        public static final int notification_bg_low_pressed=0x7f020165;
-        public static final int notification_bg_normal=0x7f020166;
-        public static final int notification_bg_normal_pressed=0x7f020167;
-        public static final int notification_icon_background=0x7f020168;
-        public static final int notification_template_icon_bg=0x7f020182;
-        public static final int notification_template_icon_low_bg=0x7f020183;
-        public static final int notification_tile_bg=0x7f020169;
-        public static final int notify_panel_notification_icon_bg=0x7f02016a;
-        public static final int nuevologotra=0x7f02016b;
-        public static final int petro=0x7f02016c;
-        public static final int plugin_lc_smallicon=0x7f02016d;
-        public static final int plus=0x7f02016e;
-        public static final int preguntas=0x7f02016f;
-        public static final int professor=0x7f020170;
-        public static final int rating=0x7f020171;
-        public static final int reglas=0x7f020172;
-        public static final int sis=0x7f020173;
-        public static final int smartphone=0x7f020174;
-        public static final int software=0x7f020175;
-        public static final int speech=0x7f020176;
-        public static final int splash=0x7f020177;
-        public static final int stop=0x7f020178;
-        public static final int tecelec=0x7f020179;
-        public static final int teleco=0x7f02017a;
-        public static final int test=0x7f02017b;
-        public static final int tooltip_frame_dark=0x7f02017c;
-        public static final int tooltip_frame_light=0x7f02017d;
-        public static final int turistica=0x7f02017e;
-        public static final int ugts=0x7f02017f;
-        public static final int visto=0x7f020180;
-        public static final int weekly=0x7f020181;
+        public static final int cosas=0x7f020062;
+        public static final int cse=0x7f020063;
+        public static final int design_bottom_navigation_item_background=0x7f020064;
+        public static final int design_fab_background=0x7f020065;
+        public static final int design_ic_visibility=0x7f020066;
+        public static final int design_ic_visibility_off=0x7f020067;
+        public static final int design_password_eye=0x7f020068;
+        public static final int design_snackbar_background=0x7f020069;
+        public static final int edi=0x7f02006a;
+        public static final int eleca=0x7f02006b;
+        public static final int electrom=0x7f02006c;
+        public static final int escudo=0x7f02006d;
+        public static final int facebook=0x7f02006e;
+        public static final int finanza=0x7f02006f;
+        public static final int finanzas=0x7f020070;
+        public static final int fisica=0x7f020071;
+        public static final int fusion=0x7f020072;
+        public static final int gmail=0x7f020073;
+        public static final int herramientas=0x7f020074;
+        public static final int horarios=0x7f020075;
+        public static final int iasai=0x7f020076;
+        public static final int ic_audiotrack_dark=0x7f020077;
+        public static final int ic_audiotrack_light=0x7f020078;
+        public static final int ic_dialog_close_dark=0x7f020079;
+        public static final int ic_dialog_close_light=0x7f02007a;
+        public static final int ic_group_collapse_00=0x7f02007b;
+        public static final int ic_group_collapse_01=0x7f02007c;
+        public static final int ic_group_collapse_02=0x7f02007d;
+        public static final int ic_group_collapse_03=0x7f02007e;
+        public static final int ic_group_collapse_04=0x7f02007f;
+        public static final int ic_group_collapse_05=0x7f020080;
+        public static final int ic_group_collapse_06=0x7f020081;
+        public static final int ic_group_collapse_07=0x7f020082;
+        public static final int ic_group_collapse_08=0x7f020083;
+        public static final int ic_group_collapse_09=0x7f020084;
+        public static final int ic_group_collapse_10=0x7f020085;
+        public static final int ic_group_collapse_11=0x7f020086;
+        public static final int ic_group_collapse_12=0x7f020087;
+        public static final int ic_group_collapse_13=0x7f020088;
+        public static final int ic_group_collapse_14=0x7f020089;
+        public static final int ic_group_collapse_15=0x7f02008a;
+        public static final int ic_group_expand_00=0x7f02008b;
+        public static final int ic_group_expand_01=0x7f02008c;
+        public static final int ic_group_expand_02=0x7f02008d;
+        public static final int ic_group_expand_03=0x7f02008e;
+        public static final int ic_group_expand_04=0x7f02008f;
+        public static final int ic_group_expand_05=0x7f020090;
+        public static final int ic_group_expand_06=0x7f020091;
+        public static final int ic_group_expand_07=0x7f020092;
+        public static final int ic_group_expand_08=0x7f020093;
+        public static final int ic_group_expand_09=0x7f020094;
+        public static final int ic_group_expand_10=0x7f020095;
+        public static final int ic_group_expand_11=0x7f020096;
+        public static final int ic_group_expand_12=0x7f020097;
+        public static final int ic_group_expand_13=0x7f020098;
+        public static final int ic_group_expand_14=0x7f020099;
+        public static final int ic_group_expand_15=0x7f02009a;
+        public static final int ic_media_pause_dark=0x7f02009b;
+        public static final int ic_media_pause_light=0x7f02009c;
+        public static final int ic_media_play_dark=0x7f02009d;
+        public static final int ic_media_play_light=0x7f02009e;
+        public static final int ic_media_stop_dark=0x7f02009f;
+        public static final int ic_media_stop_light=0x7f0200a0;
+        public static final int ic_mr_button_connected_00_dark=0x7f0200a1;
+        public static final int ic_mr_button_connected_00_light=0x7f0200a2;
+        public static final int ic_mr_button_connected_01_dark=0x7f0200a3;
+        public static final int ic_mr_button_connected_01_light=0x7f0200a4;
+        public static final int ic_mr_button_connected_02_dark=0x7f0200a5;
+        public static final int ic_mr_button_connected_02_light=0x7f0200a6;
+        public static final int ic_mr_button_connected_03_dark=0x7f0200a7;
+        public static final int ic_mr_button_connected_03_light=0x7f0200a8;
+        public static final int ic_mr_button_connected_04_dark=0x7f0200a9;
+        public static final int ic_mr_button_connected_04_light=0x7f0200aa;
+        public static final int ic_mr_button_connected_05_dark=0x7f0200ab;
+        public static final int ic_mr_button_connected_05_light=0x7f0200ac;
+        public static final int ic_mr_button_connected_06_dark=0x7f0200ad;
+        public static final int ic_mr_button_connected_06_light=0x7f0200ae;
+        public static final int ic_mr_button_connected_07_dark=0x7f0200af;
+        public static final int ic_mr_button_connected_07_light=0x7f0200b0;
+        public static final int ic_mr_button_connected_08_dark=0x7f0200b1;
+        public static final int ic_mr_button_connected_08_light=0x7f0200b2;
+        public static final int ic_mr_button_connected_09_dark=0x7f0200b3;
+        public static final int ic_mr_button_connected_09_light=0x7f0200b4;
+        public static final int ic_mr_button_connected_10_dark=0x7f0200b5;
+        public static final int ic_mr_button_connected_10_light=0x7f0200b6;
+        public static final int ic_mr_button_connected_11_dark=0x7f0200b7;
+        public static final int ic_mr_button_connected_11_light=0x7f0200b8;
+        public static final int ic_mr_button_connected_12_dark=0x7f0200b9;
+        public static final int ic_mr_button_connected_12_light=0x7f0200ba;
+        public static final int ic_mr_button_connected_13_dark=0x7f0200bb;
+        public static final int ic_mr_button_connected_13_light=0x7f0200bc;
+        public static final int ic_mr_button_connected_14_dark=0x7f0200bd;
+        public static final int ic_mr_button_connected_14_light=0x7f0200be;
+        public static final int ic_mr_button_connected_15_dark=0x7f0200bf;
+        public static final int ic_mr_button_connected_15_light=0x7f0200c0;
+        public static final int ic_mr_button_connected_16_dark=0x7f0200c1;
+        public static final int ic_mr_button_connected_16_light=0x7f0200c2;
+        public static final int ic_mr_button_connected_17_dark=0x7f0200c3;
+        public static final int ic_mr_button_connected_17_light=0x7f0200c4;
+        public static final int ic_mr_button_connected_18_dark=0x7f0200c5;
+        public static final int ic_mr_button_connected_18_light=0x7f0200c6;
+        public static final int ic_mr_button_connected_19_dark=0x7f0200c7;
+        public static final int ic_mr_button_connected_19_light=0x7f0200c8;
+        public static final int ic_mr_button_connected_20_dark=0x7f0200c9;
+        public static final int ic_mr_button_connected_20_light=0x7f0200ca;
+        public static final int ic_mr_button_connected_21_dark=0x7f0200cb;
+        public static final int ic_mr_button_connected_21_light=0x7f0200cc;
+        public static final int ic_mr_button_connected_22_dark=0x7f0200cd;
+        public static final int ic_mr_button_connected_22_light=0x7f0200ce;
+        public static final int ic_mr_button_connecting_00_dark=0x7f0200cf;
+        public static final int ic_mr_button_connecting_00_light=0x7f0200d0;
+        public static final int ic_mr_button_connecting_01_dark=0x7f0200d1;
+        public static final int ic_mr_button_connecting_01_light=0x7f0200d2;
+        public static final int ic_mr_button_connecting_02_dark=0x7f0200d3;
+        public static final int ic_mr_button_connecting_02_light=0x7f0200d4;
+        public static final int ic_mr_button_connecting_03_dark=0x7f0200d5;
+        public static final int ic_mr_button_connecting_03_light=0x7f0200d6;
+        public static final int ic_mr_button_connecting_04_dark=0x7f0200d7;
+        public static final int ic_mr_button_connecting_04_light=0x7f0200d8;
+        public static final int ic_mr_button_connecting_05_dark=0x7f0200d9;
+        public static final int ic_mr_button_connecting_05_light=0x7f0200da;
+        public static final int ic_mr_button_connecting_06_dark=0x7f0200db;
+        public static final int ic_mr_button_connecting_06_light=0x7f0200dc;
+        public static final int ic_mr_button_connecting_07_dark=0x7f0200dd;
+        public static final int ic_mr_button_connecting_07_light=0x7f0200de;
+        public static final int ic_mr_button_connecting_08_dark=0x7f0200df;
+        public static final int ic_mr_button_connecting_08_light=0x7f0200e0;
+        public static final int ic_mr_button_connecting_09_dark=0x7f0200e1;
+        public static final int ic_mr_button_connecting_09_light=0x7f0200e2;
+        public static final int ic_mr_button_connecting_10_dark=0x7f0200e3;
+        public static final int ic_mr_button_connecting_10_light=0x7f0200e4;
+        public static final int ic_mr_button_connecting_11_dark=0x7f0200e5;
+        public static final int ic_mr_button_connecting_11_light=0x7f0200e6;
+        public static final int ic_mr_button_connecting_12_dark=0x7f0200e7;
+        public static final int ic_mr_button_connecting_12_light=0x7f0200e8;
+        public static final int ic_mr_button_connecting_13_dark=0x7f0200e9;
+        public static final int ic_mr_button_connecting_13_light=0x7f0200ea;
+        public static final int ic_mr_button_connecting_14_dark=0x7f0200eb;
+        public static final int ic_mr_button_connecting_14_light=0x7f0200ec;
+        public static final int ic_mr_button_connecting_15_dark=0x7f0200ed;
+        public static final int ic_mr_button_connecting_15_light=0x7f0200ee;
+        public static final int ic_mr_button_connecting_16_dark=0x7f0200ef;
+        public static final int ic_mr_button_connecting_16_light=0x7f0200f0;
+        public static final int ic_mr_button_connecting_17_dark=0x7f0200f1;
+        public static final int ic_mr_button_connecting_17_light=0x7f0200f2;
+        public static final int ic_mr_button_connecting_18_dark=0x7f0200f3;
+        public static final int ic_mr_button_connecting_18_light=0x7f0200f4;
+        public static final int ic_mr_button_connecting_19_dark=0x7f0200f5;
+        public static final int ic_mr_button_connecting_19_light=0x7f0200f6;
+        public static final int ic_mr_button_connecting_20_dark=0x7f0200f7;
+        public static final int ic_mr_button_connecting_20_light=0x7f0200f8;
+        public static final int ic_mr_button_connecting_21_dark=0x7f0200f9;
+        public static final int ic_mr_button_connecting_21_light=0x7f0200fa;
+        public static final int ic_mr_button_connecting_22_dark=0x7f0200fb;
+        public static final int ic_mr_button_connecting_22_light=0x7f0200fc;
+        public static final int ic_mr_button_disabled_dark=0x7f0200fd;
+        public static final int ic_mr_button_disabled_light=0x7f0200fe;
+        public static final int ic_mr_button_disconnected_dark=0x7f0200ff;
+        public static final int ic_mr_button_disconnected_light=0x7f020100;
+        public static final int ic_mr_button_grey=0x7f020101;
+        public static final int ic_vol_type_speaker_dark=0x7f020102;
+        public static final int ic_vol_type_speaker_group_dark=0x7f020103;
+        public static final int ic_vol_type_speaker_group_light=0x7f020104;
+        public static final int ic_vol_type_speaker_light=0x7f020105;
+        public static final int ic_vol_type_tv_dark=0x7f020106;
+        public static final int ic_vol_type_tv_light=0x7f020107;
+        public static final int icon=0x7f020108;
+        public static final int kom=0x7f020109;
+        public static final int komang=0x7f02010a;
+        public static final int komani=0x7f02010b;
+        public static final int komhap=0x7f02010c;
+        public static final int komsad=0x7f02010d;
+        public static final int list=0x7f02010e;
+        public static final int listx=0x7f02010f;
+        public static final int matricula=0x7f020110;
+        public static final int mecan=0x7f020111;
+        public static final int mecanica=0x7f020112;
+        public static final int mecatro=0x7f020113;
+        public static final int merca=0x7f020114;
+        public static final int miespe=0x7f020115;
+        public static final int moon=0x7f020116;
+        public static final int mr_button_connected_dark=0x7f020117;
+        public static final int mr_button_connected_light=0x7f020118;
+        public static final int mr_button_connecting_dark=0x7f020119;
+        public static final int mr_button_connecting_light=0x7f02011a;
+        public static final int mr_button_dark=0x7f02011b;
+        public static final int mr_button_light=0x7f02011c;
+        public static final int mr_dialog_close_dark=0x7f02011d;
+        public static final int mr_dialog_close_light=0x7f02011e;
+        public static final int mr_dialog_material_background_dark=0x7f02011f;
+        public static final int mr_dialog_material_background_light=0x7f020120;
+        public static final int mr_group_collapse=0x7f020121;
+        public static final int mr_group_expand=0x7f020122;
+        public static final int mr_media_pause_dark=0x7f020123;
+        public static final int mr_media_pause_light=0x7f020124;
+        public static final int mr_media_play_dark=0x7f020125;
+        public static final int mr_media_play_light=0x7f020126;
+        public static final int mr_media_stop_dark=0x7f020127;
+        public static final int mr_media_stop_light=0x7f020128;
+        public static final int mr_vol_type_audiotrack_dark=0x7f020129;
+        public static final int mr_vol_type_audiotrack_light=0x7f02012a;
+        public static final int navigation_empty_icon=0x7f02012b;
+        public static final int notification_action_background=0x7f02012c;
+        public static final int notification_bg=0x7f02012d;
+        public static final int notification_bg_low=0x7f02012e;
+        public static final int notification_bg_low_normal=0x7f02012f;
+        public static final int notification_bg_low_pressed=0x7f020130;
+        public static final int notification_bg_normal=0x7f020131;
+        public static final int notification_bg_normal_pressed=0x7f020132;
+        public static final int notification_icon_background=0x7f020133;
+        public static final int notification_template_icon_bg=0x7f02014b;
+        public static final int notification_template_icon_low_bg=0x7f02014c;
+        public static final int notification_tile_bg=0x7f020134;
+        public static final int notify_panel_notification_icon_bg=0x7f020135;
+        public static final int nuevologotra=0x7f020136;
+        public static final int petro=0x7f020137;
+        public static final int plugin_lc_smallicon=0x7f020138;
+        public static final int plus=0x7f020139;
+        public static final int preguntas=0x7f02013a;
+        public static final int professor=0x7f02013b;
+        public static final int rating=0x7f02013c;
+        public static final int reglas=0x7f02013d;
+        public static final int sis=0x7f02013e;
+        public static final int smartphone=0x7f02013f;
+        public static final int software=0x7f020140;
+        public static final int speech=0x7f020141;
+        public static final int splash=0x7f020142;
+        public static final int stop=0x7f020143;
+        public static final int tecelec=0x7f020144;
+        public static final int teleco=0x7f020145;
+        public static final int test=0x7f020146;
+        public static final int turistica=0x7f020147;
+        public static final int ugts=0x7f020148;
+        public static final int visto=0x7f020149;
+        public static final int weekly=0x7f02014a;
     }
     public static final class id {
-        public static final int ALT=0x7f0d0039;
-        public static final int CTRL=0x7f0d003a;
-        public static final int FUNCTION=0x7f0d003b;
-        public static final int META=0x7f0d003c;
-        public static final int SHIFT=0x7f0d003d;
-        public static final int SYM=0x7f0d003e;
-        public static final int action0=0x7f0d00bc;
-        public static final int action_bar=0x7f0d0082;
-        public static final int action_bar_activity_content=0x7f0d0001;
-        public static final int action_bar_container=0x7f0d0081;
-        public static final int action_bar_root=0x7f0d007d;
-        public static final int action_bar_spinner=0x7f0d0002;
-        public static final int action_bar_subtitle=0x7f0d0061;
-        public static final int action_bar_title=0x7f0d0060;
-        public static final int action_container=0x7f0d00b9;
-        public static final int action_context_bar=0x7f0d0083;
-        public static final int action_divider=0x7f0d00c0;
-        public static final int action_image=0x7f0d00ba;
-        public static final int action_menu_divider=0x7f0d0003;
-        public static final int action_menu_presenter=0x7f0d0004;
-        public static final int action_mode_bar=0x7f0d007f;
-        public static final int action_mode_bar_stub=0x7f0d007e;
-        public static final int action_mode_close_button=0x7f0d0062;
-        public static final int action_text=0x7f0d00bb;
-        public static final int actions=0x7f0d00c9;
-        public static final int activity_chooser_view_content=0x7f0d0063;
-        public static final int add=0x7f0d0033;
-        public static final int adjust_height=0x7f0d001c;
-        public static final int adjust_width=0x7f0d001d;
-        public static final int alertTitle=0x7f0d0076;
-        public static final int all=0x7f0d0058;
-        public static final int always=0x7f0d003f;
-        public static final int async=0x7f0d005c;
-        public static final int auto=0x7f0d0022;
-        public static final int beginning=0x7f0d0036;
-        public static final int blocking=0x7f0d005d;
-        public static final int bottom=0x7f0d0044;
-        public static final int buttonPanel=0x7f0d0069;
-        public static final int cancel_action=0x7f0d00bd;
-        public static final int center=0x7f0d004b;
-        public static final int center_horizontal=0x7f0d004c;
-        public static final int center_vertical=0x7f0d004d;
-        public static final int checkbox=0x7f0d0079;
-        public static final int chronometer=0x7f0d00c5;
-        public static final int clip_horizontal=0x7f0d0054;
-        public static final int clip_vertical=0x7f0d0055;
-        public static final int collapseActionView=0x7f0d0040;
-        public static final int container=0x7f0d0093;
-        public static final int contentPanel=0x7f0d006c;
-        public static final int coordinator=0x7f0d0094;
-        public static final int custom=0x7f0d0073;
-        public static final int customPanel=0x7f0d0072;
-        public static final int dark=0x7f0d0023;
-        public static final int decor_content_parent=0x7f0d0080;
-        public static final int default_activity_button=0x7f0d0066;
-        public static final int design_bottom_sheet=0x7f0d0096;
-        public static final int design_menu_item_action_area=0x7f0d009d;
-        public static final int design_menu_item_action_area_stub=0x7f0d009c;
-        public static final int design_menu_item_text=0x7f0d009b;
-        public static final int design_navigation_view=0x7f0d009a;
-        public static final int disableHome=0x7f0d0028;
-        public static final int edit_query=0x7f0d0084;
-        public static final int end=0x7f0d0037;
-        public static final int end_padder=0x7f0d00cb;
-        public static final int enterAlways=0x7f0d0046;
-        public static final int enterAlwaysCollapsed=0x7f0d0047;
-        public static final int exitUntilCollapsed=0x7f0d0048;
-        public static final int expand_activities_button=0x7f0d0064;
-        public static final int expanded_menu=0x7f0d0078;
-        public static final int fill=0x7f0d0056;
-        public static final int fill_horizontal=0x7f0d0057;
-        public static final int fill_vertical=0x7f0d004e;
-        public static final int fixed=0x7f0d005a;
-        public static final int forever=0x7f0d005e;
-        public static final int ghost_view=0x7f0d000a;
-        public static final int home=0x7f0d0005;
-        public static final int homeAsUp=0x7f0d0029;
-        public static final int icon=0x7f0d0068;
-        public static final int icon_group=0x7f0d00ca;
-        public static final int icon_only=0x7f0d001f;
-        public static final int ifRoom=0x7f0d0041;
-        public static final int image=0x7f0d0065;
-        public static final int info=0x7f0d00c6;
-        public static final int italic=0x7f0d005f;
-        public static final int item_touch_helper_previous_elevation=0x7f0d0000;
-        public static final int largeLabel=0x7f0d0092;
-        public static final int left=0x7f0d004f;
-        public static final int light=0x7f0d0024;
-        public static final int line1=0x7f0d0017;
-        public static final int line3=0x7f0d0018;
-        public static final int listMode=0x7f0d0025;
-        public static final int list_item=0x7f0d0067;
-        public static final int masked=0x7f0d00d0;
-        public static final int media_actions=0x7f0d00bf;
-        public static final int message=0x7f0d00ce;
-        public static final int middle=0x7f0d0038;
-        public static final int mini=0x7f0d0059;
-        public static final int mr_art=0x7f0d00ab;
-        public static final int mr_chooser_list=0x7f0d00a0;
-        public static final int mr_chooser_route_desc=0x7f0d00a3;
-        public static final int mr_chooser_route_icon=0x7f0d00a1;
-        public static final int mr_chooser_route_name=0x7f0d00a2;
-        public static final int mr_chooser_title=0x7f0d009f;
-        public static final int mr_close=0x7f0d00a8;
-        public static final int mr_control_divider=0x7f0d00ae;
-        public static final int mr_control_playback_ctrl=0x7f0d00b4;
-        public static final int mr_control_subtitle=0x7f0d00b7;
-        public static final int mr_control_title=0x7f0d00b6;
-        public static final int mr_control_title_container=0x7f0d00b5;
-        public static final int mr_custom_control=0x7f0d00a9;
-        public static final int mr_default_control=0x7f0d00aa;
-        public static final int mr_dialog_area=0x7f0d00a5;
-        public static final int mr_expandable_area=0x7f0d00a4;
-        public static final int mr_group_expand_collapse=0x7f0d00b8;
-        public static final int mr_media_main_control=0x7f0d00ac;
-        public static final int mr_name=0x7f0d00a7;
-        public static final int mr_playback_control=0x7f0d00ad;
-        public static final int mr_title_bar=0x7f0d00a6;
-        public static final int mr_volume_control=0x7f0d00af;
-        public static final int mr_volume_group_list=0x7f0d00b0;
-        public static final int mr_volume_item_icon=0x7f0d00b2;
-        public static final int mr_volume_slider=0x7f0d00b3;
-        public static final int multiply=0x7f0d002e;
-        public static final int navigation_header_container=0x7f0d0099;
-        public static final int never=0x7f0d0042;
-        public static final int none=0x7f0d001e;
-        public static final int normal=0x7f0d0026;
-        public static final int notification_background=0x7f0d00c8;
-        public static final int notification_main_column=0x7f0d00c2;
-        public static final int notification_main_column_container=0x7f0d00c1;
-        public static final int parallax=0x7f0d0052;
-        public static final int parentPanel=0x7f0d006b;
-        public static final int parent_matrix=0x7f0d000b;
-        public static final int pin=0x7f0d0053;
-        public static final int progress_circular=0x7f0d0006;
-        public static final int progress_horizontal=0x7f0d0007;
-        public static final int radio=0x7f0d007b;
-        public static final int right=0x7f0d0050;
-        public static final int right_icon=0x7f0d00c7;
-        public static final int right_side=0x7f0d00c3;
-        public static final int save_image_matrix=0x7f0d000c;
-        public static final int save_non_transition_alpha=0x7f0d000d;
-        public static final int save_scale_type=0x7f0d000e;
-        public static final int screen=0x7f0d002f;
-        public static final int scroll=0x7f0d0049;
-        public static final int scrollIndicatorDown=0x7f0d0071;
-        public static final int scrollIndicatorUp=0x7f0d006d;
-        public static final int scrollView=0x7f0d006e;
-        public static final int scrollable=0x7f0d005b;
-        public static final int search_badge=0x7f0d0086;
-        public static final int search_bar=0x7f0d0085;
-        public static final int search_button=0x7f0d0087;
-        public static final int search_close_btn=0x7f0d008c;
-        public static final int search_edit_frame=0x7f0d0088;
-        public static final int search_go_btn=0x7f0d008e;
-        public static final int search_mag_icon=0x7f0d0089;
-        public static final int search_plate=0x7f0d008a;
-        public static final int search_src_text=0x7f0d008b;
-        public static final int search_voice_btn=0x7f0d008f;
-        public static final int select_dialog_listview=0x7f0d0090;
-        public static final int shortcut=0x7f0d007a;
-        public static final int showCustom=0x7f0d002a;
-        public static final int showHome=0x7f0d002b;
-        public static final int showTitle=0x7f0d002c;
-        public static final int sliding_tabs=0x7f0d00cc;
-        public static final int smallLabel=0x7f0d0091;
-        public static final int snackbar_action=0x7f0d0098;
-        public static final int snackbar_text=0x7f0d0097;
-        public static final int snap=0x7f0d004a;
-        public static final int spacer=0x7f0d006a;
-        public static final int split_action_bar=0x7f0d0008;
-        public static final int src_atop=0x7f0d0030;
-        public static final int src_in=0x7f0d0031;
-        public static final int src_over=0x7f0d0032;
-        public static final int standard=0x7f0d0020;
-        public static final int start=0x7f0d0051;
-        public static final int status_bar_latest_event_content=0x7f0d00be;
-        public static final int submenuarrow=0x7f0d007c;
-        public static final int submit_area=0x7f0d008d;
-        public static final int tabMode=0x7f0d0027;
-        public static final int text=0x7f0d0019;
-        public static final int text2=0x7f0d001a;
-        public static final int textSpacerNoButtons=0x7f0d0070;
-        public static final int textSpacerNoTitle=0x7f0d006f;
-        public static final int text_input_password_toggle=0x7f0d009e;
-        public static final int textinput_counter=0x7f0d0014;
-        public static final int textinput_error=0x7f0d0015;
-        public static final int time=0x7f0d00c4;
-        public static final int title=0x7f0d001b;
-        public static final int titleDividerNoCustom=0x7f0d0077;
-        public static final int title_template=0x7f0d0075;
-        public static final int toolbar=0x7f0d00cd;
-        public static final int top=0x7f0d0045;
-        public static final int topPanel=0x7f0d0074;
-        public static final int touch_outside=0x7f0d0095;
-        public static final int transition_current_scene=0x7f0d000f;
-        public static final int transition_layout_save=0x7f0d0010;
-        public static final int transition_position=0x7f0d0011;
-        public static final int transition_scene_layoutid_cache=0x7f0d0012;
-        public static final int transition_transform=0x7f0d0013;
-        public static final int uniform=0x7f0d0034;
-        public static final int up=0x7f0d0009;
-        public static final int useLogo=0x7f0d002d;
-        public static final int view_offset_helper=0x7f0d0016;
-        public static final int visible=0x7f0d00cf;
-        public static final int volume_item_container=0x7f0d00b1;
-        public static final int wide=0x7f0d0021;
-        public static final int withText=0x7f0d0043;
-        public static final int wrap_content=0x7f0d0035;
+        public static final int action0=0x7f0a009e;
+        public static final int action_bar=0x7f0a0064;
+        public static final int action_bar_activity_content=0x7f0a0001;
+        public static final int action_bar_container=0x7f0a0063;
+        public static final int action_bar_root=0x7f0a005f;
+        public static final int action_bar_spinner=0x7f0a0002;
+        public static final int action_bar_subtitle=0x7f0a0042;
+        public static final int action_bar_title=0x7f0a0041;
+        public static final int action_container=0x7f0a009b;
+        public static final int action_context_bar=0x7f0a0065;
+        public static final int action_divider=0x7f0a00a2;
+        public static final int action_image=0x7f0a009c;
+        public static final int action_menu_divider=0x7f0a0003;
+        public static final int action_menu_presenter=0x7f0a0004;
+        public static final int action_mode_bar=0x7f0a0061;
+        public static final int action_mode_bar_stub=0x7f0a0060;
+        public static final int action_mode_close_button=0x7f0a0043;
+        public static final int action_text=0x7f0a009d;
+        public static final int actions=0x7f0a00ab;
+        public static final int activity_chooser_view_content=0x7f0a0044;
+        public static final int add=0x7f0a001e;
+        public static final int alertTitle=0x7f0a0058;
+        public static final int all=0x7f0a003d;
+        public static final int always=0x7f0a0023;
+        public static final int auto=0x7f0a002f;
+        public static final int beginning=0x7f0a0020;
+        public static final int bottom=0x7f0a0028;
+        public static final int buttonPanel=0x7f0a004b;
+        public static final int cancel_action=0x7f0a009f;
+        public static final int center=0x7f0a0030;
+        public static final int center_horizontal=0x7f0a0031;
+        public static final int center_vertical=0x7f0a0032;
+        public static final int checkbox=0x7f0a005b;
+        public static final int chronometer=0x7f0a00a7;
+        public static final int clip_horizontal=0x7f0a0039;
+        public static final int clip_vertical=0x7f0a003a;
+        public static final int collapseActionView=0x7f0a0024;
+        public static final int container=0x7f0a0075;
+        public static final int contentPanel=0x7f0a004e;
+        public static final int coordinator=0x7f0a0076;
+        public static final int custom=0x7f0a0055;
+        public static final int customPanel=0x7f0a0054;
+        public static final int decor_content_parent=0x7f0a0062;
+        public static final int default_activity_button=0x7f0a0047;
+        public static final int design_bottom_sheet=0x7f0a0078;
+        public static final int design_menu_item_action_area=0x7f0a007f;
+        public static final int design_menu_item_action_area_stub=0x7f0a007e;
+        public static final int design_menu_item_text=0x7f0a007d;
+        public static final int design_navigation_view=0x7f0a007c;
+        public static final int disableHome=0x7f0a0012;
+        public static final int edit_query=0x7f0a0066;
+        public static final int end=0x7f0a0021;
+        public static final int end_padder=0x7f0a00b1;
+        public static final int enterAlways=0x7f0a002a;
+        public static final int enterAlwaysCollapsed=0x7f0a002b;
+        public static final int exitUntilCollapsed=0x7f0a002c;
+        public static final int expand_activities_button=0x7f0a0045;
+        public static final int expanded_menu=0x7f0a005a;
+        public static final int fill=0x7f0a003b;
+        public static final int fill_horizontal=0x7f0a003c;
+        public static final int fill_vertical=0x7f0a0033;
+        public static final int fixed=0x7f0a003f;
+        public static final int home=0x7f0a0005;
+        public static final int homeAsUp=0x7f0a0013;
+        public static final int icon=0x7f0a0049;
+        public static final int icon_group=0x7f0a00ac;
+        public static final int ifRoom=0x7f0a0025;
+        public static final int image=0x7f0a0046;
+        public static final int info=0x7f0a00a8;
+        public static final int item_touch_helper_previous_elevation=0x7f0a0000;
+        public static final int largeLabel=0x7f0a0074;
+        public static final int left=0x7f0a0034;
+        public static final int line1=0x7f0a00ad;
+        public static final int line3=0x7f0a00af;
+        public static final int listMode=0x7f0a000f;
+        public static final int list_item=0x7f0a0048;
+        public static final int masked=0x7f0a00b5;
+        public static final int media_actions=0x7f0a00a1;
+        public static final int middle=0x7f0a0022;
+        public static final int mini=0x7f0a003e;
+        public static final int mr_art=0x7f0a008d;
+        public static final int mr_chooser_list=0x7f0a0082;
+        public static final int mr_chooser_route_desc=0x7f0a0085;
+        public static final int mr_chooser_route_icon=0x7f0a0083;
+        public static final int mr_chooser_route_name=0x7f0a0084;
+        public static final int mr_chooser_title=0x7f0a0081;
+        public static final int mr_close=0x7f0a008a;
+        public static final int mr_control_divider=0x7f0a0090;
+        public static final int mr_control_playback_ctrl=0x7f0a0096;
+        public static final int mr_control_subtitle=0x7f0a0099;
+        public static final int mr_control_title=0x7f0a0098;
+        public static final int mr_control_title_container=0x7f0a0097;
+        public static final int mr_custom_control=0x7f0a008b;
+        public static final int mr_default_control=0x7f0a008c;
+        public static final int mr_dialog_area=0x7f0a0087;
+        public static final int mr_expandable_area=0x7f0a0086;
+        public static final int mr_group_expand_collapse=0x7f0a009a;
+        public static final int mr_media_main_control=0x7f0a008e;
+        public static final int mr_name=0x7f0a0089;
+        public static final int mr_playback_control=0x7f0a008f;
+        public static final int mr_title_bar=0x7f0a0088;
+        public static final int mr_volume_control=0x7f0a0091;
+        public static final int mr_volume_group_list=0x7f0a0092;
+        public static final int mr_volume_item_icon=0x7f0a0094;
+        public static final int mr_volume_slider=0x7f0a0095;
+        public static final int multiply=0x7f0a0019;
+        public static final int navigation_header_container=0x7f0a007b;
+        public static final int never=0x7f0a0026;
+        public static final int none=0x7f0a0014;
+        public static final int normal=0x7f0a0010;
+        public static final int notification_background=0x7f0a00aa;
+        public static final int notification_main_column=0x7f0a00a4;
+        public static final int notification_main_column_container=0x7f0a00a3;
+        public static final int parallax=0x7f0a0037;
+        public static final int parentPanel=0x7f0a004d;
+        public static final int pin=0x7f0a0038;
+        public static final int progress_circular=0x7f0a0006;
+        public static final int progress_horizontal=0x7f0a0007;
+        public static final int radio=0x7f0a005d;
+        public static final int right=0x7f0a0035;
+        public static final int right_icon=0x7f0a00a9;
+        public static final int right_side=0x7f0a00a5;
+        public static final int screen=0x7f0a001a;
+        public static final int scroll=0x7f0a002d;
+        public static final int scrollIndicatorDown=0x7f0a0053;
+        public static final int scrollIndicatorUp=0x7f0a004f;
+        public static final int scrollView=0x7f0a0050;
+        public static final int scrollable=0x7f0a0040;
+        public static final int search_badge=0x7f0a0068;
+        public static final int search_bar=0x7f0a0067;
+        public static final int search_button=0x7f0a0069;
+        public static final int search_close_btn=0x7f0a006e;
+        public static final int search_edit_frame=0x7f0a006a;
+        public static final int search_go_btn=0x7f0a0070;
+        public static final int search_mag_icon=0x7f0a006b;
+        public static final int search_plate=0x7f0a006c;
+        public static final int search_src_text=0x7f0a006d;
+        public static final int search_voice_btn=0x7f0a0071;
+        public static final int select_dialog_listview=0x7f0a0072;
+        public static final int shortcut=0x7f0a005c;
+        public static final int showCustom=0x7f0a0015;
+        public static final int showHome=0x7f0a0016;
+        public static final int showTitle=0x7f0a0017;
+        public static final int sliding_tabs=0x7f0a00b2;
+        public static final int smallLabel=0x7f0a0073;
+        public static final int snackbar_action=0x7f0a007a;
+        public static final int snackbar_text=0x7f0a0079;
+        public static final int snap=0x7f0a002e;
+        public static final int spacer=0x7f0a004c;
+        public static final int split_action_bar=0x7f0a0008;
+        public static final int src_atop=0x7f0a001b;
+        public static final int src_in=0x7f0a001c;
+        public static final int src_over=0x7f0a001d;
+        public static final int start=0x7f0a0036;
+        public static final int status_bar_latest_event_content=0x7f0a00a0;
+        public static final int submenuarrow=0x7f0a005e;
+        public static final int submit_area=0x7f0a006f;
+        public static final int tabMode=0x7f0a0011;
+        public static final int text=0x7f0a00b0;
+        public static final int text2=0x7f0a00ae;
+        public static final int textSpacerNoButtons=0x7f0a0052;
+        public static final int textSpacerNoTitle=0x7f0a0051;
+        public static final int text_input_password_toggle=0x7f0a0080;
+        public static final int textinput_counter=0x7f0a000c;
+        public static final int textinput_error=0x7f0a000d;
+        public static final int time=0x7f0a00a6;
+        public static final int title=0x7f0a004a;
+        public static final int titleDividerNoCustom=0x7f0a0059;
+        public static final int title_template=0x7f0a0057;
+        public static final int toolbar=0x7f0a00b3;
+        public static final int top=0x7f0a0029;
+        public static final int topPanel=0x7f0a0056;
+        public static final int touch_outside=0x7f0a0077;
+        public static final int transition_current_scene=0x7f0a000a;
+        public static final int transition_scene_layoutid_cache=0x7f0a000b;
+        public static final int up=0x7f0a0009;
+        public static final int useLogo=0x7f0a0018;
+        public static final int view_offset_helper=0x7f0a000e;
+        public static final int visible=0x7f0a00b4;
+        public static final int volume_item_container=0x7f0a0093;
+        public static final int withText=0x7f0a0027;
+        public static final int wrap_content=0x7f0a001f;
     }
     public static final class integer {
-        public static final int abc_config_activityDefaultDur=0x7f090004;
-        public static final int abc_config_activityShortDur=0x7f090005;
-        public static final int app_bar_elevation_anim_duration=0x7f090009;
-        public static final int bottom_sheet_slide_duration=0x7f09000a;
-        public static final int cancel_button_image_alpha=0x7f090006;
-        public static final int config_tooltipAnimTime=0x7f090007;
-        public static final int design_snackbar_text_max_lines=0x7f090008;
-        public static final int google_play_services_version=0x7f090000;
-        public static final int hide_password_duration=0x7f09000b;
-        public static final int mr_controller_volume_group_list_animation_duration_ms=0x7f090001;
-        public static final int mr_controller_volume_group_list_fade_in_duration_ms=0x7f090002;
-        public static final int mr_controller_volume_group_list_fade_out_duration_ms=0x7f090003;
-        public static final int show_password_duration=0x7f09000c;
-        public static final int status_bar_notification_info_maxnum=0x7f09000d;
+        public static final int abc_config_activityDefaultDur=0x7f0b0003;
+        public static final int abc_config_activityShortDur=0x7f0b0004;
+        public static final int app_bar_elevation_anim_duration=0x7f0b0008;
+        public static final int bottom_sheet_slide_duration=0x7f0b0009;
+        public static final int cancel_button_image_alpha=0x7f0b0005;
+        public static final int design_snackbar_text_max_lines=0x7f0b0007;
+        public static final int hide_password_duration=0x7f0b000a;
+        public static final int mr_controller_volume_group_list_animation_duration_ms=0x7f0b0000;
+        public static final int mr_controller_volume_group_list_fade_in_duration_ms=0x7f0b0001;
+        public static final int mr_controller_volume_group_list_fade_out_duration_ms=0x7f0b0002;
+        public static final int show_password_duration=0x7f0b000b;
+        public static final int status_bar_notification_info_maxnum=0x7f0b0006;
     }
     public static final class interpolator {
         public static final int mr_fast_out_slow_in=0x7f060000;
@@ -3795,520 +3352,475 @@ containing a value of this type.
         public static final int support_simple_spinner_dropdown_item=0x7f030041;
         public static final int tabbar=0x7f030042;
         public static final int toolbar=0x7f030043;
-        public static final int tooltip=0x7f030044;
     }
     public static final class raw {
         public static final int todosqlite=0x7f070000;
     }
     public static final class string {
-        public static final int abc_action_bar_home_description=0x7f080031;
-        public static final int abc_action_bar_home_description_format=0x7f080032;
-        public static final int abc_action_bar_home_subtitle_description_format=0x7f080033;
-        public static final int abc_action_bar_up_description=0x7f080034;
-        public static final int abc_action_menu_overflow_description=0x7f080035;
-        public static final int abc_action_mode_done=0x7f080036;
-        public static final int abc_activity_chooser_view_see_all=0x7f080037;
-        public static final int abc_activitychooserview_choose_application=0x7f080038;
-        public static final int abc_capital_off=0x7f080039;
-        public static final int abc_capital_on=0x7f08003a;
-        public static final int abc_font_family_body_1_material=0x7f080046;
-        public static final int abc_font_family_body_2_material=0x7f080047;
-        public static final int abc_font_family_button_material=0x7f080048;
-        public static final int abc_font_family_caption_material=0x7f080049;
-        public static final int abc_font_family_display_1_material=0x7f08004a;
-        public static final int abc_font_family_display_2_material=0x7f08004b;
-        public static final int abc_font_family_display_3_material=0x7f08004c;
-        public static final int abc_font_family_display_4_material=0x7f08004d;
-        public static final int abc_font_family_headline_material=0x7f08004e;
-        public static final int abc_font_family_menu_material=0x7f08004f;
-        public static final int abc_font_family_subhead_material=0x7f080050;
-        public static final int abc_font_family_title_material=0x7f080051;
-        public static final int abc_search_hint=0x7f08003b;
-        public static final int abc_searchview_description_clear=0x7f08003c;
-        public static final int abc_searchview_description_query=0x7f08003d;
-        public static final int abc_searchview_description_search=0x7f08003e;
-        public static final int abc_searchview_description_submit=0x7f08003f;
-        public static final int abc_searchview_description_voice=0x7f080040;
-        public static final int abc_shareactionprovider_share_with=0x7f080041;
-        public static final int abc_shareactionprovider_share_with_application=0x7f080042;
-        public static final int abc_toolbar_collapse_description=0x7f080043;
-        public static final int accept=0x7f080012;
-        public static final int appbar_scrolling_view_behavior=0x7f080052;
-        public static final int bottom_sheet_behavior=0x7f080053;
-        public static final int character_counter_pattern=0x7f080054;
-        public static final int common_google_play_services_enable_button=0x7f080002;
-        public static final int common_google_play_services_enable_text=0x7f080003;
-        public static final int common_google_play_services_enable_title=0x7f080004;
-        public static final int common_google_play_services_install_button=0x7f080005;
-        public static final int common_google_play_services_install_text=0x7f080006;
-        public static final int common_google_play_services_install_title=0x7f080007;
-        public static final int common_google_play_services_notification_ticker=0x7f080008;
-        public static final int common_google_play_services_unknown_issue=0x7f080001;
-        public static final int common_google_play_services_unsupported_text=0x7f080009;
-        public static final int common_google_play_services_update_button=0x7f08000a;
-        public static final int common_google_play_services_update_text=0x7f08000b;
-        public static final int common_google_play_services_update_title=0x7f08000c;
-        public static final int common_google_play_services_updating_text=0x7f08000d;
-        public static final int common_google_play_services_wear_update_text=0x7f08000e;
-        public static final int common_open_on_phone=0x7f08000f;
-        public static final int common_signin_button_text=0x7f080010;
-        public static final int common_signin_button_text_long=0x7f080011;
-        public static final int create_calendar_message=0x7f080013;
-        public static final int create_calendar_title=0x7f080014;
-        public static final int debug_menu_ad_information=0x7f080015;
-        public static final int debug_menu_creative_preview=0x7f080016;
-        public static final int debug_menu_title=0x7f080017;
-        public static final int debug_menu_troubleshooting=0x7f080018;
-        public static final int decline=0x7f080019;
+        public static final int abc_action_bar_home_description=0x7f080016;
+        public static final int abc_action_bar_home_description_format=0x7f080017;
+        public static final int abc_action_bar_home_subtitle_description_format=0x7f080018;
+        public static final int abc_action_bar_up_description=0x7f080019;
+        public static final int abc_action_menu_overflow_description=0x7f08001a;
+        public static final int abc_action_mode_done=0x7f08001b;
+        public static final int abc_activity_chooser_view_see_all=0x7f08001c;
+        public static final int abc_activitychooserview_choose_application=0x7f08001d;
+        public static final int abc_capital_off=0x7f08001e;
+        public static final int abc_capital_on=0x7f08001f;
+        public static final int abc_font_family_body_1_material=0x7f08002b;
+        public static final int abc_font_family_body_2_material=0x7f08002c;
+        public static final int abc_font_family_button_material=0x7f08002d;
+        public static final int abc_font_family_caption_material=0x7f08002e;
+        public static final int abc_font_family_display_1_material=0x7f08002f;
+        public static final int abc_font_family_display_2_material=0x7f080030;
+        public static final int abc_font_family_display_3_material=0x7f080031;
+        public static final int abc_font_family_display_4_material=0x7f080032;
+        public static final int abc_font_family_headline_material=0x7f080033;
+        public static final int abc_font_family_menu_material=0x7f080034;
+        public static final int abc_font_family_subhead_material=0x7f080035;
+        public static final int abc_font_family_title_material=0x7f080036;
+        public static final int abc_search_hint=0x7f080020;
+        public static final int abc_searchview_description_clear=0x7f080021;
+        public static final int abc_searchview_description_query=0x7f080022;
+        public static final int abc_searchview_description_search=0x7f080023;
+        public static final int abc_searchview_description_submit=0x7f080024;
+        public static final int abc_searchview_description_voice=0x7f080025;
+        public static final int abc_shareactionprovider_share_with=0x7f080026;
+        public static final int abc_shareactionprovider_share_with_application=0x7f080027;
+        public static final int abc_toolbar_collapse_description=0x7f080028;
+        public static final int appbar_scrolling_view_behavior=0x7f080037;
+        public static final int bottom_sheet_behavior=0x7f080038;
+        public static final int character_counter_pattern=0x7f080039;
         public static final int library_name=0x7f080000;
-        public static final int mr_button_content_description=0x7f08001c;
-        public static final int mr_cast_button_connected=0x7f08001d;
-        public static final int mr_cast_button_connecting=0x7f08001e;
-        public static final int mr_cast_button_disconnected=0x7f08001f;
-        public static final int mr_chooser_searching=0x7f080020;
-        public static final int mr_chooser_title=0x7f080021;
-        public static final int mr_controller_album_art=0x7f080022;
-        public static final int mr_controller_casting_screen=0x7f080023;
-        public static final int mr_controller_close_description=0x7f080024;
-        public static final int mr_controller_collapse_group=0x7f080025;
-        public static final int mr_controller_disconnect=0x7f080026;
-        public static final int mr_controller_expand_group=0x7f080027;
-        public static final int mr_controller_no_info_available=0x7f080028;
-        public static final int mr_controller_no_media_selected=0x7f080029;
-        public static final int mr_controller_pause=0x7f08002a;
-        public static final int mr_controller_play=0x7f08002b;
-        public static final int mr_controller_stop=0x7f08002c;
-        public static final int mr_controller_stop_casting=0x7f08002d;
-        public static final int mr_controller_volume_slider=0x7f08002e;
-        public static final int mr_system_route_name=0x7f08002f;
-        public static final int mr_user_route_category_name=0x7f080030;
-        public static final int password_toggle_content_description=0x7f080055;
-        public static final int path_password_eye=0x7f080056;
-        public static final int path_password_eye_mask_strike_through=0x7f080057;
-        public static final int path_password_eye_mask_visible=0x7f080058;
-        public static final int path_password_strike_through=0x7f080059;
-        public static final int search_menu_title=0x7f080044;
-        public static final int status_bar_notification_info_overflow=0x7f080045;
-        public static final int store_picture_message=0x7f08001a;
-        public static final int store_picture_title=0x7f08001b;
+        public static final int mr_button_content_description=0x7f080001;
+        public static final int mr_cast_button_connected=0x7f080002;
+        public static final int mr_cast_button_connecting=0x7f080003;
+        public static final int mr_cast_button_disconnected=0x7f080004;
+        public static final int mr_chooser_searching=0x7f080005;
+        public static final int mr_chooser_title=0x7f080006;
+        public static final int mr_controller_album_art=0x7f080007;
+        public static final int mr_controller_casting_screen=0x7f080008;
+        public static final int mr_controller_close_description=0x7f080009;
+        public static final int mr_controller_collapse_group=0x7f08000a;
+        public static final int mr_controller_disconnect=0x7f08000b;
+        public static final int mr_controller_expand_group=0x7f08000c;
+        public static final int mr_controller_no_info_available=0x7f08000d;
+        public static final int mr_controller_no_media_selected=0x7f08000e;
+        public static final int mr_controller_pause=0x7f08000f;
+        public static final int mr_controller_play=0x7f080010;
+        public static final int mr_controller_stop=0x7f080015;
+        public static final int mr_controller_stop_casting=0x7f080011;
+        public static final int mr_controller_volume_slider=0x7f080012;
+        public static final int mr_system_route_name=0x7f080013;
+        public static final int mr_user_route_category_name=0x7f080014;
+        public static final int password_toggle_content_description=0x7f08003a;
+        public static final int path_password_eye=0x7f08003b;
+        public static final int path_password_eye_mask_strike_through=0x7f08003c;
+        public static final int path_password_eye_mask_visible=0x7f08003d;
+        public static final int path_password_strike_through=0x7f08003e;
+        public static final int search_menu_title=0x7f080029;
+        public static final int status_bar_notification_info_overflow=0x7f08002a;
     }
     public static final class style {
-        public static final int AlertDialog_AppCompat=0x7f0b00ad;
-        public static final int AlertDialog_AppCompat_Light=0x7f0b00ae;
-        public static final int Animation_AppCompat_Dialog=0x7f0b00af;
-        public static final int Animation_AppCompat_DropDownUp=0x7f0b00b0;
-        public static final int Animation_AppCompat_Tooltip=0x7f0b00b1;
-        public static final int Animation_Design_BottomSheetDialog=0x7f0b0179;
-        public static final int AppCompatDialogStyle=0x7f0b019c;
-        public static final int Base_AlertDialog_AppCompat=0x7f0b00b2;
-        public static final int Base_AlertDialog_AppCompat_Light=0x7f0b00b3;
-        public static final int Base_Animation_AppCompat_Dialog=0x7f0b00b4;
-        public static final int Base_Animation_AppCompat_DropDownUp=0x7f0b00b5;
-        public static final int Base_Animation_AppCompat_Tooltip=0x7f0b00b6;
-        public static final int Base_CardView=0x7f0b000d;
-        public static final int Base_DialogWindowTitle_AppCompat=0x7f0b00b7;
-        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0b00b8;
-        public static final int Base_TextAppearance_AppCompat=0x7f0b0049;
-        public static final int Base_TextAppearance_AppCompat_Body1=0x7f0b004a;
-        public static final int Base_TextAppearance_AppCompat_Body2=0x7f0b004b;
-        public static final int Base_TextAppearance_AppCompat_Button=0x7f0b0037;
-        public static final int Base_TextAppearance_AppCompat_Caption=0x7f0b004c;
-        public static final int Base_TextAppearance_AppCompat_Display1=0x7f0b004d;
-        public static final int Base_TextAppearance_AppCompat_Display2=0x7f0b004e;
-        public static final int Base_TextAppearance_AppCompat_Display3=0x7f0b004f;
-        public static final int Base_TextAppearance_AppCompat_Display4=0x7f0b0050;
-        public static final int Base_TextAppearance_AppCompat_Headline=0x7f0b0051;
-        public static final int Base_TextAppearance_AppCompat_Inverse=0x7f0b001b;
-        public static final int Base_TextAppearance_AppCompat_Large=0x7f0b0052;
-        public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0b001c;
-        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0b0053;
-        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0b0054;
-        public static final int Base_TextAppearance_AppCompat_Medium=0x7f0b0055;
-        public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0b001d;
-        public static final int Base_TextAppearance_AppCompat_Menu=0x7f0b0056;
-        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0b00b9;
-        public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0b0057;
-        public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0b0058;
-        public static final int Base_TextAppearance_AppCompat_Small=0x7f0b0059;
-        public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0b001e;
-        public static final int Base_TextAppearance_AppCompat_Subhead=0x7f0b005a;
-        public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0b001f;
-        public static final int Base_TextAppearance_AppCompat_Title=0x7f0b005b;
-        public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0b0020;
-        public static final int Base_TextAppearance_AppCompat_Tooltip=0x7f0b00ba;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0b009e;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0b005c;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0b005d;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0b005e;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0b005f;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0b0060;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0b0061;
-        public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f0b0062;
-        public static final int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0b00a5;
-        public static final int Base_TextAppearance_AppCompat_Widget_Button_Colored=0x7f0b00a6;
-        public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0b009f;
-        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0b00bb;
-        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0b0063;
-        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0b0064;
-        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0b0065;
-        public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0b0066;
-        public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0b0067;
-        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b00bc;
-        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0b0068;
-        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0b0069;
-        public static final int Base_Theme_AppCompat=0x7f0b006a;
-        public static final int Base_Theme_AppCompat_CompactMenu=0x7f0b00bd;
-        public static final int Base_Theme_AppCompat_Dialog=0x7f0b0021;
-        public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0b0022;
-        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0b00be;
-        public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0b0023;
-        public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0b0011;
-        public static final int Base_Theme_AppCompat_Light=0x7f0b006b;
-        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0b00bf;
-        public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0b0024;
-        public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0b0025;
-        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0b00c0;
-        public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0b0026;
-        public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0b0012;
-        public static final int Base_ThemeOverlay_AppCompat=0x7f0b00c1;
-        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0b00c2;
-        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0b00c3;
-        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0b00c4;
-        public static final int Base_ThemeOverlay_AppCompat_Dialog=0x7f0b0027;
-        public static final int Base_ThemeOverlay_AppCompat_Dialog_Alert=0x7f0b0028;
-        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0b00c5;
-        public static final int Base_V11_Theme_AppCompat_Dialog=0x7f0b0029;
-        public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0b002a;
-        public static final int Base_V11_ThemeOverlay_AppCompat_Dialog=0x7f0b002b;
-        public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f0b0033;
-        public static final int Base_V12_Widget_AppCompat_EditText=0x7f0b0034;
-        public static final int Base_V14_Widget_Design_AppBarLayout=0x7f0b017a;
-        public static final int Base_V21_Theme_AppCompat=0x7f0b006c;
-        public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0b006d;
-        public static final int Base_V21_Theme_AppCompat_Light=0x7f0b006e;
-        public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0b006f;
-        public static final int Base_V21_ThemeOverlay_AppCompat_Dialog=0x7f0b0070;
-        public static final int Base_V21_Widget_Design_AppBarLayout=0x7f0b0176;
-        public static final int Base_V22_Theme_AppCompat=0x7f0b009c;
-        public static final int Base_V22_Theme_AppCompat_Light=0x7f0b009d;
-        public static final int Base_V23_Theme_AppCompat=0x7f0b00a0;
-        public static final int Base_V23_Theme_AppCompat_Light=0x7f0b00a1;
-        public static final int Base_V26_Theme_AppCompat=0x7f0b00a9;
-        public static final int Base_V26_Theme_AppCompat_Light=0x7f0b00aa;
-        public static final int Base_V26_Widget_AppCompat_Toolbar=0x7f0b00ab;
-        public static final int Base_V26_Widget_Design_AppBarLayout=0x7f0b0178;
-        public static final int Base_V7_Theme_AppCompat=0x7f0b00c6;
-        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0b00c7;
-        public static final int Base_V7_Theme_AppCompat_Light=0x7f0b00c8;
-        public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0b00c9;
-        public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0b00ca;
-        public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0b00cb;
-        public static final int Base_V7_Widget_AppCompat_EditText=0x7f0b00cc;
-        public static final int Base_V7_Widget_AppCompat_Toolbar=0x7f0b00cd;
-        public static final int Base_Widget_AppCompat_ActionBar=0x7f0b00ce;
-        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0b00cf;
-        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0b00d0;
-        public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0b0071;
-        public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0b0072;
-        public static final int Base_Widget_AppCompat_ActionButton=0x7f0b0073;
-        public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0b0074;
-        public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0b0075;
-        public static final int Base_Widget_AppCompat_ActionMode=0x7f0b00d1;
-        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0b00d2;
-        public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0b0035;
-        public static final int Base_Widget_AppCompat_Button=0x7f0b0076;
-        public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0b0077;
-        public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0b0078;
-        public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0b00d3;
-        public static final int Base_Widget_AppCompat_Button_Colored=0x7f0b00a2;
-        public static final int Base_Widget_AppCompat_Button_Small=0x7f0b0079;
-        public static final int Base_Widget_AppCompat_ButtonBar=0x7f0b007a;
-        public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0b00d4;
-        public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0b007b;
-        public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0b007c;
-        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0b00d5;
-        public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0b0010;
-        public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0b00d6;
-        public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0b007d;
-        public static final int Base_Widget_AppCompat_EditText=0x7f0b0036;
-        public static final int Base_Widget_AppCompat_ImageButton=0x7f0b007e;
-        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0b00d7;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0b00d8;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0b00d9;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0b007f;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0b0080;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0b0081;
-        public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0b0082;
-        public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0b0083;
-        public static final int Base_Widget_AppCompat_ListMenuView=0x7f0b00da;
-        public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0b0084;
-        public static final int Base_Widget_AppCompat_ListView=0x7f0b0085;
-        public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0b0086;
-        public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0b0087;
-        public static final int Base_Widget_AppCompat_PopupMenu=0x7f0b0088;
-        public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0b0089;
-        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0b00db;
-        public static final int Base_Widget_AppCompat_ProgressBar=0x7f0b002c;
-        public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0b002d;
-        public static final int Base_Widget_AppCompat_RatingBar=0x7f0b008a;
-        public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f0b00a3;
-        public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f0b00a4;
-        public static final int Base_Widget_AppCompat_SearchView=0x7f0b00dc;
-        public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0b00dd;
-        public static final int Base_Widget_AppCompat_SeekBar=0x7f0b008b;
-        public static final int Base_Widget_AppCompat_SeekBar_Discrete=0x7f0b00de;
-        public static final int Base_Widget_AppCompat_Spinner=0x7f0b008c;
-        public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0b0013;
-        public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0b008d;
-        public static final int Base_Widget_AppCompat_Toolbar=0x7f0b00ac;
-        public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b008e;
-        public static final int Base_Widget_Design_AppBarLayout=0x7f0b0177;
-        public static final int Base_Widget_Design_TabLayout=0x7f0b017b;
-        public static final int CardView=0x7f0b000c;
-        public static final int CardView_Dark=0x7f0b000e;
-        public static final int CardView_Light=0x7f0b000f;
-        public static final int MainTheme=0x7f0b019a;
+        public static final int AlertDialog_AppCompat=0x7f0c00ae;
+        public static final int AlertDialog_AppCompat_Light=0x7f0c00af;
+        public static final int Animation_AppCompat_Dialog=0x7f0c00b0;
+        public static final int Animation_AppCompat_DropDownUp=0x7f0c00b1;
+        public static final int Animation_Design_BottomSheetDialog=0x7f0c0170;
+        public static final int AppCompatDialogStyle=0x7f0c018c;
+        public static final int Base_AlertDialog_AppCompat=0x7f0c00b2;
+        public static final int Base_AlertDialog_AppCompat_Light=0x7f0c00b3;
+        public static final int Base_Animation_AppCompat_Dialog=0x7f0c00b4;
+        public static final int Base_Animation_AppCompat_DropDownUp=0x7f0c00b5;
+        public static final int Base_CardView=0x7f0c000c;
+        public static final int Base_DialogWindowTitle_AppCompat=0x7f0c00b6;
+        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0c00b7;
+        public static final int Base_TextAppearance_AppCompat=0x7f0c004e;
+        public static final int Base_TextAppearance_AppCompat_Body1=0x7f0c004f;
+        public static final int Base_TextAppearance_AppCompat_Body2=0x7f0c0050;
+        public static final int Base_TextAppearance_AppCompat_Button=0x7f0c0036;
+        public static final int Base_TextAppearance_AppCompat_Caption=0x7f0c0051;
+        public static final int Base_TextAppearance_AppCompat_Display1=0x7f0c0052;
+        public static final int Base_TextAppearance_AppCompat_Display2=0x7f0c0053;
+        public static final int Base_TextAppearance_AppCompat_Display3=0x7f0c0054;
+        public static final int Base_TextAppearance_AppCompat_Display4=0x7f0c0055;
+        public static final int Base_TextAppearance_AppCompat_Headline=0x7f0c0056;
+        public static final int Base_TextAppearance_AppCompat_Inverse=0x7f0c001a;
+        public static final int Base_TextAppearance_AppCompat_Large=0x7f0c0057;
+        public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0c001b;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0c0058;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0c0059;
+        public static final int Base_TextAppearance_AppCompat_Medium=0x7f0c005a;
+        public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0c001c;
+        public static final int Base_TextAppearance_AppCompat_Menu=0x7f0c005b;
+        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0c00b8;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0c005c;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0c005d;
+        public static final int Base_TextAppearance_AppCompat_Small=0x7f0c005e;
+        public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0c001d;
+        public static final int Base_TextAppearance_AppCompat_Subhead=0x7f0c005f;
+        public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0c001e;
+        public static final int Base_TextAppearance_AppCompat_Title=0x7f0c0060;
+        public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0c001f;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0c00a3;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0c0061;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0c0062;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0c0063;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0c0064;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0c0065;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0c0066;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f0c0067;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0c00aa;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button_Colored=0x7f0c00ab;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0c00a4;
+        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0c00b9;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0c0068;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0c0069;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0c006a;
+        public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0c006b;
+        public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0c006c;
+        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0c00ba;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0c006d;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0c006e;
+        public static final int Base_Theme_AppCompat=0x7f0c006f;
+        public static final int Base_Theme_AppCompat_CompactMenu=0x7f0c00bb;
+        public static final int Base_Theme_AppCompat_Dialog=0x7f0c0020;
+        public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0c0021;
+        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0c00bc;
+        public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0c0022;
+        public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0c0010;
+        public static final int Base_Theme_AppCompat_Light=0x7f0c0070;
+        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0c00bd;
+        public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0c0023;
+        public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0c0024;
+        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0c00be;
+        public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0c0025;
+        public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0c0011;
+        public static final int Base_ThemeOverlay_AppCompat=0x7f0c00bf;
+        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0c00c0;
+        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0c00c1;
+        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0c00c2;
+        public static final int Base_ThemeOverlay_AppCompat_Dialog=0x7f0c0026;
+        public static final int Base_ThemeOverlay_AppCompat_Dialog_Alert=0x7f0c0027;
+        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0c00c3;
+        public static final int Base_V11_Theme_AppCompat_Dialog=0x7f0c0028;
+        public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0c0029;
+        public static final int Base_V11_ThemeOverlay_AppCompat_Dialog=0x7f0c002a;
+        public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f0c0032;
+        public static final int Base_V12_Widget_AppCompat_EditText=0x7f0c0033;
+        public static final int Base_V21_Theme_AppCompat=0x7f0c0071;
+        public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0c0072;
+        public static final int Base_V21_Theme_AppCompat_Light=0x7f0c0073;
+        public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0c0074;
+        public static final int Base_V21_ThemeOverlay_AppCompat_Dialog=0x7f0c0075;
+        public static final int Base_V22_Theme_AppCompat=0x7f0c00a1;
+        public static final int Base_V22_Theme_AppCompat_Light=0x7f0c00a2;
+        public static final int Base_V23_Theme_AppCompat=0x7f0c00a5;
+        public static final int Base_V23_Theme_AppCompat_Light=0x7f0c00a6;
+        public static final int Base_V7_Theme_AppCompat=0x7f0c00c4;
+        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0c00c5;
+        public static final int Base_V7_Theme_AppCompat_Light=0x7f0c00c6;
+        public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0c00c7;
+        public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0c00c8;
+        public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0c00c9;
+        public static final int Base_V7_Widget_AppCompat_EditText=0x7f0c00ca;
+        public static final int Base_Widget_AppCompat_ActionBar=0x7f0c00cb;
+        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0c00cc;
+        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0c00cd;
+        public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0c0076;
+        public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0c0077;
+        public static final int Base_Widget_AppCompat_ActionButton=0x7f0c0078;
+        public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0c0079;
+        public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0c007a;
+        public static final int Base_Widget_AppCompat_ActionMode=0x7f0c00ce;
+        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0c00cf;
+        public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0c0034;
+        public static final int Base_Widget_AppCompat_Button=0x7f0c007b;
+        public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0c007c;
+        public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0c007d;
+        public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0c00d0;
+        public static final int Base_Widget_AppCompat_Button_Colored=0x7f0c00a7;
+        public static final int Base_Widget_AppCompat_Button_Small=0x7f0c007e;
+        public static final int Base_Widget_AppCompat_ButtonBar=0x7f0c007f;
+        public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0c00d1;
+        public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0c0080;
+        public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0c0081;
+        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0c00d2;
+        public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0c000f;
+        public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0c00d3;
+        public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0c0082;
+        public static final int Base_Widget_AppCompat_EditText=0x7f0c0035;
+        public static final int Base_Widget_AppCompat_ImageButton=0x7f0c0083;
+        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0c00d4;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0c00d5;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0c00d6;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0c0084;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0c0085;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0c0086;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0c0087;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0c0088;
+        public static final int Base_Widget_AppCompat_ListMenuView=0x7f0c00d7;
+        public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0c0089;
+        public static final int Base_Widget_AppCompat_ListView=0x7f0c008a;
+        public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0c008b;
+        public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0c008c;
+        public static final int Base_Widget_AppCompat_PopupMenu=0x7f0c008d;
+        public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0c008e;
+        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0c00d8;
+        public static final int Base_Widget_AppCompat_ProgressBar=0x7f0c002b;
+        public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0c002c;
+        public static final int Base_Widget_AppCompat_RatingBar=0x7f0c008f;
+        public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f0c00a8;
+        public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f0c00a9;
+        public static final int Base_Widget_AppCompat_SearchView=0x7f0c00d9;
+        public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0c00da;
+        public static final int Base_Widget_AppCompat_SeekBar=0x7f0c0090;
+        public static final int Base_Widget_AppCompat_SeekBar_Discrete=0x7f0c00db;
+        public static final int Base_Widget_AppCompat_Spinner=0x7f0c0091;
+        public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0c0012;
+        public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0c0092;
+        public static final int Base_Widget_AppCompat_Toolbar=0x7f0c00dc;
+        public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0c0093;
+        public static final int Base_Widget_Design_AppBarLayout=0x7f0c0171;
+        public static final int Base_Widget_Design_TabLayout=0x7f0c0172;
+        public static final int CardView=0x7f0c000b;
+        public static final int CardView_Dark=0x7f0c000d;
+        public static final int CardView_Light=0x7f0c000e;
+        public static final int MainTheme=0x7f0c0189;
         /**  Base theme applied no matter what API 
          */
-        public static final int MainTheme_Base=0x7f0b019b;
-        public static final int Platform_AppCompat=0x7f0b002e;
-        public static final int Platform_AppCompat_Light=0x7f0b002f;
-        public static final int Platform_ThemeOverlay_AppCompat=0x7f0b008f;
-        public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0b0090;
-        public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0b0091;
-        public static final int Platform_V11_AppCompat=0x7f0b0030;
-        public static final int Platform_V11_AppCompat_Light=0x7f0b0031;
-        public static final int Platform_V14_AppCompat=0x7f0b0038;
-        public static final int Platform_V14_AppCompat_Light=0x7f0b0039;
-        public static final int Platform_V21_AppCompat=0x7f0b0092;
-        public static final int Platform_V21_AppCompat_Light=0x7f0b0093;
-        public static final int Platform_V25_AppCompat=0x7f0b00a7;
-        public static final int Platform_V25_AppCompat_Light=0x7f0b00a8;
-        public static final int Platform_Widget_AppCompat_Spinner=0x7f0b0032;
-        public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0b003b;
-        public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0b003c;
-        public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0b003d;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0b003e;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0b003f;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0b0040;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0b0041;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0b0042;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0b0043;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0b0044;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0b0045;
-        public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0b0046;
-        public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0b0047;
-        public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0b0048;
-        public static final int TextAppearance_AppCompat=0x7f0b00df;
-        public static final int TextAppearance_AppCompat_Body1=0x7f0b00e0;
-        public static final int TextAppearance_AppCompat_Body2=0x7f0b00e1;
-        public static final int TextAppearance_AppCompat_Button=0x7f0b00e2;
-        public static final int TextAppearance_AppCompat_Caption=0x7f0b00e3;
-        public static final int TextAppearance_AppCompat_Display1=0x7f0b00e4;
-        public static final int TextAppearance_AppCompat_Display2=0x7f0b00e5;
-        public static final int TextAppearance_AppCompat_Display3=0x7f0b00e6;
-        public static final int TextAppearance_AppCompat_Display4=0x7f0b00e7;
-        public static final int TextAppearance_AppCompat_Headline=0x7f0b00e8;
-        public static final int TextAppearance_AppCompat_Inverse=0x7f0b00e9;
-        public static final int TextAppearance_AppCompat_Large=0x7f0b00ea;
-        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0b00eb;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0b00ec;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0b00ed;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0b00ee;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0b00ef;
-        public static final int TextAppearance_AppCompat_Medium=0x7f0b00f0;
-        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0b00f1;
-        public static final int TextAppearance_AppCompat_Menu=0x7f0b00f2;
-        public static final int TextAppearance_AppCompat_Notification=0x7f0b0094;
-        public static final int TextAppearance_AppCompat_Notification_Info=0x7f0b0095;
-        public static final int TextAppearance_AppCompat_Notification_Info_Media=0x7f0b0096;
-        public static final int TextAppearance_AppCompat_Notification_Line2=0x7f0b00f3;
-        public static final int TextAppearance_AppCompat_Notification_Line2_Media=0x7f0b00f4;
-        public static final int TextAppearance_AppCompat_Notification_Media=0x7f0b0097;
-        public static final int TextAppearance_AppCompat_Notification_Time=0x7f0b0098;
-        public static final int TextAppearance_AppCompat_Notification_Time_Media=0x7f0b0099;
-        public static final int TextAppearance_AppCompat_Notification_Title=0x7f0b009a;
-        public static final int TextAppearance_AppCompat_Notification_Title_Media=0x7f0b009b;
-        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0b00f5;
-        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0b00f6;
-        public static final int TextAppearance_AppCompat_Small=0x7f0b00f7;
-        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0b00f8;
-        public static final int TextAppearance_AppCompat_Subhead=0x7f0b00f9;
-        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0b00fa;
-        public static final int TextAppearance_AppCompat_Title=0x7f0b00fb;
-        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0b00fc;
-        public static final int TextAppearance_AppCompat_Tooltip=0x7f0b003a;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0b00fd;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0b00fe;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0b00ff;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0b0100;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0b0101;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0b0102;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0b0103;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0b0104;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0b0105;
-        public static final int TextAppearance_AppCompat_Widget_Button=0x7f0b0106;
-        public static final int TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0b0107;
-        public static final int TextAppearance_AppCompat_Widget_Button_Colored=0x7f0b0108;
-        public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0b0109;
-        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0b010a;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0b010b;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0b010c;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0b010d;
-        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0b010e;
-        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0b010f;
-        public static final int TextAppearance_Compat_Notification=0x7f0b0193;
-        public static final int TextAppearance_Compat_Notification_Info=0x7f0b0194;
-        public static final int TextAppearance_Compat_Notification_Info_Media=0x7f0b0170;
-        public static final int TextAppearance_Compat_Notification_Line2=0x7f0b0199;
-        public static final int TextAppearance_Compat_Notification_Line2_Media=0x7f0b0174;
-        public static final int TextAppearance_Compat_Notification_Media=0x7f0b0171;
-        public static final int TextAppearance_Compat_Notification_Time=0x7f0b0195;
-        public static final int TextAppearance_Compat_Notification_Time_Media=0x7f0b0172;
-        public static final int TextAppearance_Compat_Notification_Title=0x7f0b0196;
-        public static final int TextAppearance_Compat_Notification_Title_Media=0x7f0b0173;
-        public static final int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f0b017c;
-        public static final int TextAppearance_Design_Counter=0x7f0b017d;
-        public static final int TextAppearance_Design_Counter_Overflow=0x7f0b017e;
-        public static final int TextAppearance_Design_Error=0x7f0b017f;
-        public static final int TextAppearance_Design_Hint=0x7f0b0180;
-        public static final int TextAppearance_Design_Snackbar_Message=0x7f0b0181;
-        public static final int TextAppearance_Design_Tab=0x7f0b0182;
-        public static final int TextAppearance_MediaRouter_PrimaryText=0x7f0b0001;
-        public static final int TextAppearance_MediaRouter_SecondaryText=0x7f0b0002;
-        public static final int TextAppearance_MediaRouter_Title=0x7f0b0003;
-        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b0110;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0b0111;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0b0112;
-        public static final int Theme_AppCompat=0x7f0b0113;
-        public static final int Theme_AppCompat_CompactMenu=0x7f0b0114;
-        public static final int Theme_AppCompat_DayNight=0x7f0b0014;
-        public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0b0015;
-        public static final int Theme_AppCompat_DayNight_Dialog=0x7f0b0016;
-        public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0b0017;
-        public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0b0018;
-        public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0b0019;
-        public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0b001a;
-        public static final int Theme_AppCompat_Dialog=0x7f0b0115;
-        public static final int Theme_AppCompat_Dialog_Alert=0x7f0b0116;
-        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0b0117;
-        public static final int Theme_AppCompat_DialogWhenLarge=0x7f0b0118;
-        public static final int Theme_AppCompat_Light=0x7f0b0119;
-        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0b011a;
-        public static final int Theme_AppCompat_Light_Dialog=0x7f0b011b;
-        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0b011c;
-        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0b011d;
-        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0b011e;
-        public static final int Theme_AppCompat_Light_NoActionBar=0x7f0b011f;
-        public static final int Theme_AppCompat_NoActionBar=0x7f0b0120;
-        public static final int Theme_Design=0x7f0b0183;
-        public static final int Theme_Design_BottomSheetDialog=0x7f0b0184;
-        public static final int Theme_Design_Light=0x7f0b0185;
-        public static final int Theme_Design_Light_BottomSheetDialog=0x7f0b0186;
-        public static final int Theme_Design_Light_NoActionBar=0x7f0b0187;
-        public static final int Theme_Design_NoActionBar=0x7f0b0188;
-        public static final int Theme_IAPTheme=0x7f0b0000;
-        public static final int Theme_MediaRouter=0x7f0b0004;
-        public static final int Theme_MediaRouter_Light=0x7f0b0005;
-        public static final int Theme_MediaRouter_Light_DarkControlPanel=0x7f0b0006;
-        public static final int Theme_MediaRouter_LightControlPanel=0x7f0b0007;
-        public static final int Theme_Splash=0x7f0b019d;
-        public static final int ThemeOverlay_AppCompat=0x7f0b0121;
-        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0b0122;
-        public static final int ThemeOverlay_AppCompat_Dark=0x7f0b0123;
-        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0b0124;
-        public static final int ThemeOverlay_AppCompat_Dialog=0x7f0b0125;
-        public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f0b0126;
-        public static final int ThemeOverlay_AppCompat_Light=0x7f0b0127;
-        public static final int ThemeOverlay_MediaRouter_Dark=0x7f0b0008;
-        public static final int ThemeOverlay_MediaRouter_Light=0x7f0b0009;
-        public static final int Widget_AppCompat_ActionBar=0x7f0b0128;
-        public static final int Widget_AppCompat_ActionBar_Solid=0x7f0b0129;
-        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0b012a;
-        public static final int Widget_AppCompat_ActionBar_TabText=0x7f0b012b;
-        public static final int Widget_AppCompat_ActionBar_TabView=0x7f0b012c;
-        public static final int Widget_AppCompat_ActionButton=0x7f0b012d;
-        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0b012e;
-        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0b012f;
-        public static final int Widget_AppCompat_ActionMode=0x7f0b0130;
-        public static final int Widget_AppCompat_ActivityChooserView=0x7f0b0131;
-        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0b0132;
-        public static final int Widget_AppCompat_Button=0x7f0b0133;
-        public static final int Widget_AppCompat_Button_Borderless=0x7f0b0134;
-        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0b0135;
-        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0b0136;
-        public static final int Widget_AppCompat_Button_Colored=0x7f0b0137;
-        public static final int Widget_AppCompat_Button_Small=0x7f0b0138;
-        public static final int Widget_AppCompat_ButtonBar=0x7f0b0139;
-        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0b013a;
-        public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0b013b;
-        public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0b013c;
-        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0b013d;
-        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0b013e;
-        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0b013f;
-        public static final int Widget_AppCompat_EditText=0x7f0b0140;
-        public static final int Widget_AppCompat_ImageButton=0x7f0b0141;
-        public static final int Widget_AppCompat_Light_ActionBar=0x7f0b0142;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0b0143;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0b0144;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0b0145;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0b0146;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0b0147;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0b0148;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0b0149;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0b014a;
-        public static final int Widget_AppCompat_Light_ActionButton=0x7f0b014b;
-        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0b014c;
-        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0b014d;
-        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0b014e;
-        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0b014f;
-        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0b0150;
-        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0b0151;
-        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0b0152;
-        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0b0153;
-        public static final int Widget_AppCompat_Light_PopupMenu=0x7f0b0154;
-        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0b0155;
-        public static final int Widget_AppCompat_Light_SearchView=0x7f0b0156;
-        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0b0157;
-        public static final int Widget_AppCompat_ListMenuView=0x7f0b0158;
-        public static final int Widget_AppCompat_ListPopupWindow=0x7f0b0159;
-        public static final int Widget_AppCompat_ListView=0x7f0b015a;
-        public static final int Widget_AppCompat_ListView_DropDown=0x7f0b015b;
-        public static final int Widget_AppCompat_ListView_Menu=0x7f0b015c;
-        public static final int Widget_AppCompat_PopupMenu=0x7f0b015d;
-        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0b015e;
-        public static final int Widget_AppCompat_PopupWindow=0x7f0b015f;
-        public static final int Widget_AppCompat_ProgressBar=0x7f0b0160;
-        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0b0161;
-        public static final int Widget_AppCompat_RatingBar=0x7f0b0162;
-        public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0b0163;
-        public static final int Widget_AppCompat_RatingBar_Small=0x7f0b0164;
-        public static final int Widget_AppCompat_SearchView=0x7f0b0165;
-        public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0b0166;
-        public static final int Widget_AppCompat_SeekBar=0x7f0b0167;
-        public static final int Widget_AppCompat_SeekBar_Discrete=0x7f0b0168;
-        public static final int Widget_AppCompat_Spinner=0x7f0b0169;
-        public static final int Widget_AppCompat_Spinner_DropDown=0x7f0b016a;
-        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0b016b;
-        public static final int Widget_AppCompat_Spinner_Underlined=0x7f0b016c;
-        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0b016d;
-        public static final int Widget_AppCompat_Toolbar=0x7f0b016e;
-        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b016f;
-        public static final int Widget_Compat_NotificationActionContainer=0x7f0b0197;
-        public static final int Widget_Compat_NotificationActionText=0x7f0b0198;
-        public static final int Widget_Design_AppBarLayout=0x7f0b0189;
-        public static final int Widget_Design_BottomNavigationView=0x7f0b018a;
-        public static final int Widget_Design_BottomSheet_Modal=0x7f0b018b;
-        public static final int Widget_Design_CollapsingToolbar=0x7f0b018c;
-        public static final int Widget_Design_CoordinatorLayout=0x7f0b018d;
-        public static final int Widget_Design_FloatingActionButton=0x7f0b018e;
-        public static final int Widget_Design_NavigationView=0x7f0b018f;
-        public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f0b0190;
-        public static final int Widget_Design_Snackbar=0x7f0b0191;
-        public static final int Widget_Design_TabLayout=0x7f0b0175;
-        public static final int Widget_Design_TextInputLayout=0x7f0b0192;
-        public static final int Widget_MediaRouter_Light_MediaRouteButton=0x7f0b000a;
-        public static final int Widget_MediaRouter_MediaRouteButton=0x7f0b000b;
+        public static final int MainTheme_Base=0x7f0c018a;
+        public static final int Platform_AppCompat=0x7f0c002d;
+        public static final int Platform_AppCompat_Light=0x7f0c002e;
+        public static final int Platform_ThemeOverlay_AppCompat=0x7f0c0094;
+        public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0c0095;
+        public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0c0096;
+        public static final int Platform_V11_AppCompat=0x7f0c002f;
+        public static final int Platform_V11_AppCompat_Light=0x7f0c0030;
+        public static final int Platform_V14_AppCompat=0x7f0c0037;
+        public static final int Platform_V14_AppCompat_Light=0x7f0c0038;
+        public static final int Platform_V21_AppCompat=0x7f0c0097;
+        public static final int Platform_V21_AppCompat_Light=0x7f0c0098;
+        public static final int Platform_V25_AppCompat=0x7f0c00ac;
+        public static final int Platform_V25_AppCompat_Light=0x7f0c00ad;
+        public static final int Platform_Widget_AppCompat_Spinner=0x7f0c0031;
+        public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0c0040;
+        public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0c0041;
+        public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0c0042;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0c0043;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0c0044;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0c0045;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0c0046;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0c0047;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0c0048;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0c0049;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0c004a;
+        public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0c004b;
+        public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0c004c;
+        public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0c004d;
+        public static final int TextAppearance_AppCompat=0x7f0c00dd;
+        public static final int TextAppearance_AppCompat_Body1=0x7f0c00de;
+        public static final int TextAppearance_AppCompat_Body2=0x7f0c00df;
+        public static final int TextAppearance_AppCompat_Button=0x7f0c00e0;
+        public static final int TextAppearance_AppCompat_Caption=0x7f0c00e1;
+        public static final int TextAppearance_AppCompat_Display1=0x7f0c00e2;
+        public static final int TextAppearance_AppCompat_Display2=0x7f0c00e3;
+        public static final int TextAppearance_AppCompat_Display3=0x7f0c00e4;
+        public static final int TextAppearance_AppCompat_Display4=0x7f0c00e5;
+        public static final int TextAppearance_AppCompat_Headline=0x7f0c00e6;
+        public static final int TextAppearance_AppCompat_Inverse=0x7f0c00e7;
+        public static final int TextAppearance_AppCompat_Large=0x7f0c00e8;
+        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0c00e9;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0c00ea;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0c00eb;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0c00ec;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0c00ed;
+        public static final int TextAppearance_AppCompat_Medium=0x7f0c00ee;
+        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0c00ef;
+        public static final int TextAppearance_AppCompat_Menu=0x7f0c00f0;
+        public static final int TextAppearance_AppCompat_Notification=0x7f0c0039;
+        public static final int TextAppearance_AppCompat_Notification_Info=0x7f0c0099;
+        public static final int TextAppearance_AppCompat_Notification_Info_Media=0x7f0c009a;
+        public static final int TextAppearance_AppCompat_Notification_Line2=0x7f0c00f1;
+        public static final int TextAppearance_AppCompat_Notification_Line2_Media=0x7f0c00f2;
+        public static final int TextAppearance_AppCompat_Notification_Media=0x7f0c009b;
+        public static final int TextAppearance_AppCompat_Notification_Time=0x7f0c009c;
+        public static final int TextAppearance_AppCompat_Notification_Time_Media=0x7f0c009d;
+        public static final int TextAppearance_AppCompat_Notification_Title=0x7f0c003a;
+        public static final int TextAppearance_AppCompat_Notification_Title_Media=0x7f0c009e;
+        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0c00f3;
+        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0c00f4;
+        public static final int TextAppearance_AppCompat_Small=0x7f0c00f5;
+        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0c00f6;
+        public static final int TextAppearance_AppCompat_Subhead=0x7f0c00f7;
+        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0c00f8;
+        public static final int TextAppearance_AppCompat_Title=0x7f0c00f9;
+        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0c00fa;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0c00fb;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0c00fc;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0c00fd;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0c00fe;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0c00ff;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0c0100;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0c0101;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0c0102;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0c0103;
+        public static final int TextAppearance_AppCompat_Widget_Button=0x7f0c0104;
+        public static final int TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0c0105;
+        public static final int TextAppearance_AppCompat_Widget_Button_Colored=0x7f0c0106;
+        public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0c0107;
+        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0c0108;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0c0109;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0c010a;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0c010b;
+        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0c010c;
+        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0c010d;
+        public static final int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f0c0173;
+        public static final int TextAppearance_Design_Counter=0x7f0c0174;
+        public static final int TextAppearance_Design_Counter_Overflow=0x7f0c0175;
+        public static final int TextAppearance_Design_Error=0x7f0c0176;
+        public static final int TextAppearance_Design_Hint=0x7f0c0177;
+        public static final int TextAppearance_Design_Snackbar_Message=0x7f0c0178;
+        public static final int TextAppearance_Design_Tab=0x7f0c0179;
+        public static final int TextAppearance_MediaRouter_PrimaryText=0x7f0c0000;
+        public static final int TextAppearance_MediaRouter_SecondaryText=0x7f0c0001;
+        public static final int TextAppearance_MediaRouter_Title=0x7f0c0002;
+        public static final int TextAppearance_StatusBar_EventContent=0x7f0c003b;
+        public static final int TextAppearance_StatusBar_EventContent_Info=0x7f0c003c;
+        public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f0c003d;
+        public static final int TextAppearance_StatusBar_EventContent_Time=0x7f0c003e;
+        public static final int TextAppearance_StatusBar_EventContent_Title=0x7f0c003f;
+        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0c010e;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0c010f;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0c0110;
+        public static final int Theme_AppCompat=0x7f0c0111;
+        public static final int Theme_AppCompat_CompactMenu=0x7f0c0112;
+        public static final int Theme_AppCompat_DayNight=0x7f0c0013;
+        public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0c0014;
+        public static final int Theme_AppCompat_DayNight_Dialog=0x7f0c0015;
+        public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0c0016;
+        public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0c0017;
+        public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0c0018;
+        public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0c0019;
+        public static final int Theme_AppCompat_Dialog=0x7f0c0113;
+        public static final int Theme_AppCompat_Dialog_Alert=0x7f0c0114;
+        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0c0115;
+        public static final int Theme_AppCompat_DialogWhenLarge=0x7f0c0116;
+        public static final int Theme_AppCompat_Light=0x7f0c0117;
+        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0c0118;
+        public static final int Theme_AppCompat_Light_Dialog=0x7f0c0119;
+        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0c011a;
+        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0c011b;
+        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0c011c;
+        public static final int Theme_AppCompat_Light_NoActionBar=0x7f0c011d;
+        public static final int Theme_AppCompat_NoActionBar=0x7f0c011e;
+        public static final int Theme_Design=0x7f0c017a;
+        public static final int Theme_Design_BottomSheetDialog=0x7f0c017b;
+        public static final int Theme_Design_Light=0x7f0c017c;
+        public static final int Theme_Design_Light_BottomSheetDialog=0x7f0c017d;
+        public static final int Theme_Design_Light_NoActionBar=0x7f0c017e;
+        public static final int Theme_Design_NoActionBar=0x7f0c017f;
+        public static final int Theme_MediaRouter=0x7f0c0003;
+        public static final int Theme_MediaRouter_Light=0x7f0c0004;
+        public static final int Theme_MediaRouter_Light_DarkControlPanel=0x7f0c0005;
+        public static final int Theme_MediaRouter_LightControlPanel=0x7f0c0006;
+        public static final int Theme_Splash=0x7f0c018b;
+        public static final int ThemeOverlay_AppCompat=0x7f0c011f;
+        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0c0120;
+        public static final int ThemeOverlay_AppCompat_Dark=0x7f0c0121;
+        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0c0122;
+        public static final int ThemeOverlay_AppCompat_Dialog=0x7f0c0123;
+        public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f0c0124;
+        public static final int ThemeOverlay_AppCompat_Light=0x7f0c0125;
+        public static final int ThemeOverlay_MediaRouter_Dark=0x7f0c0007;
+        public static final int ThemeOverlay_MediaRouter_Light=0x7f0c0008;
+        public static final int Widget_AppCompat_ActionBar=0x7f0c0126;
+        public static final int Widget_AppCompat_ActionBar_Solid=0x7f0c0127;
+        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0c0128;
+        public static final int Widget_AppCompat_ActionBar_TabText=0x7f0c0129;
+        public static final int Widget_AppCompat_ActionBar_TabView=0x7f0c012a;
+        public static final int Widget_AppCompat_ActionButton=0x7f0c012b;
+        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0c012c;
+        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0c012d;
+        public static final int Widget_AppCompat_ActionMode=0x7f0c012e;
+        public static final int Widget_AppCompat_ActivityChooserView=0x7f0c012f;
+        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0c0130;
+        public static final int Widget_AppCompat_Button=0x7f0c0131;
+        public static final int Widget_AppCompat_Button_Borderless=0x7f0c0132;
+        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0c0133;
+        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0c0134;
+        public static final int Widget_AppCompat_Button_Colored=0x7f0c0135;
+        public static final int Widget_AppCompat_Button_Small=0x7f0c0136;
+        public static final int Widget_AppCompat_ButtonBar=0x7f0c0137;
+        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0c0138;
+        public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0c0139;
+        public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0c013a;
+        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0c013b;
+        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0c013c;
+        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0c013d;
+        public static final int Widget_AppCompat_EditText=0x7f0c013e;
+        public static final int Widget_AppCompat_ImageButton=0x7f0c013f;
+        public static final int Widget_AppCompat_Light_ActionBar=0x7f0c0140;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0c0141;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0c0142;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0c0143;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0c0144;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0c0145;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0c0146;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0c0147;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0c0148;
+        public static final int Widget_AppCompat_Light_ActionButton=0x7f0c0149;
+        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0c014a;
+        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0c014b;
+        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0c014c;
+        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0c014d;
+        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0c014e;
+        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0c014f;
+        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0c0150;
+        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0c0151;
+        public static final int Widget_AppCompat_Light_PopupMenu=0x7f0c0152;
+        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0c0153;
+        public static final int Widget_AppCompat_Light_SearchView=0x7f0c0154;
+        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0c0155;
+        public static final int Widget_AppCompat_ListMenuView=0x7f0c0156;
+        public static final int Widget_AppCompat_ListPopupWindow=0x7f0c0157;
+        public static final int Widget_AppCompat_ListView=0x7f0c0158;
+        public static final int Widget_AppCompat_ListView_DropDown=0x7f0c0159;
+        public static final int Widget_AppCompat_ListView_Menu=0x7f0c015a;
+        public static final int Widget_AppCompat_NotificationActionContainer=0x7f0c009f;
+        public static final int Widget_AppCompat_NotificationActionText=0x7f0c00a0;
+        public static final int Widget_AppCompat_PopupMenu=0x7f0c015b;
+        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0c015c;
+        public static final int Widget_AppCompat_PopupWindow=0x7f0c015d;
+        public static final int Widget_AppCompat_ProgressBar=0x7f0c015e;
+        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0c015f;
+        public static final int Widget_AppCompat_RatingBar=0x7f0c0160;
+        public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0c0161;
+        public static final int Widget_AppCompat_RatingBar_Small=0x7f0c0162;
+        public static final int Widget_AppCompat_SearchView=0x7f0c0163;
+        public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0c0164;
+        public static final int Widget_AppCompat_SeekBar=0x7f0c0165;
+        public static final int Widget_AppCompat_SeekBar_Discrete=0x7f0c0166;
+        public static final int Widget_AppCompat_Spinner=0x7f0c0167;
+        public static final int Widget_AppCompat_Spinner_DropDown=0x7f0c0168;
+        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0c0169;
+        public static final int Widget_AppCompat_Spinner_Underlined=0x7f0c016a;
+        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0c016b;
+        public static final int Widget_AppCompat_Toolbar=0x7f0c016c;
+        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0c016d;
+        public static final int Widget_Design_AppBarLayout=0x7f0c016f;
+        public static final int Widget_Design_BottomNavigationView=0x7f0c0180;
+        public static final int Widget_Design_BottomSheet_Modal=0x7f0c0181;
+        public static final int Widget_Design_CollapsingToolbar=0x7f0c0182;
+        public static final int Widget_Design_CoordinatorLayout=0x7f0c0183;
+        public static final int Widget_Design_FloatingActionButton=0x7f0c0184;
+        public static final int Widget_Design_NavigationView=0x7f0c0185;
+        public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f0c0186;
+        public static final int Widget_Design_Snackbar=0x7f0c0187;
+        public static final int Widget_Design_TabLayout=0x7f0c016e;
+        public static final int Widget_Design_TextInputLayout=0x7f0c0188;
+        public static final int Widget_MediaRouter_Light_MediaRouteButton=0x7f0c0009;
+        public static final int Widget_MediaRouter_MediaRouteButton=0x7f0c000a;
     }
     public static final class styleable {
         /** Attributes that can be used with a ActionBar.
@@ -4317,35 +3829,35 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background ec.espe.espepockets:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit ec.espe.espepockets:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked ec.espe.espepockets:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd ec.espe.espepockets:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEndWithActions ec.espe.espepockets:contentInsetEndWithActions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft ec.espe.espepockets:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight ec.espe.espepockets:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart ec.espe.espepockets:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation ec.espe.espepockets:contentInsetStartWithNavigation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout ec.espe.espepockets:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions ec.espe.espepockets:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider ec.espe.espepockets:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation ec.espe.espepockets:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height ec.espe.espepockets:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll ec.espe.espepockets:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator ec.espe.espepockets:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout ec.espe.espepockets:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon ec.espe.espepockets:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle ec.espe.espepockets:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding ec.espe.espepockets:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo ec.espe.espepockets:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode ec.espe.espepockets:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme ec.espe.espepockets:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding ec.espe.espepockets:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle ec.espe.espepockets:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle ec.espe.espepockets:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle ec.espe.espepockets:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title ec.espe.espepockets:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle ec.espe.espepockets:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background com.companyname.EspePocket:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit com.companyname.EspePocket:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked com.companyname.EspePocket:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd com.companyname.EspePocket:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.companyname.EspePocket:contentInsetEndWithActions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft com.companyname.EspePocket:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight com.companyname.EspePocket:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart com.companyname.EspePocket:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.companyname.EspePocket:contentInsetStartWithNavigation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout com.companyname.EspePocket:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions com.companyname.EspePocket:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider com.companyname.EspePocket:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation com.companyname.EspePocket:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height com.companyname.EspePocket:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.companyname.EspePocket:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.companyname.EspePocket:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout com.companyname.EspePocket:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon com.companyname.EspePocket:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.companyname.EspePocket:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding com.companyname.EspePocket:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo com.companyname.EspePocket:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode com.companyname.EspePocket:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme com.companyname.EspePocket:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding com.companyname.EspePocket:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle com.companyname.EspePocket:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle com.companyname.EspePocket:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.companyname.EspePocket:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title com.companyname.EspePocket:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle com.companyname.EspePocket:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -4378,27 +3890,27 @@ containing a value of this type.
            @see #ActionBar_titleTextStyle
          */
         public static final int[] ActionBar = {
-            0x7f01002c, 0x7f01002e, 0x7f01002f, 0x7f010030,
-            0x7f010031, 0x7f010032, 0x7f010033, 0x7f010034,
-            0x7f010035, 0x7f010036, 0x7f010037, 0x7f010038,
-            0x7f010039, 0x7f01003a, 0x7f01003b, 0x7f01003c,
-            0x7f01003d, 0x7f01003e, 0x7f01003f, 0x7f010040,
-            0x7f010041, 0x7f010042, 0x7f010043, 0x7f010044,
-            0x7f010045, 0x7f010046, 0x7f010047, 0x7f010048,
-            0x7f01008e
+            0x7f01001d, 0x7f01001f, 0x7f010020, 0x7f010021,
+            0x7f010022, 0x7f010023, 0x7f010024, 0x7f010025,
+            0x7f010026, 0x7f010027, 0x7f010028, 0x7f010029,
+            0x7f01002a, 0x7f01002b, 0x7f01002c, 0x7f01002d,
+            0x7f01002e, 0x7f01002f, 0x7f010030, 0x7f010031,
+            0x7f010032, 0x7f010033, 0x7f010034, 0x7f010035,
+            0x7f010036, 0x7f010037, 0x7f010038, 0x7f010039,
+            0x7f010079
         };
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#background}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:background
+          @attr name com.companyname.EspePocket:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4406,11 +3918,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name ec.espe.espepockets:backgroundSplit
+          @attr name com.companyname.EspePocket:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4418,11 +3930,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name ec.espe.espepockets:backgroundStacked
+          @attr name com.companyname.EspePocket:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4434,11 +3946,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:contentInsetEnd
+          @attr name com.companyname.EspePocket:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#contentInsetEndWithActions}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#contentInsetEndWithActions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4450,11 +3962,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:contentInsetEndWithActions
+          @attr name com.companyname.EspePocket:contentInsetEndWithActions
         */
         public static final int ActionBar_contentInsetEndWithActions = 25;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4466,11 +3978,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:contentInsetLeft
+          @attr name com.companyname.EspePocket:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4482,11 +3994,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:contentInsetRight
+          @attr name com.companyname.EspePocket:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4498,11 +4010,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:contentInsetStart
+          @attr name com.companyname.EspePocket:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#contentInsetStartWithNavigation}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#contentInsetStartWithNavigation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4514,21 +4026,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:contentInsetStartWithNavigation
+          @attr name com.companyname.EspePocket:contentInsetStartWithNavigation
         */
         public static final int ActionBar_contentInsetStartWithNavigation = 24;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:customNavigationLayout
+          @attr name com.companyname.EspePocket:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4546,21 +4058,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name ec.espe.espepockets:displayOptions
+          @attr name com.companyname.EspePocket:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:divider
+          @attr name com.companyname.EspePocket:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4572,11 +4084,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:elevation
+          @attr name com.companyname.EspePocket:elevation
         */
         public static final int ActionBar_elevation = 26;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#height}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4588,11 +4100,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:height
+          @attr name com.companyname.EspePocket:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4602,51 +4114,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:hideOnContentScroll
+          @attr name com.companyname.EspePocket:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:homeAsUpIndicator
+          @attr name com.companyname.EspePocket:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 28;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:homeLayout
+          @attr name com.companyname.EspePocket:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#icon}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:icon
+          @attr name com.companyname.EspePocket:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:indeterminateProgressStyle
+          @attr name com.companyname.EspePocket:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4658,21 +4170,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:itemPadding
+          @attr name com.companyname.EspePocket:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:logo
+          @attr name com.companyname.EspePocket:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4686,21 +4198,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name ec.espe.espepockets:navigationMode
+          @attr name com.companyname.EspePocket:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:popupTheme
+          @attr name com.companyname.EspePocket:popupTheme
         */
         public static final int ActionBar_popupTheme = 27;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4712,21 +4224,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:progressBarPadding
+          @attr name com.companyname.EspePocket:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:progressBarStyle
+          @attr name com.companyname.EspePocket:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4736,21 +4248,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:subtitle
+          @attr name com.companyname.EspePocket:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:subtitleTextStyle
+          @attr name com.companyname.EspePocket:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#title}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4760,17 +4272,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:title
+          @attr name com.companyname.EspePocket:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:titleTextStyle
+          @attr name com.companyname.EspePocket:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -4822,12 +4334,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background ec.espe.espepockets:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit ec.espe.espepockets:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout ec.espe.espepockets:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height ec.espe.espepockets:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle ec.espe.espepockets:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle ec.espe.espepockets:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background com.companyname.EspePocket:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit com.companyname.EspePocket:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout com.companyname.EspePocket:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height com.companyname.EspePocket:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.companyname.EspePocket:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle com.companyname.EspePocket:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -4837,21 +4349,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #ActionMode_titleTextStyle
          */
         public static final int[] ActionMode = {
-            0x7f01002c, 0x7f010032, 0x7f010033, 0x7f010037,
-            0x7f010039, 0x7f010049
+            0x7f01001d, 0x7f010023, 0x7f010024, 0x7f010028,
+            0x7f01002a, 0x7f01003a
         };
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#background}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:background
+          @attr name com.companyname.EspePocket:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -4859,21 +4371,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name ec.espe.espepockets:backgroundSplit
+          @attr name com.companyname.EspePocket:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:closeItemLayout
+          @attr name com.companyname.EspePocket:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#height}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -4885,27 +4397,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:height
+          @attr name com.companyname.EspePocket:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:subtitleTextStyle
+          @attr name com.companyname.EspePocket:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:titleTextStyle
+          @attr name com.companyname.EspePocket:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -4914,27 +4426,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable ec.espe.espepockets:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount ec.espe.espepockets:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.companyname.EspePocket:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.companyname.EspePocket:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
          */
         public static final int[] ActivityChooserView = {
-            0x7f01004a, 0x7f01004b
+            0x7f01003b, 0x7f01003c
         };
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:expandActivityOverflowButtonDrawable
+          @attr name com.companyname.EspePocket:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -4944,68 +4456,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:initialActivityCount
+          @attr name com.companyname.EspePocket:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
-        /** Attributes that can be used with a AdsAttrs.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AdsAttrs_adSize ec.espe.espepockets:adSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AdsAttrs_adSizes ec.espe.espepockets:adSizes}</code></td><td></td></tr>
-           <tr><td><code>{@link #AdsAttrs_adUnitId ec.espe.espepockets:adUnitId}</code></td><td></td></tr>
-           </table>
-           @see #AdsAttrs_adSize
-           @see #AdsAttrs_adSizes
-           @see #AdsAttrs_adUnitId
-         */
-        public static final int[] AdsAttrs = {
-            0x7f010006, 0x7f010007, 0x7f010008
-        };
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#adSize}
-          attribute's value can be found in the {@link #AdsAttrs} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name ec.espe.espepockets:adSize
-        */
-        public static final int AdsAttrs_adSize = 0;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#adSizes}
-          attribute's value can be found in the {@link #AdsAttrs} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name ec.espe.espepockets:adSizes
-        */
-        public static final int AdsAttrs_adSizes = 1;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#adUnitId}
-          attribute's value can be found in the {@link #AdsAttrs} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name ec.espe.espepockets:adUnitId
-        */
-        public static final int AdsAttrs_adUnitId = 2;
         /** Attributes that can be used with a AlertDialog.
            <p>Includes the following attributes:</p>
            <table>
@@ -5013,12 +4466,12 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout ec.espe.espepockets:buttonPanelSideLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listItemLayout ec.espe.espepockets:listItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listLayout ec.espe.espepockets:listLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout ec.espe.espepockets:multiChoiceItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_showTitle ec.espe.espepockets:showTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout ec.espe.espepockets:singleChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.companyname.EspePocket:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout com.companyname.EspePocket:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout com.companyname.EspePocket:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.companyname.EspePocket:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_showTitle com.companyname.EspePocket:showTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.companyname.EspePocket:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
            @see #AlertDialog_android_layout
            @see #AlertDialog_buttonPanelSideLayout
@@ -5029,8 +4482,8 @@ containing a value of this type.
            @see #AlertDialog_singleChoiceItemLayout
          */
         public static final int[] AlertDialog = {
-            0x010100f2, 0x7f01004c, 0x7f01004d, 0x7f01004e,
-            0x7f01004f, 0x7f010050, 0x7f010051
+            0x010100f2, 0x7f01003d, 0x7f01003e, 0x7f01003f,
+            0x7f010040, 0x7f010041, 0x7f010042
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout}
@@ -5039,47 +4492,47 @@ containing a value of this type.
         */
         public static final int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:buttonPanelSideLayout
+          @attr name com.companyname.EspePocket:buttonPanelSideLayout
         */
         public static final int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:listItemLayout
+          @attr name com.companyname.EspePocket:listItemLayout
         */
         public static final int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#listLayout}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:listLayout
+          @attr name com.companyname.EspePocket:listLayout
         */
         public static final int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:multiChoiceItemLayout
+          @attr name com.companyname.EspePocket:multiChoiceItemLayout
         */
         public static final int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#showTitle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#showTitle}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
@@ -5089,17 +4542,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:showTitle
+          @attr name com.companyname.EspePocket:showTitle
         */
         public static final int AlertDialog_showTitle = 6;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:singleChoiceItemLayout
+          @attr name com.companyname.EspePocket:singleChoiceItemLayout
         */
         public static final int AlertDialog_singleChoiceItemLayout = 4;
         /** Attributes that can be used with a AppBarLayout.
@@ -5109,20 +4562,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_android_keyboardNavigationCluster android:keyboardNavigationCluster}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_android_touchscreenBlocksFocus android:touchscreenBlocksFocus}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_elevation ec.espe.espepockets:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_expanded ec.espe.espepockets:expanded}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_elevation com.companyname.EspePocket:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_expanded com.companyname.EspePocket:expanded}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_android_background
-           @see #AppBarLayout_android_keyboardNavigationCluster
-           @see #AppBarLayout_android_touchscreenBlocksFocus
            @see #AppBarLayout_elevation
            @see #AppBarLayout_expanded
          */
         public static final int[] AppBarLayout = {
-            0x010100d4, 0x0101048f, 0x01010540, 0x7f010047,
-            0x7f010121
+            0x010100d4, 0x7f010038, 0x7f010103
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -5131,19 +4579,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppBarLayout_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link android.R.attr#keyboardNavigationCluster}
-          attribute's value can be found in the {@link #AppBarLayout} array.
-          @attr name android:keyboardNavigationCluster
-        */
-        public static final int AppBarLayout_android_keyboardNavigationCluster = 2;
-        /**
-          <p>This symbol is the offset where the {@link android.R.attr#touchscreenBlocksFocus}
-          attribute's value can be found in the {@link #AppBarLayout} array.
-          @attr name android:touchscreenBlocksFocus
-        */
-        public static final int AppBarLayout_android_touchscreenBlocksFocus = 1;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#elevation}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -5155,11 +4591,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:elevation
+          @attr name com.companyname.EspePocket:elevation
         */
-        public static final int AppBarLayout_elevation = 3;
+        public static final int AppBarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#expanded}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#expanded}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -5169,26 +4605,26 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:expanded
+          @attr name com.companyname.EspePocket:expanded
         */
-        public static final int AppBarLayout_expanded = 4;
+        public static final int AppBarLayout_expanded = 2;
         /** Attributes that can be used with a AppBarLayoutStates.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppBarLayoutStates_state_collapsed ec.espe.espepockets:state_collapsed}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayoutStates_state_collapsible ec.espe.espepockets:state_collapsible}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayoutStates_state_collapsed com.companyname.EspePocket:state_collapsed}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayoutStates_state_collapsible com.companyname.EspePocket:state_collapsible}</code></td><td></td></tr>
            </table>
            @see #AppBarLayoutStates_state_collapsed
            @see #AppBarLayoutStates_state_collapsible
          */
         public static final int[] AppBarLayoutStates = {
-            0x7f010122, 0x7f010123
+            0x7f010104, 0x7f010105
         };
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#state_collapsed}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#state_collapsed}
           attribute's value can be found in the {@link #AppBarLayoutStates} array.
 
 
@@ -5198,11 +4634,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:state_collapsed
+          @attr name com.companyname.EspePocket:state_collapsed
         */
         public static final int AppBarLayoutStates_state_collapsed = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#state_collapsible}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#state_collapsible}
           attribute's value can be found in the {@link #AppBarLayoutStates} array.
 
 
@@ -5212,7 +4648,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:state_collapsible
+          @attr name com.companyname.EspePocket:state_collapsible
         */
         public static final int AppBarLayoutStates_state_collapsible = 1;
         /** Attributes that can be used with a AppBarLayout_Layout.
@@ -5221,17 +4657,17 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags ec.espe.espepockets:layout_scrollFlags}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator ec.espe.espepockets:layout_scrollInterpolator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags com.companyname.EspePocket:layout_scrollFlags}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator com.companyname.EspePocket:layout_scrollInterpolator}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_Layout_layout_scrollFlags
            @see #AppBarLayout_Layout_layout_scrollInterpolator
          */
         public static final int[] AppBarLayout_Layout = {
-            0x7f010124, 0x7f010125
+            0x7f010106, 0x7f010107
         };
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#layout_scrollFlags}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#layout_scrollFlags}
           attribute's value can be found in the {@link #AppBarLayout_Layout} array.
 
 
@@ -5247,17 +4683,17 @@ containing a value of this type.
 <tr><td><code>enterAlwaysCollapsed</code></td><td>0x8</td><td></td></tr>
 <tr><td><code>snap</code></td><td>0x10</td><td></td></tr>
 </table>
-          @attr name ec.espe.espepockets:layout_scrollFlags
+          @attr name com.companyname.EspePocket:layout_scrollFlags
         */
         public static final int AppBarLayout_Layout_layout_scrollFlags = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#layout_scrollInterpolator}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#layout_scrollInterpolator}
           attribute's value can be found in the {@link #AppBarLayout_Layout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:layout_scrollInterpolator
+          @attr name com.companyname.EspePocket:layout_scrollInterpolator
         */
         public static final int AppBarLayout_Layout_layout_scrollInterpolator = 1;
         /** Attributes that can be used with a AppCompatImageView.
@@ -5267,9 +4703,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatImageView_srcCompat ec.espe.espepockets:srcCompat}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatImageView_tint ec.espe.espepockets:tint}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatImageView_tintMode ec.espe.espepockets:tintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_srcCompat com.companyname.EspePocket:srcCompat}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_tint com.companyname.EspePocket:tint}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_tintMode com.companyname.EspePocket:tintMode}</code></td><td></td></tr>
            </table>
            @see #AppCompatImageView_android_src
            @see #AppCompatImageView_srcCompat
@@ -5277,7 +4713,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #AppCompatImageView_tintMode
          */
         public static final int[] AppCompatImageView = {
-            0x01010119, 0x7f010052, 0x7f010053, 0x7f010054
+            0x01010119, 0x7f010043, 0x7f010044, 0x7f010045
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#src}
@@ -5286,17 +4722,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatImageView_android_src = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#srcCompat}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#srcCompat}
           attribute's value can be found in the {@link #AppCompatImageView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:srcCompat
+          @attr name com.companyname.EspePocket:srcCompat
         */
         public static final int AppCompatImageView_srcCompat = 1;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#tint}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#tint}
           attribute's value can be found in the {@link #AppCompatImageView} array.
 
 
@@ -5307,11 +4743,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:tint
+          @attr name com.companyname.EspePocket:tint
         */
         public static final int AppCompatImageView_tint = 2;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#tintMode}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#tintMode}
           attribute's value can be found in the {@link #AppCompatImageView} array.
 
 
@@ -5327,7 +4763,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name ec.espe.espepockets:tintMode
+          @attr name com.companyname.EspePocket:tintMode
         */
         public static final int AppCompatImageView_tintMode = 3;
         /** Attributes that can be used with a AppCompatSeekBar.
@@ -5337,9 +4773,9 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMark ec.espe.espepockets:tickMark}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint ec.espe.espepockets:tickMarkTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode ec.espe.espepockets:tickMarkTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMark com.companyname.EspePocket:tickMark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.companyname.EspePocket:tickMarkTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.companyname.EspePocket:tickMarkTintMode}</code></td><td></td></tr>
            </table>
            @see #AppCompatSeekBar_android_thumb
            @see #AppCompatSeekBar_tickMark
@@ -5347,7 +4783,7 @@ containing a value of this type.
            @see #AppCompatSeekBar_tickMarkTintMode
          */
         public static final int[] AppCompatSeekBar = {
-            0x01010142, 0x7f010055, 0x7f010056, 0x7f010057
+            0x01010142, 0x7f010046, 0x7f010047, 0x7f010048
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#thumb}
@@ -5356,17 +4792,17 @@ containing a value of this type.
         */
         public static final int AppCompatSeekBar_android_thumb = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#tickMark}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#tickMark}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:tickMark
+          @attr name com.companyname.EspePocket:tickMark
         */
         public static final int AppCompatSeekBar_tickMark = 1;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#tickMarkTint}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#tickMarkTint}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
@@ -5377,11 +4813,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:tickMarkTint
+          @attr name com.companyname.EspePocket:tickMarkTint
         */
         public static final int AppCompatSeekBar_tickMarkTint = 2;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#tickMarkTintMode}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#tickMarkTintMode}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
@@ -5398,7 +4834,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name ec.espe.espepockets:tickMarkTintMode
+          @attr name com.companyname.EspePocket:tickMarkTintMode
         */
         public static final int AppCompatSeekBar_tickMarkTintMode = 3;
         /** Attributes that can be used with a AppCompatTextHelper.
@@ -5476,26 +4912,13 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize ec.espe.espepockets:autoSizeMaxTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize ec.espe.espepockets:autoSizeMinTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes ec.espe.espepockets:autoSizePresetSizes}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity ec.espe.espepockets:autoSizeStepGranularity}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_autoSizeTextType ec.espe.espepockets:autoSizeTextType}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_fontFamily ec.espe.espepockets:fontFamily}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_textAllCaps ec.espe.espepockets:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.companyname.EspePocket:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #AppCompatTextView_android_textAppearance
-           @see #AppCompatTextView_autoSizeMaxTextSize
-           @see #AppCompatTextView_autoSizeMinTextSize
-           @see #AppCompatTextView_autoSizePresetSizes
-           @see #AppCompatTextView_autoSizeStepGranularity
-           @see #AppCompatTextView_autoSizeTextType
-           @see #AppCompatTextView_fontFamily
            @see #AppCompatTextView_textAllCaps
          */
         public static final int[] AppCompatTextView = {
-            0x01010034, 0x7f010058, 0x7f010059, 0x7f01005a,
-            0x7f01005b, 0x7f01005c, 0x7f01005d, 0x7f01005e
+            0x01010034, 0x7f010049
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -5504,103 +4927,14 @@ containing a value of this type.
         */
         public static final int AppCompatTextView_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#autoSizeMaxTextSize}
-          attribute's value can be found in the {@link #AppCompatTextView} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name ec.espe.espepockets:autoSizeMaxTextSize
-        */
-        public static final int AppCompatTextView_autoSizeMaxTextSize = 6;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#autoSizeMinTextSize}
-          attribute's value can be found in the {@link #AppCompatTextView} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name ec.espe.espepockets:autoSizeMinTextSize
-        */
-        public static final int AppCompatTextView_autoSizeMinTextSize = 5;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#autoSizePresetSizes}
-          attribute's value can be found in the {@link #AppCompatTextView} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:autoSizePresetSizes
-        */
-        public static final int AppCompatTextView_autoSizePresetSizes = 4;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#autoSizeStepGranularity}
-          attribute's value can be found in the {@link #AppCompatTextView} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name ec.espe.espepockets:autoSizeStepGranularity
-        */
-        public static final int AppCompatTextView_autoSizeStepGranularity = 3;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#autoSizeTextType}
-          attribute's value can be found in the {@link #AppCompatTextView} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>none</code></td><td>0</td><td></td></tr>
-<tr><td><code>uniform</code></td><td>1</td><td></td></tr>
-</table>
-          @attr name ec.espe.espepockets:autoSizeTextType
-        */
-        public static final int AppCompatTextView_autoSizeTextType = 2;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#fontFamily}
-          attribute's value can be found in the {@link #AppCompatTextView} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name ec.espe.espepockets:fontFamily
-        */
-        public static final int AppCompatTextView_fontFamily = 7;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#textAllCaps}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name ec.espe.espepockets:textAllCaps
+          @attr name com.companyname.EspePocket:textAllCaps
         */
         public static final int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a AppCompatTheme.
@@ -5609,125 +4943,122 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarDivider ec.espe.espepockets:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground ec.espe.espepockets:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme ec.espe.espepockets:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSize ec.espe.espepockets:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle ec.espe.espepockets:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarStyle ec.espe.espepockets:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle ec.espe.espepockets:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle ec.espe.espepockets:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle ec.espe.espepockets:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTheme ec.espe.espepockets:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme ec.espe.espepockets:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle ec.espe.espepockets:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle ec.espe.espepockets:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance ec.espe.espepockets:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor ec.espe.espepockets:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeBackground ec.espe.espepockets:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle ec.espe.espepockets:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable ec.espe.espepockets:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable ec.espe.espepockets:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable ec.espe.espepockets:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable ec.espe.espepockets:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable ec.espe.espepockets:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle ec.espe.espepockets:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable ec.espe.espepockets:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable ec.espe.espepockets:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground ec.espe.espepockets:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeStyle ec.espe.espepockets:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable ec.espe.espepockets:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle ec.espe.espepockets:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle ec.espe.espepockets:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle ec.espe.espepockets:activityChooserViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle ec.espe.espepockets:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons ec.espe.espepockets:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle ec.espe.espepockets:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme ec.espe.espepockets:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.companyname.EspePocket:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.companyname.EspePocket:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.companyname.EspePocket:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSize com.companyname.EspePocket:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.companyname.EspePocket:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.companyname.EspePocket:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.companyname.EspePocket:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.companyname.EspePocket:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.companyname.EspePocket:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.companyname.EspePocket:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.companyname.EspePocket:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.companyname.EspePocket:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.companyname.EspePocket:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.companyname.EspePocket:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.companyname.EspePocket:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.companyname.EspePocket:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.companyname.EspePocket:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.companyname.EspePocket:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.companyname.EspePocket:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.companyname.EspePocket:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.companyname.EspePocket:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.companyname.EspePocket:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.companyname.EspePocket:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.companyname.EspePocket:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.companyname.EspePocket:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.companyname.EspePocket:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.companyname.EspePocket:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.companyname.EspePocket:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.companyname.EspePocket:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.companyname.EspePocket:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.companyname.EspePocket:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.companyname.EspePocket:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.companyname.EspePocket:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.companyname.EspePocket:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.companyname.EspePocket:alertDialogTheme}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle ec.espe.espepockets:autoCompleteTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle ec.espe.espepockets:borderlessButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle ec.espe.espepockets:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle ec.espe.espepockets:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle ec.espe.espepockets:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle ec.espe.espepockets:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle ec.espe.espepockets:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyle ec.espe.espepockets:buttonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall ec.espe.espepockets:buttonStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkboxStyle ec.espe.espepockets:checkboxStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle ec.espe.espepockets:checkedTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorAccent ec.espe.espepockets:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating ec.espe.espepockets:colorBackgroundFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal ec.espe.espepockets:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlActivated ec.espe.espepockets:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight ec.espe.espepockets:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlNormal ec.espe.espepockets:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorError ec.espe.espepockets:colorError}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimary ec.espe.espepockets:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark ec.espe.espepockets:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal ec.espe.espepockets:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_controlBackground ec.espe.espepockets:controlBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding ec.espe.espepockets:dialogPreferredPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogTheme ec.espe.espepockets:dialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal ec.espe.espepockets:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerVertical ec.espe.espepockets:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle ec.espe.espepockets:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight ec.espe.espepockets:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextBackground ec.espe.espepockets:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextColor ec.espe.espepockets:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextStyle ec.espe.espepockets:editTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator ec.espe.espepockets:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle ec.espe.espepockets:imageButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator ec.espe.espepockets:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog ec.espe.espepockets:listDividerAlertDialog}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle ec.espe.espepockets:listMenuViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle ec.espe.espepockets:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight ec.espe.espepockets:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge ec.espe.espepockets:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall ec.espe.espepockets:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft ec.espe.espepockets:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight ec.espe.espepockets:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelBackground ec.espe.espepockets:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme ec.espe.espepockets:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth ec.espe.espepockets:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle ec.espe.espepockets:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle ec.espe.espepockets:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle ec.espe.espepockets:radioButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle ec.espe.espepockets:ratingBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator ec.espe.espepockets:ratingBarStyleIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall ec.espe.espepockets:ratingBarStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_searchViewStyle ec.espe.espepockets:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_seekBarStyle ec.espe.espepockets:seekBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground ec.espe.espepockets:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless ec.espe.espepockets:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle ec.espe.espepockets:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerStyle ec.espe.espepockets:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_switchStyle ec.espe.espepockets:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu ec.espe.espepockets:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem ec.espe.espepockets:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary ec.espe.espepockets:textAppearanceListItemSecondary}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall ec.espe.espepockets:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader ec.espe.espepockets:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle ec.espe.espepockets:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle ec.espe.espepockets:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu ec.espe.espepockets:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem ec.espe.espepockets:textColorAlertDialogListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl ec.espe.espepockets:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle ec.espe.espepockets:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarStyle ec.espe.espepockets:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor ec.espe.espepockets:tooltipForegroundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground ec.espe.espepockets:tooltipFrameBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBar ec.espe.espepockets:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay ec.espe.espepockets:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay ec.espe.espepockets:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor ec.espe.espepockets:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor ec.espe.espepockets:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor ec.espe.espepockets:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor ec.espe.espepockets:windowFixedWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor ec.espe.espepockets:windowMinWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor ec.espe.espepockets:windowMinWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowNoTitle ec.espe.espepockets:windowNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.companyname.EspePocket:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.companyname.EspePocket:borderlessButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.companyname.EspePocket:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.companyname.EspePocket:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.companyname.EspePocket:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.companyname.EspePocket:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.companyname.EspePocket:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyle com.companyname.EspePocket:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.companyname.EspePocket:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.companyname.EspePocket:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.companyname.EspePocket:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorAccent com.companyname.EspePocket:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.companyname.EspePocket:colorBackgroundFloating}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.companyname.EspePocket:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.companyname.EspePocket:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.companyname.EspePocket:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.companyname.EspePocket:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimary com.companyname.EspePocket:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.companyname.EspePocket:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.companyname.EspePocket:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_controlBackground com.companyname.EspePocket:controlBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.companyname.EspePocket:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogTheme com.companyname.EspePocket:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.companyname.EspePocket:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerVertical com.companyname.EspePocket:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.companyname.EspePocket:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.companyname.EspePocket:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextBackground com.companyname.EspePocket:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextColor com.companyname.EspePocket:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextStyle com.companyname.EspePocket:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.companyname.EspePocket:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.companyname.EspePocket:imageButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.companyname.EspePocket:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.companyname.EspePocket:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.companyname.EspePocket:listMenuViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.companyname.EspePocket:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.companyname.EspePocket:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.companyname.EspePocket:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.companyname.EspePocket:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.companyname.EspePocket:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.companyname.EspePocket:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelBackground com.companyname.EspePocket:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.companyname.EspePocket:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.companyname.EspePocket:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.companyname.EspePocket:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.companyname.EspePocket:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.companyname.EspePocket:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.companyname.EspePocket:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.companyname.EspePocket:ratingBarStyleIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.companyname.EspePocket:ratingBarStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.companyname.EspePocket:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.companyname.EspePocket:seekBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.companyname.EspePocket:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.companyname.EspePocket:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.companyname.EspePocket:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.companyname.EspePocket:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_switchStyle com.companyname.EspePocket:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.companyname.EspePocket:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.companyname.EspePocket:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.companyname.EspePocket:textAppearanceListItemSecondary}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.companyname.EspePocket:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.companyname.EspePocket:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.companyname.EspePocket:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.companyname.EspePocket:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.companyname.EspePocket:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.companyname.EspePocket:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.companyname.EspePocket:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.companyname.EspePocket:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.companyname.EspePocket:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBar com.companyname.EspePocket:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.companyname.EspePocket:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.companyname.EspePocket:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.companyname.EspePocket:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.companyname.EspePocket:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.companyname.EspePocket:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.companyname.EspePocket:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.companyname.EspePocket:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.companyname.EspePocket:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.companyname.EspePocket:windowNoTitle}</code></td><td></td></tr>
            </table>
            @see #AppCompatTheme_actionBarDivider
            @see #AppCompatTheme_actionBarItemBackground
@@ -5783,7 +5114,6 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #AppCompatTheme_colorControlActivated
            @see #AppCompatTheme_colorControlHighlight
            @see #AppCompatTheme_colorControlNormal
-           @see #AppCompatTheme_colorError
            @see #AppCompatTheme_colorPrimary
            @see #AppCompatTheme_colorPrimaryDark
            @see #AppCompatTheme_colorSwitchThumbNormal
@@ -5836,8 +5166,6 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #AppCompatTheme_textColorSearchUrl
            @see #AppCompatTheme_toolbarNavigationButtonStyle
            @see #AppCompatTheme_toolbarStyle
-           @see #AppCompatTheme_tooltipForegroundColor
-           @see #AppCompatTheme_tooltipFrameBackground
            @see #AppCompatTheme_windowActionBar
            @see #AppCompatTheme_windowActionBarOverlay
            @see #AppCompatTheme_windowActionModeOverlay
@@ -5850,69 +5178,68 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #AppCompatTheme_windowNoTitle
          */
         public static final int[] AppCompatTheme = {
-            0x01010057, 0x010100ae, 0x7f01005f, 0x7f010060,
-            0x7f010061, 0x7f010062, 0x7f010063, 0x7f010064,
-            0x7f010065, 0x7f010066, 0x7f010067, 0x7f010068,
-            0x7f010069, 0x7f01006a, 0x7f01006b, 0x7f01006c,
-            0x7f01006d, 0x7f01006e, 0x7f01006f, 0x7f010070,
-            0x7f010071, 0x7f010072, 0x7f010073, 0x7f010074,
-            0x7f010075, 0x7f010076, 0x7f010077, 0x7f010078,
-            0x7f010079, 0x7f01007a, 0x7f01007b, 0x7f01007c,
-            0x7f01007d, 0x7f01007e, 0x7f01007f, 0x7f010080,
-            0x7f010081, 0x7f010082, 0x7f010083, 0x7f010084,
-            0x7f010085, 0x7f010086, 0x7f010087, 0x7f010088,
-            0x7f010089, 0x7f01008a, 0x7f01008b, 0x7f01008c,
-            0x7f01008d, 0x7f01008e, 0x7f01008f, 0x7f010090,
-            0x7f010091, 0x7f010092, 0x7f010093, 0x7f010094,
-            0x7f010095, 0x7f010096, 0x7f010097, 0x7f010098,
-            0x7f010099, 0x7f01009a, 0x7f01009b, 0x7f01009c,
-            0x7f01009d, 0x7f01009e, 0x7f01009f, 0x7f0100a0,
-            0x7f0100a1, 0x7f0100a2, 0x7f0100a3, 0x7f0100a4,
-            0x7f0100a5, 0x7f0100a6, 0x7f0100a7, 0x7f0100a8,
-            0x7f0100a9, 0x7f0100aa, 0x7f0100ab, 0x7f0100ac,
-            0x7f0100ad, 0x7f0100ae, 0x7f0100af, 0x7f0100b0,
-            0x7f0100b1, 0x7f0100b2, 0x7f0100b3, 0x7f0100b4,
-            0x7f0100b5, 0x7f0100b6, 0x7f0100b7, 0x7f0100b8,
-            0x7f0100b9, 0x7f0100ba, 0x7f0100bb, 0x7f0100bc,
-            0x7f0100bd, 0x7f0100be, 0x7f0100bf, 0x7f0100c0,
-            0x7f0100c1, 0x7f0100c2, 0x7f0100c3, 0x7f0100c4,
-            0x7f0100c5, 0x7f0100c6, 0x7f0100c7, 0x7f0100c8,
-            0x7f0100c9, 0x7f0100ca, 0x7f0100cb, 0x7f0100cc,
-            0x7f0100cd, 0x7f0100ce, 0x7f0100cf, 0x7f0100d0,
-            0x7f0100d1, 0x7f0100d2, 0x7f0100d3
+            0x01010057, 0x010100ae, 0x7f01004a, 0x7f01004b,
+            0x7f01004c, 0x7f01004d, 0x7f01004e, 0x7f01004f,
+            0x7f010050, 0x7f010051, 0x7f010052, 0x7f010053,
+            0x7f010054, 0x7f010055, 0x7f010056, 0x7f010057,
+            0x7f010058, 0x7f010059, 0x7f01005a, 0x7f01005b,
+            0x7f01005c, 0x7f01005d, 0x7f01005e, 0x7f01005f,
+            0x7f010060, 0x7f010061, 0x7f010062, 0x7f010063,
+            0x7f010064, 0x7f010065, 0x7f010066, 0x7f010067,
+            0x7f010068, 0x7f010069, 0x7f01006a, 0x7f01006b,
+            0x7f01006c, 0x7f01006d, 0x7f01006e, 0x7f01006f,
+            0x7f010070, 0x7f010071, 0x7f010072, 0x7f010073,
+            0x7f010074, 0x7f010075, 0x7f010076, 0x7f010077,
+            0x7f010078, 0x7f010079, 0x7f01007a, 0x7f01007b,
+            0x7f01007c, 0x7f01007d, 0x7f01007e, 0x7f01007f,
+            0x7f010080, 0x7f010081, 0x7f010082, 0x7f010083,
+            0x7f010084, 0x7f010085, 0x7f010086, 0x7f010087,
+            0x7f010088, 0x7f010089, 0x7f01008a, 0x7f01008b,
+            0x7f01008c, 0x7f01008d, 0x7f01008e, 0x7f01008f,
+            0x7f010090, 0x7f010091, 0x7f010092, 0x7f010093,
+            0x7f010094, 0x7f010095, 0x7f010096, 0x7f010097,
+            0x7f010098, 0x7f010099, 0x7f01009a, 0x7f01009b,
+            0x7f01009c, 0x7f01009d, 0x7f01009e, 0x7f01009f,
+            0x7f0100a0, 0x7f0100a1, 0x7f0100a2, 0x7f0100a3,
+            0x7f0100a4, 0x7f0100a5, 0x7f0100a6, 0x7f0100a7,
+            0x7f0100a8, 0x7f0100a9, 0x7f0100aa, 0x7f0100ab,
+            0x7f0100ac, 0x7f0100ad, 0x7f0100ae, 0x7f0100af,
+            0x7f0100b0, 0x7f0100b1, 0x7f0100b2, 0x7f0100b3,
+            0x7f0100b4, 0x7f0100b5, 0x7f0100b6, 0x7f0100b7,
+            0x7f0100b8, 0x7f0100b9, 0x7f0100ba, 0x7f0100bb
         };
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:actionBarDivider
+          @attr name com.companyname.EspePocket:actionBarDivider
         */
         public static final int AppCompatTheme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:actionBarItemBackground
+          @attr name com.companyname.EspePocket:actionBarItemBackground
         */
         public static final int AppCompatTheme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:actionBarPopupTheme
+          @attr name com.companyname.EspePocket:actionBarPopupTheme
         */
         public static final int AppCompatTheme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionBarSize}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5932,111 +5259,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name ec.espe.espepockets:actionBarSize
+          @attr name com.companyname.EspePocket:actionBarSize
         */
         public static final int AppCompatTheme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:actionBarSplitStyle
+          @attr name com.companyname.EspePocket:actionBarSplitStyle
         */
         public static final int AppCompatTheme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:actionBarStyle
+          @attr name com.companyname.EspePocket:actionBarStyle
         */
         public static final int AppCompatTheme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:actionBarTabBarStyle
+          @attr name com.companyname.EspePocket:actionBarTabBarStyle
         */
         public static final int AppCompatTheme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:actionBarTabStyle
+          @attr name com.companyname.EspePocket:actionBarTabStyle
         */
         public static final int AppCompatTheme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:actionBarTabTextStyle
+          @attr name com.companyname.EspePocket:actionBarTabTextStyle
         */
         public static final int AppCompatTheme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:actionBarTheme
+          @attr name com.companyname.EspePocket:actionBarTheme
         */
         public static final int AppCompatTheme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:actionBarWidgetTheme
+          @attr name com.companyname.EspePocket:actionBarWidgetTheme
         */
         public static final int AppCompatTheme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:actionButtonStyle
+          @attr name com.companyname.EspePocket:actionButtonStyle
         */
         public static final int AppCompatTheme_actionButtonStyle = 50;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:actionDropDownStyle
+          @attr name com.companyname.EspePocket:actionDropDownStyle
         */
         public static final int AppCompatTheme_actionDropDownStyle = 46;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:actionMenuTextAppearance
+          @attr name com.companyname.EspePocket:actionMenuTextAppearance
         */
         public static final int AppCompatTheme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6044,181 +5371,181 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name ec.espe.espepockets:actionMenuTextColor
+          @attr name com.companyname.EspePocket:actionMenuTextColor
         */
         public static final int AppCompatTheme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:actionModeBackground
+          @attr name com.companyname.EspePocket:actionModeBackground
         */
         public static final int AppCompatTheme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:actionModeCloseButtonStyle
+          @attr name com.companyname.EspePocket:actionModeCloseButtonStyle
         */
         public static final int AppCompatTheme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:actionModeCloseDrawable
+          @attr name com.companyname.EspePocket:actionModeCloseDrawable
         */
         public static final int AppCompatTheme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:actionModeCopyDrawable
+          @attr name com.companyname.EspePocket:actionModeCopyDrawable
         */
         public static final int AppCompatTheme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:actionModeCutDrawable
+          @attr name com.companyname.EspePocket:actionModeCutDrawable
         */
         public static final int AppCompatTheme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:actionModeFindDrawable
+          @attr name com.companyname.EspePocket:actionModeFindDrawable
         */
         public static final int AppCompatTheme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:actionModePasteDrawable
+          @attr name com.companyname.EspePocket:actionModePasteDrawable
         */
         public static final int AppCompatTheme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:actionModePopupWindowStyle
+          @attr name com.companyname.EspePocket:actionModePopupWindowStyle
         */
         public static final int AppCompatTheme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:actionModeSelectAllDrawable
+          @attr name com.companyname.EspePocket:actionModeSelectAllDrawable
         */
         public static final int AppCompatTheme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:actionModeShareDrawable
+          @attr name com.companyname.EspePocket:actionModeShareDrawable
         */
         public static final int AppCompatTheme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:actionModeSplitBackground
+          @attr name com.companyname.EspePocket:actionModeSplitBackground
         */
         public static final int AppCompatTheme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:actionModeStyle
+          @attr name com.companyname.EspePocket:actionModeStyle
         */
         public static final int AppCompatTheme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:actionModeWebSearchDrawable
+          @attr name com.companyname.EspePocket:actionModeWebSearchDrawable
         */
         public static final int AppCompatTheme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:actionOverflowButtonStyle
+          @attr name com.companyname.EspePocket:actionOverflowButtonStyle
         */
         public static final int AppCompatTheme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:actionOverflowMenuStyle
+          @attr name com.companyname.EspePocket:actionOverflowMenuStyle
         */
         public static final int AppCompatTheme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:activityChooserViewStyle
+          @attr name com.companyname.EspePocket:activityChooserViewStyle
         */
         public static final int AppCompatTheme_activityChooserViewStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:alertDialogButtonGroupStyle
+          @attr name com.companyname.EspePocket:alertDialogButtonGroupStyle
         */
         public static final int AppCompatTheme_alertDialogButtonGroupStyle = 95;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6228,27 +5555,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:alertDialogCenterButtons
+          @attr name com.companyname.EspePocket:alertDialogCenterButtons
         */
         public static final int AppCompatTheme_alertDialogCenterButtons = 96;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:alertDialogStyle
+          @attr name com.companyname.EspePocket:alertDialogStyle
         */
         public static final int AppCompatTheme_alertDialogStyle = 94;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#alertDialogTheme}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#alertDialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:alertDialogTheme
+          @attr name com.companyname.EspePocket:alertDialogTheme
         */
         public static final int AppCompatTheme_alertDialogTheme = 97;
         /**
@@ -6264,117 +5591,117 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#autoCompleteTextViewStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:autoCompleteTextViewStyle
+          @attr name com.companyname.EspePocket:autoCompleteTextViewStyle
         */
         public static final int AppCompatTheme_autoCompleteTextViewStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#borderlessButtonStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#borderlessButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:borderlessButtonStyle
+          @attr name com.companyname.EspePocket:borderlessButtonStyle
         */
         public static final int AppCompatTheme_borderlessButtonStyle = 55;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:buttonBarButtonStyle
+          @attr name com.companyname.EspePocket:buttonBarButtonStyle
         */
         public static final int AppCompatTheme_buttonBarButtonStyle = 52;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#buttonBarNegativeButtonStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:buttonBarNegativeButtonStyle
+          @attr name com.companyname.EspePocket:buttonBarNegativeButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNegativeButtonStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#buttonBarNeutralButtonStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:buttonBarNeutralButtonStyle
+          @attr name com.companyname.EspePocket:buttonBarNeutralButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNeutralButtonStyle = 101;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#buttonBarPositiveButtonStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:buttonBarPositiveButtonStyle
+          @attr name com.companyname.EspePocket:buttonBarPositiveButtonStyle
         */
         public static final int AppCompatTheme_buttonBarPositiveButtonStyle = 99;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:buttonBarStyle
+          @attr name com.companyname.EspePocket:buttonBarStyle
         */
         public static final int AppCompatTheme_buttonBarStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#buttonStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#buttonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:buttonStyle
+          @attr name com.companyname.EspePocket:buttonStyle
         */
         public static final int AppCompatTheme_buttonStyle = 103;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#buttonStyleSmall}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#buttonStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:buttonStyleSmall
+          @attr name com.companyname.EspePocket:buttonStyleSmall
         */
         public static final int AppCompatTheme_buttonStyleSmall = 104;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#checkboxStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#checkboxStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:checkboxStyle
+          @attr name com.companyname.EspePocket:checkboxStyle
         */
         public static final int AppCompatTheme_checkboxStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#checkedTextViewStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#checkedTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:checkedTextViewStyle
+          @attr name com.companyname.EspePocket:checkedTextViewStyle
         */
         public static final int AppCompatTheme_checkedTextViewStyle = 106;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#colorAccent}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6385,11 +5712,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:colorAccent
+          @attr name com.companyname.EspePocket:colorAccent
         */
         public static final int AppCompatTheme_colorAccent = 86;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#colorBackgroundFloating}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#colorBackgroundFloating}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6400,11 +5727,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:colorBackgroundFloating
+          @attr name com.companyname.EspePocket:colorBackgroundFloating
         */
         public static final int AppCompatTheme_colorBackgroundFloating = 93;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6415,11 +5742,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:colorButtonNormal
+          @attr name com.companyname.EspePocket:colorButtonNormal
         */
         public static final int AppCompatTheme_colorButtonNormal = 90;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6430,11 +5757,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:colorControlActivated
+          @attr name com.companyname.EspePocket:colorControlActivated
         */
         public static final int AppCompatTheme_colorControlActivated = 88;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6445,11 +5772,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:colorControlHighlight
+          @attr name com.companyname.EspePocket:colorControlHighlight
         */
         public static final int AppCompatTheme_colorControlHighlight = 89;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6460,23 +5787,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:colorControlNormal
+          @attr name com.companyname.EspePocket:colorControlNormal
         */
         public static final int AppCompatTheme_colorControlNormal = 87;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#colorError}
-          attribute's value can be found in the {@link #AppCompatTheme} array.
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name ec.espe.espepockets:colorError
-        */
-        public static final int AppCompatTheme_colorError = 118;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#colorPrimary}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6487,11 +5802,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:colorPrimary
+          @attr name com.companyname.EspePocket:colorPrimary
         */
         public static final int AppCompatTheme_colorPrimary = 84;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6502,11 +5817,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:colorPrimaryDark
+          @attr name com.companyname.EspePocket:colorPrimaryDark
         */
         public static final int AppCompatTheme_colorPrimaryDark = 85;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6517,21 +5832,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:colorSwitchThumbNormal
+          @attr name com.companyname.EspePocket:colorSwitchThumbNormal
         */
         public static final int AppCompatTheme_colorSwitchThumbNormal = 91;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#controlBackground}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#controlBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:controlBackground
+          @attr name com.companyname.EspePocket:controlBackground
         */
         public static final int AppCompatTheme_controlBackground = 92;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#dialogPreferredPadding}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6543,51 +5858,51 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:dialogPreferredPadding
+          @attr name com.companyname.EspePocket:dialogPreferredPadding
         */
         public static final int AppCompatTheme_dialogPreferredPadding = 44;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#dialogTheme}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#dialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:dialogTheme
+          @attr name com.companyname.EspePocket:dialogTheme
         */
         public static final int AppCompatTheme_dialogTheme = 43;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:dividerHorizontal
+          @attr name com.companyname.EspePocket:dividerHorizontal
         */
         public static final int AppCompatTheme_dividerHorizontal = 57;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#dividerVertical}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:dividerVertical
+          @attr name com.companyname.EspePocket:dividerVertical
         */
         public static final int AppCompatTheme_dividerVertical = 56;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:dropDownListViewStyle
+          @attr name com.companyname.EspePocket:dropDownListViewStyle
         */
         public static final int AppCompatTheme_dropDownListViewStyle = 75;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6599,21 +5914,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:dropdownListPreferredItemHeight
+          @attr name com.companyname.EspePocket:dropdownListPreferredItemHeight
         */
         public static final int AppCompatTheme_dropdownListPreferredItemHeight = 47;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#editTextBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:editTextBackground
+          @attr name com.companyname.EspePocket:editTextBackground
         */
         public static final int AppCompatTheme_editTextBackground = 64;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#editTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6621,81 +5936,81 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name ec.espe.espepockets:editTextColor
+          @attr name com.companyname.EspePocket:editTextColor
         */
         public static final int AppCompatTheme_editTextColor = 63;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#editTextStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#editTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:editTextStyle
+          @attr name com.companyname.EspePocket:editTextStyle
         */
         public static final int AppCompatTheme_editTextStyle = 107;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:homeAsUpIndicator
+          @attr name com.companyname.EspePocket:homeAsUpIndicator
         */
         public static final int AppCompatTheme_homeAsUpIndicator = 49;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#imageButtonStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#imageButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:imageButtonStyle
+          @attr name com.companyname.EspePocket:imageButtonStyle
         */
         public static final int AppCompatTheme_imageButtonStyle = 65;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:listChoiceBackgroundIndicator
+          @attr name com.companyname.EspePocket:listChoiceBackgroundIndicator
         */
         public static final int AppCompatTheme_listChoiceBackgroundIndicator = 83;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#listDividerAlertDialog}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#listDividerAlertDialog}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:listDividerAlertDialog
+          @attr name com.companyname.EspePocket:listDividerAlertDialog
         */
         public static final int AppCompatTheme_listDividerAlertDialog = 45;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#listMenuViewStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#listMenuViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:listMenuViewStyle
+          @attr name com.companyname.EspePocket:listMenuViewStyle
         */
         public static final int AppCompatTheme_listMenuViewStyle = 115;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:listPopupWindowStyle
+          @attr name com.companyname.EspePocket:listPopupWindowStyle
         */
         public static final int AppCompatTheme_listPopupWindowStyle = 76;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6707,11 +6022,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:listPreferredItemHeight
+          @attr name com.companyname.EspePocket:listPreferredItemHeight
         */
         public static final int AppCompatTheme_listPreferredItemHeight = 70;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6723,11 +6038,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:listPreferredItemHeightLarge
+          @attr name com.companyname.EspePocket:listPreferredItemHeightLarge
         */
         public static final int AppCompatTheme_listPreferredItemHeightLarge = 72;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6739,11 +6054,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:listPreferredItemHeightSmall
+          @attr name com.companyname.EspePocket:listPreferredItemHeightSmall
         */
         public static final int AppCompatTheme_listPreferredItemHeightSmall = 71;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6755,11 +6070,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:listPreferredItemPaddingLeft
+          @attr name com.companyname.EspePocket:listPreferredItemPaddingLeft
         */
         public static final int AppCompatTheme_listPreferredItemPaddingLeft = 73;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6771,31 +6086,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:listPreferredItemPaddingRight
+          @attr name com.companyname.EspePocket:listPreferredItemPaddingRight
         */
         public static final int AppCompatTheme_listPreferredItemPaddingRight = 74;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#panelBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:panelBackground
+          @attr name com.companyname.EspePocket:panelBackground
         */
         public static final int AppCompatTheme_panelBackground = 80;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:panelMenuListTheme
+          @attr name com.companyname.EspePocket:panelMenuListTheme
         */
         public static final int AppCompatTheme_panelMenuListTheme = 82;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6807,221 +6122,221 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:panelMenuListWidth
+          @attr name com.companyname.EspePocket:panelMenuListWidth
         */
         public static final int AppCompatTheme_panelMenuListWidth = 81;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:popupMenuStyle
+          @attr name com.companyname.EspePocket:popupMenuStyle
         */
         public static final int AppCompatTheme_popupMenuStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:popupWindowStyle
+          @attr name com.companyname.EspePocket:popupWindowStyle
         */
         public static final int AppCompatTheme_popupWindowStyle = 62;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#radioButtonStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:radioButtonStyle
+          @attr name com.companyname.EspePocket:radioButtonStyle
         */
         public static final int AppCompatTheme_radioButtonStyle = 108;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#ratingBarStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:ratingBarStyle
+          @attr name com.companyname.EspePocket:ratingBarStyle
         */
         public static final int AppCompatTheme_ratingBarStyle = 109;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#ratingBarStyleIndicator}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#ratingBarStyleIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:ratingBarStyleIndicator
+          @attr name com.companyname.EspePocket:ratingBarStyleIndicator
         */
         public static final int AppCompatTheme_ratingBarStyleIndicator = 110;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#ratingBarStyleSmall}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#ratingBarStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:ratingBarStyleSmall
+          @attr name com.companyname.EspePocket:ratingBarStyleSmall
         */
         public static final int AppCompatTheme_ratingBarStyleSmall = 111;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:searchViewStyle
+          @attr name com.companyname.EspePocket:searchViewStyle
         */
         public static final int AppCompatTheme_searchViewStyle = 69;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#seekBarStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#seekBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:seekBarStyle
+          @attr name com.companyname.EspePocket:seekBarStyle
         */
         public static final int AppCompatTheme_seekBarStyle = 112;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:selectableItemBackground
+          @attr name com.companyname.EspePocket:selectableItemBackground
         */
         public static final int AppCompatTheme_selectableItemBackground = 53;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:selectableItemBackgroundBorderless
+          @attr name com.companyname.EspePocket:selectableItemBackgroundBorderless
         */
         public static final int AppCompatTheme_selectableItemBackgroundBorderless = 54;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:spinnerDropDownItemStyle
+          @attr name com.companyname.EspePocket:spinnerDropDownItemStyle
         */
         public static final int AppCompatTheme_spinnerDropDownItemStyle = 48;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:spinnerStyle
+          @attr name com.companyname.EspePocket:spinnerStyle
         */
         public static final int AppCompatTheme_spinnerStyle = 113;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#switchStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:switchStyle
+          @attr name com.companyname.EspePocket:switchStyle
         */
         public static final int AppCompatTheme_switchStyle = 114;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:textAppearanceLargePopupMenu
+          @attr name com.companyname.EspePocket:textAppearanceLargePopupMenu
         */
         public static final int AppCompatTheme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:textAppearanceListItem
+          @attr name com.companyname.EspePocket:textAppearanceListItem
         */
         public static final int AppCompatTheme_textAppearanceListItem = 77;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#textAppearanceListItemSecondary}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#textAppearanceListItemSecondary}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:textAppearanceListItemSecondary
+          @attr name com.companyname.EspePocket:textAppearanceListItemSecondary
         */
         public static final int AppCompatTheme_textAppearanceListItemSecondary = 78;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:textAppearanceListItemSmall
+          @attr name com.companyname.EspePocket:textAppearanceListItemSmall
         */
         public static final int AppCompatTheme_textAppearanceListItemSmall = 79;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#textAppearancePopupMenuHeader}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#textAppearancePopupMenuHeader}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:textAppearancePopupMenuHeader
+          @attr name com.companyname.EspePocket:textAppearancePopupMenuHeader
         */
         public static final int AppCompatTheme_textAppearancePopupMenuHeader = 42;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:textAppearanceSearchResultSubtitle
+          @attr name com.companyname.EspePocket:textAppearanceSearchResultSubtitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultSubtitle = 67;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:textAppearanceSearchResultTitle
+          @attr name com.companyname.EspePocket:textAppearanceSearchResultTitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultTitle = 66;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:textAppearanceSmallPopupMenu
+          @attr name com.companyname.EspePocket:textAppearanceSmallPopupMenu
         */
         public static final int AppCompatTheme_textAppearanceSmallPopupMenu = 41;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#textColorAlertDialogListItem}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7029,11 +6344,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name ec.espe.espepockets:textColorAlertDialogListItem
+          @attr name com.companyname.EspePocket:textColorAlertDialogListItem
         */
         public static final int AppCompatTheme_textColorAlertDialogListItem = 98;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7041,53 +6356,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name ec.espe.espepockets:textColorSearchUrl
+          @attr name com.companyname.EspePocket:textColorSearchUrl
         */
         public static final int AppCompatTheme_textColorSearchUrl = 68;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:toolbarNavigationButtonStyle
+          @attr name com.companyname.EspePocket:toolbarNavigationButtonStyle
         */
         public static final int AppCompatTheme_toolbarNavigationButtonStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:toolbarStyle
+          @attr name com.companyname.EspePocket:toolbarStyle
         */
         public static final int AppCompatTheme_toolbarStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#tooltipForegroundColor}
-          attribute's value can be found in the {@link #AppCompatTheme} array.
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name ec.espe.espepockets:tooltipForegroundColor
-        */
-        public static final int AppCompatTheme_tooltipForegroundColor = 117;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#tooltipFrameBackground}
-          attribute's value can be found in the {@link #AppCompatTheme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:tooltipFrameBackground
-        */
-        public static final int AppCompatTheme_tooltipFrameBackground = 116;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#windowActionBar}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7097,11 +6390,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:windowActionBar
+          @attr name com.companyname.EspePocket:windowActionBar
         */
         public static final int AppCompatTheme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7111,11 +6404,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:windowActionBarOverlay
+          @attr name com.companyname.EspePocket:windowActionBarOverlay
         */
         public static final int AppCompatTheme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7125,11 +6418,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:windowActionModeOverlay
+          @attr name com.companyname.EspePocket:windowActionModeOverlay
         */
         public static final int AppCompatTheme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7144,11 +6437,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:windowFixedHeightMajor
+          @attr name com.companyname.EspePocket:windowFixedHeightMajor
         */
         public static final int AppCompatTheme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7163,11 +6456,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:windowFixedHeightMinor
+          @attr name com.companyname.EspePocket:windowFixedHeightMinor
         */
         public static final int AppCompatTheme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7182,11 +6475,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:windowFixedWidthMajor
+          @attr name com.companyname.EspePocket:windowFixedWidthMajor
         */
         public static final int AppCompatTheme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7201,11 +6494,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:windowFixedWidthMinor
+          @attr name com.companyname.EspePocket:windowFixedWidthMinor
         */
         public static final int AppCompatTheme_windowFixedWidthMinor = 8;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#windowMinWidthMajor}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#windowMinWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7220,11 +6513,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:windowMinWidthMajor
+          @attr name com.companyname.EspePocket:windowMinWidthMajor
         */
         public static final int AppCompatTheme_windowMinWidthMajor = 10;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#windowMinWidthMinor}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#windowMinWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7239,11 +6532,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:windowMinWidthMinor
+          @attr name com.companyname.EspePocket:windowMinWidthMinor
         */
         public static final int AppCompatTheme_windowMinWidthMinor = 11;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#windowNoTitle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#windowNoTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7253,7 +6546,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:windowNoTitle
+          @attr name com.companyname.EspePocket:windowNoTitle
         */
         public static final int AppCompatTheme_windowNoTitle = 3;
         /** Attributes that can be used with a BottomNavigationView.
@@ -7262,11 +6555,11 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #BottomNavigationView_elevation ec.espe.espepockets:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_itemBackground ec.espe.espepockets:itemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_itemIconTint ec.espe.espepockets:itemIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_itemTextColor ec.espe.espepockets:itemTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_menu ec.espe.espepockets:menu}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_elevation com.companyname.EspePocket:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_itemBackground com.companyname.EspePocket:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_itemIconTint com.companyname.EspePocket:itemIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_itemTextColor com.companyname.EspePocket:itemTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_menu com.companyname.EspePocket:menu}</code></td><td></td></tr>
            </table>
            @see #BottomNavigationView_elevation
            @see #BottomNavigationView_itemBackground
@@ -7275,11 +6568,11 @@ containing a value of this type.
            @see #BottomNavigationView_menu
          */
         public static final int[] BottomNavigationView = {
-            0x7f010047, 0x7f01014c, 0x7f01014d, 0x7f01014e,
-            0x7f01014f
+            0x7f010038, 0x7f01012e, 0x7f01012f, 0x7f010130,
+            0x7f010131
         };
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#elevation}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
@@ -7291,21 +6584,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:elevation
+          @attr name com.companyname.EspePocket:elevation
         */
         public static final int BottomNavigationView_elevation = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#itemBackground}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#itemBackground}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:itemBackground
+          @attr name com.companyname.EspePocket:itemBackground
         */
         public static final int BottomNavigationView_itemBackground = 4;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#itemIconTint}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#itemIconTint}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
@@ -7316,11 +6609,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:itemIconTint
+          @attr name com.companyname.EspePocket:itemIconTint
         */
         public static final int BottomNavigationView_itemIconTint = 2;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#itemTextColor}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#itemTextColor}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
@@ -7331,17 +6624,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:itemTextColor
+          @attr name com.companyname.EspePocket:itemTextColor
         */
         public static final int BottomNavigationView_itemTextColor = 3;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#menu}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#menu}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:menu
+          @attr name com.companyname.EspePocket:menu
         */
         public static final int BottomNavigationView_menu = 1;
         /** Attributes that can be used with a BottomSheetBehavior_Layout.
@@ -7350,19 +6643,19 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable ec.espe.espepockets:behavior_hideable}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight ec.espe.espepockets:behavior_peekHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed ec.espe.espepockets:behavior_skipCollapsed}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable com.companyname.EspePocket:behavior_hideable}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight com.companyname.EspePocket:behavior_peekHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed com.companyname.EspePocket:behavior_skipCollapsed}</code></td><td></td></tr>
            </table>
            @see #BottomSheetBehavior_Layout_behavior_hideable
            @see #BottomSheetBehavior_Layout_behavior_peekHeight
            @see #BottomSheetBehavior_Layout_behavior_skipCollapsed
          */
         public static final int[] BottomSheetBehavior_Layout = {
-            0x7f010126, 0x7f010127, 0x7f010128
+            0x7f010108, 0x7f010109, 0x7f01010a
         };
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#behavior_hideable}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#behavior_hideable}
           attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
 
 
@@ -7372,11 +6665,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:behavior_hideable
+          @attr name com.companyname.EspePocket:behavior_hideable
         */
         public static final int BottomSheetBehavior_Layout_behavior_hideable = 1;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#behavior_peekHeight}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#behavior_peekHeight}
           attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
 
 
@@ -7396,11 +6689,11 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>auto</code></td><td>-1</td><td></td></tr>
 </table>
-          @attr name ec.espe.espepockets:behavior_peekHeight
+          @attr name com.companyname.EspePocket:behavior_peekHeight
         */
         public static final int BottomSheetBehavior_Layout_behavior_peekHeight = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#behavior_skipCollapsed}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#behavior_skipCollapsed}
           attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
 
 
@@ -7410,7 +6703,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:behavior_skipCollapsed
+          @attr name com.companyname.EspePocket:behavior_skipCollapsed
         */
         public static final int BottomSheetBehavior_Layout_behavior_skipCollapsed = 2;
         /** Attributes that can be used with a ButtonBarLayout.
@@ -7419,15 +6712,15 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ButtonBarLayout_allowStacking ec.espe.espepockets:allowStacking}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarLayout_allowStacking com.companyname.EspePocket:allowStacking}</code></td><td></td></tr>
            </table>
            @see #ButtonBarLayout_allowStacking
          */
         public static final int[] ButtonBarLayout = {
-            0x7f0100d4
+            0x7f0100bc
         };
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#allowStacking}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#allowStacking}
           attribute's value can be found in the {@link #ButtonBarLayout} array.
 
 
@@ -7437,7 +6730,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:allowStacking
+          @attr name com.companyname.EspePocket:allowStacking
         */
         public static final int ButtonBarLayout_allowStacking = 0;
         /** Attributes that can be used with a CardView.
@@ -7448,17 +6741,17 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CardView_android_minHeight android:minHeight}</code></td><td></td></tr>
            <tr><td><code>{@link #CardView_android_minWidth android:minWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardBackgroundColor ec.espe.espepockets:cardBackgroundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardCornerRadius ec.espe.espepockets:cardCornerRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardElevation ec.espe.espepockets:cardElevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardMaxElevation ec.espe.espepockets:cardMaxElevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardPreventCornerOverlap ec.espe.espepockets:cardPreventCornerOverlap}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardUseCompatPadding ec.espe.espepockets:cardUseCompatPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPadding ec.espe.espepockets:contentPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingBottom ec.espe.espepockets:contentPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingLeft ec.espe.espepockets:contentPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingRight ec.espe.espepockets:contentPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingTop ec.espe.espepockets:contentPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardBackgroundColor com.companyname.EspePocket:cardBackgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardCornerRadius com.companyname.EspePocket:cardCornerRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardElevation com.companyname.EspePocket:cardElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardMaxElevation com.companyname.EspePocket:cardMaxElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.companyname.EspePocket:cardPreventCornerOverlap}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardUseCompatPadding com.companyname.EspePocket:cardUseCompatPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPadding com.companyname.EspePocket:contentPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingBottom com.companyname.EspePocket:contentPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingLeft com.companyname.EspePocket:contentPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingRight com.companyname.EspePocket:contentPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingTop com.companyname.EspePocket:contentPaddingTop}</code></td><td></td></tr>
            </table>
            @see #CardView_android_minHeight
            @see #CardView_android_minWidth
@@ -7475,10 +6768,10 @@ containing a value of this type.
            @see #CardView_contentPaddingTop
          */
         public static final int[] CardView = {
-            0x0101013f, 0x01010140, 0x7f010020, 0x7f010021,
-            0x7f010022, 0x7f010023, 0x7f010024, 0x7f010025,
-            0x7f010026, 0x7f010027, 0x7f010028, 0x7f010029,
-            0x7f01002a
+            0x0101013f, 0x01010140, 0x7f010011, 0x7f010012,
+            0x7f010013, 0x7f010014, 0x7f010015, 0x7f010016,
+            0x7f010017, 0x7f010018, 0x7f010019, 0x7f01001a,
+            0x7f01001b
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#minHeight}
@@ -7493,7 +6786,7 @@ containing a value of this type.
         */
         public static final int CardView_android_minWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#cardBackgroundColor}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#cardBackgroundColor}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -7504,11 +6797,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:cardBackgroundColor
+          @attr name com.companyname.EspePocket:cardBackgroundColor
         */
         public static final int CardView_cardBackgroundColor = 2;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#cardCornerRadius}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#cardCornerRadius}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -7520,11 +6813,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:cardCornerRadius
+          @attr name com.companyname.EspePocket:cardCornerRadius
         */
         public static final int CardView_cardCornerRadius = 3;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#cardElevation}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#cardElevation}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -7536,11 +6829,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:cardElevation
+          @attr name com.companyname.EspePocket:cardElevation
         */
         public static final int CardView_cardElevation = 4;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#cardMaxElevation}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#cardMaxElevation}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -7552,11 +6845,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:cardMaxElevation
+          @attr name com.companyname.EspePocket:cardMaxElevation
         */
         public static final int CardView_cardMaxElevation = 5;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#cardPreventCornerOverlap}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#cardPreventCornerOverlap}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -7566,11 +6859,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:cardPreventCornerOverlap
+          @attr name com.companyname.EspePocket:cardPreventCornerOverlap
         */
         public static final int CardView_cardPreventCornerOverlap = 7;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#cardUseCompatPadding}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#cardUseCompatPadding}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -7580,11 +6873,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:cardUseCompatPadding
+          @attr name com.companyname.EspePocket:cardUseCompatPadding
         */
         public static final int CardView_cardUseCompatPadding = 6;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#contentPadding}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#contentPadding}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -7596,11 +6889,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:contentPadding
+          @attr name com.companyname.EspePocket:contentPadding
         */
         public static final int CardView_contentPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#contentPaddingBottom}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#contentPaddingBottom}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -7612,11 +6905,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:contentPaddingBottom
+          @attr name com.companyname.EspePocket:contentPaddingBottom
         */
         public static final int CardView_contentPaddingBottom = 12;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#contentPaddingLeft}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#contentPaddingLeft}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -7628,11 +6921,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:contentPaddingLeft
+          @attr name com.companyname.EspePocket:contentPaddingLeft
         */
         public static final int CardView_contentPaddingLeft = 9;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#contentPaddingRight}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#contentPaddingRight}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -7644,11 +6937,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:contentPaddingRight
+          @attr name com.companyname.EspePocket:contentPaddingRight
         */
         public static final int CardView_contentPaddingRight = 10;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#contentPaddingTop}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#contentPaddingTop}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -7660,7 +6953,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:contentPaddingTop
+          @attr name com.companyname.EspePocket:contentPaddingTop
         */
         public static final int CardView_contentPaddingTop = 11;
         /** Attributes that can be used with a CollapsingToolbarLayout.
@@ -7669,22 +6962,22 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity ec.espe.espepockets:collapsedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance ec.espe.espepockets:collapsedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim ec.espe.espepockets:contentScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity ec.espe.espepockets:expandedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin ec.espe.espepockets:expandedTitleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom ec.espe.espepockets:expandedTitleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd ec.espe.espepockets:expandedTitleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart ec.espe.espepockets:expandedTitleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop ec.espe.espepockets:expandedTitleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance ec.espe.espepockets:expandedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration ec.espe.espepockets:scrimAnimationDuration}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger ec.espe.espepockets:scrimVisibleHeightTrigger}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim ec.espe.espepockets:statusBarScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_title ec.espe.espepockets:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled ec.espe.espepockets:titleEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId ec.espe.espepockets:toolbarId}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.companyname.EspePocket:collapsedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.companyname.EspePocket:collapsedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.companyname.EspePocket:contentScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.companyname.EspePocket:expandedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.companyname.EspePocket:expandedTitleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.companyname.EspePocket:expandedTitleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.companyname.EspePocket:expandedTitleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.companyname.EspePocket:expandedTitleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.companyname.EspePocket:expandedTitleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.companyname.EspePocket:expandedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration com.companyname.EspePocket:scrimAnimationDuration}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger com.companyname.EspePocket:scrimVisibleHeightTrigger}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.companyname.EspePocket:statusBarScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_title com.companyname.EspePocket:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.companyname.EspePocket:titleEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.companyname.EspePocket:toolbarId}</code></td><td></td></tr>
            </table>
            @see #CollapsingToolbarLayout_collapsedTitleGravity
            @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -7704,13 +6997,13 @@ containing a value of this type.
            @see #CollapsingToolbarLayout_toolbarId
          */
         public static final int[] CollapsingToolbarLayout = {
-            0x7f01002e, 0x7f010129, 0x7f01012a, 0x7f01012b,
-            0x7f01012c, 0x7f01012d, 0x7f01012e, 0x7f01012f,
-            0x7f010130, 0x7f010131, 0x7f010132, 0x7f010133,
-            0x7f010134, 0x7f010135, 0x7f010136, 0x7f010137
+            0x7f01001f, 0x7f01010b, 0x7f01010c, 0x7f01010d,
+            0x7f01010e, 0x7f01010f, 0x7f010110, 0x7f010111,
+            0x7f010112, 0x7f010113, 0x7f010114, 0x7f010115,
+            0x7f010116, 0x7f010117, 0x7f010118, 0x7f010119
         };
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#collapsedTitleGravity}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#collapsedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7731,21 +7024,21 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name ec.espe.espepockets:collapsedTitleGravity
+          @attr name com.companyname.EspePocket:collapsedTitleGravity
         */
         public static final int CollapsingToolbarLayout_collapsedTitleGravity = 13;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#collapsedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#collapsedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:collapsedTitleTextAppearance
+          @attr name com.companyname.EspePocket:collapsedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#contentScrim}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#contentScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7756,11 +7049,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:contentScrim
+          @attr name com.companyname.EspePocket:contentScrim
         */
         public static final int CollapsingToolbarLayout_contentScrim = 8;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#expandedTitleGravity}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#expandedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7781,11 +7074,11 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name ec.espe.espepockets:expandedTitleGravity
+          @attr name com.companyname.EspePocket:expandedTitleGravity
         */
         public static final int CollapsingToolbarLayout_expandedTitleGravity = 14;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#expandedTitleMargin}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#expandedTitleMargin}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7797,11 +7090,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:expandedTitleMargin
+          @attr name com.companyname.EspePocket:expandedTitleMargin
         */
         public static final int CollapsingToolbarLayout_expandedTitleMargin = 1;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#expandedTitleMarginBottom}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#expandedTitleMarginBottom}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7813,11 +7106,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:expandedTitleMarginBottom
+          @attr name com.companyname.EspePocket:expandedTitleMarginBottom
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginBottom = 5;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#expandedTitleMarginEnd}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#expandedTitleMarginEnd}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7829,11 +7122,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:expandedTitleMarginEnd
+          @attr name com.companyname.EspePocket:expandedTitleMarginEnd
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginEnd = 4;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#expandedTitleMarginStart}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#expandedTitleMarginStart}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7845,11 +7138,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:expandedTitleMarginStart
+          @attr name com.companyname.EspePocket:expandedTitleMarginStart
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginStart = 2;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#expandedTitleMarginTop}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#expandedTitleMarginTop}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7861,21 +7154,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:expandedTitleMarginTop
+          @attr name com.companyname.EspePocket:expandedTitleMarginTop
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginTop = 3;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#expandedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#expandedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:expandedTitleTextAppearance
+          @attr name com.companyname.EspePocket:expandedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_expandedTitleTextAppearance = 6;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#scrimAnimationDuration}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#scrimAnimationDuration}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7885,11 +7178,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:scrimAnimationDuration
+          @attr name com.companyname.EspePocket:scrimAnimationDuration
         */
         public static final int CollapsingToolbarLayout_scrimAnimationDuration = 12;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#scrimVisibleHeightTrigger}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#scrimVisibleHeightTrigger}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7901,11 +7194,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:scrimVisibleHeightTrigger
+          @attr name com.companyname.EspePocket:scrimVisibleHeightTrigger
         */
         public static final int CollapsingToolbarLayout_scrimVisibleHeightTrigger = 11;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#statusBarScrim}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#statusBarScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7916,11 +7209,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:statusBarScrim
+          @attr name com.companyname.EspePocket:statusBarScrim
         */
         public static final int CollapsingToolbarLayout_statusBarScrim = 9;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#title}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#title}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7930,11 +7223,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:title
+          @attr name com.companyname.EspePocket:title
         */
         public static final int CollapsingToolbarLayout_title = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#titleEnabled}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#titleEnabled}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7944,17 +7237,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:titleEnabled
+          @attr name com.companyname.EspePocket:titleEnabled
         */
         public static final int CollapsingToolbarLayout_titleEnabled = 15;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#toolbarId}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#toolbarId}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:toolbarId
+          @attr name com.companyname.EspePocket:toolbarId
         */
         public static final int CollapsingToolbarLayout_toolbarId = 10;
         /** Attributes that can be used with a CollapsingToolbarLayout_Layout.
@@ -7963,17 +7256,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode ec.espe.espepockets:layout_collapseMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier ec.espe.espepockets:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode com.companyname.EspePocket:layout_collapseMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier com.companyname.EspePocket:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
            </table>
            @see #CollapsingToolbarLayout_Layout_layout_collapseMode
            @see #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier
          */
         public static final int[] CollapsingToolbarLayout_Layout = {
-            0x7f010138, 0x7f010139
+            0x7f01011a, 0x7f01011b
         };
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#layout_collapseMode}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#layout_collapseMode}
           attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
 
 
@@ -7987,11 +7280,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>pin</code></td><td>1</td><td></td></tr>
 <tr><td><code>parallax</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name ec.espe.espepockets:layout_collapseMode
+          @attr name com.companyname.EspePocket:layout_collapseMode
         */
         public static final int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#layout_collapseParallaxMultiplier}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#layout_collapseParallaxMultiplier}
           attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
 
 
@@ -8001,7 +7294,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:layout_collapseParallaxMultiplier
+          @attr name com.companyname.EspePocket:layout_collapseParallaxMultiplier
         */
         public static final int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
         /** Attributes that can be used with a ColorStateListItem.
@@ -8010,7 +7303,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ColorStateListItem_alpha ec.espe.espepockets:alpha}</code></td><td></td></tr>
+           <tr><td><code>{@link #ColorStateListItem_alpha com.companyname.EspePocket:alpha}</code></td><td></td></tr>
            <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
            <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
            </table>
@@ -8019,10 +7312,10 @@ containing a value of this type.
            @see #ColorStateListItem_android_color
          */
         public static final int[] ColorStateListItem = {
-            0x010101a5, 0x0101031f, 0x7f0100d5
+            0x010101a5, 0x0101031f, 0x7f0100bd
         };
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#alpha}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#alpha}
           attribute's value can be found in the {@link #ColorStateListItem} array.
 
 
@@ -8032,7 +7325,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:alpha
+          @attr name com.companyname.EspePocket:alpha
         */
         public static final int ColorStateListItem_alpha = 2;
         /**
@@ -8054,15 +7347,15 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTint ec.espe.espepockets:buttonTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTintMode ec.espe.espepockets:buttonTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTint com.companyname.EspePocket:buttonTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTintMode com.companyname.EspePocket:buttonTintMode}</code></td><td></td></tr>
            </table>
            @see #CompoundButton_android_button
            @see #CompoundButton_buttonTint
            @see #CompoundButton_buttonTintMode
          */
         public static final int[] CompoundButton = {
-            0x01010107, 0x7f0100d6, 0x7f0100d7
+            0x01010107, 0x7f0100be, 0x7f0100bf
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#button}
@@ -8071,7 +7364,7 @@ containing a value of this type.
         */
         public static final int CompoundButton_android_button = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#buttonTint}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#buttonTint}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -8082,11 +7375,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:buttonTint
+          @attr name com.companyname.EspePocket:buttonTint
         */
         public static final int CompoundButton_buttonTint = 1;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#buttonTintMode}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#buttonTintMode}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -8102,7 +7395,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name ec.espe.espepockets:buttonTintMode
+          @attr name com.companyname.EspePocket:buttonTintMode
         */
         public static final int CompoundButton_buttonTintMode = 2;
         /** Attributes that can be used with a CoordinatorLayout.
@@ -8111,33 +7404,33 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CoordinatorLayout_keylines ec.espe.espepockets:keylines}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground ec.espe.espepockets:statusBarBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_keylines com.companyname.EspePocket:keylines}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.companyname.EspePocket:statusBarBackground}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_keylines
            @see #CoordinatorLayout_statusBarBackground
          */
         public static final int[] CoordinatorLayout = {
-            0x7f01013a, 0x7f01013b
+            0x7f01011c, 0x7f01011d
         };
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#keylines}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#keylines}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:keylines
+          @attr name com.companyname.EspePocket:keylines
         */
         public static final int CoordinatorLayout_keylines = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#statusBarBackground}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#statusBarBackground}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:statusBarBackground
+          @attr name com.companyname.EspePocket:statusBarBackground
         */
         public static final int CoordinatorLayout_statusBarBackground = 1;
         /** Attributes that can be used with a CoordinatorLayout_Layout.
@@ -8147,12 +7440,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor ec.espe.espepockets:layout_anchor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity ec.espe.espepockets:layout_anchorGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior ec.espe.espepockets:layout_behavior}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges ec.espe.espepockets:layout_dodgeInsetEdges}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge ec.espe.espepockets:layout_insetEdge}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline ec.espe.espepockets:layout_keyline}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.companyname.EspePocket:layout_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.companyname.EspePocket:layout_anchorGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.companyname.EspePocket:layout_behavior}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.companyname.EspePocket:layout_dodgeInsetEdges}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.companyname.EspePocket:layout_insetEdge}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.companyname.EspePocket:layout_keyline}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_Layout_android_layout_gravity
            @see #CoordinatorLayout_Layout_layout_anchor
@@ -8163,8 +7456,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #CoordinatorLayout_Layout_layout_keyline
          */
         public static final int[] CoordinatorLayout_Layout = {
-            0x010100b3, 0x7f01013c, 0x7f01013d, 0x7f01013e,
-            0x7f01013f, 0x7f010140, 0x7f010141
+            0x010100b3, 0x7f01011e, 0x7f01011f, 0x7f010120,
+            0x7f010121, 0x7f010122, 0x7f010123
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
@@ -8173,17 +7466,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CoordinatorLayout_Layout_android_layout_gravity = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#layout_anchor}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#layout_anchor}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:layout_anchor
+          @attr name com.companyname.EspePocket:layout_anchor
         */
         public static final int CoordinatorLayout_Layout_layout_anchor = 2;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#layout_anchorGravity}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#layout_anchorGravity}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -8208,11 +7501,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name ec.espe.espepockets:layout_anchorGravity
+          @attr name com.companyname.EspePocket:layout_anchorGravity
         */
         public static final int CoordinatorLayout_Layout_layout_anchorGravity = 4;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#layout_behavior}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#layout_behavior}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -8222,11 +7515,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:layout_behavior
+          @attr name com.companyname.EspePocket:layout_behavior
         */
         public static final int CoordinatorLayout_Layout_layout_behavior = 1;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#layout_dodgeInsetEdges}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#layout_dodgeInsetEdges}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -8245,11 +7538,11 @@ containing a value of this type.
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 <tr><td><code>all</code></td><td>0x77</td><td></td></tr>
 </table>
-          @attr name ec.espe.espepockets:layout_dodgeInsetEdges
+          @attr name com.companyname.EspePocket:layout_dodgeInsetEdges
         */
         public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges = 6;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#layout_insetEdge}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#layout_insetEdge}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -8267,11 +7560,11 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name ec.espe.espepockets:layout_insetEdge
+          @attr name com.companyname.EspePocket:layout_insetEdge
         */
         public static final int CoordinatorLayout_Layout_layout_insetEdge = 5;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#layout_keyline}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#layout_keyline}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -8281,7 +7574,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:layout_keyline
+          @attr name com.companyname.EspePocket:layout_keyline
         */
         public static final int CoordinatorLayout_Layout_layout_keyline = 3;
         /** Attributes that can be used with a DesignTheme.
@@ -8290,47 +7583,50 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme ec.espe.espepockets:bottomSheetDialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetStyle ec.espe.espepockets:bottomSheetStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #DesignTheme_textColorError ec.espe.espepockets:textColorError}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.companyname.EspePocket:bottomSheetDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.companyname.EspePocket:bottomSheetStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_textColorError com.companyname.EspePocket:textColorError}</code></td><td></td></tr>
            </table>
            @see #DesignTheme_bottomSheetDialogTheme
            @see #DesignTheme_bottomSheetStyle
            @see #DesignTheme_textColorError
          */
         public static final int[] DesignTheme = {
-            0x7f010142, 0x7f010143, 0x7f010144
+            0x7f010124, 0x7f010125, 0x7f010126
         };
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#bottomSheetDialogTheme}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#bottomSheetDialogTheme}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:bottomSheetDialogTheme
+          @attr name com.companyname.EspePocket:bottomSheetDialogTheme
         */
         public static final int DesignTheme_bottomSheetDialogTheme = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#bottomSheetStyle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#bottomSheetStyle}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:bottomSheetStyle
+          @attr name com.companyname.EspePocket:bottomSheetStyle
         */
         public static final int DesignTheme_bottomSheetStyle = 1;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#textColorError}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#textColorError}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name ec.espe.espepockets:textColorError
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.companyname.EspePocket:textColorError
         */
         public static final int DesignTheme_textColorError = 2;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -8339,14 +7635,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength ec.espe.espepockets:arrowHeadLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength ec.espe.espepockets:arrowShaftLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barLength ec.espe.espepockets:barLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color ec.espe.espepockets:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize ec.espe.espepockets:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars ec.espe.espepockets:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars ec.espe.espepockets:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness ec.espe.espepockets:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.companyname.EspePocket:arrowHeadLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.companyname.EspePocket:arrowShaftLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barLength com.companyname.EspePocket:barLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color com.companyname.EspePocket:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.companyname.EspePocket:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.companyname.EspePocket:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.companyname.EspePocket:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness com.companyname.EspePocket:thickness}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_arrowHeadLength
            @see #DrawerArrowToggle_arrowShaftLength
@@ -8358,11 +7654,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #DrawerArrowToggle_thickness
          */
         public static final int[] DrawerArrowToggle = {
-            0x7f0100d8, 0x7f0100d9, 0x7f0100da, 0x7f0100db,
-            0x7f0100dc, 0x7f0100dd, 0x7f0100de, 0x7f0100df
+            0x7f0100c0, 0x7f0100c1, 0x7f0100c2, 0x7f0100c3,
+            0x7f0100c4, 0x7f0100c5, 0x7f0100c6, 0x7f0100c7
         };
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#arrowHeadLength}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#arrowHeadLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -8374,11 +7670,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:arrowHeadLength
+          @attr name com.companyname.EspePocket:arrowHeadLength
         */
         public static final int DrawerArrowToggle_arrowHeadLength = 4;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#arrowShaftLength}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#arrowShaftLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -8390,11 +7686,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:arrowShaftLength
+          @attr name com.companyname.EspePocket:arrowShaftLength
         */
         public static final int DrawerArrowToggle_arrowShaftLength = 5;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#barLength}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#barLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -8406,11 +7702,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:barLength
+          @attr name com.companyname.EspePocket:barLength
         */
         public static final int DrawerArrowToggle_barLength = 6;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#color}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -8421,11 +7717,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:color
+          @attr name com.companyname.EspePocket:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -8437,11 +7733,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:drawableSize
+          @attr name com.companyname.EspePocket:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -8453,11 +7749,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:gapBetweenBars
+          @attr name com.companyname.EspePocket:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -8467,11 +7763,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:spinBars
+          @attr name com.companyname.EspePocket:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#thickness}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -8483,7 +7779,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:thickness
+          @attr name com.companyname.EspePocket:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /** Attributes that can be used with a FloatingActionButton.
@@ -8492,14 +7788,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTint ec.espe.espepockets:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode ec.espe.espepockets:backgroundTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_borderWidth ec.espe.espepockets:borderWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_elevation ec.espe.espepockets:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fabSize ec.espe.espepockets:fabSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ ec.espe.espepockets:pressedTranslationZ}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_rippleColor ec.espe.espepockets:rippleColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_useCompatPadding ec.espe.espepockets:useCompatPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTint com.companyname.EspePocket:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.companyname.EspePocket:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_borderWidth com.companyname.EspePocket:borderWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_elevation com.companyname.EspePocket:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fabSize com.companyname.EspePocket:fabSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.companyname.EspePocket:pressedTranslationZ}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_rippleColor com.companyname.EspePocket:rippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.companyname.EspePocket:useCompatPadding}</code></td><td></td></tr>
            </table>
            @see #FloatingActionButton_backgroundTint
            @see #FloatingActionButton_backgroundTintMode
@@ -8511,11 +7807,11 @@ containing a value of this type.
            @see #FloatingActionButton_useCompatPadding
          */
         public static final int[] FloatingActionButton = {
-            0x7f010047, 0x7f01011f, 0x7f010120, 0x7f010145,
-            0x7f010146, 0x7f010147, 0x7f010148, 0x7f010149
+            0x7f010038, 0x7f010101, 0x7f010102, 0x7f010127,
+            0x7f010128, 0x7f010129, 0x7f01012a, 0x7f01012b
         };
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#backgroundTint}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -8526,11 +7822,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:backgroundTint
+          @attr name com.companyname.EspePocket:backgroundTint
         */
         public static final int FloatingActionButton_backgroundTint = 1;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -8546,11 +7842,11 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name ec.espe.espepockets:backgroundTintMode
+          @attr name com.companyname.EspePocket:backgroundTintMode
         */
         public static final int FloatingActionButton_backgroundTintMode = 2;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#borderWidth}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#borderWidth}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -8562,11 +7858,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:borderWidth
+          @attr name com.companyname.EspePocket:borderWidth
         */
         public static final int FloatingActionButton_borderWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#elevation}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -8578,11 +7874,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:elevation
+          @attr name com.companyname.EspePocket:elevation
         */
         public static final int FloatingActionButton_elevation = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#fabSize}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#fabSize}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -8596,11 +7892,11 @@ containing a value of this type.
 <tr><td><code>normal</code></td><td>0</td><td></td></tr>
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name ec.espe.espepockets:fabSize
+          @attr name com.companyname.EspePocket:fabSize
         */
         public static final int FloatingActionButton_fabSize = 4;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#pressedTranslationZ}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#pressedTranslationZ}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -8612,11 +7908,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:pressedTranslationZ
+          @attr name com.companyname.EspePocket:pressedTranslationZ
         */
         public static final int FloatingActionButton_pressedTranslationZ = 5;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#rippleColor}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#rippleColor}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -8627,11 +7923,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:rippleColor
+          @attr name com.companyname.EspePocket:rippleColor
         */
         public static final int FloatingActionButton_rippleColor = 3;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#useCompatPadding}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#useCompatPadding}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -8641,7 +7937,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:useCompatPadding
+          @attr name com.companyname.EspePocket:useCompatPadding
         */
         public static final int FloatingActionButton_useCompatPadding = 7;
         /** Attributes that can be used with a FloatingActionButton_Behavior_Layout.
@@ -8650,15 +7946,15 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide ec.espe.espepockets:behavior_autoHide}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide com.companyname.EspePocket:behavior_autoHide}</code></td><td></td></tr>
            </table>
            @see #FloatingActionButton_Behavior_Layout_behavior_autoHide
          */
         public static final int[] FloatingActionButton_Behavior_Layout = {
-            0x7f01014a
+            0x7f01012c
         };
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#behavior_autoHide}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#behavior_autoHide}
           attribute's value can be found in the {@link #FloatingActionButton_Behavior_Layout} array.
 
 
@@ -8668,182 +7964,9 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:behavior_autoHide
+          @attr name com.companyname.EspePocket:behavior_autoHide
         */
         public static final int FloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
-        /** Attributes that can be used with a FontFamily.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FontFamily_fontProviderAuthority ec.espe.espepockets:fontProviderAuthority}</code></td><td></td></tr>
-           <tr><td><code>{@link #FontFamily_fontProviderCerts ec.espe.espepockets:fontProviderCerts}</code></td><td></td></tr>
-           <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy ec.espe.espepockets:fontProviderFetchStrategy}</code></td><td></td></tr>
-           <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout ec.espe.espepockets:fontProviderFetchTimeout}</code></td><td></td></tr>
-           <tr><td><code>{@link #FontFamily_fontProviderPackage ec.espe.espepockets:fontProviderPackage}</code></td><td></td></tr>
-           <tr><td><code>{@link #FontFamily_fontProviderQuery ec.espe.espepockets:fontProviderQuery}</code></td><td></td></tr>
-           </table>
-           @see #FontFamily_fontProviderAuthority
-           @see #FontFamily_fontProviderCerts
-           @see #FontFamily_fontProviderFetchStrategy
-           @see #FontFamily_fontProviderFetchTimeout
-           @see #FontFamily_fontProviderPackage
-           @see #FontFamily_fontProviderQuery
-         */
-        public static final int[] FontFamily = {
-            0x7f010173, 0x7f010174, 0x7f010175, 0x7f010176,
-            0x7f010177, 0x7f010178
-        };
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#fontProviderAuthority}
-          attribute's value can be found in the {@link #FontFamily} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name ec.espe.espepockets:fontProviderAuthority
-        */
-        public static final int FontFamily_fontProviderAuthority = 0;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#fontProviderCerts}
-          attribute's value can be found in the {@link #FontFamily} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:fontProviderCerts
-        */
-        public static final int FontFamily_fontProviderCerts = 3;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#fontProviderFetchStrategy}
-          attribute's value can be found in the {@link #FontFamily} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>blocking</code></td><td>0</td><td></td></tr>
-<tr><td><code>async</code></td><td>1</td><td></td></tr>
-</table>
-          @attr name ec.espe.espepockets:fontProviderFetchStrategy
-        */
-        public static final int FontFamily_fontProviderFetchStrategy = 4;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#fontProviderFetchTimeout}
-          attribute's value can be found in the {@link #FontFamily} array.
-
-
-          <p>May be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-<p>May be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>forever</code></td><td>-1</td><td></td></tr>
-</table>
-          @attr name ec.espe.espepockets:fontProviderFetchTimeout
-        */
-        public static final int FontFamily_fontProviderFetchTimeout = 5;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#fontProviderPackage}
-          attribute's value can be found in the {@link #FontFamily} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name ec.espe.espepockets:fontProviderPackage
-        */
-        public static final int FontFamily_fontProviderPackage = 1;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#fontProviderQuery}
-          attribute's value can be found in the {@link #FontFamily} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name ec.espe.espepockets:fontProviderQuery
-        */
-        public static final int FontFamily_fontProviderQuery = 2;
-        /** Attributes that can be used with a FontFamilyFont.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FontFamilyFont_font ec.espe.espepockets:font}</code></td><td></td></tr>
-           <tr><td><code>{@link #FontFamilyFont_fontStyle ec.espe.espepockets:fontStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #FontFamilyFont_fontWeight ec.espe.espepockets:fontWeight}</code></td><td></td></tr>
-           </table>
-           @see #FontFamilyFont_font
-           @see #FontFamilyFont_fontStyle
-           @see #FontFamilyFont_fontWeight
-         */
-        public static final int[] FontFamilyFont = {
-            0x7f010179, 0x7f01017a, 0x7f01017b
-        };
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#font}
-          attribute's value can be found in the {@link #FontFamilyFont} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:font
-        */
-        public static final int FontFamilyFont_font = 1;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#fontStyle}
-          attribute's value can be found in the {@link #FontFamilyFont} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>normal</code></td><td>0</td><td></td></tr>
-<tr><td><code>italic</code></td><td>1</td><td></td></tr>
-</table>
-          @attr name ec.espe.espepockets:fontStyle
-        */
-        public static final int FontFamilyFont_fontStyle = 0;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#fontWeight}
-          attribute's value can be found in the {@link #FontFamilyFont} array.
-
-
-          <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name ec.espe.espepockets:fontWeight
-        */
-        public static final int FontFamilyFont_fontWeight = 2;
         /** Attributes that can be used with a ForegroundLinearLayout.
            <p>Includes the following attributes:</p>
            <table>
@@ -8852,14 +7975,14 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding ec.espe.espepockets:foregroundInsidePadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.companyname.EspePocket:foregroundInsidePadding}</code></td><td></td></tr>
            </table>
            @see #ForegroundLinearLayout_android_foreground
            @see #ForegroundLinearLayout_android_foregroundGravity
            @see #ForegroundLinearLayout_foregroundInsidePadding
          */
         public static final int[] ForegroundLinearLayout = {
-            0x01010109, 0x01010200, 0x7f01014b
+            0x01010109, 0x01010200, 0x7f01012d
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#foreground}
@@ -8874,7 +7997,7 @@ containing a value of this type.
         */
         public static final int ForegroundLinearLayout_android_foregroundGravity = 1;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#foregroundInsidePadding}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#foregroundInsidePadding}
           attribute's value can be found in the {@link #ForegroundLinearLayout} array.
 
 
@@ -8884,7 +8007,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:foregroundInsidePadding
+          @attr name com.companyname.EspePocket:foregroundInsidePadding
         */
         public static final int ForegroundLinearLayout_foregroundInsidePadding = 2;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -8898,10 +8021,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider ec.espe.espepockets:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding ec.espe.espepockets:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild ec.espe.espepockets:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers ec.espe.espepockets:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider com.companyname.EspePocket:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.companyname.EspePocket:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.companyname.EspePocket:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.companyname.EspePocket:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -8915,8 +8038,8 @@ containing a value of this type.
          */
         public static final int[] LinearLayoutCompat = {
             0x010100af, 0x010100c4, 0x01010126, 0x01010127,
-            0x01010128, 0x7f010036, 0x7f0100e0, 0x7f0100e1,
-            0x7f0100e2
+            0x01010128, 0x7f010027, 0x7f0100c8, 0x7f0100c9,
+            0x7f0100ca
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#baselineAligned}
@@ -8949,17 +8072,17 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:divider
+          @attr name com.companyname.EspePocket:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -8971,11 +8094,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:dividerPadding
+          @attr name com.companyname.EspePocket:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -8985,11 +8108,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:measureWithLargestChild
+          @attr name com.companyname.EspePocket:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -9004,7 +8127,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name ec.espe.espepockets:showDividers
+          @attr name com.companyname.EspePocket:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -9077,69 +8200,6 @@ containing a value of this type.
           @attr name android:dropDownVerticalOffset
         */
         public static final int ListPopupWindow_android_dropDownVerticalOffset = 1;
-        /** Attributes that can be used with a LoadingImageView.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #LoadingImageView_circleCrop ec.espe.espepockets:circleCrop}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatio ec.espe.espepockets:imageAspectRatio}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust ec.espe.espepockets:imageAspectRatioAdjust}</code></td><td></td></tr>
-           </table>
-           @see #LoadingImageView_circleCrop
-           @see #LoadingImageView_imageAspectRatio
-           @see #LoadingImageView_imageAspectRatioAdjust
-         */
-        public static final int[] LoadingImageView = {
-            0x7f010000, 0x7f010001, 0x7f010002
-        };
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#circleCrop}
-          attribute's value can be found in the {@link #LoadingImageView} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name ec.espe.espepockets:circleCrop
-        */
-        public static final int LoadingImageView_circleCrop = 2;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#imageAspectRatio}
-          attribute's value can be found in the {@link #LoadingImageView} array.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name ec.espe.espepockets:imageAspectRatio
-        */
-        public static final int LoadingImageView_imageAspectRatio = 1;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#imageAspectRatioAdjust}
-          attribute's value can be found in the {@link #LoadingImageView} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>none</code></td><td>0</td><td></td></tr>
-<tr><td><code>adjust_width</code></td><td>1</td><td></td></tr>
-<tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
-</table>
-          @attr name ec.espe.espepockets:imageAspectRatioAdjust
-        */
-        public static final int LoadingImageView_imageAspectRatioAdjust = 0;
         /** Attributes that can be used with a MediaRouteButton.
            <p>Includes the following attributes:</p>
            <table>
@@ -9148,16 +8208,16 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #MediaRouteButton_android_minHeight android:minHeight}</code></td><td></td></tr>
            <tr><td><code>{@link #MediaRouteButton_android_minWidth android:minWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #MediaRouteButton_externalRouteEnabledDrawable ec.espe.espepockets:externalRouteEnabledDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #MediaRouteButton_mediaRouteButtonTint ec.espe.espepockets:mediaRouteButtonTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #MediaRouteButton_buttonTint com.companyname.EspePocket:buttonTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #MediaRouteButton_externalRouteEnabledDrawable com.companyname.EspePocket:externalRouteEnabledDrawable}</code></td><td></td></tr>
            </table>
            @see #MediaRouteButton_android_minHeight
            @see #MediaRouteButton_android_minWidth
+           @see #MediaRouteButton_buttonTint
            @see #MediaRouteButton_externalRouteEnabledDrawable
-           @see #MediaRouteButton_mediaRouteButtonTint
          */
         public static final int[] MediaRouteButton = {
-            0x0101013f, 0x01010140, 0x7f01001e, 0x7f01001f
+            0x0101013f, 0x01010140, 0x7f010010, 0x7f0100be
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#minHeight}
@@ -9172,17 +8232,7 @@ containing a value of this type.
         */
         public static final int MediaRouteButton_android_minWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#externalRouteEnabledDrawable}
-          attribute's value can be found in the {@link #MediaRouteButton} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:externalRouteEnabledDrawable
-        */
-        public static final int MediaRouteButton_externalRouteEnabledDrawable = 2;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#mediaRouteButtonTint}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#buttonTint}
           attribute's value can be found in the {@link #MediaRouteButton} array.
 
 
@@ -9193,9 +8243,19 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:mediaRouteButtonTint
+          @attr name com.companyname.EspePocket:buttonTint
         */
-        public static final int MediaRouteButton_mediaRouteButtonTint = 3;
+        public static final int MediaRouteButton_buttonTint = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#externalRouteEnabledDrawable}
+          attribute's value can be found in the {@link #MediaRouteButton} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.companyname.EspePocket:externalRouteEnabledDrawable
+        */
+        public static final int MediaRouteButton_externalRouteEnabledDrawable = 2;
         /** Attributes that can be used with a MenuGroup.
            <p>Includes the following attributes:</p>
            <table>
@@ -9262,10 +8322,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout ec.espe.espepockets:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass ec.espe.espepockets:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass ec.espe.espepockets:actionViewClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_alphabeticModifiers ec.espe.espepockets:alphabeticModifiers}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout com.companyname.EspePocket:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass com.companyname.EspePocket:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass com.companyname.EspePocket:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -9279,17 +8338,11 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_contentDescription ec.espe.espepockets:contentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_iconTint ec.espe.espepockets:iconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_iconTintMode ec.espe.espepockets:iconTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_numericModifiers ec.espe.espepockets:numericModifiers}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction ec.espe.espepockets:showAsAction}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_tooltipText ec.espe.espepockets:tooltipText}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction com.companyname.EspePocket:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
            @see #MenuItem_actionViewClass
-           @see #MenuItem_alphabeticModifiers
            @see #MenuItem_android_alphabeticShortcut
            @see #MenuItem_android_checkable
            @see #MenuItem_android_checked
@@ -9303,33 +8356,27 @@ containing a value of this type.
            @see #MenuItem_android_title
            @see #MenuItem_android_titleCondensed
            @see #MenuItem_android_visible
-           @see #MenuItem_contentDescription
-           @see #MenuItem_iconTint
-           @see #MenuItem_iconTintMode
-           @see #MenuItem_numericModifiers
            @see #MenuItem_showAsAction
-           @see #MenuItem_tooltipText
          */
         public static final int[] MenuItem = {
             0x01010002, 0x0101000e, 0x010100d0, 0x01010106,
             0x01010194, 0x010101de, 0x010101df, 0x010101e1,
             0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5,
-            0x0101026f, 0x7f0100e3, 0x7f0100e4, 0x7f0100e5,
-            0x7f0100e6, 0x7f0100e7, 0x7f0100e8, 0x7f0100e9,
-            0x7f0100ea, 0x7f0100eb, 0x7f0100ec
+            0x0101026f, 0x7f0100cb, 0x7f0100cc, 0x7f0100cd,
+            0x7f0100ce
         };
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:actionLayout
+          @attr name com.companyname.EspePocket:actionLayout
         */
-        public static final int MenuItem_actionLayout = 16;
+        public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -9339,11 +8386,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:actionProviderClass
+          @attr name com.companyname.EspePocket:actionProviderClass
         */
-        public static final int MenuItem_actionProviderClass = 18;
+        public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -9353,30 +8400,9 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:actionViewClass
+          @attr name com.companyname.EspePocket:actionViewClass
         */
-        public static final int MenuItem_actionViewClass = 17;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#alphabeticModifiers}
-          attribute's value can be found in the {@link #MenuItem} array.
-
-
-          <p>Must be one or more (separated by '|') of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>META</code></td><td>0x10000</td><td></td></tr>
-<tr><td><code>CTRL</code></td><td>0x1000</td><td></td></tr>
-<tr><td><code>ALT</code></td><td>0x02</td><td></td></tr>
-<tr><td><code>SHIFT</code></td><td>0x1</td><td></td></tr>
-<tr><td><code>SYM</code></td><td>0x4</td><td></td></tr>
-<tr><td><code>FUNCTION</code></td><td>0x8</td><td></td></tr>
-</table>
-          @attr name ec.espe.espepockets:alphabeticModifiers
-        */
-        public static final int MenuItem_alphabeticModifiers = 13;
+        public static final int MenuItem_actionViewClass = 15;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#alphabeticShortcut}
           attribute's value can be found in the {@link #MenuItem} array.
@@ -9456,78 +8482,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#contentDescription}
-          attribute's value can be found in the {@link #MenuItem} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name ec.espe.espepockets:contentDescription
-        */
-        public static final int MenuItem_contentDescription = 19;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#iconTint}
-          attribute's value can be found in the {@link #MenuItem} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name ec.espe.espepockets:iconTint
-        */
-        public static final int MenuItem_iconTint = 21;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#iconTintMode}
-          attribute's value can be found in the {@link #MenuItem} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>src_over</code></td><td>3</td><td></td></tr>
-<tr><td><code>src_in</code></td><td>5</td><td></td></tr>
-<tr><td><code>src_atop</code></td><td>9</td><td></td></tr>
-<tr><td><code>multiply</code></td><td>14</td><td></td></tr>
-<tr><td><code>screen</code></td><td>15</td><td></td></tr>
-<tr><td><code>add</code></td><td>16</td><td></td></tr>
-</table>
-          @attr name ec.espe.espepockets:iconTintMode
-        */
-        public static final int MenuItem_iconTintMode = 22;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#numericModifiers}
-          attribute's value can be found in the {@link #MenuItem} array.
-
-
-          <p>Must be one or more (separated by '|') of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>META</code></td><td>0x10000</td><td></td></tr>
-<tr><td><code>CTRL</code></td><td>0x1000</td><td></td></tr>
-<tr><td><code>ALT</code></td><td>0x02</td><td></td></tr>
-<tr><td><code>SHIFT</code></td><td>0x1</td><td></td></tr>
-<tr><td><code>SYM</code></td><td>0x4</td><td></td></tr>
-<tr><td><code>FUNCTION</code></td><td>0x8</td><td></td></tr>
-</table>
-          @attr name ec.espe.espepockets:numericModifiers
-        */
-        public static final int MenuItem_numericModifiers = 14;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -9543,23 +8498,9 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name ec.espe.espepockets:showAsAction
+          @attr name com.companyname.EspePocket:showAsAction
         */
-        public static final int MenuItem_showAsAction = 15;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#tooltipText}
-          attribute's value can be found in the {@link #MenuItem} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name ec.espe.espepockets:tooltipText
-        */
-        public static final int MenuItem_tooltipText = 20;
+        public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
            <p>Includes the following attributes:</p>
            <table>
@@ -9573,8 +8514,8 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing ec.espe.espepockets:preserveIconSpacing}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_subMenuArrow ec.espe.espepockets:subMenuArrow}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing com.companyname.EspePocket:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_subMenuArrow com.companyname.EspePocket:subMenuArrow}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -9588,8 +8529,8 @@ containing a value of this type.
          */
         public static final int[] MenuView = {
             0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e,
-            0x0101012f, 0x01010130, 0x01010131, 0x7f0100ed,
-            0x7f0100ee
+            0x0101012f, 0x01010130, 0x01010131, 0x7f0100cf,
+            0x7f0100d0
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#headerBackground}
@@ -9634,7 +8575,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -9644,17 +8585,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:preserveIconSpacing
+          @attr name com.companyname.EspePocket:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#subMenuArrow}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#subMenuArrow}
           attribute's value can be found in the {@link #MenuView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:subMenuArrow
+          @attr name com.companyname.EspePocket:subMenuArrow
         */
         public static final int MenuView_subMenuArrow = 8;
         /** Attributes that can be used with a NavigationView.
@@ -9666,13 +8607,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_elevation ec.espe.espepockets:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_headerLayout ec.espe.espepockets:headerLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemBackground ec.espe.espepockets:itemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemIconTint ec.espe.espepockets:itemIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextAppearance ec.espe.espepockets:itemTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextColor ec.espe.espepockets:itemTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_menu ec.espe.espepockets:menu}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_elevation com.companyname.EspePocket:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_headerLayout com.companyname.EspePocket:headerLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemBackground com.companyname.EspePocket:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemIconTint com.companyname.EspePocket:itemIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextAppearance com.companyname.EspePocket:itemTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextColor com.companyname.EspePocket:itemTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_menu com.companyname.EspePocket:menu}</code></td><td></td></tr>
            </table>
            @see #NavigationView_android_background
            @see #NavigationView_android_fitsSystemWindows
@@ -9686,9 +8627,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #NavigationView_menu
          */
         public static final int[] NavigationView = {
-            0x010100d4, 0x010100dd, 0x0101011f, 0x7f010047,
-            0x7f01014c, 0x7f01014d, 0x7f01014e, 0x7f01014f,
-            0x7f010150, 0x7f010151
+            0x010100d4, 0x010100dd, 0x0101011f, 0x7f010038,
+            0x7f01012e, 0x7f01012f, 0x7f010130, 0x7f010131,
+            0x7f010132, 0x7f010133
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -9709,7 +8650,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int NavigationView_android_maxWidth = 2;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#elevation}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -9721,31 +8662,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:elevation
+          @attr name com.companyname.EspePocket:elevation
         */
         public static final int NavigationView_elevation = 3;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#headerLayout}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#headerLayout}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:headerLayout
+          @attr name com.companyname.EspePocket:headerLayout
         */
         public static final int NavigationView_headerLayout = 9;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#itemBackground}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#itemBackground}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:itemBackground
+          @attr name com.companyname.EspePocket:itemBackground
         */
         public static final int NavigationView_itemBackground = 7;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#itemIconTint}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#itemIconTint}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -9756,21 +8697,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:itemIconTint
+          @attr name com.companyname.EspePocket:itemIconTint
         */
         public static final int NavigationView_itemIconTint = 5;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#itemTextAppearance}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#itemTextAppearance}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:itemTextAppearance
+          @attr name com.companyname.EspePocket:itemTextAppearance
         */
         public static final int NavigationView_itemTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#itemTextColor}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#itemTextColor}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -9781,17 +8722,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:itemTextColor
+          @attr name com.companyname.EspePocket:itemTextColor
         */
         public static final int NavigationView_itemTextColor = 6;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#menu}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#menu}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:menu
+          @attr name com.companyname.EspePocket:menu
         */
         public static final int NavigationView_menu = 4;
         /** Attributes that can be used with a PopupWindow.
@@ -9802,14 +8743,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor ec.espe.espepockets:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor com.companyname.EspePocket:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupAnimationStyle
            @see #PopupWindow_android_popupBackground
            @see #PopupWindow_overlapAnchor
          */
         public static final int[] PopupWindow = {
-            0x01010176, 0x010102c9, 0x7f0100ef
+            0x01010176, 0x010102c9, 0x7f0100d1
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#popupAnimationStyle}
@@ -9824,7 +8765,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -9834,7 +8775,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:overlapAnchor
+          @attr name com.companyname.EspePocket:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 2;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -9843,15 +8784,15 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor ec.espe.espepockets:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.companyname.EspePocket:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
         public static final int[] PopupWindowBackgroundState = {
-            0x7f0100f0
+            0x7f0100d2
         };
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -9861,7 +8802,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:state_above_anchor
+          @attr name com.companyname.EspePocket:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a RecycleListView.
@@ -9870,17 +8811,17 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons ec.espe.espepockets:paddingBottomNoButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecycleListView_paddingTopNoTitle ec.espe.espepockets:paddingTopNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.companyname.EspePocket:paddingBottomNoButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.companyname.EspePocket:paddingTopNoTitle}</code></td><td></td></tr>
            </table>
            @see #RecycleListView_paddingBottomNoButtons
            @see #RecycleListView_paddingTopNoTitle
          */
         public static final int[] RecycleListView = {
-            0x7f0100f1, 0x7f0100f2
+            0x7f0100d3, 0x7f0100d4
         };
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#paddingBottomNoButtons}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#paddingBottomNoButtons}
           attribute's value can be found in the {@link #RecycleListView} array.
 
 
@@ -9892,11 +8833,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:paddingBottomNoButtons
+          @attr name com.companyname.EspePocket:paddingBottomNoButtons
         */
         public static final int RecycleListView_paddingBottomNoButtons = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#paddingTopNoTitle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#paddingTopNoTitle}
           attribute's value can be found in the {@link #RecycleListView} array.
 
 
@@ -9908,7 +8849,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:paddingTopNoTitle
+          @attr name com.companyname.EspePocket:paddingTopNoTitle
         */
         public static final int RecycleListView_paddingTopNoTitle = 1;
         /** Attributes that can be used with a RecyclerView.
@@ -9919,32 +8860,21 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
            <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_fastScrollEnabled ec.espe.espepockets:fastScrollEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable ec.espe.espepockets:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable ec.espe.espepockets:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable ec.espe.espepockets:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable ec.espe.espepockets:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_layoutManager ec.espe.espepockets:layoutManager}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_reverseLayout ec.espe.espepockets:reverseLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_spanCount ec.espe.espepockets:spanCount}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_stackFromEnd ec.espe.espepockets:stackFromEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_layoutManager com.companyname.EspePocket:layoutManager}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_reverseLayout com.companyname.EspePocket:reverseLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_spanCount com.companyname.EspePocket:spanCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_stackFromEnd com.companyname.EspePocket:stackFromEnd}</code></td><td></td></tr>
            </table>
            @see #RecyclerView_android_descendantFocusability
            @see #RecyclerView_android_orientation
-           @see #RecyclerView_fastScrollEnabled
-           @see #RecyclerView_fastScrollHorizontalThumbDrawable
-           @see #RecyclerView_fastScrollHorizontalTrackDrawable
-           @see #RecyclerView_fastScrollVerticalThumbDrawable
-           @see #RecyclerView_fastScrollVerticalTrackDrawable
            @see #RecyclerView_layoutManager
            @see #RecyclerView_reverseLayout
            @see #RecyclerView_spanCount
            @see #RecyclerView_stackFromEnd
          */
         public static final int[] RecyclerView = {
-            0x010100c4, 0x010100f1, 0x7f010009, 0x7f01000a,
-            0x7f01000b, 0x7f01000c, 0x7f01000d, 0x7f01000e,
-            0x7f01000f, 0x7f010010, 0x7f010011
+            0x010100c4, 0x010100f1, 0x7f010000, 0x7f010001,
+            0x7f010002, 0x7f010003
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#descendantFocusability}
@@ -9959,61 +8889,7 @@ containing a value of this type.
         */
         public static final int RecyclerView_android_orientation = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#fastScrollEnabled}
-          attribute's value can be found in the {@link #RecyclerView} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name ec.espe.espepockets:fastScrollEnabled
-        */
-        public static final int RecyclerView_fastScrollEnabled = 6;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#fastScrollHorizontalThumbDrawable}
-          attribute's value can be found in the {@link #RecyclerView} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:fastScrollHorizontalThumbDrawable
-        */
-        public static final int RecyclerView_fastScrollHorizontalThumbDrawable = 9;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#fastScrollHorizontalTrackDrawable}
-          attribute's value can be found in the {@link #RecyclerView} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:fastScrollHorizontalTrackDrawable
-        */
-        public static final int RecyclerView_fastScrollHorizontalTrackDrawable = 10;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#fastScrollVerticalThumbDrawable}
-          attribute's value can be found in the {@link #RecyclerView} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:fastScrollVerticalThumbDrawable
-        */
-        public static final int RecyclerView_fastScrollVerticalThumbDrawable = 7;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#fastScrollVerticalTrackDrawable}
-          attribute's value can be found in the {@link #RecyclerView} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:fastScrollVerticalTrackDrawable
-        */
-        public static final int RecyclerView_fastScrollVerticalTrackDrawable = 8;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#layoutManager}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#layoutManager}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -10023,11 +8899,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:layoutManager
+          @attr name com.companyname.EspePocket:layoutManager
         */
         public static final int RecyclerView_layoutManager = 2;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#reverseLayout}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#reverseLayout}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -10037,11 +8913,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:reverseLayout
+          @attr name com.companyname.EspePocket:reverseLayout
         */
         public static final int RecyclerView_reverseLayout = 4;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#spanCount}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#spanCount}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -10051,11 +8927,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:spanCount
+          @attr name com.companyname.EspePocket:spanCount
         */
         public static final int RecyclerView_spanCount = 3;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#stackFromEnd}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#stackFromEnd}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -10065,7 +8941,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:stackFromEnd
+          @attr name com.companyname.EspePocket:stackFromEnd
         */
         public static final int RecyclerView_stackFromEnd = 5;
         /** Attributes that can be used with a ScrimInsetsFrameLayout.
@@ -10074,15 +8950,15 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground ec.espe.espepockets:insetForeground}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.companyname.EspePocket:insetForeground}</code></td><td></td></tr>
            </table>
            @see #ScrimInsetsFrameLayout_insetForeground
          */
         public static final int[] ScrimInsetsFrameLayout = {
-            0x7f010152
+            0x7f010134
         };
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#insetForeground}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#insetForeground}
           attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
 
 
@@ -10090,7 +8966,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name ec.espe.espepockets:insetForeground
+          @attr name com.companyname.EspePocket:insetForeground
         */
         public static final int ScrimInsetsFrameLayout_insetForeground = 0;
         /** Attributes that can be used with a ScrollingViewBehavior_Layout.
@@ -10099,15 +8975,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop ec.espe.espepockets:behavior_overlapTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop com.companyname.EspePocket:behavior_overlapTop}</code></td><td></td></tr>
            </table>
            @see #ScrollingViewBehavior_Layout_behavior_overlapTop
          */
         public static final int[] ScrollingViewBehavior_Layout = {
-            0x7f010153
+            0x7f010135
         };
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#behavior_overlapTop}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#behavior_overlapTop}
           attribute's value can be found in the {@link #ScrollingViewBehavior_Layout} array.
 
 
@@ -10119,7 +8995,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:behavior_overlapTop
+          @attr name com.companyname.EspePocket:behavior_overlapTop
         */
         public static final int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
         /** Attributes that can be used with a SearchView.
@@ -10132,19 +9008,19 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon ec.espe.espepockets:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon ec.espe.espepockets:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_defaultQueryHint ec.espe.espepockets:defaultQueryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon ec.espe.espepockets:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault ec.espe.espepockets:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout ec.espe.espepockets:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground ec.espe.espepockets:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint ec.espe.espepockets:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchHintIcon ec.espe.espepockets:searchHintIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon ec.espe.espepockets:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground ec.espe.espepockets:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout ec.espe.espepockets:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon ec.espe.espepockets:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon com.companyname.EspePocket:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon com.companyname.EspePocket:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_defaultQueryHint com.companyname.EspePocket:defaultQueryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon com.companyname.EspePocket:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault com.companyname.EspePocket:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout com.companyname.EspePocket:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground com.companyname.EspePocket:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint com.companyname.EspePocket:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon com.companyname.EspePocket:searchHintIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon com.companyname.EspePocket:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground com.companyname.EspePocket:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout com.companyname.EspePocket:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon com.companyname.EspePocket:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -10166,10 +9042,10 @@ containing a value of this type.
          */
         public static final int[] SearchView = {
             0x010100da, 0x0101011f, 0x01010220, 0x01010264,
-            0x7f0100f3, 0x7f0100f4, 0x7f0100f5, 0x7f0100f6,
-            0x7f0100f7, 0x7f0100f8, 0x7f0100f9, 0x7f0100fa,
-            0x7f0100fb, 0x7f0100fc, 0x7f0100fd, 0x7f0100fe,
-            0x7f0100ff
+            0x7f0100d5, 0x7f0100d6, 0x7f0100d7, 0x7f0100d8,
+            0x7f0100d9, 0x7f0100da, 0x7f0100db, 0x7f0100dc,
+            0x7f0100dd, 0x7f0100de, 0x7f0100df, 0x7f0100e0,
+            0x7f0100e1
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -10196,27 +9072,27 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:closeIcon
+          @attr name com.companyname.EspePocket:closeIcon
         */
         public static final int SearchView_closeIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:commitIcon
+          @attr name com.companyname.EspePocket:commitIcon
         */
         public static final int SearchView_commitIcon = 13;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#defaultQueryHint}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#defaultQueryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -10226,21 +9102,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:defaultQueryHint
+          @attr name com.companyname.EspePocket:defaultQueryHint
         */
         public static final int SearchView_defaultQueryHint = 7;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:goIcon
+          @attr name com.companyname.EspePocket:goIcon
         */
         public static final int SearchView_goIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -10250,31 +9126,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:iconifiedByDefault
+          @attr name com.companyname.EspePocket:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#layout}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:layout
+          @attr name com.companyname.EspePocket:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:queryBackground
+          @attr name com.companyname.EspePocket:queryBackground
         */
         public static final int SearchView_queryBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -10284,127 +9160,59 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:queryHint
+          @attr name com.companyname.EspePocket:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#searchHintIcon}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:searchHintIcon
+          @attr name com.companyname.EspePocket:searchHintIcon
         */
         public static final int SearchView_searchHintIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:searchIcon
+          @attr name com.companyname.EspePocket:searchIcon
         */
         public static final int SearchView_searchIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:submitBackground
+          @attr name com.companyname.EspePocket:submitBackground
         */
         public static final int SearchView_submitBackground = 16;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:suggestionRowLayout
+          @attr name com.companyname.EspePocket:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:voiceIcon
+          @attr name com.companyname.EspePocket:voiceIcon
         */
         public static final int SearchView_voiceIcon = 12;
-        /** Attributes that can be used with a SignInButton.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SignInButton_buttonSize ec.espe.espepockets:buttonSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #SignInButton_colorScheme ec.espe.espepockets:colorScheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #SignInButton_scopeUris ec.espe.espepockets:scopeUris}</code></td><td></td></tr>
-           </table>
-           @see #SignInButton_buttonSize
-           @see #SignInButton_colorScheme
-           @see #SignInButton_scopeUris
-         */
-        public static final int[] SignInButton = {
-            0x7f010003, 0x7f010004, 0x7f010005
-        };
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#buttonSize}
-          attribute's value can be found in the {@link #SignInButton} array.
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>standard</code></td><td>0</td><td></td></tr>
-<tr><td><code>wide</code></td><td>1</td><td></td></tr>
-<tr><td><code>icon_only</code></td><td>2</td><td></td></tr>
-</table>
-          @attr name ec.espe.espepockets:buttonSize
-        */
-        public static final int SignInButton_buttonSize = 0;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#colorScheme}
-          attribute's value can be found in the {@link #SignInButton} array.
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>dark</code></td><td>0</td><td></td></tr>
-<tr><td><code>light</code></td><td>1</td><td></td></tr>
-<tr><td><code>auto</code></td><td>2</td><td></td></tr>
-</table>
-          @attr name ec.espe.espepockets:colorScheme
-        */
-        public static final int SignInButton_colorScheme = 1;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#scopeUris}
-          attribute's value can be found in the {@link #SignInButton} array.
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-          @attr name ec.espe.espepockets:scopeUris
-        */
-        public static final int SignInButton_scopeUris = 2;
         /** Attributes that can be used with a SnackbarLayout.
            <p>Includes the following attributes:</p>
            <table>
@@ -10412,15 +9220,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_elevation ec.espe.espepockets:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth ec.espe.espepockets:maxActionInlineWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_elevation com.companyname.EspePocket:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.companyname.EspePocket:maxActionInlineWidth}</code></td><td></td></tr>
            </table>
            @see #SnackbarLayout_android_maxWidth
            @see #SnackbarLayout_elevation
            @see #SnackbarLayout_maxActionInlineWidth
          */
         public static final int[] SnackbarLayout = {
-            0x0101011f, 0x7f010047, 0x7f010154
+            0x0101011f, 0x7f010038, 0x7f010136
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
@@ -10429,7 +9237,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SnackbarLayout_android_maxWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#elevation}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -10441,11 +9249,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:elevation
+          @attr name com.companyname.EspePocket:elevation
         */
         public static final int SnackbarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#maxActionInlineWidth}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#maxActionInlineWidth}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -10457,7 +9265,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:maxActionInlineWidth
+          @attr name com.companyname.EspePocket:maxActionInlineWidth
         */
         public static final int SnackbarLayout_maxActionInlineWidth = 2;
         /** Attributes that can be used with a Spinner.
@@ -10470,7 +9278,7 @@ containing a value of this type.
            <tr><td><code>{@link #Spinner_android_entries android:entries}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupTheme ec.espe.espepockets:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupTheme com.companyname.EspePocket:popupTheme}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_dropDownWidth
            @see #Spinner_android_entries
@@ -10480,7 +9288,7 @@ containing a value of this type.
          */
         public static final int[] Spinner = {
             0x010100b2, 0x01010176, 0x0101017b, 0x01010262,
-            0x7f010048
+            0x7f010039
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#dropDownWidth}
@@ -10507,13 +9315,13 @@ containing a value of this type.
         */
         public static final int Spinner_android_prompt = 2;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#popupTheme}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:popupTheme
+          @attr name com.companyname.EspePocket:popupTheme
         */
         public static final int Spinner_popupTheme = 4;
         /** Attributes that can be used with a SwitchCompat.
@@ -10525,17 +9333,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText ec.espe.espepockets:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack ec.espe.espepockets:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth ec.espe.espepockets:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding ec.espe.espepockets:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance ec.espe.espepockets:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding ec.espe.espepockets:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTint ec.espe.espepockets:thumbTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTintMode ec.espe.espepockets:thumbTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track ec.espe.espepockets:track}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_trackTint ec.espe.espepockets:trackTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_trackTintMode ec.espe.espepockets:trackTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText com.companyname.EspePocket:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack com.companyname.EspePocket:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.companyname.EspePocket:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding com.companyname.EspePocket:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.companyname.EspePocket:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.companyname.EspePocket:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTint com.companyname.EspePocket:thumbTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTintMode com.companyname.EspePocket:thumbTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track com.companyname.EspePocket:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_trackTint com.companyname.EspePocket:trackTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_trackTintMode com.companyname.EspePocket:trackTintMode}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -10553,10 +9361,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #SwitchCompat_trackTintMode
          */
         public static final int[] SwitchCompat = {
-            0x01010124, 0x01010125, 0x01010142, 0x7f010100,
-            0x7f010101, 0x7f010102, 0x7f010103, 0x7f010104,
-            0x7f010105, 0x7f010106, 0x7f010107, 0x7f010108,
-            0x7f010109, 0x7f01010a
+            0x01010124, 0x01010125, 0x01010142, 0x7f0100e2,
+            0x7f0100e3, 0x7f0100e4, 0x7f0100e5, 0x7f0100e6,
+            0x7f0100e7, 0x7f0100e8, 0x7f0100e9, 0x7f0100ea,
+            0x7f0100eb, 0x7f0100ec
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textOff}
@@ -10577,7 +9385,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#showText}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -10587,11 +9395,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:showText
+          @attr name com.companyname.EspePocket:showText
         */
         public static final int SwitchCompat_showText = 13;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -10601,11 +9409,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:splitTrack
+          @attr name com.companyname.EspePocket:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 12;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -10617,11 +9425,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:switchMinWidth
+          @attr name com.companyname.EspePocket:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 10;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -10633,21 +9441,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:switchPadding
+          @attr name com.companyname.EspePocket:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 11;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:switchTextAppearance
+          @attr name com.companyname.EspePocket:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 9;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -10659,11 +9467,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:thumbTextPadding
+          @attr name com.companyname.EspePocket:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#thumbTint}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#thumbTint}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -10674,11 +9482,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:thumbTint
+          @attr name com.companyname.EspePocket:thumbTint
         */
         public static final int SwitchCompat_thumbTint = 3;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#thumbTintMode}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#thumbTintMode}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -10695,21 +9503,21 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name ec.espe.espepockets:thumbTintMode
+          @attr name com.companyname.EspePocket:thumbTintMode
         */
         public static final int SwitchCompat_thumbTintMode = 4;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#track}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:track
+          @attr name com.companyname.EspePocket:track
         */
         public static final int SwitchCompat_track = 5;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#trackTint}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#trackTint}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -10720,11 +9528,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:trackTint
+          @attr name com.companyname.EspePocket:trackTint
         */
         public static final int SwitchCompat_trackTint = 6;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#trackTintMode}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#trackTintMode}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -10741,7 +9549,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name ec.espe.espepockets:trackTintMode
+          @attr name com.companyname.EspePocket:trackTintMode
         */
         public static final int SwitchCompat_trackTintMode = 7;
         /** Attributes that can be used with a TabItem.
@@ -10785,22 +9593,22 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #TabLayout_tabBackground ec.espe.espepockets:tabBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabContentStart ec.espe.espepockets:tabContentStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabGravity ec.espe.espepockets:tabGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorColor ec.espe.espepockets:tabIndicatorColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorHeight ec.espe.espepockets:tabIndicatorHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMaxWidth ec.espe.espepockets:tabMaxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMinWidth ec.espe.espepockets:tabMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMode ec.espe.espepockets:tabMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPadding ec.espe.espepockets:tabPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingBottom ec.espe.espepockets:tabPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingEnd ec.espe.espepockets:tabPaddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingStart ec.espe.espepockets:tabPaddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingTop ec.espe.espepockets:tabPaddingTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabSelectedTextColor ec.espe.espepockets:tabSelectedTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextAppearance ec.espe.espepockets:tabTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextColor ec.espe.espepockets:tabTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabBackground com.companyname.EspePocket:tabBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabContentStart com.companyname.EspePocket:tabContentStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabGravity com.companyname.EspePocket:tabGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorColor com.companyname.EspePocket:tabIndicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.companyname.EspePocket:tabIndicatorHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMaxWidth com.companyname.EspePocket:tabMaxWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMinWidth com.companyname.EspePocket:tabMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMode com.companyname.EspePocket:tabMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPadding com.companyname.EspePocket:tabPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingBottom com.companyname.EspePocket:tabPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingEnd com.companyname.EspePocket:tabPaddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingStart com.companyname.EspePocket:tabPaddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingTop com.companyname.EspePocket:tabPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.companyname.EspePocket:tabSelectedTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextAppearance com.companyname.EspePocket:tabTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextColor com.companyname.EspePocket:tabTextColor}</code></td><td></td></tr>
            </table>
            @see #TabLayout_tabBackground
            @see #TabLayout_tabContentStart
@@ -10820,23 +9628,23 @@ containing a value of this type.
            @see #TabLayout_tabTextColor
          */
         public static final int[] TabLayout = {
-            0x7f010155, 0x7f010156, 0x7f010157, 0x7f010158,
-            0x7f010159, 0x7f01015a, 0x7f01015b, 0x7f01015c,
-            0x7f01015d, 0x7f01015e, 0x7f01015f, 0x7f010160,
-            0x7f010161, 0x7f010162, 0x7f010163, 0x7f010164
+            0x7f010137, 0x7f010138, 0x7f010139, 0x7f01013a,
+            0x7f01013b, 0x7f01013c, 0x7f01013d, 0x7f01013e,
+            0x7f01013f, 0x7f010140, 0x7f010141, 0x7f010142,
+            0x7f010143, 0x7f010144, 0x7f010145, 0x7f010146
         };
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#tabBackground}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#tabBackground}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:tabBackground
+          @attr name com.companyname.EspePocket:tabBackground
         */
         public static final int TabLayout_tabBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#tabContentStart}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#tabContentStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -10848,11 +9656,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:tabContentStart
+          @attr name com.companyname.EspePocket:tabContentStart
         */
         public static final int TabLayout_tabContentStart = 2;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#tabGravity}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#tabGravity}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -10865,11 +9673,11 @@ containing a value of this type.
 <tr><td><code>fill</code></td><td>0</td><td></td></tr>
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name ec.espe.espepockets:tabGravity
+          @attr name com.companyname.EspePocket:tabGravity
         */
         public static final int TabLayout_tabGravity = 5;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#tabIndicatorColor}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#tabIndicatorColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -10880,11 +9688,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:tabIndicatorColor
+          @attr name com.companyname.EspePocket:tabIndicatorColor
         */
         public static final int TabLayout_tabIndicatorColor = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#tabIndicatorHeight}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#tabIndicatorHeight}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -10896,11 +9704,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:tabIndicatorHeight
+          @attr name com.companyname.EspePocket:tabIndicatorHeight
         */
         public static final int TabLayout_tabIndicatorHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#tabMaxWidth}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#tabMaxWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -10912,11 +9720,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:tabMaxWidth
+          @attr name com.companyname.EspePocket:tabMaxWidth
         */
         public static final int TabLayout_tabMaxWidth = 7;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#tabMinWidth}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#tabMinWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -10928,11 +9736,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:tabMinWidth
+          @attr name com.companyname.EspePocket:tabMinWidth
         */
         public static final int TabLayout_tabMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#tabMode}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#tabMode}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -10945,11 +9753,11 @@ containing a value of this type.
 <tr><td><code>scrollable</code></td><td>0</td><td></td></tr>
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name ec.espe.espepockets:tabMode
+          @attr name com.companyname.EspePocket:tabMode
         */
         public static final int TabLayout_tabMode = 4;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#tabPadding}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#tabPadding}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -10961,11 +9769,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:tabPadding
+          @attr name com.companyname.EspePocket:tabPadding
         */
         public static final int TabLayout_tabPadding = 15;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#tabPaddingBottom}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#tabPaddingBottom}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -10977,11 +9785,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:tabPaddingBottom
+          @attr name com.companyname.EspePocket:tabPaddingBottom
         */
         public static final int TabLayout_tabPaddingBottom = 14;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#tabPaddingEnd}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#tabPaddingEnd}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -10993,11 +9801,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:tabPaddingEnd
+          @attr name com.companyname.EspePocket:tabPaddingEnd
         */
         public static final int TabLayout_tabPaddingEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#tabPaddingStart}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#tabPaddingStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11009,11 +9817,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:tabPaddingStart
+          @attr name com.companyname.EspePocket:tabPaddingStart
         */
         public static final int TabLayout_tabPaddingStart = 11;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#tabPaddingTop}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#tabPaddingTop}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11025,11 +9833,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:tabPaddingTop
+          @attr name com.companyname.EspePocket:tabPaddingTop
         */
         public static final int TabLayout_tabPaddingTop = 12;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#tabSelectedTextColor}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#tabSelectedTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11040,21 +9848,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:tabSelectedTextColor
+          @attr name com.companyname.EspePocket:tabSelectedTextColor
         */
         public static final int TabLayout_tabSelectedTextColor = 10;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#tabTextAppearance}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#tabTextAppearance}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:tabTextAppearance
+          @attr name com.companyname.EspePocket:tabTextAppearance
         */
         public static final int TabLayout_tabTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#tabTextColor}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#tabTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11065,7 +9873,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:tabTextColor
+          @attr name com.companyname.EspePocket:tabTextColor
         */
         public static final int TabLayout_tabTextColor = 9;
         /** Attributes that can be used with a TextAppearance.
@@ -11074,70 +9882,57 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_shadowColor android:shadowColor}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_shadowDx android:shadowDx}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textColor android:textColor}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textColorHint android:textColorHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_android_textColorLink android:textColorLink}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_fontFamily ec.espe.espepockets:fontFamily}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_textAllCaps ec.espe.espepockets:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps com.companyname.EspePocket:textAllCaps}</code></td><td></td></tr>
            </table>
-           @see #TextAppearance_android_fontFamily
            @see #TextAppearance_android_shadowColor
            @see #TextAppearance_android_shadowDx
            @see #TextAppearance_android_shadowDy
            @see #TextAppearance_android_shadowRadius
            @see #TextAppearance_android_textColor
            @see #TextAppearance_android_textColorHint
-           @see #TextAppearance_android_textColorLink
            @see #TextAppearance_android_textSize
            @see #TextAppearance_android_textStyle
            @see #TextAppearance_android_typeface
-           @see #TextAppearance_fontFamily
            @see #TextAppearance_textAllCaps
          */
         public static final int[] TextAppearance = {
             0x01010095, 0x01010096, 0x01010097, 0x01010098,
-            0x0101009a, 0x0101009b, 0x01010161, 0x01010162,
-            0x01010163, 0x01010164, 0x010103ac, 0x7f010058,
-            0x7f01005e
+            0x0101009a, 0x01010161, 0x01010162, 0x01010163,
+            0x01010164, 0x7f010049
         };
-        /**
-          <p>This symbol is the offset where the {@link android.R.attr#fontFamily}
-          attribute's value can be found in the {@link #TextAppearance} array.
-          @attr name android:fontFamily
-        */
-        public static final int TextAppearance_android_fontFamily = 10;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#shadowColor}
           attribute's value can be found in the {@link #TextAppearance} array.
           @attr name android:shadowColor
         */
-        public static final int TextAppearance_android_shadowColor = 6;
+        public static final int TextAppearance_android_shadowColor = 5;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#shadowDx}
           attribute's value can be found in the {@link #TextAppearance} array.
           @attr name android:shadowDx
         */
-        public static final int TextAppearance_android_shadowDx = 7;
+        public static final int TextAppearance_android_shadowDx = 6;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#shadowDy}
           attribute's value can be found in the {@link #TextAppearance} array.
           @attr name android:shadowDy
         */
-        public static final int TextAppearance_android_shadowDy = 8;
+        public static final int TextAppearance_android_shadowDy = 7;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#shadowRadius}
           attribute's value can be found in the {@link #TextAppearance} array.
           @attr name android:shadowRadius
         */
-        public static final int TextAppearance_android_shadowRadius = 9;
+        public static final int TextAppearance_android_shadowRadius = 8;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textColor}
           attribute's value can be found in the {@link #TextAppearance} array.
@@ -11150,12 +9945,6 @@ containing a value of this type.
           @attr name android:textColorHint
         */
         public static final int TextAppearance_android_textColorHint = 4;
-        /**
-          <p>This symbol is the offset where the {@link android.R.attr#textColorLink}
-          attribute's value can be found in the {@link #TextAppearance} array.
-          @attr name android:textColorLink
-        */
-        public static final int TextAppearance_android_textColorLink = 5;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textSize}
           attribute's value can be found in the {@link #TextAppearance} array.
@@ -11175,30 +9964,16 @@ containing a value of this type.
         */
         public static final int TextAppearance_android_typeface = 1;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#fontFamily}
-          attribute's value can be found in the {@link #TextAppearance} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name ec.espe.espepockets:fontFamily
-        */
-        public static final int TextAppearance_fontFamily = 12;
-        /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#textAllCaps}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name ec.espe.espepockets:textAllCaps
+          @attr name com.companyname.EspePocket:textAllCaps
         */
-        public static final int TextAppearance_textAllCaps = 11;
+        public static final int TextAppearance_textAllCaps = 9;
         /** Attributes that can be used with a TextInputLayout.
            <p>Includes the following attributes:</p>
            <table>
@@ -11207,20 +9982,20 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
            <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterEnabled ec.espe.espepockets:counterEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterMaxLength ec.espe.espepockets:counterMaxLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance ec.espe.espepockets:counterOverflowTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterTextAppearance ec.espe.espepockets:counterTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorEnabled ec.espe.espepockets:errorEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorTextAppearance ec.espe.espepockets:errorTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled ec.espe.espepockets:hintAnimationEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintEnabled ec.espe.espepockets:hintEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintTextAppearance ec.espe.espepockets:hintTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription ec.espe.espepockets:passwordToggleContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable ec.espe.espepockets:passwordToggleDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled ec.espe.espepockets:passwordToggleEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleTint ec.espe.espepockets:passwordToggleTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode ec.espe.espepockets:passwordToggleTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterEnabled com.companyname.EspePocket:counterEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterMaxLength com.companyname.EspePocket:counterMaxLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.companyname.EspePocket:counterOverflowTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.companyname.EspePocket:counterTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorEnabled com.companyname.EspePocket:errorEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.companyname.EspePocket:errorTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.companyname.EspePocket:hintAnimationEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintEnabled com.companyname.EspePocket:hintEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.companyname.EspePocket:hintTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription com.companyname.EspePocket:passwordToggleContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable com.companyname.EspePocket:passwordToggleDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled com.companyname.EspePocket:passwordToggleEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleTint com.companyname.EspePocket:passwordToggleTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode com.companyname.EspePocket:passwordToggleTintMode}</code></td><td></td></tr>
            </table>
            @see #TextInputLayout_android_hint
            @see #TextInputLayout_android_textColorHint
@@ -11240,10 +10015,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #TextInputLayout_passwordToggleTintMode
          */
         public static final int[] TextInputLayout = {
-            0x0101009a, 0x01010150, 0x7f010165, 0x7f010166,
-            0x7f010167, 0x7f010168, 0x7f010169, 0x7f01016a,
-            0x7f01016b, 0x7f01016c, 0x7f01016d, 0x7f01016e,
-            0x7f01016f, 0x7f010170, 0x7f010171, 0x7f010172
+            0x0101009a, 0x01010150, 0x7f010147, 0x7f010148,
+            0x7f010149, 0x7f01014a, 0x7f01014b, 0x7f01014c,
+            0x7f01014d, 0x7f01014e, 0x7f01014f, 0x7f010150,
+            0x7f010151, 0x7f010152, 0x7f010153, 0x7f010154
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#hint}
@@ -11258,7 +10033,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int TextInputLayout_android_textColorHint = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#counterEnabled}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#counterEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -11268,11 +10043,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:counterEnabled
+          @attr name com.companyname.EspePocket:counterEnabled
         */
         public static final int TextInputLayout_counterEnabled = 6;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#counterMaxLength}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#counterMaxLength}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -11282,31 +10057,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:counterMaxLength
+          @attr name com.companyname.EspePocket:counterMaxLength
         */
         public static final int TextInputLayout_counterMaxLength = 7;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#counterOverflowTextAppearance}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#counterOverflowTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:counterOverflowTextAppearance
+          @attr name com.companyname.EspePocket:counterOverflowTextAppearance
         */
         public static final int TextInputLayout_counterOverflowTextAppearance = 9;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#counterTextAppearance}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#counterTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:counterTextAppearance
+          @attr name com.companyname.EspePocket:counterTextAppearance
         */
         public static final int TextInputLayout_counterTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#errorEnabled}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#errorEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -11316,21 +10091,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:errorEnabled
+          @attr name com.companyname.EspePocket:errorEnabled
         */
         public static final int TextInputLayout_errorEnabled = 4;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#errorTextAppearance}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#errorTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:errorTextAppearance
+          @attr name com.companyname.EspePocket:errorTextAppearance
         */
         public static final int TextInputLayout_errorTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#hintAnimationEnabled}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#hintAnimationEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -11340,11 +10115,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:hintAnimationEnabled
+          @attr name com.companyname.EspePocket:hintAnimationEnabled
         */
         public static final int TextInputLayout_hintAnimationEnabled = 10;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#hintEnabled}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#hintEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -11354,21 +10129,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:hintEnabled
+          @attr name com.companyname.EspePocket:hintEnabled
         */
         public static final int TextInputLayout_hintEnabled = 3;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#hintTextAppearance}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#hintTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:hintTextAppearance
+          @attr name com.companyname.EspePocket:hintTextAppearance
         */
         public static final int TextInputLayout_hintTextAppearance = 2;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#passwordToggleContentDescription}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#passwordToggleContentDescription}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -11378,21 +10153,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:passwordToggleContentDescription
+          @attr name com.companyname.EspePocket:passwordToggleContentDescription
         */
         public static final int TextInputLayout_passwordToggleContentDescription = 13;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#passwordToggleDrawable}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#passwordToggleDrawable}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:passwordToggleDrawable
+          @attr name com.companyname.EspePocket:passwordToggleDrawable
         */
         public static final int TextInputLayout_passwordToggleDrawable = 12;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#passwordToggleEnabled}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#passwordToggleEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -11402,11 +10177,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:passwordToggleEnabled
+          @attr name com.companyname.EspePocket:passwordToggleEnabled
         */
         public static final int TextInputLayout_passwordToggleEnabled = 11;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#passwordToggleTint}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#passwordToggleTint}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -11417,11 +10192,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:passwordToggleTint
+          @attr name com.companyname.EspePocket:passwordToggleTint
         */
         public static final int TextInputLayout_passwordToggleTint = 14;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#passwordToggleTintMode}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#passwordToggleTintMode}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -11437,7 +10212,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name ec.espe.espepockets:passwordToggleTintMode
+          @attr name com.companyname.EspePocket:passwordToggleTintMode
         */
         public static final int TextInputLayout_passwordToggleTintMode = 15;
         /** Attributes that can be used with a Toolbar.
@@ -11448,33 +10223,33 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_buttonGravity ec.espe.espepockets:buttonGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription ec.espe.espepockets:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon ec.espe.espepockets:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd ec.espe.espepockets:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEndWithActions ec.espe.espepockets:contentInsetEndWithActions}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft ec.espe.espepockets:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight ec.espe.espepockets:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart ec.espe.espepockets:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation ec.espe.espepockets:contentInsetStartWithNavigation}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logo ec.espe.espepockets:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logoDescription ec.espe.espepockets:logoDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight ec.espe.espepockets:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription ec.espe.espepockets:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon ec.espe.espepockets:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme ec.espe.espepockets:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle ec.espe.espepockets:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance ec.espe.espepockets:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextColor ec.espe.espepockets:subtitleTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title ec.espe.espepockets:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargin ec.espe.espepockets:titleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom ec.espe.espepockets:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd ec.espe.espepockets:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart ec.espe.espepockets:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop ec.espe.espepockets:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins ec.espe.espepockets:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance ec.espe.espepockets:titleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextColor ec.espe.espepockets:titleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_buttonGravity com.companyname.EspePocket:buttonGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription com.companyname.EspePocket:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon com.companyname.EspePocket:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd com.companyname.EspePocket:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.companyname.EspePocket:contentInsetEndWithActions}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft com.companyname.EspePocket:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight com.companyname.EspePocket:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart com.companyname.EspePocket:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.companyname.EspePocket:contentInsetStartWithNavigation}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logo com.companyname.EspePocket:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logoDescription com.companyname.EspePocket:logoDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight com.companyname.EspePocket:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription com.companyname.EspePocket:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon com.companyname.EspePocket:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme com.companyname.EspePocket:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle com.companyname.EspePocket:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.companyname.EspePocket:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextColor com.companyname.EspePocket:subtitleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title com.companyname.EspePocket:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargin com.companyname.EspePocket:titleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom com.companyname.EspePocket:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd com.companyname.EspePocket:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart com.companyname.EspePocket:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop com.companyname.EspePocket:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins com.companyname.EspePocket:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance com.companyname.EspePocket:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextColor com.companyname.EspePocket:titleTextColor}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -11507,14 +10282,14 @@ containing a value of this type.
            @see #Toolbar_titleTextColor
          */
         public static final int[] Toolbar = {
-            0x010100af, 0x01010140, 0x7f01002e, 0x7f010031,
-            0x7f010035, 0x7f010041, 0x7f010042, 0x7f010043,
-            0x7f010044, 0x7f010045, 0x7f010046, 0x7f010048,
-            0x7f01010b, 0x7f01010c, 0x7f01010d, 0x7f01010e,
-            0x7f01010f, 0x7f010110, 0x7f010111, 0x7f010112,
-            0x7f010113, 0x7f010114, 0x7f010115, 0x7f010116,
-            0x7f010117, 0x7f010118, 0x7f010119, 0x7f01011a,
-            0x7f01011b
+            0x010100af, 0x01010140, 0x7f01001f, 0x7f010022,
+            0x7f010026, 0x7f010032, 0x7f010033, 0x7f010034,
+            0x7f010035, 0x7f010036, 0x7f010037, 0x7f010039,
+            0x7f0100ed, 0x7f0100ee, 0x7f0100ef, 0x7f0100f0,
+            0x7f0100f1, 0x7f0100f2, 0x7f0100f3, 0x7f0100f4,
+            0x7f0100f5, 0x7f0100f6, 0x7f0100f7, 0x7f0100f8,
+            0x7f0100f9, 0x7f0100fa, 0x7f0100fb, 0x7f0100fc,
+            0x7f0100fd
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -11529,7 +10304,7 @@ containing a value of this type.
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#buttonGravity}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#buttonGravity}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11542,11 +10317,11 @@ containing a value of this type.
 <tr><td><code>top</code></td><td>0x30</td><td></td></tr>
 <tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
 </table>
-          @attr name ec.espe.espepockets:buttonGravity
+          @attr name com.companyname.EspePocket:buttonGravity
         */
         public static final int Toolbar_buttonGravity = 21;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11556,21 +10331,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:collapseContentDescription
+          @attr name com.companyname.EspePocket:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 23;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:collapseIcon
+          @attr name com.companyname.EspePocket:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 22;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11582,11 +10357,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:contentInsetEnd
+          @attr name com.companyname.EspePocket:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 6;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#contentInsetEndWithActions}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#contentInsetEndWithActions}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11598,11 +10373,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:contentInsetEndWithActions
+          @attr name com.companyname.EspePocket:contentInsetEndWithActions
         */
         public static final int Toolbar_contentInsetEndWithActions = 10;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11614,11 +10389,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:contentInsetLeft
+          @attr name com.companyname.EspePocket:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11630,11 +10405,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:contentInsetRight
+          @attr name com.companyname.EspePocket:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 8;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11646,11 +10421,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:contentInsetStart
+          @attr name com.companyname.EspePocket:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 5;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#contentInsetStartWithNavigation}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#contentInsetStartWithNavigation}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11662,21 +10437,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:contentInsetStartWithNavigation
+          @attr name com.companyname.EspePocket:contentInsetStartWithNavigation
         */
         public static final int Toolbar_contentInsetStartWithNavigation = 9;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#logo}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:logo
+          @attr name com.companyname.EspePocket:logo
         */
         public static final int Toolbar_logo = 4;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#logoDescription}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#logoDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11686,11 +10461,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:logoDescription
+          @attr name com.companyname.EspePocket:logoDescription
         */
         public static final int Toolbar_logoDescription = 26;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11702,11 +10477,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:maxButtonHeight
+          @attr name com.companyname.EspePocket:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 20;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11716,31 +10491,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:navigationContentDescription
+          @attr name com.companyname.EspePocket:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 25;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:navigationIcon
+          @attr name com.companyname.EspePocket:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 24;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:popupTheme
+          @attr name com.companyname.EspePocket:popupTheme
         */
         public static final int Toolbar_popupTheme = 11;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11750,21 +10525,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:subtitle
+          @attr name com.companyname.EspePocket:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:subtitleTextAppearance
+          @attr name com.companyname.EspePocket:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 13;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#subtitleTextColor}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#subtitleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11775,11 +10550,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:subtitleTextColor
+          @attr name com.companyname.EspePocket:subtitleTextColor
         */
         public static final int Toolbar_subtitleTextColor = 28;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#title}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11789,11 +10564,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:title
+          @attr name com.companyname.EspePocket:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#titleMargin}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#titleMargin}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11805,11 +10580,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:titleMargin
+          @attr name com.companyname.EspePocket:titleMargin
         */
         public static final int Toolbar_titleMargin = 14;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11821,11 +10596,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:titleMarginBottom
+          @attr name com.companyname.EspePocket:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 18;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11837,11 +10612,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:titleMarginEnd
+          @attr name com.companyname.EspePocket:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 16;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11853,11 +10628,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:titleMarginStart
+          @attr name com.companyname.EspePocket:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 15;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11869,11 +10644,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:titleMarginTop
+          @attr name com.companyname.EspePocket:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 17;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11885,21 +10660,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:titleMargins
+          @attr name com.companyname.EspePocket:titleMargins
         */
         public static final int Toolbar_titleMargins = 19;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:titleTextAppearance
+          @attr name com.companyname.EspePocket:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 12;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#titleTextColor}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#titleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11910,7 +10685,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:titleTextColor
+          @attr name com.companyname.EspePocket:titleTextColor
         */
         public static final int Toolbar_titleTextColor = 27;
         /** Attributes that can be used with a View.
@@ -11921,9 +10696,9 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
            <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd ec.espe.espepockets:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart ec.espe.espepockets:paddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_theme ec.espe.espepockets:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd com.companyname.EspePocket:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart com.companyname.EspePocket:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_theme com.companyname.EspePocket:theme}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_android_theme
@@ -11932,8 +10707,8 @@ containing a value of this type.
            @see #View_theme
          */
         public static final int[] View = {
-            0x01010000, 0x010100da, 0x7f01011c, 0x7f01011d,
-            0x7f01011e
+            0x01010000, 0x010100da, 0x7f0100fe, 0x7f0100ff,
+            0x7f010100
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -11948,7 +10723,7 @@ containing a value of this type.
         */
         public static final int View_android_theme = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -11960,11 +10735,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:paddingEnd
+          @attr name com.companyname.EspePocket:paddingEnd
         */
         public static final int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -11976,17 +10751,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:paddingStart
+          @attr name com.companyname.EspePocket:paddingStart
         */
         public static final int View_paddingStart = 2;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#theme}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name ec.espe.espepockets:theme
+          @attr name com.companyname.EspePocket:theme
         */
         public static final int View_theme = 4;
         /** Attributes that can be used with a ViewBackgroundHelper.
@@ -11996,15 +10771,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint ec.espe.espepockets:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode ec.espe.espepockets:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.companyname.EspePocket:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.companyname.EspePocket:backgroundTintMode}</code></td><td></td></tr>
            </table>
            @see #ViewBackgroundHelper_android_background
            @see #ViewBackgroundHelper_backgroundTint
            @see #ViewBackgroundHelper_backgroundTintMode
          */
         public static final int[] ViewBackgroundHelper = {
-            0x010100d4, 0x7f01011f, 0x7f010120
+            0x010100d4, 0x7f010101, 0x7f010102
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -12013,7 +10788,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ViewBackgroundHelper_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#backgroundTint}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -12024,11 +10799,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name ec.espe.espepockets:backgroundTint
+          @attr name com.companyname.EspePocket:backgroundTint
         */
         public static final int ViewBackgroundHelper_backgroundTint = 1;
         /**
-          <p>This symbol is the offset where the {@link ec.espe.espepockets.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link com.companyname.EspePocket.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -12044,7 +10819,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name ec.espe.espepockets:backgroundTintMode
+          @attr name com.companyname.EspePocket:backgroundTintMode
         */
         public static final int ViewBackgroundHelper_backgroundTintMode = 2;
         /** Attributes that can be used with a ViewStubCompat.

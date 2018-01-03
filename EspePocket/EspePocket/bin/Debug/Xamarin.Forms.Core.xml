@@ -4857,11 +4857,6 @@ Device.BeginInvokeOnMainThread (() => {
                 </example>
             </remarks>
         </member>
-        <member name="P:Xamarin.Forms.Device.Flags">
-            <summary>To be added.</summary>
-            <value>To be added.</value>
-            <remarks>To be added.</remarks>
-        </member>
         <member name="M:Xamarin.Forms.Device.GetAssemblies">
             <summary>For internal use by the Xamarin.Forms platform.</summary>
             <returns>To be added.</returns>
@@ -4967,11 +4962,6 @@ button.HeightRequest = Device.OnPlatform (20,30,30);
         <member name="P:Xamarin.Forms.Device.RuntimePlatform">
             <summary>Gets the kind of device that Xamarin.Forms is currently working on.</summary>
             <value>To be added.</value>
-            <remarks>To be added.</remarks>
-        </member>
-        <member name="M:Xamarin.Forms.Device.SetFlags(System.Collections.Generic.IReadOnlyList{System.String})">
-            <param name="flags">To be added.</param>
-            <summary>To be added.</summary>
             <remarks>To be added.</remarks>
         </member>
         <member name="M:Xamarin.Forms.Device.SetIdiom(Xamarin.Forms.TargetIdiom)">

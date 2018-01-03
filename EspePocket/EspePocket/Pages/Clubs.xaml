@@ -17,13 +17,13 @@
 
             <ScrollView Orientation="Vertical">
                 <Grid>
-                        <controls:MainPageButton Grid.Row="0" Grid.Column="0" Icon="cse.png" Label="CSE - CiberSeguridad">
-                            <controls:MainPageButton.GestureRecognizers>
-                                <TapGestureRecognizer Tapped="Ver_Ces" />
-                            </controls:MainPageButton.GestureRecognizers>
-                        </controls:MainPageButton>
-                    </Grid>
-                
+                    <controls:MainPageButton Grid.Row="0" Grid.Column="0" Icon="cse.png" Label="CSE - CiberSeguridad">
+                        <controls:MainPageButton.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="Ver_Ces" />
+                        </controls:MainPageButton.GestureRecognizers>
+                    </controls:MainPageButton>
+                </Grid>
+
             </ScrollView>
         </StackLayout>
     </ContentPage.Content>

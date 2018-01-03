@@ -1,5 +1,4 @@
-﻿using Android.Gms.Ads;
-using Android.Widget;
+﻿using Android.Widget;
 using EspePocket.Droid;
 using EspePocket.Models;
 using System;
@@ -11,7 +10,6 @@ using Xamarin.Forms.Platform.Android;
 [assembly: ExportRendererAttribute(typeof(PersonaBoton), typeof(CustomButtonRenderer))]
 [assembly: ExportRenderer(typeof(WebView), typeof(CustomWebA20))]
 [assembly: Dependency(typeof(FileHelper))]
-[assembly: ExportRenderer(typeof(AdControlView), typeof(AdViewRenderer))]
 
 namespace EspePocket.Droid
 {
@@ -79,26 +77,6 @@ namespace EspePocket.Droid
         {
             string path = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
             return Path.Combine(path, filename);
-        }
-    }
-
-    public class AdViewRenderer : ViewRenderer<AdControlView, AdView>
-    {
-        protected override void OnElementChanged(ElementChangedEventArgs<AdControlView> e)
-        {
-            base.OnElementChanged(e);
-
-            if (Control == null)
-            {
-                var ad = new Android.Gms.Ads.AdView(Forms.Context);
-                ad.AdSize = Android.Gms.Ads.AdSize.Banner;
-                ad.AdUnitId = "ca-app-pub-4439565908148332/2255513008";
-
-                var requestbuilder = new Android.Gms.Ads.AdRequest.Builder();
-                ad.LoadAd(requestbuilder.Build());
-
-                SetNativeControl(ad);
-            }
         }
     }
 }

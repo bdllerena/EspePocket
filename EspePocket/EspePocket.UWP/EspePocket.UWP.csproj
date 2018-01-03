@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{777BE674-F45D-4378-85A0-7E5A5596E5C1}</ProjectGuid>
+    <ProjectGuid>{7917C70F-8AC6-42F0-BD55-54BB2EDACF23}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>EspePocket.UWP</RootNamespace>
@@ -153,7 +153,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EspePocket\EspePocket.csproj">
-      <Project>{10b1b126-f9b9-4ac7-86db-43d404181034}</Project>
+      <Project>{5a45487e-5a3c-44db-a16b-40dc45c83203}</Project>
       <Name>EspePocket</Name>
     </ProjectReference>
   </ItemGroup>

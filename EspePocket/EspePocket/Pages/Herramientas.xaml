@@ -13,7 +13,7 @@
         </xfg:Gradient>
     </xfg:ContentPageGloss.BackgroundGradient>
     <ContentPage.Content>
-    <ScrollView Orientation="Vertical">
+        <ScrollView Orientation="Vertical">
             <StackLayout>
                 <Button Image="cosas.png" TextColor="White" FontAttributes="Bold" FontSize="Small" BackgroundColor="#A5D6A7" Clicked="Email" Text="¿Deseas ver más cosas? ¿Sugerencias o dudas? Contáctanos"/>
                 <local:PersonaBoton FontSize="14" FontAttributes="Bold" TextColor="White" BackgroundColor="#4CAF50"  Image="weekly.png"       Text="Calendario Académico" Clicked="Boton_VerCalendario"/>

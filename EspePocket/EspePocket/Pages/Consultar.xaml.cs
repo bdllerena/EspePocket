@@ -95,7 +95,7 @@ namespace EspePocket.Pages
                             nrc.IsVisible = false;
                             id.IsEnabled = false;
                             id.IsVisible = false;
-                            break;              
+                            break;
                     }
                 }
                 else

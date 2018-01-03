@@ -19,10 +19,6 @@ namespace EspePocket.Pages
                 await Navigation.PushAsync(new Clubs());
 
         }
-        public void Boton_CambiarTema(object sender, EventArgs args)
-        {
-            ((App)Application.Current).SwitchTheme();
-        }
         async void Boton_VerHerramientas(object sender, EventArgs args)
         {
             var stack = Navigation.NavigationStack;

@@ -19,13 +19,13 @@
     package="android.support.v4" >
 
     <uses-sdk
-        android:minSdkVersion="14"
+        android:minSdkVersion="9"
         tools:overrideLibrary="android.support.v4" />
 
     <application>
         <meta-data
             android:name="android.support.VERSION"
-            android:value="26.1.0" />
+            android:value="25.4.0" />
     </application>
 
 </manifest>

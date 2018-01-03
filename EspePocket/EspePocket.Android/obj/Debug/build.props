@@ -1,5 +1,5 @@
-BundleAssemblies=false
-AotAssemblies=false
+BundleAssemblies=False
+AotAssemblies=False
 AndroidAotMode=
 ExplicitCrunch=False
 EnableProguard=

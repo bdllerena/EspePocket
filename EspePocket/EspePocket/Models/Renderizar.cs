@@ -51,8 +51,4 @@ namespace EspePocket.Models
         }
 
     }
-    public class AdControlView : View
-    {
-        public AdControlView() { }
-    }
 }
