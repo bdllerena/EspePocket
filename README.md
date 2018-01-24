@@ -24,5 +24,8 @@ Espe Pocket es una aplicación para los estudiantes de la Universidad De Las Fue
 ## Autores
 * **Selena Llumiquinga** 
 * **David Llerena**
+* **David Palacios**
+* **Diego Araujo**
+## Colaboradores
 * **Leticia Tipan** 
 * **Jonathan Zambrano** 
