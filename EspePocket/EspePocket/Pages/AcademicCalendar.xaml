@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EspePocket.Pages.AcademicCalendar"
+             xmlns:local="clr-namespace:EspePocket;assembly=EspePocket"
+             Title="Calendario Académico">
+    <StackLayout>
+        <ScrollView>
+            <Image Source="Fusion.jpg" Aspect="AspectFill"/>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

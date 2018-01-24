@@ -12,54 +12,54 @@ namespace EspePocket.Pages
             InitializeComponent();
 
         }
-        async void Boton_VerClubs(object sender, EventArgs args)
+        async void SeeClubs_Button(object sender, EventArgs args)
         {
             var stack = Navigation.NavigationStack;
             if (stack[stack.Count - 1].GetType() != typeof(Clubs))
                 await Navigation.PushAsync(new Clubs());
 
         }
-        async void Boton_VerHerramientas(object sender, EventArgs args)
+        async void SeeStudentTools_Button(object sender, EventArgs args)
         {
             var stack = Navigation.NavigationStack;
-            if (stack[stack.Count - 1].GetType() != typeof(Herramientas))
-                await Navigation.PushAsync(new Herramientas());
+            if (stack[stack.Count - 1].GetType() != typeof(StudentTools))
+                await Navigation.PushAsync(new StudentTools());
 
         }
-        async void Boton_VerReglamento(object sender, EventArgs args)
+        async void SeeRules_Button(object sender, EventArgs args)
         {
             var stack = Navigation.NavigationStack;
-            if (stack[stack.Count - 1].GetType() != typeof(Reglamento))
-                await Navigation.PushAsync(new Reglamento());
+            if (stack[stack.Count - 1].GetType() != typeof(Rules))
+                await Navigation.PushAsync(new Rules());
 
         }
-        async void Boton_VerCarreras(object sender, EventArgs args)
+        async void SeeCareers_Button(object sender, EventArgs args)
         {
             var stack = Navigation.NavigationStack;
-            if (stack[stack.Count - 1].GetType() != typeof(Carreras))
-                await Navigation.PushAsync(new Carreras());
+            if (stack[stack.Count - 1].GetType() != typeof(Careers))
+                await Navigation.PushAsync(new Careers());
 
         }
-        async void Boton_VerMatricula(object sender, EventArgs args)
+        async void SeeEnrollment_Button(object sender, EventArgs args)
         {
             var stack = Navigation.NavigationStack;
-            if (stack[stack.Count - 1].GetType() != typeof(Consultar))
-                await Navigation.PushAsync(new Consultar());
+            if (stack[stack.Count - 1].GetType() != typeof(Consult))
+                await Navigation.PushAsync(new Consult());
 
         }
-        async void Boton_VerPreguntas(object sender, EventArgs args)
+        async void SeeFAQ_Button(object sender, EventArgs args)
         {
             var stack = Navigation.NavigationStack;
-            if (stack[stack.Count - 1].GetType() != typeof(Preguntas))
-                await Navigation.PushAsync(new Preguntas());
+            if (stack[stack.Count - 1].GetType() != typeof(FAQ))
+                await Navigation.PushAsync(new FAQ());
         }
-        async void Boton_VerContacto(object sender, EventArgs args)
+        async void SeeContact_Button(object sender, EventArgs args)
         {
             var stack = Navigation.NavigationStack;
-            if (stack[stack.Count - 1].GetType() != typeof(Contacto))
-                await Navigation.PushAsync(new Contacto());
+            if (stack[stack.Count - 1].GetType() != typeof(Contact))
+                await Navigation.PushAsync(new Contact());
         }
-        public void Boton_VerMiEspe(object sender, EventArgs args) => Device.OpenUri(new Uri("https://miespe.espe.edu.ec"));
-        public void Boton_VerApps(object sender, EventArgs args) => Device.OpenUri(new Uri("https://play.google.com/store/apps/developer?id=JBSYS"));
+        public void SeeMiEspe_Button(object sender, EventArgs args) => Device.OpenUri(new Uri("https://miespe.espe.edu.ec"));
+        public void SeeOtherApps_Button(object sender, EventArgs args) => Device.OpenUri(new Uri("https://play.google.com/store/apps/developer?id=JBSYS"));
     }
 }

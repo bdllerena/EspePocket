@@ -11,8 +11,8 @@
 namespace EspePocket.Pages {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\David\\Desktop\\EspePocket\\EspePocket\\EspePocket\\Pages\\MainPageButton.xaml" +
-        "")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\David\\Desktop\\EP2018\\EspePocket\\EspePocket\\EspePocket\\Pages\\MainPageButt" +
+        "on.xaml")]
     public partial class MainPageButton : global::Xamarin.Forms.ContentView {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

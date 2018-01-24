@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xfg="clr-namespace:XFGloss;assembly=XFGloss"
+             xmlns:controls="clr-namespace:EspePocket.Pages;assembly=EspePocket"
+             x:Class="EspePocket.Pages.Contact"
+             Title="Contacto">
+    <xfg:ContentPageGloss.BackgroundGradient>
+        <xfg:Gradient Rotation="180">
+            <xfg:GradientStep StepColor="#1B5E20  " StepPercentage="0.5" />
+            <xfg:GradientStep StepColor="#388E3C " StepPercentage="1" />
+        </xfg:Gradient>
+    </xfg:ContentPageGloss.BackgroundGradient>
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Image  HorizontalOptions="Center" HeightRequest="200"  WidthRequest="200" VerticalOptions="Start" Source="nuevoLogoTra.png" />
+            <Label TextColor="White" FontSize="Medium" HorizontalTextAlignment="Center" HorizontalOptions="Center"  Text="EspePocket es una aplicación para estudiantes cuya finalidad es recopilar y crear herramientas e información útiles para la vida universitaria."/>
+            <Grid>
+                <controls:MainPageButton Grid.Column="0" Icon="gmail.png"
+                                        Label="Contáctanos">
+                    <controls:MainPageButton.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Email" />
+                    </controls:MainPageButton.GestureRecognizers>
+                </controls:MainPageButton>
+
+                <controls:MainPageButton  Grid.Column="1" Icon="facebook.png"
+                                        Label="Síguenos">
+                    <controls:MainPageButton.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Facebook" />
+                    </controls:MainPageButton.GestureRecognizers>
+                </controls:MainPageButton>
+                <controls:MainPageButton  Grid.Column="2" Icon="rating.png"
+                                        Label="Calíficanos">
+                    <controls:MainPageButton.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Rating" />
+                    </controls:MainPageButton.GestureRecognizers>
+                </controls:MainPageButton>
+            </Grid>
+            <Label FontSize="Large" FontAttributes="Bold"  TextColor="White" HorizontalOptions="Center" Text="EspePocket - 2017 "/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EspePocket.Pages.Consult"
+             xmlns:local="clr-namespace:EspePocket.Models"
+             Title="Consultas">
+    <Grid x:Name="Grids" IsClippedToBounds="false">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackLayout>
+            <Picker Title="Seleccione que desea consultar..."  x:Name="PickMe"/>
+            <Entry x:Name="Cedula" Keyboard="Numeric" Placeholder="Ingrese su cédula" IsEnabled="False" IsVisible="False">
+                <Entry.Behaviors>
+                    <local:MaxLengthValidator  MaxLength="10"/>
+                </Entry.Behaviors>
+            </Entry>
+            <Entry x:Name="Nrc" Keyboard="Numeric" Placeholder="Ingrese su nrc" IsEnabled="False" IsVisible="False">
+                <Entry.Behaviors>
+                    <local:MaxLengthValidator  MaxLength="4"/>
+                </Entry.Behaviors>
+            </Entry>
+            <Entry x:Name="IdBanner" Placeholder="Ingrese su ID" IsEnabled="False" IsVisible="False">
+                <Entry.Behaviors>
+                    <local:MaxLengthValidator  MaxLength="9"/>
+                </Entry.Behaviors>
+            </Entry>
+            <Button   Text="Buscar"  Clicked="Button_Search"/>
+        </StackLayout>
+        <StackLayout Grid.Row="1" Grid.Column="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <StackLayout x:Name="Act" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <ActivityIndicator  IsVisible="False" HorizontalOptions="CenterAndExpand"  VerticalOptions="CenterAndExpand" x:Name="Indicator"  Color="Blue"   IsRunning="true" />
+                <Label  IsVisible="False" HorizontalOptions="CenterAndExpand"  VerticalOptions="CenterAndExpand"  x:Name="LIndicator" Text="Cargando... Espere Por favor"/>
+            </StackLayout>
+            <WebView x:Name="WebViews" IsVisible="False" Source="{Binding Context}"   Navigated="OnNavigated" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>
+    
