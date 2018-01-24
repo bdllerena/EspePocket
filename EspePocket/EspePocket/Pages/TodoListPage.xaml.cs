@@ -18,7 +18,7 @@ namespace EspePocket.Pages
         {
             base.OnAppearing();
             ((App)App.Current).ResumeAtTodoId = -1;
-            listView.ItemsSource = await App.Database.GetItemsAsync();
+            TodoList.ItemsSource = await App.Database.GetItemsAsync();
         }
         async void OnItemAdded(object sender, EventArgs e)
         {

@@ -15,7 +15,7 @@ namespace EspePocket.Pages
         {
             InitializeComponent();
             var todoItem = (TodoItem)BindingContext;
-            Dictionary<string, double> tiempo = new Dictionary<string, double>
+            Dictionary<string, double> notificationTime = new Dictionary<string, double>
             {
                  { "1 minuto", 1 },
                 { "5 minutos", 5 }, { "15 minutos", 15 },
@@ -26,22 +26,22 @@ namespace EspePocket.Pages
                 { "1 semana", 10080}
             };
 
-            foreach (string times in tiempo.Keys)
+            foreach (string times in notificationTime.Keys)
             {
-                poison.Items.Add(times);
+                PickMe.Items.Add(times);
             }
-            poison.SelectedIndexChanged += (sender, args) =>
+            PickMe.SelectedIndexChanged += (sender, args) =>
             {
-                if (poison.SelectedIndex != -1)
+                if (PickMe.SelectedIndex != -1)
                 {
-                    string number = poison.Items[poison.SelectedIndex];
-                    value = tiempo[number];
+                    string number = PickMe.Items[PickMe.SelectedIndex];
+                    value = notificationTime[number];
 
                 }
                 else
                 {
-                    string number = poison.Items[poison.SelectedIndex];
-                    value = tiempo[number];
+                    string number = PickMe.Items[PickMe.SelectedIndex];
+                    value = notificationTime[number];
                 }
             };
             Esverdad();
@@ -49,7 +49,7 @@ namespace EspePocket.Pages
         public void Esverdad()
         {
             var todoItem = (TodoItem)BindingContext;
-            if (dones.IsToggled == true)
+            if (IsItDone.IsToggled == true)
             {
                 CrossLocalNotifications.Current.Cancel(todoItem.ID);
             }
@@ -61,7 +61,7 @@ namespace EspePocket.Pages
             await App.Database.SaveItemAsync(todoItem);
             await Navigation.PopAsync();
 
-            CrossLocalNotifications.Current.Show("EspePocket - Tareas", "Recuerda terminar: " + Titulo.Text + "!", todoItem.ID, DateTime.Now.AddMinutes(value));
+            CrossLocalNotifications.Current.Show("EspePocket - Tareas", "Recuerda terminar: " + Titles.Text + "!", todoItem.ID, DateTime.Now.AddMinutes(value));
         }
 
         async void OnDeleteClicked(object sender, EventArgs e)

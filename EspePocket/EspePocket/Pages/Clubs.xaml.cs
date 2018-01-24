@@ -11,7 +11,7 @@ namespace EspePocket.Pages
         {
             InitializeComponent();
         }
-        public void Inscribir_Club(object sender, EventArgs args) => Device.OpenUri(new Uri("https://goo.gl/WcgQZu"));
-        public void Ver_Ces(object sender, EventArgs args) => Device.OpenUri(new Uri("http://www.csespe.com/"));
+        public void Add_Club(object sender, EventArgs args) => Device.OpenUri(new Uri("https://goo.gl/WcgQZu"));
+        public void See_Ces(object sender, EventArgs args) => Device.OpenUri(new Uri("http://www.csespe.com/"));
     }
 }

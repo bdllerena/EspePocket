@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EspePocket.Pages.Calculate"
+             xmlns:local="clr-namespace:EspePocket.Models"
+             Title="Calcula Tus Notas">
+
+    <ContentPage.Content>
+        <Grid x:Name="Grids" IsClippedToBounds="false">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid VerticalOptions="Start" Grid.Row="0">
+                <Entry x:Name="PointScore1" Grid.Row="0" Grid.Column="0" Keyboard="Numeric" VerticalOptions="Start" Placeholder="Ingrese su nota">
+                    <Entry.Behaviors>
+                        <local:MaxLengthValidator  MaxLength="5"/>
+                    </Entry.Behaviors>
+                </Entry>
+                <Label Grid.Row="0" Grid.Column="1" VerticalOptions="Start" Text="Primer Parcial" />
+                <Entry x:Name="PointScore2" Grid.Row="1" Grid.Column="0" Keyboard="Numeric" VerticalOptions="Start" Placeholder="Ingrese su nota">
+                    <Entry.Behaviors>
+                        <local:MaxLengthValidator  MaxLength="5"/>
+                    </Entry.Behaviors>
+                </Entry>
+                <Label Grid.Row="1" Grid.Column="1" VerticalOptions="Start" Text="Segundo Parcial" />
+                <Entry x:Name="PointScore3" Grid.Row="2" Grid.Column="0" Keyboard="Numeric" VerticalOptions="Start" Placeholder="Ingrese su nota">
+                    <Entry.Behaviors>
+                        <local:MaxLengthValidator  MaxLength="5"/>
+                    </Entry.Behaviors>
+                </Entry>
+                <Label Grid.Row="2" Grid.Column="1" VerticalOptions="Start" Text="Tercer Parcial" />
+                <Button Grid.Row="3" Grid.Column="0" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" StyleClass="Danger"   Text="Calcular" Clicked="Calculating" />
+                <Button Grid.Row="3" Grid.Column="1" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" StyleClass="Info"   Text="Resetear" Clicked="Reset" />
+            </Grid>
+
+            <Grid Grid.Row="1" HorizontalOptions="Center">
+                <Image x:Name="Normal"  Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" Source="kom.png"/>
+                <Image x:Name="Angry" IsVisible="False" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" Source="komang.png"/>
+                <Image x:Name="Happy" IsVisible="False" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" Source="komhap.png"/>
+                <Image x:Name="Sad" IsVisible="False" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" Source="komsad.png"/>
+                <Label x:Name="FinalGrade" Grid.Row="0" Grid.Column="1" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" FontSize="Small"  Text="Obtén tu promedio ingresando tus notas"/>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

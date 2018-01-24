@@ -13,13 +13,13 @@
     </xfg:ContentPageGloss.BackgroundGradient>
     <ContentPage.Content>
         <StackLayout>
-            <Button Image="clubes.png" TextColor="White" FontSize="Small" FontAttributes="Bold" BackgroundColor="#A5D6A7" Clicked="Inscribir_Club" Text="¿No ves tú club? Agregalo aquí.. "/>
+            <Button Image="clubes.png" TextColor="White" FontSize="Small" FontAttributes="Bold" BackgroundColor="#A5D6A7" Clicked="Add_Club" Text="¿No ves tú club? Agregalo aquí.. "/>
 
             <ScrollView Orientation="Vertical">
                 <Grid>
                     <controls:MainPageButton Grid.Row="0" Grid.Column="0" Icon="cse.png" Label="CSE - CiberSeguridad">
                         <controls:MainPageButton.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="Ver_Ces" />
+                            <TapGestureRecognizer Tapped="See_Ces" />
                         </controls:MainPageButton.GestureRecognizers>
                     </controls:MainPageButton>
                 </Grid>

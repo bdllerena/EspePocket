@@ -39,31 +39,31 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Data\TodoItemDatabase.cs" />
-    <Compile Include="Models\Renderizar.cs" />
+    <Compile Include="Models\Render.cs" />
     <Compile Include="Models\TodoItem.cs" />
-    <Compile Include="Pages\Calcular.xaml.cs">
-      <DependentUpon>Calcular.xaml</DependentUpon>
+    <Compile Include="Pages\Calculate.xaml.cs">
+      <DependentUpon>Calculate.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Calendario.xaml.cs">
-      <DependentUpon>Calendario.xaml</DependentUpon>
+    <Compile Include="Pages\AcademicCalendar.xaml.cs">
+      <DependentUpon>AcademicCalendar.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Carreras.xaml.cs">
-      <DependentUpon>Carreras.xaml</DependentUpon>
+    <Compile Include="Pages\Careers.xaml.cs">
+      <DependentUpon>Careers.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Clubs.xaml.cs">
       <DependentUpon>Clubs.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Consultar.xaml.cs">
-      <DependentUpon>Consultar.xaml</DependentUpon>
+    <Compile Include="Pages\Consult.xaml.cs">
+      <DependentUpon>Consult.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Contacto.xaml.cs">
-      <DependentUpon>Contacto.xaml</DependentUpon>
+    <Compile Include="Pages\Contact.xaml.cs">
+      <DependentUpon>Contact.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Herramientas.xaml.cs">
-      <DependentUpon>Herramientas.xaml</DependentUpon>
+    <Compile Include="Pages\StudentTools.xaml.cs">
+      <DependentUpon>StudentTools.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Libros.xaml.cs">
-      <DependentUpon>Libros.xaml</DependentUpon>
+    <Compile Include="Pages\Books.xaml.cs">
+      <DependentUpon>Books.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -71,10 +71,10 @@
     <Compile Include="Pages\MainPageButton.xaml.cs">
       <DependentUpon>MainPageButton.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Preguntas.xaml.cs">
-      <DependentUpon>Preguntas.xaml</DependentUpon>
+    <Compile Include="Pages\FAQ.xaml.cs">
+      <DependentUpon>FAQ.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Reglamento.cs" />
+    <Compile Include="Pages\Rules.cs" />
     <Compile Include="Pages\TodoItemPage.xaml.cs">
       <DependentUpon>TodoItemPage.xaml</DependentUpon>
     </Compile>
@@ -126,19 +126,19 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <EmbeddedResource Include="Pages\Calcular.xaml">
+    <EmbeddedResource Include="Pages\Calculate.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Pages\Calendario.xaml">
+    <EmbeddedResource Include="Pages\AcademicCalendar.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Pages\Carreras.xaml">
+    <EmbeddedResource Include="Pages\Careers.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -150,25 +150,25 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Pages\Consultar.xaml">
+    <EmbeddedResource Include="Pages\Consult.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Pages\Contacto.xaml">
+    <EmbeddedResource Include="Pages\Contact.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Pages\Herramientas.xaml">
+    <EmbeddedResource Include="Pages\StudentTools.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Pages\Libros.xaml">
+    <EmbeddedResource Include="Pages\Books.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -186,7 +186,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Pages\Preguntas.xaml">
+    <EmbeddedResource Include="Pages\FAQ.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

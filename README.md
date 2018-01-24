@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # EspePocket
 Espe Pocket es una aplicación para los estudiantes de la Universidad De Las Fuerzas Armadas - ESPE, cuyo objetivo es el de recopilar y crear herramientas e información útiles para la vida universitaria.
 ## Funcionalidades
@@ -29,3 +30,6 @@ Espe Pocket es una aplicación para los estudiantes de la Universidad De Las Fue
 ## Colaboradores
 * **Leticia Tipan** 
 * **Jonathan Zambrano** 
+=======
+# EspePocket
+>>>>>>> master
