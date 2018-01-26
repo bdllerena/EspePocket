@@ -17,9 +17,15 @@ namespace EspePocket.Pages
             PointScore1.Text = "";
             PointScore2.Text = "";
             PointScore3.Text = "";
-
-
         }
+
+        /// <summary>
+        /// Calcula el promedio de las tres notas parciales del semestre
+        /// score1 es la nota del primer parcial
+        /// score2 es la nota del segundo parcial
+        /// score3 es la nota del tercer parcial
+        /// </summary>
+        /// <returns>El promedio</returns>
         public double Calculating()
         {
             double score1 = 0, score2 = 0, score3 = 0;
