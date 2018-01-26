@@ -9,6 +9,13 @@ namespace EspePocket.Pages
     public partial class Consult : ContentPage
     {
         int valueDecision = 0;
+        /// <summary>
+        /// Este constructor permite inicializar los componentes
+        /// de la clase "Consult" en la cual internamente:
+        /// option= es un diccionario contiene las diferentes opciones de consulta
+        /// number= el índice de opción seleccionada
+        /// valueDecision= guarda el índice de opcion seleccionada según el diccionario "option"
+        /// </summary>
         public Consult()
         {
             InitializeComponent();
@@ -172,6 +179,13 @@ namespace EspePocket.Pages
                 }
             };
         }
+        /// <summary>
+        /// Redirige al usuario a la ventana deseada segun la opción elegida 
+        /// validando el ingreso de los parámetros necesarios
+        /// Cedula= campo de texto que contiene cédula del usuario
+        /// Nrc= código único de una asignatura en un determinado horario
+        /// idBanner= es un id asignado a cada estudiante de la universidad
+        /// </summary>
         private void Button_Search(object sender, EventArgs e)
         {
             switch (valueDecision)
