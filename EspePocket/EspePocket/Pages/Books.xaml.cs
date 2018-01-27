@@ -9,17 +9,34 @@ namespace EspePocket.Pages
     public partial class Books : ContentPage
     {
         int value = 0;
+
+        /// <summary>
+        /// Builder of books class
+        /// Initialize the components
+        /// Create an instance of the Dictionary class, which receives
+        /// Type parameters:
+        //  TKey:
+        //      Type of dictionary keys.
+        //  TValue:
+        //      Type of dictionary values.
+        /// </summary>
         public Books()
         {
             InitializeComponent();
             Dictionary<string, int> option = new Dictionary<string, int>
             {
-               { "Biblioteca Matriz", 1 },{ "Biblioteca Extensiones", 2 },{"Biblioteca Digital Ecuador",3},
-               { "E-book Central", 4 },{ "E-Libro", 5}, {"SpringerLink",6},
-               { "Scopus", 7 }, {"IEEE Xplore", 8}, {"Gale",9},
-               {"Repositorios (rraae)",10}, {"Repositorios (Espe)",11}, {"ProQuest",12}
-
-
+               { "Biblioteca Matriz", 1 },
+               { "Biblioteca Extensiones", 2 },
+               { "Biblioteca Digital Ecuador",3},
+               { "E-book Central", 4 },
+               { "E-Libro", 5},
+               { "SpringerLink",6},
+               { "Scopus", 7 },
+               { "IEEE Xplore", 8},
+               { "Gale",9},
+               {"Repositorios (rraae)",10},
+               { "Repositorios (Espe)",11},
+               { "ProQuest",12}
             };
 
             foreach (string options in option.Keys)
@@ -41,6 +58,12 @@ namespace EspePocket.Pages
 
             };
         }
+
+        /// <summary>
+        /// Handles the Search event of the Button control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void Button_Search(object sender, EventArgs e)
         {
             switch (value)
@@ -143,6 +166,12 @@ namespace EspePocket.Pages
                     break;
             }
         }
+
+        /// <summary>
+        /// Called when [navigated].
+        /// </summary>
+        /// <param name="sender">The sender.</param>
+        /// <param name="e">The <see cref="WebNavigatedEventArgs"/> instance containing the event data.</param>
         public void OnNavigated(object sender, WebNavigatedEventArgs e)
         {
             Indicator.IsVisible = false;
