@@ -2,11 +2,15 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="EspePocket.Pages.AcademicCalendar"
-             xmlns:local="clr-namespace:EspePocket;assembly=EspePocket"
+             xmlns:local="clr-namespace:EspePocket.Models"
              Title="Calendario Académico">
     <StackLayout>
         <ScrollView>
-            <Image Source="Fusion.jpg" Aspect="AspectFill"/>
+            <local:PinchToZoomContainer>
+                <local:PinchToZoomContainer.Content>
+                    <Image Source="Fusion.jpg" Aspect="AspectFill"/>
+                </local:PinchToZoomContainer.Content>
+            </local:PinchToZoomContainer>
         </ScrollView>
     </StackLayout>
 </ContentPage>

@@ -17,6 +17,9 @@ namespace EspePocket
             //MainPage = new TabAux();
 
         }
+        /// <summary>
+        /// This method initializate the database based on a file named as TodoSQLite located at Resources folders
+        /// </summary>
         public static TodoItemDatabase Database
         {
             get
@@ -28,7 +31,9 @@ namespace EspePocket
                 return database;
             }
         }
-
+        /// <summary>
+        /// this class resumes last item created by id
+        /// </summary>
         public int ResumeAtTodoId { get; set; }
 
         protected override void OnStart()

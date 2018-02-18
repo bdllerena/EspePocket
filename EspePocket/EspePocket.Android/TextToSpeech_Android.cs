@@ -8,6 +8,9 @@ using EspePocket.Models;
 [assembly: Dependency(typeof(TextToSpeech_Android))]
 namespace EspePocket.Droid
 {
+    /// <summary>
+    /// This class makes text to be voiced by integrated text to speech on android
+    /// </summary>
     public class TextToSpeech_Android : Object, ITextToSpeech, TextToSpeech.IOnInitListener
     {
         TextToSpeech speaker;
