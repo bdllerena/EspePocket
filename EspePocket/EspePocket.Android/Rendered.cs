@@ -13,6 +13,9 @@ using Xamarin.Forms.Platform.Android;
 
 namespace EspePocket.Droid
 {
+    /// <summary>
+    /// Render website and opens Google Chrome or Google Drive if Api level is 19 or lower
+    /// </summary>
     public class CustomWebA19 : WebViewRenderer
     {
         protected override void OnElementChanged(ElementChangedEventArgs<WebView> e)
@@ -45,6 +48,9 @@ namespace EspePocket.Droid
             }
         }
     }
+    /// <summary>
+    /// Render website on a webview if Api level is more than 20
+    /// </summary>
     public class CustomWebA20 : WebViewRenderer
     {
         protected override void OnElementChanged(ElementChangedEventArgs<WebView> e)
@@ -60,6 +66,9 @@ namespace EspePocket.Droid
             Control.SetInitialScale(1);
         }
     }
+    /// <summary>
+    /// This method set letters of a button as lowercase
+    /// </summary>
     public class CustomButtonRenderer : ButtonRenderer
     {
         protected override void OnElementChanged(ElementChangedEventArgs<Xamarin.Forms.Button> e)
@@ -71,6 +80,9 @@ namespace EspePocket.Droid
             }
         }
     }
+    /// <summary>
+    /// This method gets the total file path name of a file located in resources
+    /// </summary>
     public class FileHelper : IFileHelper
     {
         public string GetLocalFilePath(string filename)

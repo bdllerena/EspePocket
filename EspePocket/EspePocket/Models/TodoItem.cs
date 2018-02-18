@@ -2,6 +2,9 @@
 
 namespace EspePocket.Models
 {
+    /// <summary>
+    /// Database structure
+    /// </summary>
     public class TodoItem
     {
         [PrimaryKey, AutoIncrement]

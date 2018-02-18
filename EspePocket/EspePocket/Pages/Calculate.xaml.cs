@@ -8,18 +8,33 @@ namespace EspePocket.Pages
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Calculate : ContentPage
     {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Calculate"/> class.
+        /// </summary>
         public Calculate()
         {
             InitializeComponent();
         }
+
+        /// <summary>
+        /// This function reset the fields where the user enters their notes.
+        /// </summary>
         public void Reset()
         {
             PointScore1.Text = "";
             PointScore2.Text = "";
             PointScore3.Text = "";
-
-
         }
+
+        /// <summary>
+        /// This function calculate the average of the three partial marks of the semester
+        /// score1 is the note of the first partial
+        /// score2 is the note of the second partial
+        /// score3 is the note of the third partial
+        /// The scores are greater than or equal to 0 and less than or equal to 20
+        /// The average has two decimals.
+        /// </summary>
+        /// <returns>the average</returns>
         public double Calculating()
         {
             double score1 = 0, score2 = 0, score3 = 0;

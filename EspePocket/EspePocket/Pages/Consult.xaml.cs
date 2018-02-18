@@ -9,6 +9,13 @@ namespace EspePocket.Pages
     public partial class Consult : ContentPage
     {
         int valueDecision = 0;
+        /// <summary>
+        /// This constructor allows to initialize the components 
+        /// of the class "Consult" the one that internally:
+        /// option= it´s a dictionary that has the options of the module consult
+        /// number= the index of selected option
+        /// valueDecision= keeps the index of the selected option according to the dictionary "option"
+        /// </summary>
         public Consult()
         {
             InitializeComponent();
@@ -172,6 +179,15 @@ namespace EspePocket.Pages
                 }
             };
         }
+        /// <summary>
+        /// Redirects the user to the desired window according to the chosen option
+        /// validating the input of the necessary parameters
+        /// Cedula= text field containing the user's identification card
+        /// Nrc= unique code of a subject in a certain time of the day
+        /// idBanner= it is an id assigned to each student of the university
+        /// </summary>
+        /// <param name="sender">contains a reference to the control/object that raised the event</param>
+        /// <param name="e">is the base class to contain the events thrown by the control</param>
         private void Button_Search(object sender, EventArgs e)
         {
             switch (valueDecision)
@@ -291,6 +307,11 @@ namespace EspePocket.Pages
                     break;
             }
         }
+        /// <summary>
+        /// allows derived classes to control the event without attaching a delegate
+        /// </summary>
+        /// <param name="sender">contains a reference to the control/object that raised the event</param>
+        /// <param name="e">Class that contains arguments for the event that is raised after web navigation completes</param>
         public void OnNavigated(object sender, WebNavigatedEventArgs e)
         {
             Indicator.IsVisible = false;

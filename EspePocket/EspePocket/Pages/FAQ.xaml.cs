@@ -6,9 +6,13 @@ using Xamarin.Forms.Xaml;
 namespace EspePocket.Pages
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
+    
     public partial class FAQ : ContentPage
     {
         int value = 0;
+        /// <summary>
+        /// this class contains the common answers and questions.
+        /// </summary>
         public FAQ()
         {
             InitializeComponent();
