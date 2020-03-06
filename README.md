@@ -21,11 +21,3 @@ Espe Pocket es una aplicación para los estudiantes de la Universidad De Las Fue
 ## Artifacts
 [Artifacts](https://drive.google.com/open?id=1Y7bNk3N1dvn6lcTkr15oxZlARTh-WQ2P) - Artifacts hosted on google drive
 
-## Autores
-* **Selena Llumiquinga** 
-* **David Llerena**
-* **David Palacios**
-* **Diego Araujo**
-## Colaboradores
-* **Leticia Tipan** 
-* **Jonathan Zambrano** 
