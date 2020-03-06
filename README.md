@@ -18,7 +18,8 @@ Aplicación Móvil para la centralización de información de la Universidad de 
 * Preguntas Frecuentes: Responde preguntas comunes.
 ## Capturas
 ![Image description](https://imge.androidappsapk.co/9uOlnHQh3JJDYVu5awm_qOYaH3i30TfPxxUyfM5j-kAyJjyZ_KrkO41HlHqs9DaMeA=s500)
-
+![Image description](https://image.winudf.com/v2/image/ZWMuZXNwZS5lc3BlcG9ja2V0c19zY3JlZW5fOF8xNTIyODY1MTk4XzA3OQ/screen-8.jpg?fakeurl=1&type=.jpg)
+![Image description](https://lh3.googleusercontent.com/kdw4ni3Wk71fPxKKi8g6w3hTTGzpweVREBTmB0agwE_cKk-UBtQtJIs01tqvDEUZa5l0)
 ## Issues
 [![GitHub issues](https://img.shields.io/github/issues/badges/shields.svg)](https://github.com/bdllerena/EspePocket/issues)
 ## Artifacts
