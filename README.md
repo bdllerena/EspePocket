@@ -1,5 +1,5 @@
 # EspePocket
-Espe Pocket es una aplicación para los estudiantes de la Universidad De Las Fuerzas Armadas - ESPE, cuyo objetivo es el de recopilar y crear herramientas e información útiles para la vida universitaria.
+Aplicación Móvil para la centralización de información de la Universidad de las Fuerzas Armadas ESPE, dirigida al uso de estudiantes.
 ## Funcionalidades
 * Carreras: Contiene las mallas curriculares y sílabos de diferentes materias.
 * Calendario Académico: Contiene las fechas planificadas para el periodo Octubre17 – Febrero18
@@ -16,6 +16,9 @@ Espe Pocket es una aplicación para los estudiantes de la Universidad De Las Fue
 * Armar Tu Horario: Permite armar tu horario en una tabla de tiempo.
 * Calcular Notas: Calcula las notas basadas en los tres parciales.
 * Preguntas Frecuentes: Responde preguntas comunes.
+## Capturas
+![Image description](https://imge.androidappsapk.co/9uOlnHQh3JJDYVu5awm_qOYaH3i30TfPxxUyfM5j-kAyJjyZ_KrkO41HlHqs9DaMeA=s500)
+
 ## Issues
 [![GitHub issues](https://img.shields.io/github/issues/badges/shields.svg)](https://github.com/bdllerena/EspePocket/issues)
 ## Artifacts
